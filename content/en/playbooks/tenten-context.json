@@ -1,0 +1,67 @@
+{
+  "id": "tenten-context",
+  "category": "start",
+  "title": "What Tenten does",
+  "summary": "Understand how branding, websites, marketing and AI fit into a project.",
+  "keywords": [
+    "onboarding",
+    "company",
+    "services",
+    "digital consultant",
+    "Tenten"
+  ],
+  "why": [
+    "Clients need a solved problem and accountable delivery; the website is one part.",
+    "Shared briefs, decisions and acceptance reduce gaps between strategy, design and development."
+  ],
+  "know": [
+    "Public services cover branding, design/development, digital transformation, SEO/GEO, Shopify, CMS and hosting. AI work includes workflows and enterprise knowledge systems.",
+    "Connect audience, content/experience, systems/data and post-launch measurement in each project.",
+    "This library provides suggested practices. Prices, SLAs and commitments come from the project agreement, not assumptions about the website."
+  ],
+  "inputs": [
+    "Client goals, audience and current problems",
+    "Service scope, existing systems, delivery and operating owners"
+  ],
+  "actions": [
+    "Map needs to services and outcomes; show data, system and team handoffs.",
+    "Identify missing business decisions, assumptions, constraints and independent work.",
+    "Create a one-page brief, deliverable list and acceptance plan, then choose relevant articles."
+  ],
+  "done": [
+    "Each deliverable supports a goal and has an owner.",
+    "Commitments have contractual or client confirmation; unknowns are explicit."
+  ],
+  "pitfalls": [
+    "Using a tool name as the client’s goal.",
+    "Presenting general advice as existing policy or a proven client result."
+  ],
+  "decision": "Confirm business goals, commitments and priorities; understand who your work affects.",
+  "sources": [
+    "tenten-home",
+    "tenten-development",
+    "tenten-consulting",
+    "tenten-ai"
+  ],
+  "related": [
+    "project-brief",
+    "agent-workflow",
+    "ai-consulting"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Tenten turns business problems into brands, websites, marketing and AI workflows. Work in one area usually affects the others.",
+    "when": "Use this when joining the team or explaining a project to a client.",
+    "example": {
+      "situation": "A redesign request may come from unclear products, too few inquiries or slow content updates.",
+      "lesson": "Ask which outcome the client wants to improve before choosing services."
+    },
+    "first_step": "Write one sentence: who does this project help, and what problem does it improve?",
+    "point_titles": [
+      "Know the service areas",
+      "Connect the work",
+      "Use the agreed project scope"
+    ]
+  }
+}

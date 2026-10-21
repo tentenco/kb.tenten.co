@@ -1,0 +1,86 @@
+{
+  "id": "fde",
+  "category": "ai",
+  "title": "FDE: from the client’s workflow to production",
+  "summary": "Embed the delivery team in real work, from scoping and integration to operational ownership.",
+  "keywords": [
+    "FDE",
+    "Forward Deployed Engineering",
+    "Forward Deployed Engineer",
+    "embedded delivery",
+    "AI consulting"
+  ],
+  "why": [
+    "Working with real users, data and exceptions reduces the gap between plans and daily use.",
+    "One team connects scope, acceptance and operations so a pilot can become a dependable system."
+  ],
+  "know": [
+    "Forward Deployed Engineering is an engineering delivery approach embedded in the client’s workflow. FDE can also mean an engineer doing this work.",
+    "Start with one workflow that has an owner, accessible data and a measurable baseline. Agree on the first scope and acceptance criteria.",
+    "Review working iterations with users and test main paths and exceptions. Define monitoring, incident handling and knowledge transfer before launch."
+  ],
+  "inputs": [
+    "Users, current workflow, data/access, failure samples and baseline",
+    "Initial scope, budget, acceptance owner and ongoing operating responsibilities"
+  ],
+  "actions": [
+    "Map the work with the people doing it. Confirm problems, data, exceptions and decisions.",
+    "Choose one use case, agree on acceptance and assess benefit, integration cost and risk.",
+    "Build a working version, connect agreed systems, test with users and record decisions.",
+    "Confirm release, monitoring, recovery, support and knowledge transfer. Expand after the first workflow meets acceptance."
+  ],
+  "done": [
+    "The working system passes agreed samples and criteria, with results compared to the baseline.",
+    "Launch and operations have owners, monitoring and handoff paths; unfinished items remain traceable."
+  ],
+  "pitfalls": [
+    "Stopping at a demo without testing real data, access and exceptions.",
+    "Treating FDE as an AI employee or a staffing-replacement guarantee."
+  ],
+  "decision": "Agree on the first workflow, acceptance threshold and operating owner before expanding scope.",
+  "sources": [
+    "owner-brief",
+    "tenten-ai",
+    "tenten-fde"
+  ],
+  "related": [
+    "ai-consulting",
+    "automation-integration",
+    "operations-security"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "FDE brings an engineering team into the client’s actual workflow. The team stays involved through problem definition, integration and production operation.",
+    "when": "Use this when delivery requires business judgment, existing systems and real users.",
+    "example": {
+      "situation": "An AI support tool needs order access and return rules. The team first maps permissions and human exceptions with support staff.",
+      "lesson": "Acceptance must include integration, handoff and an agreed maintenance owner."
+    },
+    "first_step": "Choose a workflow with its users and name the baseline and acceptance owner.",
+    "point_titles": [
+      "Embed engineering in the work",
+      "Start with an assessable scope",
+      "Include operations in delivery"
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "From one workflow to production",
+      "nodes": [
+        [
+          "Evaluate",
+          "Workflow, baseline and scope"
+        ],
+        [
+          "Build",
+          "Integration, user review and acceptance"
+        ],
+        [
+          "Operate",
+          "Monitoring, support and transfer"
+        ]
+      ],
+      "caption": "Validate the first workflow before expanding. Agree on responsibility at each stage."
+    }
+  }
+}

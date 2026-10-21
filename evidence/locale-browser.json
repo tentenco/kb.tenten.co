@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-21",
+  "tool": "Ego Lite Browser",
+  "space": 76,
+  "checks": {
+    "fde_article": true,
+    "fde_quick_search": true,
+    "fde_guide_packet": true,
+    "english_natural_language_search": true,
+    "article_switch_both_directions": true,
+    "section_hash_preserved": true,
+    "query_and_category_preserved": true,
+    "english_search_results": true,
+    "actual_packet_download_equals_preview": true,
+    "download_contains_all_four_selected_articles": true,
+    "english_download_no_chinese": true,
+    "draft_reload": true,
+    "draft_clear_and_undo": true,
+    "mobile_menu_open_and_inert_background": true,
+    "mobile_escape_closes_menu": true,
+    "english_57_routes_at_390px": true,
+    "320px_logo_width_76px": true,
+    "system_dark_theme": true,
+    "system_theme_change": true,
+    "manual_theme_reload": true,
+    "english_empty_state": true,
+    "file_url_search": true
+  },
+  "mobile_evidence": "evidence/locale-mobile.json",
+  "limits": [
+    "Browser emulation is reapplied each tool round.",
+    "An initial menu attempt ran after emulation reset; it was repeated successfully with the mobile viewport active."
+  ]
+}

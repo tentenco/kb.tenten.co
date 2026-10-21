@@ -1,0 +1,81 @@
+{
+  "id": "paid-media",
+  "category": "growth",
+  "title": "Google Ads, Meta and campaign delivery",
+  "summary": "Connect goals, measurement and landing pages before spending.",
+  "keywords": [
+    "Google Ads",
+    "Meta",
+    "paid media",
+    "ROAS",
+    "CAC",
+    "UTM"
+  ],
+  "why": [
+    "Advertising cannot repair misleading product information or broken purchases.",
+    "Budgets and guardrail metrics keep experiments bounded."
+  ],
+  "know": [
+    "Choose the main conversion from business goals. Separate primary and observation events to avoid counting the same outcome twice.",
+    "Keep audience, message, creative and landing page consistent. Use naming and UTMs for channel comparison.",
+    "Read ROAS and CAC with margin, refunds, attribution and new-customer share. Platform attribution does not establish incremental contribution."
+  ],
+  "inputs": [
+    "Goals, approved budget and period, product/service margin",
+    "Accounts, conversions, audience consent, assets and landing pages"
+  ],
+  "actions": [
+    "Inspect accounts, tracking, search terms/audiences, policies and conversion quality.",
+    "Draft campaign structure, creative, UTMs, exclusions and tests.",
+    "Verify pages, events, amounts and budget. Publish within existing authorization or deliver drafts.",
+    "Set review intervals and stop conditions; avoid large changes based on a single day."
+  ],
+  "done": [
+    "The main conversion has a clear counting source and the landing page task works.",
+    "Reports include spend, valid outcomes, sample limits and the next testable hypothesis."
+  ],
+  "pitfalls": [
+    "Activating unapproved spend or counting tracking tests as real sales.",
+    "Adding orders attributed by different platforms together."
+  ],
+  "decision": "Approve budget, messaging and scope before activating verified campaigns.",
+  "sources": [
+    "tenten-consulting",
+    "ga4-ecommerce"
+  ],
+  "related": [
+    "measurement",
+    "ux-conversion",
+    "brand-strategy"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Paid ads bring an audience to a page that can produce an inquiry or purchase. Judge them by business results and cost.",
+    "when": "Use this to plan campaigns, adjust budgets or decide whether to continue.",
+    "example": {
+      "situation": "An ad promises free shipping, but the page adds restrictions; clicks rise without sales.",
+      "lesson": "Keep the ad promise and landing page consistent."
+    },
+    "first_step": "Define the main outcome, acceptable cost and receiving page.",
+    "point_titles": [
+      "Define the outcome",
+      "Match the landing page",
+      "Include acquisition costs"
+    ],
+    "terms": [
+      [
+        "ROAS",
+        "Attributed ad revenue divided by ad spend; it is not profit."
+      ],
+      [
+        "CAC",
+        "Cost per new customer, with included expenses defined."
+      ],
+      [
+        "Landing page",
+        "The page reached after clicking an ad."
+      ]
+    ]
+  }
+}

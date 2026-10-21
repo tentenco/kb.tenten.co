@@ -1,0 +1,331 @@
+[
+  {
+    "id": "tenten-home",
+    "title": "Tenten | Clear, Useful Digital Products",
+    "url": "https://tenten.co/",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Service mix, shared briefs, review and delivery. Does not establish project contracts, SLAs or guaranteed results.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-development",
+    "title": "Web Design & Development on Webflow & Shopify | Tenten",
+    "url": "https://tenten.co/services/design-development",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Design, development, platform choice and delivery context. Specific technical checks are suggested practices.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-branding",
+    "title": "Brand Strategy & Identity Design Agency | Tenten",
+    "url": "https://tenten.co/services/branding",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Service context for positioning, messaging, identity and rollout.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-consulting",
+    "title": "Digital Transformation Consulting | Audit to Build | Tenten",
+    "url": "https://tenten.co/services/transformation-consulting",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Digital consulting, current-state review, decision records and acceptance.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-geo",
+    "title": "Generative Engine Optimization (GEO) Strategy | Tenten",
+    "url": "https://tenten.co/services/geo",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "GEO services, source maintenance and limits of citation observations.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-shopify",
+    "title": "Shopify Partner in Taipei | Commerce Delivery | Tenten",
+    "url": "https://tenten.co/solutions/shopify",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Shopify delivery across products, markets, integrations and measurement. Does not verify a particular store.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-hosting",
+    "title": "Managed WordPress Hosting Controls and Ownership | Tenten",
+    "url": "https://tenten.co/solutions/hosting",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Hosting ownership, backups, recovery, monitoring and handoff. Does not establish a project SLA.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-cms",
+    "title": "Headless CMS Development Agency | Jamstack, React | Tenten",
+    "url": "https://tenten.co/solutions/headless-cms",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "CMS selection, modeling, migration and ownership, including headless systems.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-ai",
+    "title": "Tenten AI: Turn a stuck workflow into a working AI system",
+    "url": "https://tentenai.com/",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "AI pilots, agent workflows, knowledge systems and integration services.",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "google-migration",
+    "title": "Google Search Central: site moves",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "URL inventories, permanent redirects, canonicals, cutover, GSC and keeping redirects for at least a year.",
+    "evidence": "research/google-migration.txt",
+    "note": ""
+  },
+  {
+    "id": "google-ai",
+    "title": "Google Search Central: AI features",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Google AI search eligibility and SEO foundations; no required special schema or AI text file. Does not establish rules for other platforms.",
+    "evidence": "research/google-ai.txt",
+    "note": ""
+  },
+  {
+    "id": "ga4-ecommerce",
+    "title": "Google Analytics: ecommerce events",
+    "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Ecommerce events, items, currency, transaction_id, purchases and refunds. Check current Meta/Ads documents when implementing those platforms.",
+    "evidence": "research/ga4-ecommerce.txt",
+    "note": ""
+  },
+  {
+    "id": "shopify-migration",
+    "title": "Shopify: migration guide",
+    "url": "https://help.shopify.com/en/manual/migrating-to-shopify",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Migration, import order, product checks, shipping, tax, payments and test orders. Verify current API and plan capabilities.",
+    "evidence": "research/shopify-migration.txt",
+    "note": "HTTP retrieval returned 403; the public documentation was read in the browser."
+  },
+  {
+    "id": "shopify-privacy",
+    "title": "Shopify: customer privacy settings",
+    "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Privacy settings, consent, opt-outs and data purposes. Does not provide a legal determination.",
+    "evidence": "research/shopify-privacy.txt",
+    "note": "HTTP retrieval returned 403; the public documentation was read in the browser."
+  },
+  {
+    "id": "web-vitals",
+    "title": "web.dev: Core Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Field and lab measurement and the scope of Core Web Vitals. Does not promise a performance score.",
+    "evidence": "research/web-vitals.txt",
+    "note": ""
+  },
+  {
+    "id": "wcag",
+    "title": "W3C: WCAG 2.2 quick reference",
+    "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "WCAG 2.2 guidance on perception, operation, labels, focus and adaptability. Does not claim site certification.",
+    "evidence": "research/wcag.txt",
+    "note": ""
+  },
+  {
+    "id": "owasp-agents",
+    "title": "OWASP: prompt injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Prompt injection, input trust and least privilege. Does not claim prompts can eliminate every attack.",
+    "evidence": "research/owasp-agents.txt",
+    "note": ""
+  },
+  {
+    "id": "owner-brief",
+    "title": "Erik’s knowledge-base and XTERRA requirements",
+    "url": null,
+    "kind": "user-direction",
+    "observed_at": "2026-10-21",
+    "access": "session-provided",
+    "scope": "Short AI-native guidance, Tenten services, XTERRA US Magento-to-Shopify migration, launch standards and Shopify/Klaviyo knowledge for Sherry. Erik’s full private notes were not supplied.",
+    "evidence": "docs/brief.md"
+  },
+  {
+    "id": "xterra-repo",
+    "title": "XTERRA code and integration snapshot",
+    "url": "https://github.com/tentenco/xterra-website/tree/e1caa5ecdcdf47346c675c1bbc9c5c0f3684acba",
+    "kind": "project-reference",
+    "observed_at": "2026-10-21",
+    "access": "authenticated-read-only",
+    "scope": "Astro/Sanity/Shopify boundaries, custom forms, Klaviyo adapter/Draft scripts, Judge.me and development launch restrictions. Does not establish live configuration, sending or production availability.",
+    "evidence": "research/xterra-review.json",
+    "note": "Snapshot e1caa5ecdcdf. The README differs from the Klaviyo guide/code; inspect the actual account before changes. Source repository contents, credentials and customer data were not copied."
+  },
+  {
+    "id": "klaviyo-shopify",
+    "title": "Klaviyo: Shopify integration",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Profiles, order data, subscription choices, sync and onsite tracking boundaries.",
+    "evidence": "research/klaviyo-shopify.txt"
+  },
+  {
+    "id": "klaviyo-flows",
+    "title": "Klaviyo: getting started with flows",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002774932",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Flow triggers, Draft/Live states, welcome, abandonment, post-purchase and winback. Specific exclusions and acceptance checks here are suggestions.",
+    "evidence": "research/klaviyo-flows.txt"
+  },
+  {
+    "id": "klaviyo-shopify-data",
+    "title": "Klaviyo: Shopify event data",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080447",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Checkout Started, Placed Order, cancellation/refund events and differences from Shopify revenue. Placed Order does not prove payment.",
+    "evidence": "research/klaviyo-shopify-data.txt"
+  },
+  {
+    "id": "klaviyo-subscribers",
+    "title": "Klaviyo: Shopify subscription sync limits",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080667",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Profiles versus subscriptions, Shopify unsubscribes that do not automatically unsubscribe in Klaviyo, and resubscription/deletion sync limits.",
+    "evidence": "research/klaviyo-subscribers.txt"
+  },
+  {
+    "id": "shopify-meta",
+    "title": "Shopify: Meta data sharing",
+    "url": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Pixel/CAPI, sharing levels, standard events and data use. Custom storefront coverage needs separate tests.",
+    "evidence": "research/shopify-meta.txt"
+  },
+  {
+    "id": "meta-dedup",
+    "title": "Meta: deduplicate Pixel and CAPI events",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/deduplicate-pixel-and-server-events",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Matching event names and eventID/event_id for deduplication. No customer account was verified.",
+    "evidence": "research/meta-dedup.txt"
+  },
+  {
+    "id": "shopify-google",
+    "title": "Shopify: Google & YouTube channel",
+    "url": "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/google",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Official channel setup and product-sync documentation. Does not verify a store’s eligibility or conversions.",
+    "evidence": "research/shopify-google.txt"
+  },
+  {
+    "id": "shopify-customer-events",
+    "title": "Shopify: Web Pixels API",
+    "url": "https://shopify.dev/docs/api/web-pixels-api",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "App/custom pixel sandboxes, customer events and privacy APIs. Does not guarantee automatic coverage of Astro storefronts.",
+    "evidence": "research/shopify-customer-events.txt"
+  },
+  {
+    "id": "google-enhanced",
+    "title": "Google Ads: enhanced conversions",
+    "url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "First-party matching, hashing and enhanced conversions. Data-use and consent obligations still apply.",
+    "evidence": "research/google-enhanced.txt"
+  },
+  {
+    "id": "google-feed",
+    "title": "Google Merchant Center: product data specification",
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Product identity, price, currency, stock, links and consistency. Does not guarantee approval.",
+    "evidence": "research/google-feed.txt"
+  },
+  {
+    "id": "shopify-search-app",
+    "title": "Shopify: search, filters and headless",
+    "url": "https://help.shopify.com/en/manual/online-store/storefront-search",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Search & Discovery for search, filters and recommendations, including custom storefronts using the Storefront API.",
+    "evidence": "research/shopify-search-app.txt"
+  },
+  {
+    "id": "shopify-redirects",
+    "title": "Shopify: URL redirect limits",
+    "url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Native redirect routes and limitations. Custom storefronts need checks at the receiving routing layer.",
+    "evidence": "research/shopify-redirects.txt"
+  },
+  {
+    "id": "tenten-fde",
+    "title": "Tenten AI: FDE methodology",
+    "url": "https://tentenai.com/en/methodology",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "One team understands the workflow, builds integrations and defines operating responsibility across evaluate, build and operate. Project commitments still depend on the agreement.",
+    "evidence": "research/tenten-fde.txt"
+  }
+]

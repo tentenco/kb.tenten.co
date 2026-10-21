@@ -1,0 +1,67 @@
+{
+  "id": "ux-conversion",
+  "category": "design",
+  "title": "UX, information architecture and conversion",
+  "summary": "Help people find information, understand choices and finish important tasks.",
+  "keywords": [
+    "UX",
+    "UI",
+    "CRO",
+    "site architecture",
+    "forms",
+    "accessibility",
+    "conversion"
+  ],
+  "why": [
+    "A website that hides answers wastes search and ad traffic.",
+    "Clear paths, forms and error handling reduce confusion and abandonment."
+  ],
+  "know": [
+    "Organize navigation, pages, content and calls to action around user tasks rather than the company org chart.",
+    "Forms and shopping flows need loading, empty, error, success and recovery states.",
+    "Keyboard access, focus, labels, contrast and mobile use are basic requirements. Interpret conversion changes with traffic quality."
+  ],
+  "inputs": [
+    "Priority audiences, main tasks, funnel data or support questions",
+    "Content inventory, device mix and brand rules"
+  ],
+  "actions": [
+    "Map task flows, sitemap and page order; state the concern each step resolves.",
+    "Build an interactive prototype covering main and failed paths.",
+    "Test keyboard use, forms, narrow screens and actions. Plan experiments when traffic is sufficient."
+  ],
+  "done": [
+    "Main tasks work from entry to completion; errors are understandable and recoverable.",
+    "Events match the hypothesis; reported improvements include sample and period."
+  ],
+  "pitfalls": [
+    "Delivering only a desktop homepage.",
+    "Equating more clicks with better business outcomes."
+  ],
+  "decision": "Agree on the main user task and tradeoffs between brand, information and simplicity.",
+  "sources": [
+    "tenten-development",
+    "wcag"
+  ],
+  "related": [
+    "design-system",
+    "measurement",
+    "development-quality"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "UX is the experience of completing a task. Information architecture organizes content; conversion design makes the next action clear.",
+    "when": "Use this when people cannot find information, finish forms or complete purchases.",
+    "example": {
+      "situation": "A product page has beautiful images but no visible shipping or return information.",
+      "lesson": "Answer purchase questions before changing button colors."
+    },
+    "first_step": "Walk through one main task from arrival to completion.",
+    "point_titles": [
+      "Organize around tasks",
+      "Show every state",
+      "Support different devices and inputs"
+    ]
+  }
+}

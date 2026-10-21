@@ -1,0 +1,178 @@
+[
+  {
+    "id": "start",
+    "title": "Work and consulting",
+    "summary": "Define the result before starting.",
+    "number": "01",
+    "clusters": [
+      {
+        "title": "How we work",
+        "ids": [
+          "tenten-context",
+          "project-brief",
+          "agent-workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "design",
+    "title": "Brand and experience",
+    "summary": "Turn brand direction into reusable design rules.",
+    "number": "02",
+    "clusters": [
+      {
+        "title": "From positioning to experience",
+        "ids": [
+          "brand-strategy",
+          "ux-conversion",
+          "design-system"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "build",
+    "title": "Web and software",
+    "summary": "Choose a platform and deliver a maintainable product.",
+    "number": "03",
+    "clusters": [
+      {
+        "title": "Selection and planning",
+        "ids": [
+          "platform-choice",
+          "cms-content"
+        ]
+      },
+      {
+        "title": "Development and acceptance",
+        "ids": [
+          "headless-commerce",
+          "development-quality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Shopify and ecommerce",
+    "summary": "Connect products, transactions, data and operations.",
+    "number": "04",
+    "clusters": [
+      {
+        "title": "Commerce basics",
+        "ids": [
+          "shopify-foundation"
+        ]
+      },
+      {
+        "title": "Store setup and migration",
+        "ids": [
+          "ecommerce-launch",
+          "migration"
+        ]
+      },
+      {
+        "title": "Shopping and after-sales",
+        "ids": [
+          "commerce-merchandising",
+          "ecommerce-growth",
+          "commerce-service"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "title": "SEO and GEO",
+    "summary": "Preserve search assets and publish useful answers.",
+    "number": "05",
+    "clusters": [
+      {
+        "title": "Make pages discoverable",
+        "ids": [
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "Answer the right questions",
+        "ids": [
+          "content-seo",
+          "geo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "title": "Marketing and data",
+    "summary": "Connect meaningful events to business results.",
+    "number": "06",
+    "clusters": [
+      {
+        "title": "Understand the data",
+        "ids": [
+          "measurement",
+          "ga4-commerce"
+        ]
+      },
+      {
+        "title": "Ads and product visibility",
+        "ids": [
+          "paid-media",
+          "meta-tracking",
+          "google-commerce"
+        ]
+      },
+      {
+        "title": "Customer relationships",
+        "ids": [
+          "lifecycle-crm",
+          "klaviyo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "title": "Hosting and operations",
+    "summary": "Keep services available, recoverable and owned.",
+    "number": "07",
+    "clusters": [
+      {
+        "title": "Architecture and launch",
+        "ids": [
+          "hosting-architecture",
+          "launch"
+        ]
+      },
+      {
+        "title": "Ongoing operations",
+        "ids": [
+          "operations-security"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "title": "AI consulting and FDE",
+    "summary": "Connect business problems, integration and operating responsibility.",
+    "number": "08",
+    "clusters": [
+      {
+        "title": "Find suitable work",
+        "ids": [
+          "ai-consulting"
+        ]
+      },
+      {
+        "title": "Integrate and operate",
+        "ids": [
+          "automation-integration",
+          "fde"
+        ]
+      }
+    ]
+  }
+]

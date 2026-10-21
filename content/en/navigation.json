@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "id": "understand",
+      "title": "Understand the work",
+      "summary": "Business, audience and brand direction.",
+      "categories": [
+        "start",
+        "design"
+      ]
+    },
+    {
+      "id": "build",
+      "title": "Build sites and stores",
+      "summary": "Platforms, content and transactions.",
+      "categories": [
+        "build",
+        "commerce"
+      ]
+    },
+    {
+      "id": "grow",
+      "title": "Grow traffic and sales",
+      "summary": "Help people find you and measure the result.",
+      "categories": [
+        "search",
+        "growth"
+      ]
+    },
+    {
+      "id": "operate",
+      "title": "Operate and automate",
+      "summary": "Keep delivery reliable and reduce repeated work.",
+      "categories": [
+        "operations",
+        "ai"
+      ]
+    }
+  ],
+  "featured": [
+    "ecommerce-launch",
+    "migration",
+    "retention",
+    "website"
+  ]
+}

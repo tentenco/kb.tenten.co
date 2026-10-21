@@ -1,0 +1,487 @@
+[
+  {
+    "id": "migration",
+    "title": "Magento to Shopify migration",
+    "subtitle": "Use XTERRA’s US-site needs to understand data, search and transaction continuity.",
+    "category": "commerce",
+    "featured": true,
+    "ids": [
+      "migration",
+      "headless-commerce",
+      "shopify-foundation",
+      "technical-seo",
+      "ga4-commerce",
+      "ecommerce-launch",
+      "launch"
+    ],
+    "inputs": [
+      "Old/new URLs and data exports",
+      "Migration scope, cutover window and decision owner"
+    ],
+    "deliverable": "Data and URL mappings, rehearsal results, and a production cutover and recovery plan.",
+    "note": "Read-only review of tentenco/xterra-website at e1caa5ecdcdf: Astro/Sanity with Shopify hosted checkout, a Klaviyo adapter and Draft setup scripts. The README and integration guide differ. Live accounts, complete Magento data/redirect mappings, actual sends and launch dates were not checked. Repository documents do not establish production acceptance.",
+    "stages": [
+      {
+        "title": "Inventory and architecture",
+        "description": "Identify the assets and system responsibilities.",
+        "ids": [
+          "migration",
+          "headless-commerce",
+          "shopify-foundation"
+        ]
+      },
+      {
+        "title": "Preserve search and measurement",
+        "description": "Keep old entry points and shopping records connected.",
+        "ids": [
+          "technical-seo",
+          "ga4-commerce"
+        ]
+      },
+      {
+        "title": "Cutover and acceptance",
+        "description": "Turn open issues into explicit launch decisions.",
+        "ids": [
+          "ecommerce-launch",
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ecommerce-launch",
+    "title": "Shopify ecommerce launch",
+    "subtitle": "Check transactions, GA4, Meta, Google Ads, search and cutover in order.",
+    "category": "commerce",
+    "featured": true,
+    "ids": [
+      "ecommerce-launch",
+      "shopify-foundation",
+      "headless-commerce",
+      "ga4-commerce",
+      "meta-tracking",
+      "google-commerce",
+      "technical-seo",
+      "launch"
+    ],
+    "inputs": [
+      "Storefront/checkout domains, repository version and secure connections",
+      "Markets, transaction/delivery policies, channel plan, test orders and authorization"
+    ],
+    "deliverable": "A tested launch checklist covering transactions, measurement, catalog and search, with a go/no-go decision and open items.",
+    "note": "A default review baseline for ecommerce projects. Apply Meta/Google integrations and operating tools to the market, consent rules and channel plan. Installing apps, activating campaigns and sending messages still require applicable authorization.",
+    "stages": [
+      {
+        "title": "Understand the whole store",
+        "description": "Confirm operating rules and system boundaries.",
+        "ids": [
+          "ecommerce-launch",
+          "shopify-foundation",
+          "headless-commerce"
+        ]
+      },
+      {
+        "title": "Connect measurement and discovery",
+        "description": "Check purchase reporting and product visibility.",
+        "ids": [
+          "ga4-commerce",
+          "meta-tracking",
+          "google-commerce",
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "Launch",
+        "description": "Complete checks, cut over and monitor.",
+        "ids": [
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "website",
+    "title": "New website or brand redesign",
+    "subtitle": "From positioning, content and platform choice to a production handoff.",
+    "category": "build",
+    "featured": true,
+    "ids": [
+      "project-brief",
+      "brand-strategy",
+      "ux-conversion",
+      "platform-choice",
+      "development-quality",
+      "measurement",
+      "launch"
+    ],
+    "inputs": [
+      "Audience, business goals and brand assets",
+      "Existing site, content, platform and integrations"
+    ],
+    "deliverable": "A clear brief, site architecture and prototype, plus a buildable, accepted website and handoff.",
+    "stages": [
+      {
+        "title": "Set the direction",
+        "description": "Define whose problem the project solves.",
+        "ids": [
+          "project-brief",
+          "brand-strategy"
+        ]
+      },
+      {
+        "title": "Build the experience",
+        "description": "Choose the journey, platform and delivery standards.",
+        "ids": [
+          "ux-conversion",
+          "platform-choice",
+          "development-quality"
+        ]
+      },
+      {
+        "title": "Verify and launch",
+        "description": "Check measurement and the production environment.",
+        "ids": [
+          "measurement",
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "launch",
+    "title": "Prepare a website for launch",
+    "subtitle": "Check redirects, GA4, GSC, ad tracking and operations.",
+    "category": "operations",
+    "featured": true,
+    "ids": [
+      "launch",
+      "technical-seo",
+      "measurement",
+      "hosting-architecture"
+    ],
+    "inputs": [
+      "Approved version, domain and launch window",
+      "Existing accounts, tracking and recovery plan"
+    ],
+    "deliverable": "A launch decision, production test results and a monitoring list.",
+    "stages": [
+      {
+        "title": "Define readiness",
+        "description": "List the areas that need checking.",
+        "ids": [
+          "launch"
+        ]
+      },
+      {
+        "title": "Check search and measurement",
+        "description": "Preserve entry points and record important actions.",
+        "ids": [
+          "technical-seo",
+          "measurement"
+        ]
+      },
+      {
+        "title": "Confirm environment and owners",
+        "description": "Keep production available with a clear handoff.",
+        "ids": [
+          "hosting-architecture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seo-geo",
+    "title": "SEO and GEO growth",
+    "subtitle": "Connect crawlability and buyer questions to credible content and citation monitoring.",
+    "category": "search",
+    "featured": false,
+    "ids": [
+      "technical-seo",
+      "content-seo",
+      "geo",
+      "measurement"
+    ],
+    "inputs": [
+      "Website, markets and buyer questions",
+      "GSC/traffic, product facts and publishable evidence"
+    ],
+    "deliverable": "A prioritized search/content issue list and comparable performance records.",
+    "stages": [
+      {
+        "title": "Check the foundations",
+        "description": "Make important pages accessible to search.",
+        "ids": [
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "Develop answers and evidence",
+        "description": "Answer buyer questions with citable facts.",
+        "ids": [
+          "content-seo",
+          "geo"
+        ]
+      },
+      {
+        "title": "Keep measuring",
+        "description": "Use observations to choose the next changes.",
+        "ids": [
+          "measurement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "title": "Marketing campaigns and ecommerce conversion",
+    "subtitle": "Validate events before changing ads, product pages or customer journeys.",
+    "category": "growth",
+    "featured": false,
+    "ids": [
+      "measurement",
+      "paid-media",
+      "ecommerce-growth",
+      "lifecycle-crm"
+    ],
+    "inputs": [
+      "Business goals, budget and margin requirements",
+      "Accounts, consent, funnel and assets"
+    ],
+    "deliverable": "Reliable measurement, campaign/page drafts, an experiment plan and reconciled leads or revenue.",
+    "stages": [
+      {
+        "title": "Validate the data",
+        "description": "Make decisions from usable numbers.",
+        "ids": [
+          "measurement"
+        ]
+      },
+      {
+        "title": "Improve acquisition and purchases",
+        "description": "Keep ad promises and shopping experience consistent.",
+        "ids": [
+          "paid-media",
+          "ecommerce-growth"
+        ]
+      },
+      {
+        "title": "Continue the relationship",
+        "description": "Plan relevant messages before and after purchase.",
+        "ids": [
+          "lifecycle-crm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-workflow",
+    "title": "AI consulting and FDE delivery",
+    "subtitle": "Start with a stuck workflow and build something you can evaluate and operate.",
+    "category": "ai",
+    "featured": false,
+    "ids": [
+      "project-brief",
+      "ai-consulting",
+      "fde",
+      "automation-integration"
+    ],
+    "inputs": [
+      "Current workflow, representative samples and manual baseline",
+      "Data, tools, autonomy boundaries, budget and owner"
+    ],
+    "deliverable": "A workflow worth improving, initial scope, working pilot, acceptance results and operating arrangements.",
+    "stages": [
+      {
+        "title": "Choose the work",
+        "description": "Understand the problem and whether AI fits.",
+        "ids": [
+          "project-brief",
+          "ai-consulting"
+        ]
+      },
+      {
+        "title": "Define delivery and ownership",
+        "description": "Agree on scope, acceptance and operations with users.",
+        "ids": [
+          "fde"
+        ]
+      },
+      {
+        "title": "Connect the systems",
+        "description": "Make the workflow reliable in ongoing use.",
+        "ids": [
+          "automation-integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brand-system",
+    "title": "Brand and design system",
+    "subtitle": "Connect positioning, tone, visuals and components.",
+    "category": "design",
+    "featured": false,
+    "ids": [
+      "brand-strategy",
+      "ux-conversion",
+      "design-system",
+      "cms-content"
+    ],
+    "inputs": [
+      "Audience research, brand assets and markets",
+      "Use cases, content languages and approver"
+    ],
+    "deliverable": "Agreed positioning, message hierarchy, shared visual rules, components and sample pages.",
+    "stages": [
+      {
+        "title": "Define the brand",
+        "description": "Clarify the audience, claim and proof.",
+        "ids": [
+          "brand-strategy"
+        ]
+      },
+      {
+        "title": "Apply it to the interface",
+        "description": "Keep experience and visual rules consistent.",
+        "ids": [
+          "ux-conversion",
+          "design-system"
+        ]
+      },
+      {
+        "title": "Plan ongoing editing",
+        "description": "Keep content updates within the shared rules.",
+        "ids": [
+          "cms-content"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "title": "Hosting and incident readiness",
+    "subtitle": "Clarify ownership, backups, recovery and monitoring.",
+    "category": "operations",
+    "featured": false,
+    "ids": [
+      "hosting-architecture",
+      "operations-security",
+      "automation-integration"
+    ],
+    "inputs": [
+      "System/DNS inventory, backups and contract scope",
+      "RTO/RPO, account owners and incident contacts"
+    ],
+    "deliverable": "Maintenance responsibilities, restore and alert test results, and usable incident steps.",
+    "stages": [
+      {
+        "title": "Map the systems",
+        "description": "Identify the owner of each layer.",
+        "ids": [
+          "hosting-architecture"
+        ]
+      },
+      {
+        "title": "Prepare for incidents",
+        "description": "Detect problems and recover service.",
+        "ids": [
+          "operations-security"
+        ]
+      },
+      {
+        "title": "Connect ongoing work",
+        "description": "Make sync, retries and alerts traceable.",
+        "ids": [
+          "automation-integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "retention",
+    "title": "Newsletters and Klaviyo automation",
+    "subtitle": "Start with one welcome or post-purchase journey that follows customer status.",
+    "category": "growth",
+    "featured": false,
+    "ids": [
+      "klaviyo",
+      "lifecycle-crm",
+      "commerce-service",
+      "ecommerce-growth"
+    ],
+    "inputs": [
+      "Existing sender/integrations, subscription sources and flow states",
+      "Brand assets, offer rules, sending domain and internal test list"
+    ],
+    "deliverable": "Customer data flows, segment and automation rules, message drafts, and delivery/exit/unsubscribe test results.",
+    "note": "The XTERRA repository includes Klaviyo code and Draft scripts. It does not prove the current account state or active flows. Inventory before rebuilding.",
+    "stages": [
+      {
+        "title": "Understand contacts and tools",
+        "description": "Distinguish profiles, consent and flows.",
+        "ids": [
+          "klaviyo",
+          "lifecycle-crm"
+        ]
+      },
+      {
+        "title": "Connect the post-purchase experience",
+        "description": "Include notifications and service.",
+        "ids": [
+          "commerce-service"
+        ]
+      },
+      {
+        "title": "Evaluate the result",
+        "description": "Review purchases, retention and cost.",
+        "ids": [
+          "ecommerce-growth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commerce-ecosystem",
+    "title": "Shopify tools and operations",
+    "subtitle": "Choose search, reviews, recommendations and service tools by the problem they solve.",
+    "category": "commerce",
+    "featured": false,
+    "ids": [
+      "commerce-merchandising",
+      "commerce-service",
+      "klaviyo",
+      "headless-commerce",
+      "automation-integration"
+    ],
+    "inputs": [
+      "Shopping/support problems, products, existing apps and fees",
+      "Frontend architecture, API access, demand and budget"
+    ],
+    "deliverable": "A needs-based tool comparison covering native features, storefront compatibility, data ownership and verification.",
+    "stages": [
+      {
+        "title": "Start with customer problems",
+        "description": "Find the gaps in shopping and after-sales.",
+        "ids": [
+          "commerce-merchandising",
+          "commerce-service"
+        ]
+      },
+      {
+        "title": "Plan the journey",
+        "description": "Decide where marketing automation helps.",
+        "ids": [
+          "klaviyo"
+        ]
+      },
+      {
+        "title": "Verify integration",
+        "description": "Check frontend support and data ownership.",
+        "ids": [
+          "headless-commerce",
+          "automation-integration"
+        ]
+      }
+    ]
+  }
+]

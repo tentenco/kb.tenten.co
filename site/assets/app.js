@@ -3,6 +3,19 @@
 const $ = selector => document.querySelector(selector);
 const root = document.body.dataset.root || '';
 const data = window.TENTEN_SEARCH;
+const languageLink = $('#language-switch');
+if (languageLink) {
+  const updateLanguageLink = () => {
+    const destination = new URL(languageLink.href,location.href);
+    destination.search = location.search;
+    destination.hash = location.hash;
+    languageLink.href = destination.href;
+  };
+  updateLanguageLink();
+  languageLink.addEventListener('click',updateLanguageLink);
+  window.addEventListener('hashchange',updateLanguageLink);
+}
+
 document.documentElement.classList.add('js');
 const themeSelect = $('#theme-select');
 const systemTheme = matchMedia('(prefers-color-scheme: dark)');
@@ -109,7 +122,7 @@ document.addEventListener('visibilitychange',()=>{if(document.visibilityState===
 const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase().replace(/\s+/g,' ').trim();
 const aliases = [['搬家','搬站','migration'],['主機','hosting'],['追蹤','量測','measurement'],['新人','onboarding'],['品牌','branding'],['自動化','automation']];
 function terms(query) {
-  const cleaned=normalize(query).replace(/[、，,。？！?！:：→/]+/g,' ').trim().replace(/^(請問|我想知道|我想要|如何|怎麼)/,'').replace(/(要檢查什麼|要做什麼|需要做什麼|需要什麼|怎麼做|怎麼設定|如何設定|怎麼辦|是什麼|有什麼用)$/,'').trim();
+  const cleaned=normalize(query).replace(/^(what is|what are|how to|how do i|how does|how can i)\s+/,'').replace(/[、，,。？！?！:：→/]+/g,' ').trim().replace(/^(請問|我想知道|我想要|如何|怎麼)/,'').replace(/(要檢查什麼|要做什麼|需要做什麼|需要什麼|怎麼做|怎麼設定|如何設定|怎麼辦|是什麼|有什麼用)$/,'').trim();
   return (cleaned || normalize(query)).split(/\s+/).filter(Boolean).map(term=>aliases.find(group=>group.includes(term)) || [term]);
 }
 const searchIndex=(data?.books || []).map(book=>({book,fields:[[book.title,12],[book.keywords.join(' '),9],[book.summary,5],[book.body,1],[book.categoryTitle,2]].map(([text,weight])=>[normalize(text),weight])}));

@@ -1,0 +1,99 @@
+{
+  "id": "ecommerce-launch",
+  "category": "commerce",
+  "title": "Ecommerce launch checklist",
+  "summary": "Verify transactions, search, measurement and operations before opening the store.",
+  "keywords": [
+    "Shopify",
+    "ecommerce launch",
+    "checklist",
+    "Sally",
+    "GA4",
+    "Meta",
+    "Google Ads"
+  ],
+  "why": [
+    "A working checkout can still lose revenue through broken tracking, delivery or notifications.",
+    "A shared baseline saves each project from rebuilding its launch checklist."
+  ],
+  "know": [
+    "Transactions: products, stock, successful and failed payments, refunds, discounts, shipping, tax, policies and order notifications.",
+    "Search: old URLs and redirects, canonical URLs, titles, descriptions, Open Graph, structured data, robots, sitemap and GSC.",
+    "Measurement: GA4 funnel, Google Ads conversions, Meta Pixel/CAPI, feeds, consent and deduplication.",
+    "Operations: email lists and flows, support and warranty routes, DNS/TLS, performance, accessibility, alerts and recovery.",
+    "Mark each item complete, blocked or not applicable with a reason. Plan unused ad channels without spending automatically."
+  ],
+  "inputs": [
+    "Production and test domains, version, store connections and authorization",
+    "Markets, transaction rules, channel plans, test orders and launch decision owner"
+  ],
+  "actions": [
+    "Create a delivery matrix with applicability, owner, status, evidence, gaps and next steps.",
+    "Reuse integrations. Assign event responsibility across the custom storefront, Shopify checkout and server.",
+    "Test products and addresses with accepted and rejected consent, payment success and failure, refunds and retries. Reconcile orders and events.",
+    "Switch over within existing launch authorization. Check the domain, redirects, indexing, notifications and monitoring."
+  ],
+  "done": [
+    "Each area has evidence; blockers have an explicit go/no-go decision.",
+    "Each eligible real order maps to one purchase event. Isolate test data, notifications and ad audiences."
+  ],
+  "pitfalls": [
+    "Equating installed apps or a polished storefront with readiness.",
+    "Installing Klaviyo, GTM or paid apps without checking their purpose and existing systems."
+  ],
+  "decision": "Confirm markets, policies, ad channels and whether unfinished work blocks launch.",
+  "sources": [
+    "owner-brief",
+    "shopify-migration",
+    "ga4-ecommerce",
+    "shopify-meta",
+    "xterra-repo"
+  ],
+  "related": [
+    "shopify-foundation",
+    "ga4-commerce",
+    "headless-commerce",
+    "launch"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "An ecommerce launch spans correct transactions, discoverability, measurement, fulfillment and after-sales responsibility.",
+    "when": "Use this for a new store, migration cutover or a shared acceptance standard.",
+    "example": {
+      "situation": "The store accepts orders, but ads miss purchase events and support receives no inquiries.",
+      "lesson": "Check evidence for each part of the journey before deciding to launch."
+    },
+    "first_step": "Create four checklist columns: transactions, search, measurement and operations.",
+    "point_titles": [
+      "Complete transactions correctly",
+      "Preserve search access",
+      "Record reliable outcomes",
+      "Assign operational ownership",
+      "Give every item a status"
+    ],
+    "diagram": {
+      "kind": "map",
+      "title": "Four parts of an ecommerce launch",
+      "nodes": [
+        [
+          "Transactions",
+          "Products, payment, delivery and refunds"
+        ],
+        [
+          "Search",
+          "URLs, indexing and redirects"
+        ],
+        [
+          "Measurement",
+          "Shopping events and ad reporting"
+        ],
+        [
+          "Operations",
+          "Notifications, support and maintenance"
+        ]
+      ],
+      "caption": "Each part needs a status and evidence for the launch decision."
+    }
+  }
+}

@@ -19,4 +19,5 @@ jobs:
       - run: python3 scripts/harness.py
       - run: node --check web/app.js
       - run: node --check web/theme-init.js
+      - run: node --check site/en/assets/app.js
       - run: git diff --exit-code -- site exports

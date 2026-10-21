@@ -1,0 +1,68 @@
+{
+  "id": "ecommerce-growth",
+  "category": "commerce",
+  "title": "Ecommerce growth: product pages and retention",
+  "summary": "Find where buyers drop out before choosing what to change.",
+  "keywords": [
+    "D2C",
+    "ecommerce growth",
+    "PDP",
+    "AOV",
+    "LTV",
+    "CVR",
+    "retention"
+  ],
+  "why": [
+    "Fix purchase barriers before paying for more traffic.",
+    "Margin, refunds and repeat purchases give a clearer view of growth than revenue alone."
+  ],
+  "know": [
+    "Check the view-to-cart-to-checkout-to-purchase funnel by source, device and market. Validate tracking first.",
+    "Product pages must explain specifications, fit, delivery, returns and trust. Claims and reviews must be real.",
+    "Consider margin, stock, service cost and opt-outs when planning discounts, subscriptions and retention."
+  ],
+  "inputs": [
+    "Funnel, product and margin data; support and return reasons",
+    "Campaign rules, stock, audience consent and brand assets"
+  ],
+  "actions": [
+    "Inspect funnel losses and valuable products. Rank hypotheses by impact and evidence.",
+    "Draft changes to product pages, offers or retention flows. Fix functional and data issues first.",
+    "Define the main metric, guardrails, observation period and sample interpretation."
+  ],
+  "done": [
+    "Purchase and refund paths work; events and revenue reconcile reasonably.",
+    "Conclusions state sample limits and distinguish seasonal or promotional effects from causation."
+  ],
+  "pitfalls": [
+    "Watching ROAS while ignoring margin, refunds and new customers.",
+    "Declaring a winner before enough data is available."
+  ],
+  "decision": "Agree on offers, minimum margin and the funnel stage to improve first.",
+  "sources": [
+    "tenten-shopify",
+    "tenten-development",
+    "ga4-ecommerce"
+  ],
+  "related": [
+    "commerce-merchandising",
+    "klaviyo",
+    "ga4-commerce"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Ecommerce growth means finding losses between arrival and repeat purchase, then improving the stage with the greatest impact.",
+    "when": "Use this when traffic fails to convert, campaigns weaken or repeat sales need work.",
+    "example": {
+      "situation": "Many shoppers leave after adding to cart because shipping costs appear only at checkout.",
+      "lesson": "Locate the drop-off before proposing a testable change."
+    },
+    "first_step": "Inspect the funnel for one main market and device.",
+    "point_titles": [
+      "Locate the loss",
+      "Answer purchase questions",
+      "Include costs and retention"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "lifecycle-crm",
+  "category": "growth",
+  "title": "CRM, email and customer journeys",
+  "summary": "Connect leads, purchases and follow-up so handoffs do not lose work.",
+  "keywords": [
+    "CRM",
+    "HubSpot",
+    "email",
+    "Klaviyo",
+    "automation",
+    "lead",
+    "retention",
+    "EDM"
+  ],
+  "why": [
+    "A form must route the lead to an owner and track the result.",
+    "Consent, segmentation and exit rules keep communication relevant."
+  ],
+  "know": [
+    "Define contacts, companies, deals, sources and lifecycle stages; assign field ownership and deduplication keys.",
+    "Separate order messages from marketing. Define cross-system ownership for consent, unsubscribes, bounces and deletion; do not assume two-way sync.",
+    "Verify sending domains and SPF/DKIM/DMARC. Preserve existing mail services when changing DNS."
+  ],
+  "inputs": [
+    "Contact fields, sources, consent records, CRM and sending platform",
+    "Journey, owners, response times, messages and exit rules"
+  ],
+  "actions": [
+    "Define field mappings, segments, assignment and deduplication.",
+    "Draft welcome, inquiry, abandonment or retention flows and messages.",
+    "Use test contacts to verify triggers, exclusions, unsubscribes, deduplication and CRM updates."
+  ],
+  "done": [
+    "Each valid form reaches the right system and owner; retries create no duplicate records.",
+    "Unsubscribed contacts leave inapplicable marketing flows; tests do not reach customers."
+  ],
+  "pitfalls": [
+    "Treating all historical customers as consenting to marketing.",
+    "Triggering bulk email during imports."
+  ],
+  "decision": "Agree on list usage, messages and recipients before activating verified flows.",
+  "sources": [
+    "tenten-home",
+    "tenten-consulting",
+    "klaviyo-subscribers"
+  ],
+  "related": [
+    "klaviyo",
+    "commerce-service",
+    "automation-integration"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "A CRM records customer and opportunity status. A customer journey defines when to provide information or service.",
+    "when": "Use this for incoming leads, scattered lists or follow-up email planning.",
+    "example": {
+      "situation": "An inquiry exists in a form and spreadsheet, but nobody knows who replied.",
+      "lesson": "Connect the source, owner and status."
+    },
+    "first_step": "Trace one inquiry from arrival to sale and mark each handoff.",
+    "point_titles": [
+      "Define customer data",
+      "Separate marketing and service",
+      "Authenticate the sending domain"
+    ]
+  }
+}

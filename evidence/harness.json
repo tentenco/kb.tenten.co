@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "checked_at": "2026-10-21T07:30:29.298302+00:00",
-  "checks_passed": 170,
-  "checks_total": 170,
-  "source_sha256": "3f13a0828c79576950fec0eaf0264a39ad5651d44565766d721a930bba34ad55",
-  "site_sha256": "98eef866f76ae58784ae44548248c98b927936edfa6a819f517a88323f0f3b55",
+  "checked_at": "2026-10-21T07:44:37.128859+00:00",
+  "checks_passed": 173,
+  "checks_total": 173,
+  "source_sha256": "cc36987c5df1437f5caf58ff12ffdad9a960ea325caaebde099fb045298f84ed",
+  "site_sha256": "a0c828f783ff71da7b9dbfc8fea3191bcde9be0c0ec69f3e7fa3553bbebc25c4",
   "checks": [
     {
       "name": "canonical schema and references",
@@ -847,12 +847,27 @@
       "detail": ""
     },
     {
+      "name": "zero code comments: i18n.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
       "name": "reference-project isolation",
       "passed": true,
       "detail": ""
     },
     {
       "name": "no shared client defaults",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "language switch preserves corresponding route",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "retired AI FTE article is absent",
       "passed": true,
       "detail": ""
     }

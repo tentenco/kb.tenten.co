@@ -1,0 +1,77 @@
+{
+  "id": "ai-consulting",
+  "category": "ai",
+  "title": "AI consulting: from use case to working system",
+  "summary": "Find work worth improving, then test whether AI is a good fit.",
+  "keywords": [
+    "AI consultant",
+    "AI consulting",
+    "RAG",
+    "knowledge base",
+    "PoC",
+    "evaluation"
+  ],
+  "why": [
+    "A problem and baseline help avoid demos nobody uses.",
+    "Representative samples reveal reliability, cost and the impact of errors."
+  ],
+  "know": [
+    "Start with frequent work that has accessible inputs, assessable outputs and a clear owner.",
+    "Use code for explicit rules, models for language judgment, and retrieval with citations when answers need sources.",
+    "RAG needs source ownership, updates, versions, access control and refusal behavior. Prompts cannot enforce data permissions."
+  ],
+  "inputs": [
+    "Current workflow, time or quality baseline, representative and failure samples",
+    "Data scope, connections, budget and decision owner"
+  ],
+  "actions": [
+    "List use cases and propose a small pilot based on value, feasibility and risk.",
+    "Choose rules, search, RAG or an agent; document costs, data boundaries and alternatives.",
+    "Set an evaluation set, acceptance thresholds and exception paths. Measure quality, latency and cost per task."
+  ],
+  "done": [
+    "Test on held-out samples; record successes, errors and refusals.",
+    "Trace answers to sources and retain evidence of permission checks and human handoff."
+  ],
+  "pitfalls": [
+    "Treating a demo as production acceptance.",
+    "Promising to replace a job without measuring its scope."
+  ],
+  "decision": "Agree on usable data, acceptable errors and what to expand if the pilot succeeds.",
+  "sources": [
+    "tenten-ai",
+    "tenten-consulting",
+    "owasp-agents"
+  ],
+  "related": [
+    "fde",
+    "automation-integration",
+    "project-brief"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "AI consulting identifies work to improve, checks the data and tools, then uses a small pilot to test quality and benefit.",
+    "when": "Use this when the team wants AI but has no clear starting point or evidence of value.",
+    "example": {
+      "situation": "Support staff answer recurring questions from scattered, undated sources.",
+      "lesson": "Organize sources and acceptance criteria before testing the answers."
+    },
+    "first_step": "Choose a frequent task and collect samples plus a baseline.",
+    "point_titles": [
+      "Choose work you can evaluate",
+      "Match the method to the problem",
+      "Govern the sources"
+    ],
+    "terms": [
+      [
+        "Use case",
+        "A specific situation and job to complete."
+      ],
+      [
+        "RAG",
+        "Retrieve relevant sources before asking a model to answer."
+      ]
+    ]
+  }
+}

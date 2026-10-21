@@ -1,0 +1,78 @@
+{
+  "id": "commerce-merchandising",
+  "category": "commerce",
+  "title": "Product discovery, reviews and apps",
+  "summary": "Help customers find, understand and trust a product before choosing tools.",
+  "keywords": [
+    "Shopify ecosystem",
+    "App",
+    "Search & Discovery",
+    "Judge.me",
+    "reviews",
+    "UGC",
+    "filter",
+    "recommendations",
+    "comparison",
+    "quiz",
+    "upsell"
+  ],
+  "why": [
+    "Filters, comparisons and credible reviews reduce buying effort, especially for complex or expensive products.",
+    "Every app adds cost, scripts and data responsibilities. Check native features first."
+  ],
+  "know": [
+    "Search & Discovery manages search, filters and recommendations. A headless storefront needs the corresponding Storefront API implementation.",
+    "Review tools such as Judge.me collect, moderate and display reviews. XTERRA has an integration; that does not make it mandatory for every store.",
+    "Use verified specifications for comparisons and quizzes. Never invent compatibility or benefits.",
+    "Assess bundles, upsells and subscriptions against margin, stock and demand. Durable goods may not suit recurring subscriptions.",
+    "Record the purpose, native alternative, headless support, cost, permissions, export and removal options for each app."
+  ],
+  "inputs": [
+    "Product specifications, categories, search terms, zero-result queries, support questions and funnel data",
+    "Installed apps, storefront architecture, budget and rights to review data"
+  ],
+  "actions": [
+    "Separate essentials from options. Fix product fields, prices and out-of-stock rules first.",
+    "Test filters, synonyms, comparisons and recommendations against product, accessory and variant relationships.",
+    "Preserve review provenance and status during migration; verify counts, averages and privacy. Do not manufacture reviews.",
+    "Test representative and empty searches, stockouts, mobile and keyboard use. Check APIs, webhooks and performance."
+  ],
+  "done": [
+    "Customers can find purchasable products; recommended prices and stock match the cart.",
+    "Reviews are traceable and deduplicated. App choices have reasons."
+  ],
+  "pitfalls": [
+    "Expecting a theme widget to appear on an Astro frontend.",
+    "Hard-coding review averages or recommendations that later become stale."
+  ],
+  "decision": "Agree on the buying journey, app costs and whether the improvement justifies maintenance.",
+  "sources": [
+    "shopify-search-app",
+    "xterra-repo",
+    "tenten-shopify"
+  ],
+  "related": [
+    "ecommerce-growth",
+    "shopify-foundation",
+    "headless-commerce",
+    "commerce-service"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Search, filters, comparisons, recommendations and reviews answer different questions during product selection.",
+    "when": "Use this when products are hard to compare or customers need more confidence to buy.",
+    "example": {
+      "situation": "A shopper wants foldable equipment, but the only filter is brand.",
+      "lesson": "Build filters around real buying criteria."
+    },
+    "first_step": "List three common buying questions and the functions that answer them.",
+    "point_titles": [
+      "Make products findable",
+      "Use credible reviews",
+      "Help customers compare",
+      "Match tools to products",
+      "Include maintenance costs"
+    ]
+  }
+}

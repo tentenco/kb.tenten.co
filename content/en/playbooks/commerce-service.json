@@ -1,0 +1,88 @@
+{
+  "id": "commerce-service",
+  "category": "commerce",
+  "title": "After the order: support, returns and warranties",
+  "summary": "Connect delivery and service to the rest of the customer journey.",
+  "keywords": [
+    "support",
+    "Gorgias",
+    "helpdesk",
+    "returns",
+    "warranty",
+    "shipping",
+    "registration",
+    "notifications",
+    "fulfillment",
+    "ERP",
+    "3PL"
+  ],
+  "why": [
+    "Missing order, delivery or warranty information increases support work and refunds.",
+    "A success screen does not prove a request reached its owner or the customer received a reply."
+  ],
+  "know": [
+    "Shopify owns the order and fulfillment baseline. Define the roles of logistics, ERP/3PL, helpdesk and marketing systems separately.",
+    "Order, shipping, cancellation, refund and support notifications have different triggers. Avoid duplicate sends.",
+    "For bulky equipment, confirm remote delivery, stairs, handling, assembly, damage reports and return costs with the merchant.",
+    "Warranty registration needs model, serial and purchase details. Service consent does not grant marketing consent.",
+    "Start with native notifications. Add helpdesks or returns tools when volume or workflow warrants them; check headless APIs."
+  ],
+  "inputs": [
+    "Approved delivery, returns and warranty policies; logistics and service owners",
+    "Order, form, ticket and notification flows; internal test recipients"
+  ],
+  "actions": [
+    "Map order, shipping, exception and refund states to notification owners and unique record keys.",
+    "Test addresses, products, rates, excluded destinations, refunds and restocking. Reconcile finance and logistics separately.",
+    "Connect inquiry, registration and warranty forms to storage, routing, retries and alerts. Protect attachments and personal data.",
+    "Test normal requests, duplicates, provider failures and no marketing consent. Retain delivery, ticket and retry evidence."
+  ],
+  "done": [
+    "Each test request has a receipt, status and owner; failures remain traceable.",
+    "Order amounts, refunds and stock reconcile. Notifications do not duplicate or create unwanted subscriptions."
+  ],
+  "pitfalls": [
+    "Treating HTTP 202 or a saved form as proof of email delivery.",
+    "Assuming a CRM profile routes a support ticket or completes warranty service."
+  ],
+  "decision": "The merchant approves returns, warranty terms, costs and service commitments before implementation.",
+  "sources": [
+    "shopify-migration",
+    "xterra-repo",
+    "klaviyo-subscribers"
+  ],
+  "related": [
+    "shopify-foundation",
+    "klaviyo",
+    "automation-integration",
+    "operations-security"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "After-sales service connects orders, shipping, support, returns and warranties. Requests need a visible status and someone responsible for handling them.",
+    "when": "Use this for launches, support forms or recurring delivery and return problems.",
+    "example": {
+      "situation": "A warranty form says “success,” but no service team receives it.",
+      "lesson": "Test the complete path from submission to receipt and ownership."
+    },
+    "first_step": "Trace one request from submission to a recorded case and response.",
+    "point_titles": [
+      "Assign each system a role",
+      "Give each notification an owner",
+      "Check bulky-item exceptions",
+      "Separate service and marketing consent",
+      "Add tools for a clear need"
+    ],
+    "terms": [
+      [
+        "ERP",
+        "A system for business data such as inventory and finance."
+      ],
+      [
+        "3PL",
+        "A third-party logistics provider."
+      ]
+    ]
+  }
+}

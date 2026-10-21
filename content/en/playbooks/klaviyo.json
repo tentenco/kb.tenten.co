@@ -1,0 +1,116 @@
+{
+  "id": "klaviyo",
+  "category": "growth",
+  "title": "Klaviyo: newsletters and automated journeys",
+  "summary": "Use subscription and shopping behavior for welcome emails, checkout reminders and product guidance.",
+  "keywords": [
+    "Klaviyo",
+    "Sherry",
+    "EDM",
+    "newsletter",
+    "welcome",
+    "abandoned cart",
+    "flow",
+    "winback",
+    "email automation"
+  ],
+  "why": [
+    "Behavior-based flows send relevant messages without rebuilding every campaign.",
+    "Exit rules stop abandoned-checkout reminders after purchase and marketing after unsubscribe."
+  ],
+  "know": [
+    "Klaviyo handles email, SMS and journeys. Profiles represent people, lists hold members, segments use dynamic rules, flows react to triggers and campaigns are one-off sends.",
+    "An email address or profile is not marketing consent. Email and SMS consent are separate; order and service messages serve different purposes.",
+    "Start with welcome, checkout abandonment and post-purchase guidance. Consider browse reminders and winback later. Durable goods often need care advice and accessories.",
+    "Separate native Checkout Started/Placed Order events from custom form events. Placed Order does not prove payment; check payment, cancellation and refund states.",
+    "Do not assume two-way unsubscribe sync. Official guidance says a Shopify unsubscribe does not automatically unsubscribe the person in Klaviyo; handle suppression explicitly."
+  ],
+  "inputs": [
+    "Existing sender and Shopify integration; list sources, consent and unsubscribe records",
+    "Sending domain, assets, flow goals and internal test recipients"
+  ],
+  "actions": [
+    "Inventory platforms and live/draft flows. Map native order and custom form data to prevent duplicate integrations or sends.",
+    "Define field/event mappings, sender authentication, segments, triggers, waits, exclusions and exits. Keep new flows in Draft.",
+    "Test consent, purchase exits, unsubscribe suppression and retry deduplication. Isolate historical imports from welcome triggers.",
+    "Use supported APIs/integrations. Deliver test-email receipts, drafts and capability gaps; send only within task authorization."
+  ],
+  "done": [
+    "Profiles, events and subscription states are independently verified; test messages and links are correct.",
+    "Purchases stop the relevant reminders; unsubscribes stop marketing. Document sync gaps.",
+    "Assess clicks, valid orders and unsubscribes. Attributed revenue does not establish incremental revenue."
+  ],
+  "pitfalls": [
+    "Running Shopify and Klaviyo abandonment flows at once.",
+    "Treating all historical customers as subscribed or using opens as the only metric."
+  ],
+  "decision": "Agree on audience use, offers, copy and activation timing; follow existing sending authorization.",
+  "sources": [
+    "klaviyo-shopify",
+    "klaviyo-flows",
+    "klaviyo-shopify-data",
+    "klaviyo-subscribers",
+    "xterra-repo"
+  ],
+  "related": [
+    "lifecycle-crm",
+    "commerce-service",
+    "headless-commerce",
+    "ecommerce-growth"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Klaviyo automates ecommerce email and SMS based on subscriptions and shopping activity.",
+    "when": "Use this for welcome emails, checkout reminders, product guidance or more relevant newsletters.",
+    "example": {
+      "situation": "A subscriber receives a welcome email, then product guidance after buying.",
+      "lesson": "Purchase should stop abandonment reminders for that checkout."
+    },
+    "first_step": "Choose one journey and write its trigger, message and stopping condition.",
+    "point_titles": [
+      "Learn the objects",
+      "Check marketing consent",
+      "Start with useful journeys",
+      "Distinguish order states",
+      "Handle unsubscribes across systems"
+    ],
+    "terms": [
+      [
+        "Profile / list",
+        "A person’s record / a collection of members."
+      ],
+      [
+        "Segment",
+        "A group that changes as people meet its rules."
+      ],
+      [
+        "Flow / campaign",
+        "A triggered journey / a one-off scheduled activity."
+      ]
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "A subscriber’s journey",
+      "nodes": [
+        [
+          "Subscribe",
+          "Enter the welcome flow"
+        ],
+        [
+          "Explore products",
+          "Receive relevant content"
+        ],
+        [
+          "Purchase",
+          "Leave that checkout reminder flow"
+        ],
+        [
+          "Use the product",
+          "Receive setup and care guidance"
+        ]
+      ],
+      "caption": "An example journey. Every marketing message must respect subscription status."
+    }
+  }
+}

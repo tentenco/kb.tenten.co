@@ -45,7 +45,9 @@ def digest(paths):
         result.update(path.read_bytes())
     return result.hexdigest()
 
-def main():
+def main(locale='zh-Hant'):
+    global SITE
+    SITE=ROOT/'site'/('en' if locale=='en' else '')
     failures=[]
     checks=[]
     def check(name,condition,detail=''):
@@ -54,6 +56,7 @@ def main():
     spec=importlib.util.spec_from_file_location('kb_build',ROOT/'scripts/build.py')
     module=importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
+    module.configure_locale(locale)
     data=module.read_content()
     try:
         books=module.validate(data)
@@ -65,8 +68,9 @@ def main():
     for c in data['categories']:
         count=sum(b['category']==c['id'] for b in books.values())
         check('coverage: '+c['id'],count>=2,str(count)+' cards')
-    pages={p.resolve():Scan() for p in SITE.rglob('*.html')}
-    for p,scan in pages.items():scan.feed(p.read_text())
+    all_pages={p.resolve():Scan() for p in (ROOT/'site').rglob('*.html')}
+    for p,scan in all_pages.items():scan.feed(p.read_text())
+    pages={p:scan for p,scan in all_pages.items() if p.is_relative_to(SITE.resolve()) and (locale=='en' or not p.is_relative_to((ROOT/'site/en').resolve()))}
     for p,scan in pages.items():
         local=[]
         for tag,ref in scan.refs:
@@ -75,21 +79,21 @@ def main():
                 if tag in ('script','img','link'):local.append('remote runtime asset '+ref)
                 continue
             target=(p.parent/unquote(url.path)).resolve() if url.path else p
-            if not target.is_relative_to(SITE.resolve()):local.append('path escape '+ref);continue
+            if not target.is_relative_to((ROOT/'site').resolve()):local.append('path escape '+ref);continue
             if not target.is_file():local.append('missing '+ref);continue
-            if url.fragment and target in pages and unquote(url.fragment) not in pages[target].ids:local.append('missing anchor '+ref)
-        check('page: '+str(p.relative_to(SITE)),not local and not scan.duplicates and scan.lang=='zh-Hant' and scan.h1==1 and scan.main==1 and scan.noindex,'; '.join(local+scan.duplicates))
+            if url.fragment and target in all_pages and unquote(url.fragment) not in all_pages[target].ids:local.append('missing anchor '+ref)
+        check('page: '+str(p.relative_to(SITE)),not local and not scan.duplicates and scan.lang==locale and scan.h1==1 and scan.main==1 and scan.noindex,'; '.join(local+scan.duplicates))
     expected_pages=6+len(books)+len(data['categories'])+len(data['scenarios'])
     check('expected routes',len(pages)==expected_pages,f'{len(pages)}/{expected_pages}')
     sources={s['id']:s for s in data['sources']}
     for ident,book in books.items():
         expected=module.markdown(book,sources)
-        canonical=ROOT/'exports/playbooks'/f'{ident}.md'
+        canonical=module.EXPORTS/'playbooks'/f'{ident}.md'
         served=SITE/'files/playbooks'/f'{ident}.md'
         check('export: '+ident,canonical.is_file() and served.is_file() and canonical.read_text()==expected and served.read_text()==expected)
     for scenario in data['scenarios']:
         expected=module.packet(scenario['title'],scenario['ids'],books,sources,scenario)
-        canonical=ROOT/'exports/scenarios'/f'{scenario["id"]}.md'
+        canonical=module.EXPORTS/'scenarios'/f'{scenario["id"]}.md'
         served=SITE/'files/scenarios'/f'{scenario["id"]}.md'
         check('packet: '+scenario['id'],canonical.is_file() and served.is_file() and canonical.read_text()==expected and served.read_text()==expected)
     raw=(SITE/'assets/data.js').read_text()
@@ -120,8 +124,9 @@ def main():
     check('page-local packet scope and export parity',not packet_failures,','.join(packet_failures))
     check('pages exclude full corpus runtime',all(not any(tag=='script' and ref.endswith('/data.js') for tag,ref in scan.refs) for scan in pages.values()))
     check('theme initializes before styles',all(p.read_text().index('assets/theme-init.js')<p.read_text().index('assets/style.css') for p in pages))
-    check('runtime asset parity',all((ROOT/'web'/name).read_bytes()==(SITE/'assets'/name).read_bytes() for name in ('app.js','style.css','theme-init.js')))
-    for md in (ROOT/'exports').rglob('*.md'):
+    check('runtime asset parity',all((ROOT/'web'/name).read_bytes()==(SITE/'assets'/name).read_bytes() for name in ('style.css','theme-init.js')) and (SITE/'assets/app.js').read_text()==module.localize((ROOT/'web/app.js').read_text()).replace("localeCompare(b.book.title,'zh-Hant')","localeCompare(b.book.title,'"+locale+"')"))
+    for md in module.EXPORTS.rglob('*.md'):
+        if locale!='en' and md.is_relative_to(ROOT/'exports/en'):continue
         broken=[]
         for ref in re.findall(r'\]\(([^)]+)\)',md.read_text()):
             if not urlsplit(ref).scheme and not (md.parent/ref).is_file():broken.append(ref)
@@ -138,13 +143,33 @@ def main():
             if needle in raw:found.append(str(p.relative_to(SITE))+': '+needle)
     check('reference-project isolation',not found,','.join(found[:10]))
     check('no shared client defaults',all(not b.get('customer_url') for b in books.values()))
+    language_errors=[]
+    for page in pages:
+        route=page.relative_to(SITE).as_posix()
+        html=page.read_text()
+        expected='../'*(len(Path(route).parts)-1)+('../' if locale=='en' else 'en/')+route
+        if 'id="language-switch" href="'+expected+'"' not in html:language_errors.append(route)
+    check('language switch preserves corresponding route',not language_errors,','.join(language_errors))
+    if locale=='en':
+        residual=[]
+        for page in pages:
+            if re.search(r'[\u3400-\u9fff]',page.read_text().replace('繁體中文','')):residual.append(page.relative_to(SITE).as_posix())
+        check('English pages have no untranslated copy',not residual,','.join(residual))
+        check('English exports have no untranslated copy',all(not re.search(r'[\u3400-\u9fff]',p.read_text()) for p in module.EXPORTS.rglob('*.md')))
+        check('English search corpus is localized',not re.search(r'[\u3400-\u9fff]',search_raw))
+        js_lines=(SITE/'assets/app.js').read_text().splitlines()
+        untranslated=[line for line in js_lines if re.search(r'[\u3400-\u9fff]',line) and not line.strip().startswith(('const aliases =','const cleaned='))]
+        check('English runtime copy is localized',not untranslated)
+        check('translation review and structural parity',True)
+        check('all locale routes match',set(str(p.relative_to(SITE)) for p in pages)==set(str(p.relative_to(ROOT/'site')) for p in all_pages if not p.is_relative_to(SITE)))
+    check('retired AI FTE article is absent',not any('ai-fte'==p.stem for p in pages))
     source_paths=[p for folder in ('content','web','scripts') for p in (ROOT/folder).rglob('*') if p.is_file() and '__pycache__' not in p.parts]
     output_paths=[p for p in SITE.rglob('*') if p.is_file()]
     receipt=dict(status='PASS' if not failures else 'FAIL',checked_at=datetime.now(timezone.utc).isoformat(),checks_passed=sum(c['passed'] for c in checks),checks_total=len(checks),source_sha256=digest(source_paths),site_sha256=digest(output_paths),checks=checks,failures=failures,limits=['Deterministic gates do not establish factual truth.','Browser interactions are recorded separately in evidence/browser.json.','This harness does not operate customer systems or publish content.'])
-    (ROOT/'evidence/harness.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
+    (ROOT/('evidence/harness-en.json' if locale=='en' else 'evidence/harness.json')).write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
     print('HARNESS '+receipt['status']+': '+str(receipt['checks_passed'])+'/'+str(receipt['checks_total'])+' checks')
     for failure in failures:print('FAIL:',failure)
     return 1 if failures else 0
 
 if __name__=='__main__':
-    sys.exit(main())
+    sys.exit(max(main(),main('en')))

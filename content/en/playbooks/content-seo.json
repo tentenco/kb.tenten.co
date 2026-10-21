@@ -1,0 +1,66 @@
+{
+  "id": "content-seo",
+  "category": "search",
+  "title": "Content SEO: answer the right question",
+  "summary": "Build useful, verifiable pages that help buyers decide what to do next.",
+  "keywords": [
+    "content",
+    "keyword",
+    "search intent",
+    "internal links",
+    "SEO content",
+    "blog"
+  ],
+  "why": [
+    "Search traffic can become business only when the page answers the right question.",
+    "Clear page responsibilities reduce overlap and maintenance."
+  ],
+  "know": [
+    "Distinguish learning, comparison, purchasing and how-to intent before choosing a page type.",
+    "Give each main intent a primary page. Link supporting content to the relevant service or product.",
+    "Numbers, cases and expert claims need sources, dates and a reviewer. Address local questions in each language."
+  ],
+  "inputs": [
+    "Audience, products, services, markets and conversion goals",
+    "GSC, keyword and competitor data; existing content and publishable evidence"
+  ],
+  "actions": [
+    "Map query to intent, page and next action. Improve existing high-value pages first.",
+    "Draft the brief, structure, title, summary and internal links. Verify facts and overlapping intent.",
+    "Deliver drafts and sources for authorized channels. Keep a reviewable version when publishing is not authorized."
+  ],
+  "done": [
+    "The page answers its main question and sources support its claims.",
+    "Measure relevant queries, leads or revenue over a stated period."
+  ],
+  "pitfalls": [
+    "Producing thin pages that only swap keywords.",
+    "Assuming fluent AI copy has been fact-checked."
+  ],
+  "decision": "Agree on the article’s position, public claims and the reader’s next step.",
+  "sources": [
+    "google-ai",
+    "tenten-geo"
+  ],
+  "related": [
+    "brand-strategy",
+    "geo",
+    "measurement"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Content SEO answers questions people search for and helps them continue researching or take action.",
+    "when": "Use this for articles, service pages, comparisons or content attracting the wrong traffic.",
+    "example": {
+      "situation": "Someone searching for Shopify migration precautions needs risks and a preparation list.",
+      "lesson": "Answer that question before directing them to a service or another article."
+    },
+    "first_step": "Choose one buyer question and the decision the page should help them make.",
+    "point_titles": [
+      "Identify the task behind the query",
+      "Assign a primary page",
+      "Verify claims and examples"
+    ]
+  }
+}

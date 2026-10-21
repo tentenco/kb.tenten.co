@@ -1,0 +1,102 @@
+{
+  "id": "hosting-architecture",
+  "category": "operations",
+  "title": "Hosting, DNS, CDN and environments",
+  "summary": "Know who runs each service and how domains, applications, data and email connect.",
+  "keywords": [
+    "hosting",
+    "AWS",
+    "GCP",
+    "Azure",
+    "VPS",
+    "DNS",
+    "CDN",
+    "SSL",
+    "TLS"
+  ],
+  "why": [
+    "Hosting choices affect availability, cost, maintenance and recovery.",
+    "Understanding DNS dependencies prevents a website move from breaking email."
+  ],
+  "know": [
+    "Managed Shopify/Webflow hosting and self-managed VPS/cloud infrastructure have different responsibilities. Use the actual contract.",
+    "Separate registration, DNS, CDN, TLS, application and database layers when diagnosing problems.",
+    "Plan development, staging, production, data region, RTO/RPO, backups and monitoring. State assumptions in traffic and cost estimates."
+  ],
+  "inputs": [
+    "Architecture, traffic, data types and current DNS zone",
+    "Account owners, budget, SLA, backup and recovery needs"
+  ],
+  "actions": [
+    "Map architecture, DNS and dependencies; assign platform, Tenten and client responsibilities.",
+    "Compare managed and self-managed options, costs and scaling. Inspect CDN, TLS and persistence.",
+    "Deliver environment configuration, backup/recovery, monitoring and access handoff."
+  ],
+  "done": [
+    "Production DNS and TLS work; email MX/TXT records remain intact.",
+    "Restarting or rebuilding preserves persistent data; isolated restore evidence exists."
+  ],
+  "pitfalls": [
+    "Treating DNS TTL as a guarantee of an instant switch.",
+    "Backing up code without the database and media."
+  ],
+  "decision": "Agree on budget, availability, data location and maintenance ownership for each layer.",
+  "sources": [
+    "tenten-hosting",
+    "tenten-cms"
+  ],
+  "related": [
+    "launch",
+    "operations-security",
+    "platform-choice"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "A website depends on its domain, DNS, hosting, content and network services. Knowing the layers helps with selection and troubleshooting.",
+    "when": "Use this for hosting plans, domain changes or website/email connection problems.",
+    "example": {
+      "situation": "A website migration overwrites mail records and incoming email stops.",
+      "lesson": "Website and email records share a domain but need separate checks."
+    },
+    "first_step": "Map who manages the domain, DNS, website, data and email.",
+    "point_titles": [
+      "Check the hosting contract",
+      "Separate the layers",
+      "Plan environments and recovery"
+    ],
+    "terms": [
+      [
+        "DNS",
+        "Records that direct a domain to web, mail and other services."
+      ],
+      [
+        "CDN",
+        "Distributed servers that deliver content closer to users."
+      ],
+      [
+        "TLS",
+        "Encryption for connections between browser and website."
+      ]
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "From a URL to a page",
+      "nodes": [
+        [
+          "Domain and DNS",
+          "Locate the service"
+        ],
+        [
+          "CDN and host",
+          "Receive and process the request"
+        ],
+        [
+          "Application and content",
+          "Produce the page"
+        ]
+      ],
+      "caption": "A simplified request path. Platforms may combine layers; email has separate DNS records."
+    }
+  }
+}

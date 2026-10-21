@@ -1,0 +1,70 @@
+{
+  "id": "launch",
+  "category": "operations",
+  "title": "Website launch: readiness and cutover",
+  "summary": "Check SEO, transactions, tracking, DNS and recovery before launch.",
+  "keywords": [
+    "go live",
+    "launch",
+    "checklist",
+    "DNS",
+    "GA4",
+    "GSC",
+    "301"
+  ],
+  "why": [
+    "A launch is a system change; one missing dependency can interrupt traffic, transactions or data.",
+    "Clear go/no-go and recovery conditions help the team decide quickly."
+  ],
+  "know": [
+    "Cover functionality, content, SEO, measurement, privacy, DNS/TLS, performance, backups and ownership.",
+    "Inventory existing GA4/GSC first. Activate Ads/Meta for planned channels; check titles, descriptions and Open Graph separately.",
+    "Production needs its own checks for indexing, forms, payments and tracking even if preview worked."
+  ],
+  "inputs": [
+    "Approved version, domain, release window, decision owner and operations contacts",
+    "Acceptance, redirects, events, DNS, backup and recovery plans"
+  ],
+  "actions": [
+    "Build the go/no-go checklist; verify staging paths, SEO, tracking and required policies.",
+    "Inspect production DNS/TLS/email, sync, environment variables and monitoring; prepare a recoverable version.",
+    "Cut over within existing authorization. Remove production noindex or password restrictions only where appropriate.",
+    "Check representative URLs, orders/forms, events and GSC. Deliver a dated, versioned release record and monitoring plan."
+  ],
+  "done": [
+    "Production tasks work, old URLs map correctly and analytics events deduplicate.",
+    "No unintended staging restrictions remain; ownership is handed over and failed items have decisions."
+  ],
+  "pitfalls": [
+    "Removing protection from admin or preview content with the public site.",
+    "Testing only the homepage."
+  ],
+  "decision": "Use acceptance results to decide whether to launch and who can pause or recover.",
+  "sources": [
+    "owner-brief",
+    "google-migration",
+    "tenten-hosting",
+    "ga4-ecommerce"
+  ],
+  "related": [
+    "technical-seo",
+    "measurement",
+    "operations-security"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Launch moves an accepted version into production and verifies continuity for users, search engines and operations.",
+    "when": "Use this for a new site, redesign cutover or launch decision.",
+    "example": {
+      "situation": "A preview form works, but production lacks its receiving configuration.",
+      "lesson": "Recheck at the production URL after switching."
+    },
+    "first_step": "Mark required items passed, failed or awaiting a decision.",
+    "point_titles": [
+      "Check the whole system",
+      "Keep search and measurement connected",
+      "Verify production again"
+    ]
+  }
+}

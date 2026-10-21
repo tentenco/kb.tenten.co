@@ -1,0 +1,94 @@
+{
+  "id": "migration",
+  "category": "commerce",
+  "title": "Magento to Shopify migration",
+  "summary": "Preserve products, transactions, search and measurement through a tested cutover.",
+  "keywords": [
+    "Magento",
+    "Shopify",
+    "migration",
+    "Exxterra",
+    "XTERRA",
+    "301",
+    "redirect"
+  ],
+  "why": [
+    "URLs, search traffic and transaction records are assets; omissions interrupt revenue and operations.",
+    "Rehearsal and incremental sync expose risks while recovery remains manageable."
+  ],
+  "know": [
+    "Inventory URLs, traffic pages, products/variants, customers, orders, media, discounts and integrations.",
+    "Permanently redirect each old URL to its closest relevant page; return 404/410 when no replacement exists. For headless, test at the actual receiving route.",
+    "Do not assume passwords or logins transfer. Verify historical orders, gift cards and notification side effects separately."
+  ],
+  "inputs": [
+    "Old and target URLs, exports, traffic and URL inventory",
+    "Included/excluded data, SKU/ID maps and system write ownership",
+    "Cutover window, incremental data, decision owner and recovery conditions"
+  ],
+  "actions": [
+    "Create data mappings, URL/redirect lists, functional gaps and integration inventory.",
+    "Dry-run in a test environment. Reconcile SKUs, currencies, counts, relationships and media; isolate notification and tracking side effects.",
+    "Plan freezes/incremental sync, DNS, GSC, event deduplication and cutover.",
+    "Execute within authorization. Record last sync, cutover checks and recovery boundaries; monitor afterward."
+  ],
+  "done": [
+    "High-value old URLs reach relevant indexable pages in one hop, without loops or chains.",
+    "Product/order samples, shopping paths, analytics/ad events and consent have test evidence.",
+    "Recovery after new orders includes reconciliation, not just a DNS reversal."
+  ],
+  "pitfalls": [
+    "Changing positioning, URLs and platform together without a baseline.",
+    "Moving products while forgetting GSC, tracking, support or account activation."
+  ],
+  "decision": "Agree on data scope, acceptable downtime and recovery triggers.",
+  "sources": [
+    "owner-brief",
+    "google-migration",
+    "shopify-migration",
+    "tenten-shopify",
+    "xterra-repo",
+    "shopify-redirects"
+  ],
+  "related": [
+    "headless-commerce",
+    "ecommerce-launch",
+    "technical-seo",
+    "measurement"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Migration moves products, content, customer relationships and search entry points to a new system while preserving the jobs users need to do.",
+    "when": "Use this for Magento-to-Shopify or platform/URL-structure changes.",
+    "example": {
+      "situation": "An old search result points to a product page missing from the new store.",
+      "lesson": "Map and redirect the old URL to the relevant replacement."
+    },
+    "first_step": "Inventory the data and old URLs with the most traffic or revenue value.",
+    "point_titles": [
+      "Inventory the assets",
+      "Preserve useful entry points",
+      "Verify accounts and history"
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "Preserve an old search entry point",
+      "nodes": [
+        [
+          "Old product URL",
+          "Search result or existing link"
+        ],
+        [
+          "301 redirect",
+          "At the receiving routing layer"
+        ],
+        [
+          "New product page",
+          "Relevant content that opens correctly"
+        ]
+      ],
+      "caption": "Use a relevant replacement. Without one, return 404/410 as appropriate instead of redirecting everything home."
+    }
+  }
+}

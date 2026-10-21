@@ -1,0 +1,80 @@
+{
+  "id": "operations-security",
+  "category": "operations",
+  "title": "Operations, security and recovery",
+  "summary": "Detect failures, prove backups can restore and assign incident decisions.",
+  "keywords": [
+    "operations",
+    "security",
+    "backup",
+    "restore",
+    "incident",
+    "RTO",
+    "RPO",
+    "permissions",
+    "monitoring"
+  ],
+  "why": [
+    "A backup needs a tested recovery process.",
+    "Least privilege and separate environments limit the impact of mistakes and exposure."
+  ],
+  "know": [
+    "RTO is the acceptable recovery time; RPO is the acceptable data-loss window. Set both from business needs.",
+    "Use secure connections for accounts and secrets. Review and revoke staff, vendor and agent access.",
+    "Monitor availability, critical tasks, errors and backups. Check update compatibility and retain a recovery path."
+  ],
+  "inputs": [
+    "Systems, permissions, backup locations and recovery requirements",
+    "Incident owners, contacts, change windows and contractual responsibilities"
+  ],
+  "actions": [
+    "Check least privilege, retention and update procedures; record fixable risks.",
+    "Restore in isolation and measure recovery time and missing data.",
+    "Set monitoring thresholds, recipients and escalation owners. Test actual alert delivery.",
+    "Stabilize service and preserve evidence during incidents. Record the timeline, impact, repair and follow-up."
+  ],
+  "done": [
+    "Actual restore results exist; alerts reach the right on-call role.",
+    "Incidents and changes have versions, owners and traceable records without exposed secrets."
+  ],
+  "pitfalls": [
+    "Promising uncontracted 24/7 support or response SLAs.",
+    "Deleting incident records or restoring old data without reconciliation."
+  ],
+  "decision": "Agree on incident authority, communication and acceptable downtime and data loss.",
+  "sources": [
+    "tenten-hosting",
+    "owasp-agents"
+  ],
+  "related": [
+    "hosting-architecture",
+    "launch",
+    "fde"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Operations keeps services available. Incident preparation gives the team a way to detect, handle and recover from failures.",
+    "when": "Use this for hosting handoff, backups or recovery that currently depends on one person.",
+    "example": {
+      "situation": "Daily backups exist, but a failure reveals they cannot restore the data.",
+      "lesson": "Practice restoration before relying on a backup."
+    },
+    "first_step": "Decide acceptable downtime and data loss, then inspect the backups.",
+    "point_titles": [
+      "Set recovery targets",
+      "Review access",
+      "Make monitoring actionable"
+    ],
+    "terms": [
+      [
+        "RTO",
+        "The acceptable time to restore service."
+      ],
+      [
+        "RPO",
+        "The acceptable data-loss window."
+      ]
+    ]
+  }
+}

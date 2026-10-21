@@ -13,4 +13,14 @@
 
 .search-open{overflow:hidden}.js .draft-tools{display:flex}.js .packet-actions{display:flex}#copy-packet{min-width:172px}
 @media(max-width:760px){.js .draft-tools{display:block}}
-@media(pointer:coarse){.nav-link,.icon-button,.theme-control select,.search-trigger,.button,.text-link,.jump-links a,.reading-jump a,.toc a{min-height:48px}.icon-button{min-width:48px}}
+@media(pointer:coarse){.nav-link,.icon-button,.theme-control select,.language-switch,.search-trigger,.button,.text-link,.jump-links a,.reading-jump a,.toc a{min-height:48px}.icon-button{min-width:48px}}
+
+.language-switch{display:inline-flex;align-items:center;justify-content:center;min-height:40px;padding:0 10px;border:1px solid var(--line);border-radius:9px;font-size:.8rem;white-space:nowrap;text-decoration:none;color:var(--ink);transition:background-color .16s,border-color .16s}
+.language-switch:hover{background:var(--hover)}
+html[lang="en"] .sidebar .nav-link{line-height:1.45}
+html[lang="en"] .hero h1{font-size:clamp(2.25rem,4vw,4.2rem);letter-spacing:-.045em}
+html[lang="en"] .start-here h2{font-size:1.65rem;line-height:1.25}
+@media(max-width:760px){.top-tools{gap:6px}.language-switch{padding:0 8px;font-size:.75rem}html[lang="en"] .hero h1{font-size:2.65rem}}
+
+.language-short{display:none}
+@media(max-width:360px){.language-name{display:none}.language-short{display:inline}.language-switch{min-width:36px;padding-inline:7px}.mobile-brand{flex-shrink:0}.theme-control select{width:72px;padding-inline:8px}.top-tools .icon-button,.top-tools .search-trigger{min-width:40px;width:40px}}

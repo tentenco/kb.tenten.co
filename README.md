@@ -1,6 +1,6 @@
 # Tenten Knowledge Base
 
-Tenten 內部的精簡工作知識庫，以人類快速找到、看懂並開始執行為優先。32 篇短文件、8 個業務領域、11 組工作指南、7 條閱讀路徑。
+Tenten 內部的繁體中文／英文工作知識庫，以人類快速找到、看懂並開始執行為優先。每個語系包含 32 篇短文件、8 個業務領域、11 組工作指南、7 條閱讀路徑。
 
 先看概念、原因和例子，再往下看做法與完成標準。需要交接時，可帶走完整知識與專案脈絡。介面與搜尋不需要 API key 或外部服務。
 
@@ -100,3 +100,13 @@ Python 使用標準函式庫；Node 只用於 JavaScript 語法檢查。修改 c
 - 網站根目錄是建置後的 site/，不是 repository 根目錄。若部署顯示 Ready 但首頁 404，先確認輸出目錄與實際部署 commit。
 - 只發佈 site/，原始研究、scripts/、驗證截圖等不作為網站路由。既有 GitHub repository 的可見範圍另行管理。
 - 正式環境網址依 Vercel Domains 設定；專案名稱不會自動綁定同名自訂網域。部署修復不改變既有存取保護設定。
+
+
+## 英文版與語系維護
+
+- 中文：https://kb.tenten.co/ ；英文：https://kb.tenten.co/en/ 。右上角切換語系會開啟對應頁面，保留搜尋條件與文章段落。各語系的站內連結與下載維持該語系。
+- 英文內容在 content/en/，保留中文相同的文章、來源與閱讀順序。介面文案在 content/en/ui.json，建置時輸出，不依賴即時翻譯服務。
+- 英文依指定 Humanizer skill 以簡短、直接、適合參考文件的語氣改寫；保留技術名稱、事件欄位、數字與適用限制。
+- 更新中文內容後，先逐項檢查英文，再更新 content/en/manifest.json 的來源 SHA-256。建置會拒絕尚未檢查的來源變更、遺漏欄位或引用不一致。
+- build.py 一次產生 114 頁。harness.py 分別檢查兩個語系，另查語系路由、未翻譯文字、搜尋與匯出一致性。英文正文上限 500 words、導讀 140 words；中文仍為 1400／450 字元。
+- 最新英文驗證見 evidence/harness-en.json、locale-mobile.json、locale-browser.json 與 locale-editorial.json。前面單語版與舊產品驗證數字保留作為歷史紀錄。

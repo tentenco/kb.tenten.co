@@ -1,0 +1,347 @@
+{
+  "viewport": 390,
+  "results": [
+    {
+      "route": "/en/about.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/ai.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/build.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/commerce.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/design.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/growth.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/operations.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/search.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/categories/start.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/index.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/library.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/paths.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/agent-workflow.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/ai-consulting.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/automation-integration.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/brand-strategy.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/cms-content.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/commerce-merchandising.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/commerce-service.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/content-seo.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/design-system.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/development-quality.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/ecommerce-growth.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/ecommerce-launch.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/fde.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/ga4-commerce.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/geo.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/google-commerce.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/headless-commerce.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/hosting-architecture.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/klaviyo.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/launch.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/lifecycle-crm.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/measurement.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/meta-tracking.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/migration.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/operations-security.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/paid-media.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/platform-choice.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/project-brief.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/shopify-foundation.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/technical-seo.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/tenten-context.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/playbooks/ux-conversion.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/ai-workflow.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/brand-system.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/commerce-ecosystem.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/ecommerce-launch.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/growth.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/launch.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/migration.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/operations.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/retention.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/seo-geo.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/scenarios/website.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/search.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "route": "/en/sources.html",
+      "width": 390,
+      "scroll": 390,
+      "overflow": false
+    }
+  ]
+}

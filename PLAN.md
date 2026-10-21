@@ -97,3 +97,12 @@ Completed: research, authoring, static build, improvement waves, browser verific
 - Updated category, guide, reading path, source scope and exports. Old article/download URLs redirect to the FDE equivalents on Vercel.
 - Build and 170 harness checks passed; browser confirmed article, FDE quick search and guide packet.
 - Next queued task: full English locale with Humanizer prose review, followed by bilingual runtime verification and deployment.
+
+
+## English locale
+
+- Added 32 English cards, 11 guides, 8 categories, 7 paths and English source scopes. Applied the requested blader/humanizer skill to concise reference prose.
+- Added corresponding-page language links, local English search, runtime feedback, diagrams, handoff packets and Markdown exports. No translation service is required.
+- Added source-review fingerprints and structural parity checks; retained the existing Chinese checks and added equivalent English checks.
+- Local browser checks: English natural-language search, both-direction article/anchor switches, query/filter preservation, real Markdown download equality, draft reload/clear/undo and mobile navigation passed. All 57 English routes fit 390px; the 320px homepage also fits.
+- Next: final rebuilt artifacts, CI and production verification. Queue otherwise empty.

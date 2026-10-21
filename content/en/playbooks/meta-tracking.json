@@ -1,0 +1,109 @@
+{
+  "id": "meta-tracking",
+  "category": "growth",
+  "title": "Meta Pixel, CAPI and deduplication",
+  "summary": "Report real purchases without counting browser and server copies twice.",
+  "keywords": [
+    "Meta",
+    "Facebook",
+    "Instagram",
+    "Pixel",
+    "CAPI",
+    "Conversions API",
+    "event_id",
+    "eventID",
+    "ad tracking"
+  ],
+  "why": [
+    "Valid purchase events support ad learning and evaluation.",
+    "Browser and server tracking complement each other, but duplicate purchases inflate ROAS."
+  ],
+  "know": [
+    "Pixel sends browser events; CAPI sends server events. Neither is an SEO meta or Open Graph tag.",
+    "The core path includes ViewContent, AddToCart, InitiateCheckout and Purchase. Keep value, currency and product IDs consistent.",
+    "For the same event, match event_name and use the browser eventID as the server event_id. Reuse a stable ID for that action.",
+    "Shopify’s official Meta channel covers some events. Verify custom headless storefront coverage separately.",
+    "CAPI still requires appropriate consent. Sharing levels, customer data and purposes must follow approved rules."
+  ],
+  "inputs": [
+    "Existing business/ad accounts, Pixel/dataset, catalog and access",
+    "Event ownership, product ID mappings, consent rules and test orders"
+  ],
+  "actions": [
+    "Inspect official channels, GTM, code and server senders. Assign clear event ownership.",
+    "Configure supported APIs/native integrations within authorization. Match content_ids to the catalog.",
+    "Use Test Events and diagnostics for purchases, rejected consent, reloads and retries. Inspect browser/server pairing.",
+    "Deliver de-identified payloads, timestamps, matched IDs and order-value reconciliation; list uncovered paths."
+  ],
+  "done": [
+    "One test purchase becomes one valid conversion, with evidence of browser/server pairing.",
+    "Rejected sharing follows approved rules; events reveal no extra customer data."
+  ],
+  "pitfalls": [
+    "Duplicating sends from the official app and manual Pixel.",
+    "Generating a new event_id on each retry or relying only on Pixel Helper."
+  ],
+  "decision": "Agree on data sharing and channel use. Tracking setup and ad activation are separate decisions.",
+  "sources": [
+    "shopify-meta",
+    "meta-dedup",
+    "shopify-privacy"
+  ],
+  "related": [
+    "measurement",
+    "ga4-commerce",
+    "headless-commerce",
+    "paid-media"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Meta tracking reports purchases to Facebook and Instagram advertising. Pixel sends from the browser; CAPI sends from the server.",
+    "when": "Use this before Meta campaigns or when purchase totals look wrong.",
+    "example": {
+      "situation": "Pixel and CAPI report one purchase without a shared identifier.",
+      "lesson": "Match the reports to prevent counting it twice."
+    },
+    "first_step": "Inventory Pixel, CAPI and official integrations; identify each sender.",
+    "point_titles": [
+      "Understand both senders",
+      "Connect shopping actions",
+      "Match event identity",
+      "Check custom storefronts",
+      "Respect consent"
+    ],
+    "terms": [
+      [
+        "Pixel",
+        "Browser code that records and sends events."
+      ],
+      [
+        "CAPI",
+        "Conversions API for sending server events."
+      ],
+      [
+        "Deduplication",
+        "Recognizing multiple reports of one action."
+      ]
+    ],
+    "diagram": {
+      "kind": "merge",
+      "title": "Two reports, one purchase",
+      "nodes": [
+        [
+          "Browser Pixel",
+          "Event name and eventID"
+        ],
+        [
+          "Server CAPI",
+          "Same name and event_id"
+        ],
+        [
+          "Meta",
+          "Recognizes one purchase"
+        ]
+      ],
+      "caption": "Use the same identifier and verify actual deduplication in the platform."
+    }
+  }
+}

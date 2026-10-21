@@ -1,0 +1,113 @@
+{
+  "id": "measurement",
+  "category": "growth",
+  "title": "Launch measurement: GA4, GSC, Google Ads and Meta",
+  "summary": "Decide what to measure, then connect traffic, behavior and transaction data.",
+  "keywords": [
+    "GA4",
+    "Google Search Console",
+    "GSC",
+    "GTM",
+    "Google Ads",
+    "Meta Pixel",
+    "CAPI",
+    "meta tag",
+    "tracking",
+    "consent"
+  ],
+  "why": [
+    "Reliable measurement shows whether traffic and campaigns produce results.",
+    "Duplicate purchases, wrong currencies and consent errors distort bidding and decisions."
+  ],
+  "know": [
+    "GA4 covers behavior, GSC covers Google search and indexing, and Ads/Meta cover campaigns and conversions. Attribution differs.",
+    "SEO titles/descriptions, Open Graph tags and Meta Pixel serve different purposes. GTM is an optional deployment tool.",
+    "Define ecommerce triggers, transaction_id, items, value and currency. Do not send personal data indiscriminately to analytics."
+  ],
+  "inputs": [
+    "Existing analytics, search, tag-manager and ad-account IDs with authorized connections",
+    "Events, purchase definition, data sources, test orders and market privacy requirements"
+  ],
+  "actions": [
+    "Inventory native apps, theme code, GTM and server implementations; assign event ownership.",
+    "Include GA4, GSC, Ads and Meta in the baseline review. Connect planned channels and document why others do not apply.",
+    "Test consent acceptance/rejection, purchase, refund and reloads. Match Meta event_name and event_id across Pixel/CAPI.",
+    "Compare DebugView/platform test events to orders. Keep payload, timing and deduplication evidence; explain attribution differences."
+  ],
+  "done": [
+    "One test order creates one valid purchase with matching value and currency.",
+    "Consent behavior follows approved rules; reports expose no personal data."
+  ],
+  "pitfalls": [
+    "Checking only that a tag loads.",
+    "Creating a new property and breaking historical continuity."
+  ],
+  "decision": "Agree on outcome events, data collection and consent rules.",
+  "sources": [
+    "owner-brief",
+    "ga4-ecommerce",
+    "shopify-privacy",
+    "tenten-shopify",
+    "meta-dedup",
+    "shopify-meta"
+  ],
+  "related": [
+    "ga4-commerce",
+    "meta-tracking",
+    "google-commerce",
+    "ecommerce-launch"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Measurement turns website behavior into evidence. GA4, GSC and ad platforms answer different questions.",
+    "when": "Use this at launch, before campaigns or to investigate traffic and conversion.",
+    "example": {
+      "situation": "GSC shows more search clicks while GA4 shows visitors leaving product pages.",
+      "lesson": "One describes discovery; the other helps locate problems after arrival."
+    },
+    "first_step": "List three business questions before choosing events.",
+    "point_titles": [
+      "Know each tool’s purpose",
+      "Distinguish tags and tracking",
+      "Use consistent event definitions"
+    ],
+    "terms": [
+      [
+        "GA4",
+        "Google Analytics 4 measures onsite behavior and conversions."
+      ],
+      [
+        "GSC",
+        "Google Search Console covers search impressions, clicks and indexing."
+      ],
+      [
+        "GTM",
+        "Google Tag Manager manages tracking tags."
+      ]
+    ],
+    "diagram": {
+      "kind": "map",
+      "title": "Which tool answers the question?",
+      "nodes": [
+        [
+          "GSC",
+          "Are people finding and clicking search results?"
+        ],
+        [
+          "GA4",
+          "What happens after arrival?"
+        ],
+        [
+          "Google Ads",
+          "What do Google campaigns produce?"
+        ],
+        [
+          "Meta",
+          "What do Facebook and Instagram campaigns produce?"
+        ]
+      ],
+      "caption": "Choose events from the questions you need answered. Attribution differs across platforms."
+    }
+  }
+}

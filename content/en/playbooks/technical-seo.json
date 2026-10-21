@@ -1,0 +1,83 @@
+{
+  "id": "technical-seo",
+  "category": "search",
+  "title": "Technical SEO and permanent redirects",
+  "summary": "Help search engines reach the right pages and preserve existing search entry points.",
+  "keywords": [
+    "SEO",
+    "301 redirect",
+    "canonical",
+    "sitemap",
+    "robots",
+    "GSC",
+    "hreflang",
+    "indexing"
+  ],
+  "why": [
+    "Unreachable pages or ambiguous URLs limit organic visibility.",
+    "Migration mapping and monitoring reduce omissions and diagnosis effort; rankings may still fluctuate."
+  ],
+  "know": [
+    "Robots rules control crawling. Noindex controls indexing and must be readable by the crawler. Canonical suggests the main version.",
+    "Sitemaps should contain canonical, indexable URLs. Check hreflang, self-canonicals and reciprocal language links.",
+    "Use 301/308 for permanent moves with the closest relevant mapping. Google recommends keeping redirects for at least a year, and longer when possible."
+  ],
+  "inputs": [
+    "Production/old URLs, GSC, traffic and internal-link inventories",
+    "Indexing scope, markets/languages, platform and DNS/CDN limits"
+  ],
+  "actions": [
+    "Crawl status codes, indexing directives, canonicals, internal links, sitemaps and structured data.",
+    "Map old to new URLs. Verify one-hop permanent redirects, 200 destinations and no loops.",
+    "Fix internal links, metadata and sitemaps. Submit to the authorized GSC property and inspect sample URLs.",
+    "Consider Change of Address for domain moves. Monitor indexing, traffic and 404s before and after."
+  ],
+  "done": [
+    "Important pages are crawlable and indexable. Staging has access protection beyond robots.",
+    "Redirects, canonicals, hreflang and sitemaps agree; monitoring has dates."
+  ],
+  "pitfalls": [
+    "Redirecting every 404 to the homepage, creating soft 404s.",
+    "Assuming sitemap submission guarantees indexing or ranking."
+  ],
+  "decision": "Decide which content to keep, merge or retire before assigning URLs and redirects.",
+  "sources": [
+    "google-migration",
+    "google-ai"
+  ],
+  "related": [
+    "migration",
+    "content-seo",
+    "geo"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Technical SEO helps search engines find and index the right pages. Permanent redirects connect old URLs to new locations.",
+    "when": "Use this for launches, URL changes, traffic drops or missing indexed pages.",
+    "example": {
+      "situation": "Production inherits staging’s noindex directive.",
+      "lesson": "Remove indexing restrictions only in the intended environment."
+    },
+    "first_step": "Check whether the homepage and one important product page can be crawled and indexed.",
+    "point_titles": [
+      "Distinguish crawling and indexing",
+      "Clarify site and language structure",
+      "Keep relevant redirects"
+    ],
+    "terms": [
+      [
+        "Index",
+        "Page information a search engine stores for search results."
+      ],
+      [
+        "Canonical",
+        "The suggested main URL among similar pages."
+      ],
+      [
+        "301 redirect",
+        "A permanent move from an old URL to a new one."
+      ]
+    ]
+  }
+}

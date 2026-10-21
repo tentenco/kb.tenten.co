@@ -1,0 +1,112 @@
+{
+  "id": "ga4-commerce",
+  "category": "growth",
+  "title": "GA4 ecommerce events and conversion rates",
+  "summary": "Connect product views, carts, checkouts and purchases into a funnel you can reconcile.",
+  "keywords": [
+    "GA4",
+    "conversion rate",
+    "CVR",
+    "purchase",
+    "refund",
+    "event",
+    "DebugView",
+    "funnel"
+  ],
+  "why": [
+    "Funnel losses show whether to improve the product page, cart or checkout.",
+    "Inconsistent denominators, amounts and events lead to conflicting conclusions."
+  ],
+  "know": [
+    "Core events include view_item_list/select_item, view_item, add_to_cart, begin_checkout, purchase and refund. Add shipping and payment events as needed.",
+    "Define triggers, item_id, items, value and currency. Use a stable transaction_id to match purchases and refunds to orders.",
+    "Purchase session conversion rate is sessions with a purchase divided by all sessions in the same scope. Orders per session and all-key-event rate differ.",
+    "If 100 of 10,000 sessions include a purchase, the rate is 1%. Align time zone, device, market, period and consent coverage.",
+    "GA4, Shopify and Ads have different attribution and tracking limits. Order accounting is the transaction baseline; reports need not match exactly."
+  ],
+  "inputs": [
+    "Property, data stream, event sources and test environment",
+    "Product/variant ID mappings, tax and shipping value rules, de-identified test orders"
+  ],
+  "actions": [
+    "Define one sender per event and parameter. Check native integrations and gaps between custom storefront and hosted checkout.",
+    "Verify cross-domain source continuity; avoid self or payment-provider referrals. Do not send personal data such as email to analytics.",
+    "Check event order, values and currencies in DebugView, requests and reports. Test reloads, failed payments, refunds and consent.",
+    "Deliver a funnel and metric dictionary with numerators, denominators, test exclusions and reasons for discrepancies."
+  ],
+  "done": [
+    "Reloads do not duplicate purchases; refunds match the original transaction.",
+    "Reports show funnels by channel/device and reproduce the agreed conversion rate."
+  ],
+  "pitfalls": [
+    "Sending purchase on a checkout-button click or failed payment.",
+    "Calling orders divided by users a session conversion rate."
+  ],
+  "decision": "Agree on purchase, revenue and conversion definitions.",
+  "sources": [
+    "ga4-ecommerce",
+    "shopify-customer-events",
+    "xterra-repo"
+  ],
+  "related": [
+    "measurement",
+    "meta-tracking",
+    "google-commerce",
+    "ecommerce-growth"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "GA4 records customer actions as events. Connecting views, carts, checkouts and purchases reveals the shopping funnel.",
+    "when": "Use this to inspect drop-offs, calculate conversion rates or verify purchase tracking.",
+    "example": {
+      "situation": "If 100 of 10,000 sessions contain a purchase, purchase session conversion is 1%.",
+      "lesson": "State the denominator before comparing rates."
+    },
+    "first_step": "Agree on what counts as a purchase and conversion before checking events.",
+    "point_titles": [
+      "Record shopping actions",
+      "Include reconciliation fields",
+      "Define the denominator",
+      "Compare the same scope",
+      "Account for platform differences"
+    ],
+    "terms": [
+      [
+        "Event",
+        "A recorded action, such as adding to cart."
+      ],
+      [
+        "Session",
+        "A group of interactions during one visit; a user can have several."
+      ],
+      [
+        "transaction_id",
+        "An order identifier used to recognize the same transaction."
+      ]
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "Connect the shopping journey",
+      "nodes": [
+        [
+          "View product",
+          "view_item"
+        ],
+        [
+          "Add to cart",
+          "add_to_cart"
+        ],
+        [
+          "Start checkout",
+          "begin_checkout"
+        ],
+        [
+          "Complete purchase",
+          "purchase"
+        ]
+      ],
+      "caption": "These are the main events. Failed payments do not count as purchases."
+    }
+  }
+}

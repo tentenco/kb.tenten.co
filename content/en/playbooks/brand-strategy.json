@@ -1,0 +1,88 @@
+{
+  "id": "brand-strategy",
+  "category": "design",
+  "title": "Brand positioning and messaging",
+  "summary": "Decide who you serve, what you solve and why someone should choose you.",
+  "keywords": [
+    "branding",
+    "positioning",
+    "voice",
+    "copy",
+    "message"
+  ],
+  "why": [
+    "Clear positioning keeps websites, ads and sales conversations consistent.",
+    "Evidence makes a claim specific and credible."
+  ],
+  "know": [
+    "Prioritize audiences and situations, then define the category, difference, evidence and main action.",
+    "Build messages around a core claim, supporting reasons, proof and buying-stage needs.",
+    "Give examples of tone. Adapt Chinese and English copy to their markets while keeping product facts consistent."
+  ],
+  "inputs": [
+    "Interviews, customer research and existing brand assets",
+    "Competitors, markets, product facts and publishable evidence",
+    "Target markets, prohibited claims and reviewer"
+  ],
+  "actions": [
+    "Compare audience problems and competitor claims. Separate facts, assumptions and interview questions.",
+    "Propose positioning options and tradeoffs, with website, ad and sales examples.",
+    "Deliver a one-page positioning brief, message hierarchy, tone guide and bilingual glossary."
+  ],
+  "done": [
+    "Claims have evidence; customer stories, numbers and certifications are accurate.",
+    "Messages share a position and offer the audience a suitable next step."
+  ],
+  "pitfalls": [
+    "Starting with logo preferences.",
+    "Treating translation as a market strategy."
+  ],
+  "decision": "Agree on positioning, primary messages and public commitments.",
+  "sources": [
+    "tenten-branding"
+  ],
+  "related": [
+    "design-system",
+    "ux-conversion",
+    "content-seo"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Positioning explains who you serve, what you solve and why people should choose you. Messaging makes those answers easy to understand.",
+    "when": "Use this for a new brand, homepage redesign or inconsistent team messaging.",
+    "example": {
+      "situation": "A homepage promises low prices, premium quality, speed and customization at once.",
+      "lesson": "Choose the main audience and promise, then support it with facts."
+    },
+    "first_step": "Write down your primary audience and their strongest reason to choose you.",
+    "point_titles": [
+      "Choose the audience",
+      "Support the claim",
+      "Show the tone in use"
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "How a message takes shape",
+      "nodes": [
+        [
+          "Audience",
+          "Who is choosing?"
+        ],
+        [
+          "Claim",
+          "What do we solve?"
+        ],
+        [
+          "Evidence",
+          "Why believe it?"
+        ],
+        [
+          "Action",
+          "What happens next?"
+        ]
+      ],
+      "caption": "Use the same core message across the website, presentations and ads."
+    }
+  }
+}

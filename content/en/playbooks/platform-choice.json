@@ -1,0 +1,68 @@
+{
+  "id": "platform-choice",
+  "category": "build",
+  "title": "Choosing Webflow, Shopify, WordPress or headless",
+  "summary": "Choose for content, transactions and operations, including long-term cost.",
+  "keywords": [
+    "Webflow",
+    "Shopify",
+    "WordPress",
+    "Next.js",
+    "headless",
+    "platform",
+    "architecture"
+  ],
+  "why": [
+    "The platform shapes editing efficiency, integration cost and maintenance.",
+    "Test difficult requirements early to uncover plan limitations."
+  ],
+  "know": [
+    "Consider Webflow for content marketing, Shopify for commerce and WordPress for existing ecosystem or plugin needs.",
+    "Multichannel content, complex integrations or permissions may justify headless/custom development, with more operational responsibility.",
+    "Compare content models, languages, SEO, integrations, portability and total cost. Verify capabilities against the current plan."
+  ],
+  "inputs": [
+    "Editing and transaction workflows, markets and permissions",
+    "Existing data, integrations, hosting, budget and maintenance capacity"
+  ],
+  "actions": [
+    "Build a requirements-by-platform matrix with limits, dependencies and exit options.",
+    "Run a small proof of concept for risky payments, search, preview or integrations.",
+    "Deliver the architecture decision, cost assumptions and handoff responsibilities."
+  ],
+  "done": [
+    "Recommendations trace to requirements; critical features have current documentation or proof-of-concept evidence.",
+    "Costs include dates, usage and plan assumptions. Do not purchase without authorization."
+  ],
+  "pitfalls": [
+    "Choosing a familiar tool without checking operations.",
+    "Assuming headless is always faster or cheaper."
+  ],
+  "decision": "Compare setup cost, maintenance and flexibility, then verify critical features.",
+  "sources": [
+    "tenten-development",
+    "tenten-cms",
+    "tenten-shopify"
+  ],
+  "related": [
+    "cms-content",
+    "shopify-foundation",
+    "hosting-architecture"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Platform choice balances content management, commerce, flexibility and maintenance against the work the website must do.",
+    "when": "Use this for a new site, platform limits or a custom-storefront decision.",
+    "example": {
+      "situation": "A site focused on frequent article updates may not need a complex custom system.",
+      "lesson": "List operational needs before paying for extra flexibility."
+    },
+    "first_step": "List essential features, maintainers and an affordable annual cost.",
+    "point_titles": [
+      "Compare by main use",
+      "Include custom maintenance",
+      "Compare total cost"
+    ]
+  }
+}

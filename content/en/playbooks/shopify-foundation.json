@@ -1,0 +1,79 @@
+{
+  "id": "shopify-foundation",
+  "category": "commerce",
+  "title": "Shopify setup: connect the operations",
+  "summary": "Define products, orders and market rules before themes and apps.",
+  "keywords": [
+    "Shopify",
+    "ecommerce",
+    "checkout",
+    "products",
+    "payments",
+    "shipping",
+    "tax",
+    "Markets"
+  ],
+  "why": [
+    "A finished storefront still needs correct payments, fulfillment and refunds.",
+    "Consistent data definitions reduce inventory, pricing and order errors."
+  ],
+  "know": [
+    "SKUs/variants identify sellable units. Assign sources of truth for products, inventory and orders; prevent conflicting ERP/3PL writes.",
+    "Markets determine language, currency, pricing, availability, tax, payment and shipping. The merchant’s specialists confirm tax and legal rules.",
+    "Use native features first. Verify checkout, API and Markets capabilities for the current plan before adding apps."
+  ],
+  "inputs": [
+    "Product samples, SKU/inventory sources, historical orders and customer needs",
+    "Markets, payment/shipping, returns, tax and operating owners"
+  ],
+  "actions": [
+    "Define product fields and a market matrix with field-level sources of truth.",
+    "Propose the theme, apps and integrations with costs, permissions and removal options.",
+    "Test payment success/failure, shipping/tax, discounts, stockouts, partial refunds/returns, restocking and notifications. Include excluded delivery addresses for bulky goods."
+  ],
+  "done": [
+    "Sample orders match approved amounts, currencies, shipping and tax rules.",
+    "Inventory, orders and events agree; test data does not enter reported production revenue."
+  ],
+  "pitfalls": [
+    "Treating successful tax configuration as legal compliance.",
+    "Adding overlapping apps without data ownership."
+  ],
+  "decision": "The merchant approves markets, policies, taxes and costs; tests must match those rules.",
+  "sources": [
+    "tenten-shopify",
+    "shopify-migration"
+  ],
+  "related": [
+    "ecommerce-launch",
+    "migration",
+    "commerce-service",
+    "commerce-merchandising"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Shopify manages commerce operations: products, orders, payments and inventory. Setup must establish how each transaction is handled.",
+    "when": "Use this for new stores, store handoffs, new markets or logistics integrations.",
+    "example": {
+      "situation": "A customer pays successfully, but shipping cost and inventory are wrong.",
+      "lesson": "Test product, pricing, payment, logistics and inventory rules together."
+    },
+    "first_step": "Trace a representative product from listing through shipping and refund.",
+    "point_titles": [
+      "Assign product and stock ownership",
+      "Define market rules",
+      "Check native features first"
+    ],
+    "terms": [
+      [
+        "SKU",
+        "An internal code for a sellable item."
+      ],
+      [
+        "Variant",
+        "A specific product option combination, such as size and color."
+      ]
+    ]
+  }
+}

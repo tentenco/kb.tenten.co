@@ -1,0 +1,82 @@
+[
+  {
+    "id": "first-day",
+    "title": "Your first day",
+    "summary": "Understand the business, delivery workflow and launch basics.",
+    "ids": [
+      "tenten-context",
+      "project-brief",
+      "agent-workflow",
+      "launch"
+    ]
+  },
+  {
+    "id": "consultant",
+    "title": "Project managers and consultants",
+    "summary": "Connect goals, scope, platform choice and acceptance.",
+    "ids": [
+      "project-brief",
+      "platform-choice",
+      "measurement",
+      "ai-consulting"
+    ]
+  },
+  {
+    "id": "designer",
+    "title": "Brand and design",
+    "summary": "Move from positioning to experience and reusable rules.",
+    "ids": [
+      "brand-strategy",
+      "ux-conversion",
+      "design-system",
+      "cms-content"
+    ]
+  },
+  {
+    "id": "delivery",
+    "title": "Development and commerce delivery",
+    "summary": "A suggested path for Sally: architecture, migration and launch acceptance.",
+    "ids": [
+      "shopify-foundation",
+      "headless-commerce",
+      "migration",
+      "ecommerce-launch",
+      "launch"
+    ]
+  },
+  {
+    "id": "marketer",
+    "title": "Marketing and search",
+    "summary": "Connect measurement, search and content to useful conversions.",
+    "ids": [
+      "measurement",
+      "technical-seo",
+      "content-seo",
+      "geo",
+      "paid-media"
+    ]
+  },
+  {
+    "id": "ai-operator",
+    "title": "AI and automation",
+    "summary": "Evaluate the problem, integrate systems and assign operating responsibility.",
+    "ids": [
+      "agent-workflow",
+      "ai-consulting",
+      "automation-integration",
+      "fde"
+    ]
+  },
+  {
+    "id": "commerce-operator",
+    "title": "Commerce operations / Sherry’s reading path",
+    "summary": "Understand how product selection, email and after-sales connect.",
+    "ids": [
+      "commerce-merchandising",
+      "klaviyo",
+      "commerce-service",
+      "lifecycle-crm",
+      "ecommerce-growth"
+    ]
+  }
+]

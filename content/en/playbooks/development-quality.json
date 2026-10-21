@@ -1,0 +1,69 @@
+{
+  "id": "development-quality",
+  "category": "build",
+  "title": "Development delivery and quality",
+  "summary": "Deliver working software that others can test and maintain.",
+  "keywords": [
+    "development",
+    "QA",
+    "Git",
+    "testing",
+    "performance",
+    "accessibility",
+    "CI"
+  ],
+  "why": [
+    "Early workflow and integration checks reduce failures after launch.",
+    "Reproducible builds and handoffs let someone besides the original developer maintain the product."
+  ],
+  "know": [
+    "Acceptance covers main paths, errors, permissions, compatibility, SEO and performance.",
+    "Use real-user data for Core Web Vitals. Lab scores help diagnose issues but do not establish field performance.",
+    "Separate development, staging and production. Keep secrets out of frontend code, repositories and test records."
+  ],
+  "inputs": [
+    "Approved requirements, prototypes, content, supported devices and browsers",
+    "Repository, API contracts, test environment and acceptance criteria"
+  ],
+  "actions": [
+    "Read project rules and inspect the current implementation. Make the smallest suitable change.",
+    "Run checks appropriate to the risk. Verify data, permissions and main user paths.",
+    "Check mobile, keyboard use, performance and indexing; fix related failures.",
+    "Deliver a buildable version, running instructions, test evidence and known limits."
+  ],
+  "done": [
+    "A clean environment can build the project; main paths have observed results.",
+    "Changes are reviewable and recoverable. List checks that were not run."
+  ],
+  "pitfalls": [
+    "Treating a passing build as functional verification.",
+    "Mocking every dependency and claiming the integration works."
+  ],
+  "decision": "Agree on acceptance and remaining risks. Fix issues that block main tasks.",
+  "sources": [
+    "tenten-development",
+    "web-vitals",
+    "wcag"
+  ],
+  "related": [
+    "launch",
+    "operations-security",
+    "ux-conversion"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Development is complete when users can finish their main tasks, understand failures and get help, and another maintainer can take over.",
+    "when": "Use this for website acceptance, code handoff or recurring defects.",
+    "example": {
+      "situation": "The homepage works, but a failed payment produces no message.",
+      "lesson": "Test failure paths as well as normal screens."
+    },
+    "first_step": "List the three most important tasks and how each can fail.",
+    "point_titles": [
+      "Check the whole journey",
+      "Measure actual performance",
+      "Separate test and production"
+    ]
+  }
+}

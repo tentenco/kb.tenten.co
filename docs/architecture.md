@@ -48,3 +48,14 @@ The user explicitly requested more ecommerce/Shopify ecosystem documents after t
 - Keyboard quick search uses a native modal dialog. Focus returns to the trigger; mobile navigation traps focus with an inert background. Search defers during IME composition, batches updates and highlights text through safe nodes.
 - Page state is tab-scoped, keyed by pathname, bounded to 20 pages. Reload/back restores an immutable initial snapshot after load; explicit hashes take precedence. Details remain native HTML for no-JS reading.
 - Shared design/interaction acceptance rules: docs/product-experience.md. GitHub validation rebuilds content, runs the harness and JS syntax checks, and checks generated files; it does not deploy.
+
+
+## Bilingual delivery
+
+- Traditional Chinese remains at the site root; English lives under en/. Both have 32 cards, 11 guides, 8 categories and 7 reading paths, with 57 HTML routes each.
+- content/en mirrors canonical content. IDs, references, source URLs, dates, diagram structures and bullet counts must match. Keywords can be adapted to English search.
+- content/en/manifest.json records reviewed Chinese source hashes. Changed source content fails the build until its English counterpart is reviewed and the manifest is updated.
+- scripts/i18n.py applies the explicit UI catalog at build time. Longest literal matches take priority; no translation API runs in the browser. The harness rejects untranslated English HTML, exports, search data and runtime copy, except intentional search aliases and the Traditional Chinese switch label.
+- Each locale has its own search corpus, packet payloads and exports. Shared JavaScript behavior is compiled with localized strings. Assets stay local and file URLs remain supported.
+- The language link maps the same route and retains query parameters and fragments when JavaScript is available. The static fallback preserves the route. Navigation keeps the selected locale without forced redirects. Drafts remain per-page; theme settings apply across locales.
+- Compactness uses language-appropriate units: Chinese core/reader budgets remain 1400/450 characters; English budgets are 500/140 words. These limits govern reading length, not translation quality or factual accuracy.

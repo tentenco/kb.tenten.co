@@ -1,0 +1,3786 @@
+{
+  "books": [
+    {
+      "id": "tenten-context",
+      "category": "start",
+      "title": "What Tenten does",
+      "summary": "Understand how branding, websites, marketing and AI fit into a project.",
+      "keywords": [
+        "onboarding",
+        "company",
+        "services",
+        "digital consultant",
+        "Tenten"
+      ],
+      "why": [
+        "Clients need a solved problem and accountable delivery; the website is one part.",
+        "Shared briefs, decisions and acceptance reduce gaps between strategy, design and development."
+      ],
+      "know": [
+        "Public services cover branding, design/development, digital transformation, SEO/GEO, Shopify, CMS and hosting. AI work includes workflows and enterprise knowledge systems.",
+        "Connect audience, content/experience, systems/data and post-launch measurement in each project.",
+        "This library provides suggested practices. Prices, SLAs and commitments come from the project agreement, not assumptions about the website."
+      ],
+      "inputs": [
+        "Client goals, audience and current problems",
+        "Service scope, existing systems, delivery and operating owners"
+      ],
+      "actions": [
+        "Map needs to services and outcomes; show data, system and team handoffs.",
+        "Identify missing business decisions, assumptions, constraints and independent work.",
+        "Create a one-page brief, deliverable list and acceptance plan, then choose relevant articles."
+      ],
+      "done": [
+        "Each deliverable supports a goal and has an owner.",
+        "Commitments have contractual or client confirmation; unknowns are explicit."
+      ],
+      "pitfalls": [
+        "Using a tool name as the client’s goal.",
+        "Presenting general advice as existing policy or a proven client result."
+      ],
+      "decision": "Confirm business goals, commitments and priorities; understand who your work affects.",
+      "sources": [
+        "tenten-home",
+        "tenten-development",
+        "tenten-consulting",
+        "tenten-ai"
+      ],
+      "related": [
+        "project-brief",
+        "agent-workflow",
+        "ai-consulting"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Tenten turns business problems into brands, websites, marketing and AI workflows. Work in one area usually affects the others.",
+        "when": "Use this when joining the team or explaining a project to a client.",
+        "example": {
+          "situation": "A redesign request may come from unclear products, too few inquiries or slow content updates.",
+          "lesson": "Ask which outcome the client wants to improve before choosing services."
+        },
+        "first_step": "Write one sentence: who does this project help, and what problem does it improve?",
+        "point_titles": [
+          "Know the service areas",
+          "Connect the work",
+          "Use the agreed project scope"
+        ]
+      }
+    },
+    {
+      "id": "project-brief",
+      "category": "start",
+      "title": "Project kickoff and digital consulting",
+      "summary": "Put the problem, constraints and decisions on one page before building.",
+      "keywords": [
+        "brief",
+        "requirements",
+        "consulting",
+        "discovery",
+        "scope",
+        "KPI",
+        "acceptance"
+      ],
+      "why": [
+        "A clear business problem prevents extra features that change no outcomes.",
+        "Deliverables and acceptance criteria make scope and cost easier to manage."
+      ],
+      "know": [
+        "Give goals a baseline, target and observation period. Establish a baseline when data is missing.",
+        "Separate essentials, deferred work and exclusions. Record dependencies, risks and change decisions.",
+        "Digital consulting connects people, processes, data and systems."
+      ],
+      "inputs": [
+        "Business goals, audience, current workflow and problems",
+        "Budget range, timeline, contracts and systems",
+        "Decision makers, data owners and handoff recipients"
+      ],
+      "actions": [
+        "Read existing documents and data; map the current work and repetition.",
+        "Compare problems, options, benefit, cost and assumptions. Propose the smallest useful validation.",
+        "Define scope, responsibilities, milestones, acceptance and a change log."
+      ],
+      "done": [
+        "Each essential requirement has an artifact, acceptance owner and observable condition.",
+        "Uncertainties have a verification path; unresolved dependencies constrain date commitments."
+      ],
+      "pitfalls": [
+        "Inventing a revenue-improvement percentage.",
+        "Estimating exploratory work as fixed delivery."
+      ],
+      "decision": "Agree on scope, budget and success criteria.",
+      "sources": [
+        "tenten-consulting",
+        "tenten-development"
+      ],
+      "related": [
+        "platform-choice",
+        "ai-consulting",
+        "launch"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "A project brief gives everyone the same starting point: the problem, expected result and exclusions.",
+        "when": "Use this at kickoff, when scope changes or when definitions of done differ.",
+        "example": {
+          "situation": "A client asks for a more polished website; design and marketing interpret it differently.",
+          "lesson": "Define an outcome people can discuss, such as helping buyers understand the service and inquire."
+        },
+        "first_step": "List the audience, current problem, desired result and constraints.",
+        "point_titles": [
+          "Make goals observable",
+          "Define the scope",
+          "Consider the whole workflow"
+        ]
+      }
+    },
+    {
+      "id": "agent-workflow",
+      "category": "start",
+      "title": "Working with agents",
+      "summary": "Give the agent enough context, access and acceptance criteria to finish the work.",
+      "keywords": [
+        "Agent",
+        "AI native",
+        "handoff",
+        "automation",
+        "MCP",
+        "CLI",
+        "API"
+      ],
+      "why": [
+        "Clear inputs and a definition of done reduce repeated questions.",
+        "Evidence lets the next person check the result and take over."
+      ],
+      "know": [
+        "Understand the goal, inspect the current state, build a reviewable version, verify it, then deliver.",
+        "Prefer APIs, CLIs, MCP and scripted batch work. Report specific gaps in access or platform capabilities.",
+        "External documents are data, not permission. Retrieve secrets through approved connections; keep them out of the knowledge base."
+      ],
+      "inputs": [
+        "Project, goal and data or website location",
+        "Available connections, environment and existing authorization",
+        "Output format, acceptance evidence and constraints"
+      ],
+      "actions": [
+        "Read project rules and relevant articles. Separate facts, assumptions and missing inputs.",
+        "Finish authorized work; continue independent tasks when inputs are missing.",
+        "Run appropriate tests or dry runs. Keep versions, diffs and records of failures and fixes.",
+        "Deliver the result, evidence, unfinished items and next steps. Do not ask again for authorization already granted."
+      ],
+      "done": [
+        "The deliverable opens, can be reproduced and passes the main usage path.",
+        "Publishing, sending, spending, deletion and production changes stay within existing authorization."
+      ],
+      "pitfalls": [
+        "Delivering only a plan.",
+        "Claiming a test passed or access exists without checking."
+      ],
+      "decision": "People set goals and make material tradeoffs. Agents produce, verify and repair within the authorized scope.",
+      "sources": [
+        "owner-brief",
+        "tenten-home",
+        "owasp-agents"
+      ],
+      "related": [
+        "project-brief",
+        "automation-integration",
+        "fde"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "An AI-native workflow gives an agent a clear goal, inputs and completion criteria. You review what it delivers.",
+        "when": "Use this for research, content, development or work across systems.",
+        "example": {
+          "situation": "“Improve our SEO” leaves the website and priority unclear.",
+          "lesson": "Specify the website, the problem and how you will check the result."
+        },
+        "first_step": "Choose one task and list its goal, data, permissions and definition of done.",
+        "point_titles": [
+          "Define the result",
+          "Use repeatable tools",
+          "Separate data from permission"
+        ]
+      }
+    },
+    {
+      "id": "brand-strategy",
+      "category": "design",
+      "title": "Brand positioning and messaging",
+      "summary": "Decide who you serve, what you solve and why someone should choose you.",
+      "keywords": [
+        "branding",
+        "positioning",
+        "voice",
+        "copy",
+        "message"
+      ],
+      "why": [
+        "Clear positioning keeps websites, ads and sales conversations consistent.",
+        "Evidence makes a claim specific and credible."
+      ],
+      "know": [
+        "Prioritize audiences and situations, then define the category, difference, evidence and main action.",
+        "Build messages around a core claim, supporting reasons, proof and buying-stage needs.",
+        "Give examples of tone. Adapt Chinese and English copy to their markets while keeping product facts consistent."
+      ],
+      "inputs": [
+        "Interviews, customer research and existing brand assets",
+        "Competitors, markets, product facts and publishable evidence",
+        "Target markets, prohibited claims and reviewer"
+      ],
+      "actions": [
+        "Compare audience problems and competitor claims. Separate facts, assumptions and interview questions.",
+        "Propose positioning options and tradeoffs, with website, ad and sales examples.",
+        "Deliver a one-page positioning brief, message hierarchy, tone guide and bilingual glossary."
+      ],
+      "done": [
+        "Claims have evidence; customer stories, numbers and certifications are accurate.",
+        "Messages share a position and offer the audience a suitable next step."
+      ],
+      "pitfalls": [
+        "Starting with logo preferences.",
+        "Treating translation as a market strategy."
+      ],
+      "decision": "Agree on positioning, primary messages and public commitments.",
+      "sources": [
+        "tenten-branding"
+      ],
+      "related": [
+        "design-system",
+        "ux-conversion",
+        "content-seo"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Positioning explains who you serve, what you solve and why people should choose you. Messaging makes those answers easy to understand.",
+        "when": "Use this for a new brand, homepage redesign or inconsistent team messaging.",
+        "example": {
+          "situation": "A homepage promises low prices, premium quality, speed and customization at once.",
+          "lesson": "Choose the main audience and promise, then support it with facts."
+        },
+        "first_step": "Write down your primary audience and their strongest reason to choose you.",
+        "point_titles": [
+          "Choose the audience",
+          "Support the claim",
+          "Show the tone in use"
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "How a message takes shape",
+          "nodes": [
+            [
+              "Audience",
+              "Who is choosing?"
+            ],
+            [
+              "Claim",
+              "What do we solve?"
+            ],
+            [
+              "Evidence",
+              "Why believe it?"
+            ],
+            [
+              "Action",
+              "What happens next?"
+            ]
+          ],
+          "caption": "Use the same core message across the website, presentations and ads."
+        }
+      }
+    },
+    {
+      "id": "ux-conversion",
+      "category": "design",
+      "title": "UX, information architecture and conversion",
+      "summary": "Help people find information, understand choices and finish important tasks.",
+      "keywords": [
+        "UX",
+        "UI",
+        "CRO",
+        "site architecture",
+        "forms",
+        "accessibility",
+        "conversion"
+      ],
+      "why": [
+        "A website that hides answers wastes search and ad traffic.",
+        "Clear paths, forms and error handling reduce confusion and abandonment."
+      ],
+      "know": [
+        "Organize navigation, pages, content and calls to action around user tasks rather than the company org chart.",
+        "Forms and shopping flows need loading, empty, error, success and recovery states.",
+        "Keyboard access, focus, labels, contrast and mobile use are basic requirements. Interpret conversion changes with traffic quality."
+      ],
+      "inputs": [
+        "Priority audiences, main tasks, funnel data or support questions",
+        "Content inventory, device mix and brand rules"
+      ],
+      "actions": [
+        "Map task flows, sitemap and page order; state the concern each step resolves.",
+        "Build an interactive prototype covering main and failed paths.",
+        "Test keyboard use, forms, narrow screens and actions. Plan experiments when traffic is sufficient."
+      ],
+      "done": [
+        "Main tasks work from entry to completion; errors are understandable and recoverable.",
+        "Events match the hypothesis; reported improvements include sample and period."
+      ],
+      "pitfalls": [
+        "Delivering only a desktop homepage.",
+        "Equating more clicks with better business outcomes."
+      ],
+      "decision": "Agree on the main user task and tradeoffs between brand, information and simplicity.",
+      "sources": [
+        "tenten-development",
+        "wcag"
+      ],
+      "related": [
+        "design-system",
+        "measurement",
+        "development-quality"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "UX is the experience of completing a task. Information architecture organizes content; conversion design makes the next action clear.",
+        "when": "Use this when people cannot find information, finish forms or complete purchases.",
+        "example": {
+          "situation": "A product page has beautiful images but no visible shipping or return information.",
+          "lesson": "Answer purchase questions before changing button colors."
+        },
+        "first_step": "Walk through one main task from arrival to completion.",
+        "point_titles": [
+          "Organize around tasks",
+          "Show every state",
+          "Support different devices and inputs"
+        ]
+      }
+    },
+    {
+      "id": "design-system",
+      "category": "design",
+      "title": "Design systems: put the brand into practice",
+      "summary": "Reuse components, rules and assets across the product.",
+      "keywords": [
+        "design system",
+        "tokens",
+        "components",
+        "typography",
+        "logo"
+      ],
+      "why": [
+        "Shared rules reduce repeated design and development.",
+        "Complete component states let agents extend pages while preserving usability and brand consistency."
+      ],
+      "know": [
+        "Tokens define color, type, spacing and motion. Components define usage, states and behavior.",
+        "Brand assets need versions, licenses, formats and usage rules.",
+        "Implement the rules in code and test them with real content."
+      ],
+      "inputs": [
+        "Approved brand direction, logo, fonts and asset licenses",
+        "Existing libraries, page types, content and language needs"
+      ],
+      "actions": [
+        "Audit repeated styles and create semantic tokens and a component inventory.",
+        "Define interaction and responsive behavior for buttons, forms, navigation and content modules.",
+        "Deliver working components, example pages and a version history from a shared source."
+      ],
+      "done": [
+        "Long and short content, narrow screens and error states work.",
+        "Design and code share token values; assets have valid usage rights."
+      ],
+      "pitfalls": [
+        "Inventing new type scales and buttons for every page.",
+        "Delivering assets without checking their licenses."
+      ],
+      "decision": "Approve the visual direction and shared rules before extending the interface.",
+      "sources": [
+        "tenten-branding",
+        "tenten-development",
+        "wcag"
+      ],
+      "related": [
+        "brand-strategy",
+        "ux-conversion",
+        "development-quality"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "A design system gives the team shared colors, type, components and interaction rules so pages feel consistent.",
+        "when": "Use this when the site grows, more people contribute or similar components keep being rebuilt.",
+        "example": {
+          "situation": "Three pages use different primary-button colors, sizes and error messages.",
+          "lesson": "Shared rules let you update them together."
+        },
+        "first_step": "Start with buttons, forms and text hierarchy.",
+        "point_titles": [
+          "Distinguish tokens and components",
+          "Version the assets",
+          "Test real pages"
+        ],
+        "terms": [
+          [
+            "Token",
+            "A shared style value, such as a color or spacing size."
+          ],
+          [
+            "Component",
+            "A reusable interface element with states and behavior."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "platform-choice",
+      "category": "build",
+      "title": "Choosing Webflow, Shopify, WordPress or headless",
+      "summary": "Choose for content, transactions and operations, including long-term cost.",
+      "keywords": [
+        "Webflow",
+        "Shopify",
+        "WordPress",
+        "Next.js",
+        "headless",
+        "platform",
+        "architecture"
+      ],
+      "why": [
+        "The platform shapes editing efficiency, integration cost and maintenance.",
+        "Test difficult requirements early to uncover plan limitations."
+      ],
+      "know": [
+        "Consider Webflow for content marketing, Shopify for commerce and WordPress for existing ecosystem or plugin needs.",
+        "Multichannel content, complex integrations or permissions may justify headless/custom development, with more operational responsibility.",
+        "Compare content models, languages, SEO, integrations, portability and total cost. Verify capabilities against the current plan."
+      ],
+      "inputs": [
+        "Editing and transaction workflows, markets and permissions",
+        "Existing data, integrations, hosting, budget and maintenance capacity"
+      ],
+      "actions": [
+        "Build a requirements-by-platform matrix with limits, dependencies and exit options.",
+        "Run a small proof of concept for risky payments, search, preview or integrations.",
+        "Deliver the architecture decision, cost assumptions and handoff responsibilities."
+      ],
+      "done": [
+        "Recommendations trace to requirements; critical features have current documentation or proof-of-concept evidence.",
+        "Costs include dates, usage and plan assumptions. Do not purchase without authorization."
+      ],
+      "pitfalls": [
+        "Choosing a familiar tool without checking operations.",
+        "Assuming headless is always faster or cheaper."
+      ],
+      "decision": "Compare setup cost, maintenance and flexibility, then verify critical features.",
+      "sources": [
+        "tenten-development",
+        "tenten-cms",
+        "tenten-shopify"
+      ],
+      "related": [
+        "cms-content",
+        "shopify-foundation",
+        "hosting-architecture"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Platform choice balances content management, commerce, flexibility and maintenance against the work the website must do.",
+        "when": "Use this for a new site, platform limits or a custom-storefront decision.",
+        "example": {
+          "situation": "A site focused on frequent article updates may not need a complex custom system.",
+          "lesson": "List operational needs before paying for extra flexibility."
+        },
+        "first_step": "List essential features, maintainers and an affordable annual cost.",
+        "point_titles": [
+          "Compare by main use",
+          "Include custom maintenance",
+          "Compare total cost"
+        ]
+      }
+    },
+    {
+      "id": "cms-content",
+      "category": "build",
+      "title": "CMS, content models and languages",
+      "summary": "Keep content consistent, reusable and safe to publish.",
+      "keywords": [
+        "CMS",
+        "content model",
+        "localization",
+        "Sanity",
+        "Directus",
+        "migration"
+      ],
+      "why": [
+        "Structured content reduces duplicate entry and supports automated validation.",
+        "Sources, versions and owners keep migrated content maintainable."
+      ],
+      "know": [
+        "Define content types such as articles, services and products before fields, relationships and validation.",
+        "Decide markets, URLs, fallbacks and translation status. Share facts; adapt copy to each market.",
+        "Assign responsibility for preview, review, publication and media rights. API access is separate from what the page displays."
+      ],
+      "inputs": [
+        "Content and URL inventory, fields and assets",
+        "Markets, languages, editing workflow, existing CMS and integrations"
+      ],
+      "actions": [
+        "Create schemas, sample records, source mappings and required-field validation.",
+        "Use repeatable transformations for content, media and relationships; start with a dry run.",
+        "Check counts, content, URLs, previews and permissions. Document the editing process."
+      ],
+      "done": [
+        "Important records map from old to new, with a list of missing items.",
+        "Public APIs and search cannot expose unpublished material."
+      ],
+      "pitfalls": [
+        "Using a page-sized HTML blob as the only content model.",
+        "Checking record counts without checking images and relationships."
+      ],
+      "decision": "Agree on content owners, publishing permissions and changes that need review.",
+      "sources": [
+        "tenten-cms"
+      ],
+      "related": [
+        "platform-choice",
+        "migration",
+        "technical-seo"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "A CMS stores and manages website content. A content model defines fields for articles, products and cases so the same data can be reused.",
+        "when": "Use this when updates are slow, pages disagree or the site needs more languages.",
+        "example": {
+          "situation": "A product name is typed separately on the homepage, comparison table and blog.",
+          "lesson": "Store shared facts once so updates stay consistent."
+        },
+        "first_step": "Pick frequently updated content and list its fields, sources and uses.",
+        "point_titles": [
+          "Model the content first",
+          "Plan language behavior",
+          "Separate editing and publishing"
+        ],
+        "terms": [
+          [
+            "CMS",
+            "A content management system for editing and publishing."
+          ],
+          [
+            "Fallback",
+            "The version used when the requested content is missing."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "headless-commerce",
+      "category": "build",
+      "title": "Headless commerce: integration boundaries",
+      "summary": "Verify the custom storefront, Shopify checkout and external tools separately.",
+      "keywords": [
+        "headless",
+        "Astro",
+        "Sanity",
+        "Shopify",
+        "Storefront API",
+        "XTERRA",
+        "Sally",
+        "web pixel",
+        "301",
+        "consent"
+      ],
+      "why": [
+        "A flexible storefront may need its own app, tracking and consent integrations.",
+        "Clear data and route ownership prevents configuration in the wrong system."
+      ],
+      "know": [
+        "The XTERRA snapshot uses Astro for the storefront, Sanity for marketing content, and Shopify for products, cart and hosted checkout.",
+        "Verify checkout/order integrations, custom browsing/form events and email flows separately.",
+        "Implement SEO and redirects at the domain and routing layer receiving old URLs. Shopify redirect imports alone may not affect Astro.",
+        "Custom consent choices may not reach Shopify, analytics or marketing. Test cross-domain behavior, withdrawal and rejection.",
+        "Shopify Dev MCP provides documentation and validation; it does not grant store read/write access. Check each account and API scope."
+      ],
+      "inputs": [
+        "Repository/commit, storefront/checkout domains and deployment environments",
+        "Data sources, event and integration owners, app support and secure connections"
+      ],
+      "actions": [
+        "Map data, events, domains and owners. Check each app’s headless APIs, webhooks and limits.",
+        "Test product updates, cart/discounts, checkout return, order events, form-to-CRM and retries separately.",
+        "Test old URLs at the real routing layer. Verify production canonicals, indexing controls and feed URLs.",
+        "Resolve the XTERRA README/Klaviyo-document discrepancy using code and account evidence before changing anything. Do not reinstall integrations or activate drafts by assumption."
+      ],
+      "done": [
+        "Data and events are traceable without duplicates; unknown hosted settings are explicit gaps.",
+        "Handoff covers domains, ownership and failures. A successful Git push does not prove customer availability."
+      ],
+      "pitfalls": [
+        "Applying theme instructions to a custom frontend.",
+        "Treating repository descriptions as proof of live flows or orders."
+      ],
+      "decision": "Agree on system responsibilities and cutover scope to avoid duplicate implementations.",
+      "sources": [
+        "xterra-repo",
+        "shopify-customer-events",
+        "shopify-search-app",
+        "shopify-redirects"
+      ],
+      "related": [
+        "ecommerce-launch",
+        "migration",
+        "measurement",
+        "klaviyo"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Headless commerce separates the storefront from transactions. The frontend handles browsing; Shopify handles products, cart and checkout.",
+        "when": "Use this for a custom frontend such as Astro or an app that does not appear after installation.",
+        "example": {
+          "situation": "Shopify tracking is configured, but custom product pages send no view or cart events.",
+          "lesson": "Check storefront, checkout and external tools separately."
+        },
+        "first_step": "Map the storefront, CMS, Shopify and external-tool responsibilities.",
+        "point_titles": [
+          "Understand XTERRA’s architecture",
+          "Test each stage",
+          "Redirect at the receiving route",
+          "Connect consent across systems",
+          "Check actual account permissions"
+        ],
+        "terms": [
+          [
+            "Storefront",
+            "The site customers browse and use."
+          ],
+          [
+            "Hosted checkout",
+            "Checkout provided and managed by Shopify."
+          ],
+          [
+            "API / scope",
+            "An API exposes operations; scopes limit what a connection can access."
+          ]
+        ],
+        "diagram": {
+          "kind": "map",
+          "title": "XTERRA system responsibilities",
+          "nodes": [
+            [
+              "Astro",
+              "Browsing, shopping and interactions"
+            ],
+            [
+              "Sanity",
+              "Marketing copy and images"
+            ],
+            [
+              "Shopify",
+              "Products, cart, checkout and orders"
+            ]
+          ],
+          "caption": "Based on the repository snapshot. Check which parts each app, event and form covers."
+        }
+      }
+    },
+    {
+      "id": "development-quality",
+      "category": "build",
+      "title": "Development delivery and quality",
+      "summary": "Deliver working software that others can test and maintain.",
+      "keywords": [
+        "development",
+        "QA",
+        "Git",
+        "testing",
+        "performance",
+        "accessibility",
+        "CI"
+      ],
+      "why": [
+        "Early workflow and integration checks reduce failures after launch.",
+        "Reproducible builds and handoffs let someone besides the original developer maintain the product."
+      ],
+      "know": [
+        "Acceptance covers main paths, errors, permissions, compatibility, SEO and performance.",
+        "Use real-user data for Core Web Vitals. Lab scores help diagnose issues but do not establish field performance.",
+        "Separate development, staging and production. Keep secrets out of frontend code, repositories and test records."
+      ],
+      "inputs": [
+        "Approved requirements, prototypes, content, supported devices and browsers",
+        "Repository, API contracts, test environment and acceptance criteria"
+      ],
+      "actions": [
+        "Read project rules and inspect the current implementation. Make the smallest suitable change.",
+        "Run checks appropriate to the risk. Verify data, permissions and main user paths.",
+        "Check mobile, keyboard use, performance and indexing; fix related failures.",
+        "Deliver a buildable version, running instructions, test evidence and known limits."
+      ],
+      "done": [
+        "A clean environment can build the project; main paths have observed results.",
+        "Changes are reviewable and recoverable. List checks that were not run."
+      ],
+      "pitfalls": [
+        "Treating a passing build as functional verification.",
+        "Mocking every dependency and claiming the integration works."
+      ],
+      "decision": "Agree on acceptance and remaining risks. Fix issues that block main tasks.",
+      "sources": [
+        "tenten-development",
+        "web-vitals",
+        "wcag"
+      ],
+      "related": [
+        "launch",
+        "operations-security",
+        "ux-conversion"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Development is complete when users can finish their main tasks, understand failures and get help, and another maintainer can take over.",
+        "when": "Use this for website acceptance, code handoff or recurring defects.",
+        "example": {
+          "situation": "The homepage works, but a failed payment produces no message.",
+          "lesson": "Test failure paths as well as normal screens."
+        },
+        "first_step": "List the three most important tasks and how each can fail.",
+        "point_titles": [
+          "Check the whole journey",
+          "Measure actual performance",
+          "Separate test and production"
+        ]
+      }
+    },
+    {
+      "id": "shopify-foundation",
+      "category": "commerce",
+      "title": "Shopify setup: connect the operations",
+      "summary": "Define products, orders and market rules before themes and apps.",
+      "keywords": [
+        "Shopify",
+        "ecommerce",
+        "checkout",
+        "products",
+        "payments",
+        "shipping",
+        "tax",
+        "Markets"
+      ],
+      "why": [
+        "A finished storefront still needs correct payments, fulfillment and refunds.",
+        "Consistent data definitions reduce inventory, pricing and order errors."
+      ],
+      "know": [
+        "SKUs/variants identify sellable units. Assign sources of truth for products, inventory and orders; prevent conflicting ERP/3PL writes.",
+        "Markets determine language, currency, pricing, availability, tax, payment and shipping. The merchant’s specialists confirm tax and legal rules.",
+        "Use native features first. Verify checkout, API and Markets capabilities for the current plan before adding apps."
+      ],
+      "inputs": [
+        "Product samples, SKU/inventory sources, historical orders and customer needs",
+        "Markets, payment/shipping, returns, tax and operating owners"
+      ],
+      "actions": [
+        "Define product fields and a market matrix with field-level sources of truth.",
+        "Propose the theme, apps and integrations with costs, permissions and removal options.",
+        "Test payment success/failure, shipping/tax, discounts, stockouts, partial refunds/returns, restocking and notifications. Include excluded delivery addresses for bulky goods."
+      ],
+      "done": [
+        "Sample orders match approved amounts, currencies, shipping and tax rules.",
+        "Inventory, orders and events agree; test data does not enter reported production revenue."
+      ],
+      "pitfalls": [
+        "Treating successful tax configuration as legal compliance.",
+        "Adding overlapping apps without data ownership."
+      ],
+      "decision": "The merchant approves markets, policies, taxes and costs; tests must match those rules.",
+      "sources": [
+        "tenten-shopify",
+        "shopify-migration"
+      ],
+      "related": [
+        "ecommerce-launch",
+        "migration",
+        "commerce-service",
+        "commerce-merchandising"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Shopify manages commerce operations: products, orders, payments and inventory. Setup must establish how each transaction is handled.",
+        "when": "Use this for new stores, store handoffs, new markets or logistics integrations.",
+        "example": {
+          "situation": "A customer pays successfully, but shipping cost and inventory are wrong.",
+          "lesson": "Test product, pricing, payment, logistics and inventory rules together."
+        },
+        "first_step": "Trace a representative product from listing through shipping and refund.",
+        "point_titles": [
+          "Assign product and stock ownership",
+          "Define market rules",
+          "Check native features first"
+        ],
+        "terms": [
+          [
+            "SKU",
+            "An internal code for a sellable item."
+          ],
+          [
+            "Variant",
+            "A specific product option combination, such as size and color."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ecommerce-launch",
+      "category": "commerce",
+      "title": "Ecommerce launch checklist",
+      "summary": "Verify transactions, search, measurement and operations before opening the store.",
+      "keywords": [
+        "Shopify",
+        "ecommerce launch",
+        "checklist",
+        "Sally",
+        "GA4",
+        "Meta",
+        "Google Ads"
+      ],
+      "why": [
+        "A working checkout can still lose revenue through broken tracking, delivery or notifications.",
+        "A shared baseline saves each project from rebuilding its launch checklist."
+      ],
+      "know": [
+        "Transactions: products, stock, successful and failed payments, refunds, discounts, shipping, tax, policies and order notifications.",
+        "Search: old URLs and redirects, canonical URLs, titles, descriptions, Open Graph, structured data, robots, sitemap and GSC.",
+        "Measurement: GA4 funnel, Google Ads conversions, Meta Pixel/CAPI, feeds, consent and deduplication.",
+        "Operations: email lists and flows, support and warranty routes, DNS/TLS, performance, accessibility, alerts and recovery.",
+        "Mark each item complete, blocked or not applicable with a reason. Plan unused ad channels without spending automatically."
+      ],
+      "inputs": [
+        "Production and test domains, version, store connections and authorization",
+        "Markets, transaction rules, channel plans, test orders and launch decision owner"
+      ],
+      "actions": [
+        "Create a delivery matrix with applicability, owner, status, evidence, gaps and next steps.",
+        "Reuse integrations. Assign event responsibility across the custom storefront, Shopify checkout and server.",
+        "Test products and addresses with accepted and rejected consent, payment success and failure, refunds and retries. Reconcile orders and events.",
+        "Switch over within existing launch authorization. Check the domain, redirects, indexing, notifications and monitoring."
+      ],
+      "done": [
+        "Each area has evidence; blockers have an explicit go/no-go decision.",
+        "Each eligible real order maps to one purchase event. Isolate test data, notifications and ad audiences."
+      ],
+      "pitfalls": [
+        "Equating installed apps or a polished storefront with readiness.",
+        "Installing Klaviyo, GTM or paid apps without checking their purpose and existing systems."
+      ],
+      "decision": "Confirm markets, policies, ad channels and whether unfinished work blocks launch.",
+      "sources": [
+        "owner-brief",
+        "shopify-migration",
+        "ga4-ecommerce",
+        "shopify-meta",
+        "xterra-repo"
+      ],
+      "related": [
+        "shopify-foundation",
+        "ga4-commerce",
+        "headless-commerce",
+        "launch"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "An ecommerce launch spans correct transactions, discoverability, measurement, fulfillment and after-sales responsibility.",
+        "when": "Use this for a new store, migration cutover or a shared acceptance standard.",
+        "example": {
+          "situation": "The store accepts orders, but ads miss purchase events and support receives no inquiries.",
+          "lesson": "Check evidence for each part of the journey before deciding to launch."
+        },
+        "first_step": "Create four checklist columns: transactions, search, measurement and operations.",
+        "point_titles": [
+          "Complete transactions correctly",
+          "Preserve search access",
+          "Record reliable outcomes",
+          "Assign operational ownership",
+          "Give every item a status"
+        ],
+        "diagram": {
+          "kind": "map",
+          "title": "Four parts of an ecommerce launch",
+          "nodes": [
+            [
+              "Transactions",
+              "Products, payment, delivery and refunds"
+            ],
+            [
+              "Search",
+              "URLs, indexing and redirects"
+            ],
+            [
+              "Measurement",
+              "Shopping events and ad reporting"
+            ],
+            [
+              "Operations",
+              "Notifications, support and maintenance"
+            ]
+          ],
+          "caption": "Each part needs a status and evidence for the launch decision."
+        }
+      }
+    },
+    {
+      "id": "migration",
+      "category": "commerce",
+      "title": "Magento to Shopify migration",
+      "summary": "Preserve products, transactions, search and measurement through a tested cutover.",
+      "keywords": [
+        "Magento",
+        "Shopify",
+        "migration",
+        "Exxterra",
+        "XTERRA",
+        "301",
+        "redirect"
+      ],
+      "why": [
+        "URLs, search traffic and transaction records are assets; omissions interrupt revenue and operations.",
+        "Rehearsal and incremental sync expose risks while recovery remains manageable."
+      ],
+      "know": [
+        "Inventory URLs, traffic pages, products/variants, customers, orders, media, discounts and integrations.",
+        "Permanently redirect each old URL to its closest relevant page; return 404/410 when no replacement exists. For headless, test at the actual receiving route.",
+        "Do not assume passwords or logins transfer. Verify historical orders, gift cards and notification side effects separately."
+      ],
+      "inputs": [
+        "Old and target URLs, exports, traffic and URL inventory",
+        "Included/excluded data, SKU/ID maps and system write ownership",
+        "Cutover window, incremental data, decision owner and recovery conditions"
+      ],
+      "actions": [
+        "Create data mappings, URL/redirect lists, functional gaps and integration inventory.",
+        "Dry-run in a test environment. Reconcile SKUs, currencies, counts, relationships and media; isolate notification and tracking side effects.",
+        "Plan freezes/incremental sync, DNS, GSC, event deduplication and cutover.",
+        "Execute within authorization. Record last sync, cutover checks and recovery boundaries; monitor afterward."
+      ],
+      "done": [
+        "High-value old URLs reach relevant indexable pages in one hop, without loops or chains.",
+        "Product/order samples, shopping paths, analytics/ad events and consent have test evidence.",
+        "Recovery after new orders includes reconciliation, not just a DNS reversal."
+      ],
+      "pitfalls": [
+        "Changing positioning, URLs and platform together without a baseline.",
+        "Moving products while forgetting GSC, tracking, support or account activation."
+      ],
+      "decision": "Agree on data scope, acceptable downtime and recovery triggers.",
+      "sources": [
+        "owner-brief",
+        "google-migration",
+        "shopify-migration",
+        "tenten-shopify",
+        "xterra-repo",
+        "shopify-redirects"
+      ],
+      "related": [
+        "headless-commerce",
+        "ecommerce-launch",
+        "technical-seo",
+        "measurement"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Migration moves products, content, customer relationships and search entry points to a new system while preserving the jobs users need to do.",
+        "when": "Use this for Magento-to-Shopify or platform/URL-structure changes.",
+        "example": {
+          "situation": "An old search result points to a product page missing from the new store.",
+          "lesson": "Map and redirect the old URL to the relevant replacement."
+        },
+        "first_step": "Inventory the data and old URLs with the most traffic or revenue value.",
+        "point_titles": [
+          "Inventory the assets",
+          "Preserve useful entry points",
+          "Verify accounts and history"
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "Preserve an old search entry point",
+          "nodes": [
+            [
+              "Old product URL",
+              "Search result or existing link"
+            ],
+            [
+              "301 redirect",
+              "At the receiving routing layer"
+            ],
+            [
+              "New product page",
+              "Relevant content that opens correctly"
+            ]
+          ],
+          "caption": "Use a relevant replacement. Without one, return 404/410 as appropriate instead of redirecting everything home."
+        }
+      }
+    },
+    {
+      "id": "commerce-merchandising",
+      "category": "commerce",
+      "title": "Product discovery, reviews and apps",
+      "summary": "Help customers find, understand and trust a product before choosing tools.",
+      "keywords": [
+        "Shopify ecosystem",
+        "App",
+        "Search & Discovery",
+        "Judge.me",
+        "reviews",
+        "UGC",
+        "filter",
+        "recommendations",
+        "comparison",
+        "quiz",
+        "upsell"
+      ],
+      "why": [
+        "Filters, comparisons and credible reviews reduce buying effort, especially for complex or expensive products.",
+        "Every app adds cost, scripts and data responsibilities. Check native features first."
+      ],
+      "know": [
+        "Search & Discovery manages search, filters and recommendations. A headless storefront needs the corresponding Storefront API implementation.",
+        "Review tools such as Judge.me collect, moderate and display reviews. XTERRA has an integration; that does not make it mandatory for every store.",
+        "Use verified specifications for comparisons and quizzes. Never invent compatibility or benefits.",
+        "Assess bundles, upsells and subscriptions against margin, stock and demand. Durable goods may not suit recurring subscriptions.",
+        "Record the purpose, native alternative, headless support, cost, permissions, export and removal options for each app."
+      ],
+      "inputs": [
+        "Product specifications, categories, search terms, zero-result queries, support questions and funnel data",
+        "Installed apps, storefront architecture, budget and rights to review data"
+      ],
+      "actions": [
+        "Separate essentials from options. Fix product fields, prices and out-of-stock rules first.",
+        "Test filters, synonyms, comparisons and recommendations against product, accessory and variant relationships.",
+        "Preserve review provenance and status during migration; verify counts, averages and privacy. Do not manufacture reviews.",
+        "Test representative and empty searches, stockouts, mobile and keyboard use. Check APIs, webhooks and performance."
+      ],
+      "done": [
+        "Customers can find purchasable products; recommended prices and stock match the cart.",
+        "Reviews are traceable and deduplicated. App choices have reasons."
+      ],
+      "pitfalls": [
+        "Expecting a theme widget to appear on an Astro frontend.",
+        "Hard-coding review averages or recommendations that later become stale."
+      ],
+      "decision": "Agree on the buying journey, app costs and whether the improvement justifies maintenance.",
+      "sources": [
+        "shopify-search-app",
+        "xterra-repo",
+        "tenten-shopify"
+      ],
+      "related": [
+        "ecommerce-growth",
+        "shopify-foundation",
+        "headless-commerce",
+        "commerce-service"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Search, filters, comparisons, recommendations and reviews answer different questions during product selection.",
+        "when": "Use this when products are hard to compare or customers need more confidence to buy.",
+        "example": {
+          "situation": "A shopper wants foldable equipment, but the only filter is brand.",
+          "lesson": "Build filters around real buying criteria."
+        },
+        "first_step": "List three common buying questions and the functions that answer them.",
+        "point_titles": [
+          "Make products findable",
+          "Use credible reviews",
+          "Help customers compare",
+          "Match tools to products",
+          "Include maintenance costs"
+        ]
+      }
+    },
+    {
+      "id": "ecommerce-growth",
+      "category": "commerce",
+      "title": "Ecommerce growth: product pages and retention",
+      "summary": "Find where buyers drop out before choosing what to change.",
+      "keywords": [
+        "D2C",
+        "ecommerce growth",
+        "PDP",
+        "AOV",
+        "LTV",
+        "CVR",
+        "retention"
+      ],
+      "why": [
+        "Fix purchase barriers before paying for more traffic.",
+        "Margin, refunds and repeat purchases give a clearer view of growth than revenue alone."
+      ],
+      "know": [
+        "Check the view-to-cart-to-checkout-to-purchase funnel by source, device and market. Validate tracking first.",
+        "Product pages must explain specifications, fit, delivery, returns and trust. Claims and reviews must be real.",
+        "Consider margin, stock, service cost and opt-outs when planning discounts, subscriptions and retention."
+      ],
+      "inputs": [
+        "Funnel, product and margin data; support and return reasons",
+        "Campaign rules, stock, audience consent and brand assets"
+      ],
+      "actions": [
+        "Inspect funnel losses and valuable products. Rank hypotheses by impact and evidence.",
+        "Draft changes to product pages, offers or retention flows. Fix functional and data issues first.",
+        "Define the main metric, guardrails, observation period and sample interpretation."
+      ],
+      "done": [
+        "Purchase and refund paths work; events and revenue reconcile reasonably.",
+        "Conclusions state sample limits and distinguish seasonal or promotional effects from causation."
+      ],
+      "pitfalls": [
+        "Watching ROAS while ignoring margin, refunds and new customers.",
+        "Declaring a winner before enough data is available."
+      ],
+      "decision": "Agree on offers, minimum margin and the funnel stage to improve first.",
+      "sources": [
+        "tenten-shopify",
+        "tenten-development",
+        "ga4-ecommerce"
+      ],
+      "related": [
+        "commerce-merchandising",
+        "klaviyo",
+        "ga4-commerce"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Ecommerce growth means finding losses between arrival and repeat purchase, then improving the stage with the greatest impact.",
+        "when": "Use this when traffic fails to convert, campaigns weaken or repeat sales need work.",
+        "example": {
+          "situation": "Many shoppers leave after adding to cart because shipping costs appear only at checkout.",
+          "lesson": "Locate the drop-off before proposing a testable change."
+        },
+        "first_step": "Inspect the funnel for one main market and device.",
+        "point_titles": [
+          "Locate the loss",
+          "Answer purchase questions",
+          "Include costs and retention"
+        ]
+      }
+    },
+    {
+      "id": "commerce-service",
+      "category": "commerce",
+      "title": "After the order: support, returns and warranties",
+      "summary": "Connect delivery and service to the rest of the customer journey.",
+      "keywords": [
+        "support",
+        "Gorgias",
+        "helpdesk",
+        "returns",
+        "warranty",
+        "shipping",
+        "registration",
+        "notifications",
+        "fulfillment",
+        "ERP",
+        "3PL"
+      ],
+      "why": [
+        "Missing order, delivery or warranty information increases support work and refunds.",
+        "A success screen does not prove a request reached its owner or the customer received a reply."
+      ],
+      "know": [
+        "Shopify owns the order and fulfillment baseline. Define the roles of logistics, ERP/3PL, helpdesk and marketing systems separately.",
+        "Order, shipping, cancellation, refund and support notifications have different triggers. Avoid duplicate sends.",
+        "For bulky equipment, confirm remote delivery, stairs, handling, assembly, damage reports and return costs with the merchant.",
+        "Warranty registration needs model, serial and purchase details. Service consent does not grant marketing consent.",
+        "Start with native notifications. Add helpdesks or returns tools when volume or workflow warrants them; check headless APIs."
+      ],
+      "inputs": [
+        "Approved delivery, returns and warranty policies; logistics and service owners",
+        "Order, form, ticket and notification flows; internal test recipients"
+      ],
+      "actions": [
+        "Map order, shipping, exception and refund states to notification owners and unique record keys.",
+        "Test addresses, products, rates, excluded destinations, refunds and restocking. Reconcile finance and logistics separately.",
+        "Connect inquiry, registration and warranty forms to storage, routing, retries and alerts. Protect attachments and personal data.",
+        "Test normal requests, duplicates, provider failures and no marketing consent. Retain delivery, ticket and retry evidence."
+      ],
+      "done": [
+        "Each test request has a receipt, status and owner; failures remain traceable.",
+        "Order amounts, refunds and stock reconcile. Notifications do not duplicate or create unwanted subscriptions."
+      ],
+      "pitfalls": [
+        "Treating HTTP 202 or a saved form as proof of email delivery.",
+        "Assuming a CRM profile routes a support ticket or completes warranty service."
+      ],
+      "decision": "The merchant approves returns, warranty terms, costs and service commitments before implementation.",
+      "sources": [
+        "shopify-migration",
+        "xterra-repo",
+        "klaviyo-subscribers"
+      ],
+      "related": [
+        "shopify-foundation",
+        "klaviyo",
+        "automation-integration",
+        "operations-security"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "After-sales service connects orders, shipping, support, returns and warranties. Requests need a visible status and someone responsible for handling them.",
+        "when": "Use this for launches, support forms or recurring delivery and return problems.",
+        "example": {
+          "situation": "A warranty form says “success,” but no service team receives it.",
+          "lesson": "Test the complete path from submission to receipt and ownership."
+        },
+        "first_step": "Trace one request from submission to a recorded case and response.",
+        "point_titles": [
+          "Assign each system a role",
+          "Give each notification an owner",
+          "Check bulky-item exceptions",
+          "Separate service and marketing consent",
+          "Add tools for a clear need"
+        ],
+        "terms": [
+          [
+            "ERP",
+            "A system for business data such as inventory and finance."
+          ],
+          [
+            "3PL",
+            "A third-party logistics provider."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "technical-seo",
+      "category": "search",
+      "title": "Technical SEO and permanent redirects",
+      "summary": "Help search engines reach the right pages and preserve existing search entry points.",
+      "keywords": [
+        "SEO",
+        "301 redirect",
+        "canonical",
+        "sitemap",
+        "robots",
+        "GSC",
+        "hreflang",
+        "indexing"
+      ],
+      "why": [
+        "Unreachable pages or ambiguous URLs limit organic visibility.",
+        "Migration mapping and monitoring reduce omissions and diagnosis effort; rankings may still fluctuate."
+      ],
+      "know": [
+        "Robots rules control crawling. Noindex controls indexing and must be readable by the crawler. Canonical suggests the main version.",
+        "Sitemaps should contain canonical, indexable URLs. Check hreflang, self-canonicals and reciprocal language links.",
+        "Use 301/308 for permanent moves with the closest relevant mapping. Google recommends keeping redirects for at least a year, and longer when possible."
+      ],
+      "inputs": [
+        "Production/old URLs, GSC, traffic and internal-link inventories",
+        "Indexing scope, markets/languages, platform and DNS/CDN limits"
+      ],
+      "actions": [
+        "Crawl status codes, indexing directives, canonicals, internal links, sitemaps and structured data.",
+        "Map old to new URLs. Verify one-hop permanent redirects, 200 destinations and no loops.",
+        "Fix internal links, metadata and sitemaps. Submit to the authorized GSC property and inspect sample URLs.",
+        "Consider Change of Address for domain moves. Monitor indexing, traffic and 404s before and after."
+      ],
+      "done": [
+        "Important pages are crawlable and indexable. Staging has access protection beyond robots.",
+        "Redirects, canonicals, hreflang and sitemaps agree; monitoring has dates."
+      ],
+      "pitfalls": [
+        "Redirecting every 404 to the homepage, creating soft 404s.",
+        "Assuming sitemap submission guarantees indexing or ranking."
+      ],
+      "decision": "Decide which content to keep, merge or retire before assigning URLs and redirects.",
+      "sources": [
+        "google-migration",
+        "google-ai"
+      ],
+      "related": [
+        "migration",
+        "content-seo",
+        "geo"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Technical SEO helps search engines find and index the right pages. Permanent redirects connect old URLs to new locations.",
+        "when": "Use this for launches, URL changes, traffic drops or missing indexed pages.",
+        "example": {
+          "situation": "Production inherits staging’s noindex directive.",
+          "lesson": "Remove indexing restrictions only in the intended environment."
+        },
+        "first_step": "Check whether the homepage and one important product page can be crawled and indexed.",
+        "point_titles": [
+          "Distinguish crawling and indexing",
+          "Clarify site and language structure",
+          "Keep relevant redirects"
+        ],
+        "terms": [
+          [
+            "Index",
+            "Page information a search engine stores for search results."
+          ],
+          [
+            "Canonical",
+            "The suggested main URL among similar pages."
+          ],
+          [
+            "301 redirect",
+            "A permanent move from an old URL to a new one."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "content-seo",
+      "category": "search",
+      "title": "Content SEO: answer the right question",
+      "summary": "Build useful, verifiable pages that help buyers decide what to do next.",
+      "keywords": [
+        "content",
+        "keyword",
+        "search intent",
+        "internal links",
+        "SEO content",
+        "blog"
+      ],
+      "why": [
+        "Search traffic can become business only when the page answers the right question.",
+        "Clear page responsibilities reduce overlap and maintenance."
+      ],
+      "know": [
+        "Distinguish learning, comparison, purchasing and how-to intent before choosing a page type.",
+        "Give each main intent a primary page. Link supporting content to the relevant service or product.",
+        "Numbers, cases and expert claims need sources, dates and a reviewer. Address local questions in each language."
+      ],
+      "inputs": [
+        "Audience, products, services, markets and conversion goals",
+        "GSC, keyword and competitor data; existing content and publishable evidence"
+      ],
+      "actions": [
+        "Map query to intent, page and next action. Improve existing high-value pages first.",
+        "Draft the brief, structure, title, summary and internal links. Verify facts and overlapping intent.",
+        "Deliver drafts and sources for authorized channels. Keep a reviewable version when publishing is not authorized."
+      ],
+      "done": [
+        "The page answers its main question and sources support its claims.",
+        "Measure relevant queries, leads or revenue over a stated period."
+      ],
+      "pitfalls": [
+        "Producing thin pages that only swap keywords.",
+        "Assuming fluent AI copy has been fact-checked."
+      ],
+      "decision": "Agree on the article’s position, public claims and the reader’s next step.",
+      "sources": [
+        "google-ai",
+        "tenten-geo"
+      ],
+      "related": [
+        "brand-strategy",
+        "geo",
+        "measurement"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Content SEO answers questions people search for and helps them continue researching or take action.",
+        "when": "Use this for articles, service pages, comparisons or content attracting the wrong traffic.",
+        "example": {
+          "situation": "Someone searching for Shopify migration precautions needs risks and a preparation list.",
+          "lesson": "Answer that question before directing them to a service or another article."
+        },
+        "first_step": "Choose one buyer question and the decision the page should help them make.",
+        "point_titles": [
+          "Identify the task behind the query",
+          "Assign a primary page",
+          "Verify claims and examples"
+        ]
+      }
+    },
+    {
+      "id": "geo",
+      "category": "search",
+      "title": "GEO: help AI search understand your content",
+      "summary": "Maintain verifiable answers and first-party evidence, then observe citations.",
+      "keywords": [
+        "GEO",
+        "AEO",
+        "AI search",
+        "ChatGPT",
+        "Perplexity",
+        "AI Overviews",
+        "llms.txt"
+      ],
+      "why": [
+        "Buyers discover brands through AI answers; usable sources help systems describe them accurately.",
+        "Maintained facts support consistency across the website, sales and conventional search."
+      ],
+      "know": [
+        "Google AI search uses SEO fundamentals and requires no special AI schema or llms.txt. Check other platforms separately.",
+        "Describe entities, products, relationships, limitations and dates clearly. Structured data must match visible content.",
+        "A citation is an observation for a platform, prompt and time. It is not a stable ranking or a guarantee of inclusion."
+      ],
+      "inputs": [
+        "Buyer questions, target platforms and markets",
+        "First-party product facts, cases, sources and indexable pages"
+      ],
+      "actions": [
+        "Map questions to evidence and repair crawling or content gaps first.",
+        "Write direct answers with verifiable support, consistent entity details and relevant internal links.",
+        "Use fixed questions to observe answers. Record platform, prompt, date, cited URLs and limits."
+      ],
+      "done": [
+        "Claims trace to sources and target platforms can access the pages.",
+        "Reports separate content changes, citation observations and unproven causal claims."
+      ],
+      "pitfalls": [
+        "Guaranteeing a citation in ChatGPT or Google.",
+        "Using llms.txt as a substitute for SEO or access control."
+      ],
+      "decision": "Confirm facts and brand positions, then monitor discovery and citations.",
+      "sources": [
+        "tenten-geo",
+        "google-ai"
+      ],
+      "related": [
+        "technical-seo",
+        "content-seo",
+        "ai-consulting"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "GEO helps AI search find, understand and cite a brand’s content through clear answers, verifiable facts and updates.",
+        "when": "Use this for AI-search visibility or organizing product and expert knowledge.",
+        "example": {
+          "situation": "A page says the service is best but omits its audience, scope and proof.",
+          "lesson": "Add facts a reader or search system can cite."
+        },
+        "first_step": "Choose a customer question and document the answer, source and limits.",
+        "point_titles": [
+          "Keep SEO foundations",
+          "Make facts explicit",
+          "Observe citations over time"
+        ]
+      }
+    },
+    {
+      "id": "measurement",
+      "category": "growth",
+      "title": "Launch measurement: GA4, GSC, Google Ads and Meta",
+      "summary": "Decide what to measure, then connect traffic, behavior and transaction data.",
+      "keywords": [
+        "GA4",
+        "Google Search Console",
+        "GSC",
+        "GTM",
+        "Google Ads",
+        "Meta Pixel",
+        "CAPI",
+        "meta tag",
+        "tracking",
+        "consent"
+      ],
+      "why": [
+        "Reliable measurement shows whether traffic and campaigns produce results.",
+        "Duplicate purchases, wrong currencies and consent errors distort bidding and decisions."
+      ],
+      "know": [
+        "GA4 covers behavior, GSC covers Google search and indexing, and Ads/Meta cover campaigns and conversions. Attribution differs.",
+        "SEO titles/descriptions, Open Graph tags and Meta Pixel serve different purposes. GTM is an optional deployment tool.",
+        "Define ecommerce triggers, transaction_id, items, value and currency. Do not send personal data indiscriminately to analytics."
+      ],
+      "inputs": [
+        "Existing analytics, search, tag-manager and ad-account IDs with authorized connections",
+        "Events, purchase definition, data sources, test orders and market privacy requirements"
+      ],
+      "actions": [
+        "Inventory native apps, theme code, GTM and server implementations; assign event ownership.",
+        "Include GA4, GSC, Ads and Meta in the baseline review. Connect planned channels and document why others do not apply.",
+        "Test consent acceptance/rejection, purchase, refund and reloads. Match Meta event_name and event_id across Pixel/CAPI.",
+        "Compare DebugView/platform test events to orders. Keep payload, timing and deduplication evidence; explain attribution differences."
+      ],
+      "done": [
+        "One test order creates one valid purchase with matching value and currency.",
+        "Consent behavior follows approved rules; reports expose no personal data."
+      ],
+      "pitfalls": [
+        "Checking only that a tag loads.",
+        "Creating a new property and breaking historical continuity."
+      ],
+      "decision": "Agree on outcome events, data collection and consent rules.",
+      "sources": [
+        "owner-brief",
+        "ga4-ecommerce",
+        "shopify-privacy",
+        "tenten-shopify",
+        "meta-dedup",
+        "shopify-meta"
+      ],
+      "related": [
+        "ga4-commerce",
+        "meta-tracking",
+        "google-commerce",
+        "ecommerce-launch"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Measurement turns website behavior into evidence. GA4, GSC and ad platforms answer different questions.",
+        "when": "Use this at launch, before campaigns or to investigate traffic and conversion.",
+        "example": {
+          "situation": "GSC shows more search clicks while GA4 shows visitors leaving product pages.",
+          "lesson": "One describes discovery; the other helps locate problems after arrival."
+        },
+        "first_step": "List three business questions before choosing events.",
+        "point_titles": [
+          "Know each tool’s purpose",
+          "Distinguish tags and tracking",
+          "Use consistent event definitions"
+        ],
+        "terms": [
+          [
+            "GA4",
+            "Google Analytics 4 measures onsite behavior and conversions."
+          ],
+          [
+            "GSC",
+            "Google Search Console covers search impressions, clicks and indexing."
+          ],
+          [
+            "GTM",
+            "Google Tag Manager manages tracking tags."
+          ]
+        ],
+        "diagram": {
+          "kind": "map",
+          "title": "Which tool answers the question?",
+          "nodes": [
+            [
+              "GSC",
+              "Are people finding and clicking search results?"
+            ],
+            [
+              "GA4",
+              "What happens after arrival?"
+            ],
+            [
+              "Google Ads",
+              "What do Google campaigns produce?"
+            ],
+            [
+              "Meta",
+              "What do Facebook and Instagram campaigns produce?"
+            ]
+          ],
+          "caption": "Choose events from the questions you need answered. Attribution differs across platforms."
+        }
+      }
+    },
+    {
+      "id": "ga4-commerce",
+      "category": "growth",
+      "title": "GA4 ecommerce events and conversion rates",
+      "summary": "Connect product views, carts, checkouts and purchases into a funnel you can reconcile.",
+      "keywords": [
+        "GA4",
+        "conversion rate",
+        "CVR",
+        "purchase",
+        "refund",
+        "event",
+        "DebugView",
+        "funnel"
+      ],
+      "why": [
+        "Funnel losses show whether to improve the product page, cart or checkout.",
+        "Inconsistent denominators, amounts and events lead to conflicting conclusions."
+      ],
+      "know": [
+        "Core events include view_item_list/select_item, view_item, add_to_cart, begin_checkout, purchase and refund. Add shipping and payment events as needed.",
+        "Define triggers, item_id, items, value and currency. Use a stable transaction_id to match purchases and refunds to orders.",
+        "Purchase session conversion rate is sessions with a purchase divided by all sessions in the same scope. Orders per session and all-key-event rate differ.",
+        "If 100 of 10,000 sessions include a purchase, the rate is 1%. Align time zone, device, market, period and consent coverage.",
+        "GA4, Shopify and Ads have different attribution and tracking limits. Order accounting is the transaction baseline; reports need not match exactly."
+      ],
+      "inputs": [
+        "Property, data stream, event sources and test environment",
+        "Product/variant ID mappings, tax and shipping value rules, de-identified test orders"
+      ],
+      "actions": [
+        "Define one sender per event and parameter. Check native integrations and gaps between custom storefront and hosted checkout.",
+        "Verify cross-domain source continuity; avoid self or payment-provider referrals. Do not send personal data such as email to analytics.",
+        "Check event order, values and currencies in DebugView, requests and reports. Test reloads, failed payments, refunds and consent.",
+        "Deliver a funnel and metric dictionary with numerators, denominators, test exclusions and reasons for discrepancies."
+      ],
+      "done": [
+        "Reloads do not duplicate purchases; refunds match the original transaction.",
+        "Reports show funnels by channel/device and reproduce the agreed conversion rate."
+      ],
+      "pitfalls": [
+        "Sending purchase on a checkout-button click or failed payment.",
+        "Calling orders divided by users a session conversion rate."
+      ],
+      "decision": "Agree on purchase, revenue and conversion definitions.",
+      "sources": [
+        "ga4-ecommerce",
+        "shopify-customer-events",
+        "xterra-repo"
+      ],
+      "related": [
+        "measurement",
+        "meta-tracking",
+        "google-commerce",
+        "ecommerce-growth"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "GA4 records customer actions as events. Connecting views, carts, checkouts and purchases reveals the shopping funnel.",
+        "when": "Use this to inspect drop-offs, calculate conversion rates or verify purchase tracking.",
+        "example": {
+          "situation": "If 100 of 10,000 sessions contain a purchase, purchase session conversion is 1%.",
+          "lesson": "State the denominator before comparing rates."
+        },
+        "first_step": "Agree on what counts as a purchase and conversion before checking events.",
+        "point_titles": [
+          "Record shopping actions",
+          "Include reconciliation fields",
+          "Define the denominator",
+          "Compare the same scope",
+          "Account for platform differences"
+        ],
+        "terms": [
+          [
+            "Event",
+            "A recorded action, such as adding to cart."
+          ],
+          [
+            "Session",
+            "A group of interactions during one visit; a user can have several."
+          ],
+          [
+            "transaction_id",
+            "An order identifier used to recognize the same transaction."
+          ]
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "Connect the shopping journey",
+          "nodes": [
+            [
+              "View product",
+              "view_item"
+            ],
+            [
+              "Add to cart",
+              "add_to_cart"
+            ],
+            [
+              "Start checkout",
+              "begin_checkout"
+            ],
+            [
+              "Complete purchase",
+              "purchase"
+            ]
+          ],
+          "caption": "These are the main events. Failed payments do not count as purchases."
+        }
+      }
+    },
+    {
+      "id": "paid-media",
+      "category": "growth",
+      "title": "Google Ads, Meta and campaign delivery",
+      "summary": "Connect goals, measurement and landing pages before spending.",
+      "keywords": [
+        "Google Ads",
+        "Meta",
+        "paid media",
+        "ROAS",
+        "CAC",
+        "UTM"
+      ],
+      "why": [
+        "Advertising cannot repair misleading product information or broken purchases.",
+        "Budgets and guardrail metrics keep experiments bounded."
+      ],
+      "know": [
+        "Choose the main conversion from business goals. Separate primary and observation events to avoid counting the same outcome twice.",
+        "Keep audience, message, creative and landing page consistent. Use naming and UTMs for channel comparison.",
+        "Read ROAS and CAC with margin, refunds, attribution and new-customer share. Platform attribution does not establish incremental contribution."
+      ],
+      "inputs": [
+        "Goals, approved budget and period, product/service margin",
+        "Accounts, conversions, audience consent, assets and landing pages"
+      ],
+      "actions": [
+        "Inspect accounts, tracking, search terms/audiences, policies and conversion quality.",
+        "Draft campaign structure, creative, UTMs, exclusions and tests.",
+        "Verify pages, events, amounts and budget. Publish within existing authorization or deliver drafts.",
+        "Set review intervals and stop conditions; avoid large changes based on a single day."
+      ],
+      "done": [
+        "The main conversion has a clear counting source and the landing page task works.",
+        "Reports include spend, valid outcomes, sample limits and the next testable hypothesis."
+      ],
+      "pitfalls": [
+        "Activating unapproved spend or counting tracking tests as real sales.",
+        "Adding orders attributed by different platforms together."
+      ],
+      "decision": "Approve budget, messaging and scope before activating verified campaigns.",
+      "sources": [
+        "tenten-consulting",
+        "ga4-ecommerce"
+      ],
+      "related": [
+        "measurement",
+        "ux-conversion",
+        "brand-strategy"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Paid ads bring an audience to a page that can produce an inquiry or purchase. Judge them by business results and cost.",
+        "when": "Use this to plan campaigns, adjust budgets or decide whether to continue.",
+        "example": {
+          "situation": "An ad promises free shipping, but the page adds restrictions; clicks rise without sales.",
+          "lesson": "Keep the ad promise and landing page consistent."
+        },
+        "first_step": "Define the main outcome, acceptable cost and receiving page.",
+        "point_titles": [
+          "Define the outcome",
+          "Match the landing page",
+          "Include acquisition costs"
+        ],
+        "terms": [
+          [
+            "ROAS",
+            "Attributed ad revenue divided by ad spend; it is not profit."
+          ],
+          [
+            "CAC",
+            "Cost per new customer, with included expenses defined."
+          ],
+          [
+            "Landing page",
+            "The page reached after clicking an ad."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "meta-tracking",
+      "category": "growth",
+      "title": "Meta Pixel, CAPI and deduplication",
+      "summary": "Report real purchases without counting browser and server copies twice.",
+      "keywords": [
+        "Meta",
+        "Facebook",
+        "Instagram",
+        "Pixel",
+        "CAPI",
+        "Conversions API",
+        "event_id",
+        "eventID",
+        "ad tracking"
+      ],
+      "why": [
+        "Valid purchase events support ad learning and evaluation.",
+        "Browser and server tracking complement each other, but duplicate purchases inflate ROAS."
+      ],
+      "know": [
+        "Pixel sends browser events; CAPI sends server events. Neither is an SEO meta or Open Graph tag.",
+        "The core path includes ViewContent, AddToCart, InitiateCheckout and Purchase. Keep value, currency and product IDs consistent.",
+        "For the same event, match event_name and use the browser eventID as the server event_id. Reuse a stable ID for that action.",
+        "Shopify’s official Meta channel covers some events. Verify custom headless storefront coverage separately.",
+        "CAPI still requires appropriate consent. Sharing levels, customer data and purposes must follow approved rules."
+      ],
+      "inputs": [
+        "Existing business/ad accounts, Pixel/dataset, catalog and access",
+        "Event ownership, product ID mappings, consent rules and test orders"
+      ],
+      "actions": [
+        "Inspect official channels, GTM, code and server senders. Assign clear event ownership.",
+        "Configure supported APIs/native integrations within authorization. Match content_ids to the catalog.",
+        "Use Test Events and diagnostics for purchases, rejected consent, reloads and retries. Inspect browser/server pairing.",
+        "Deliver de-identified payloads, timestamps, matched IDs and order-value reconciliation; list uncovered paths."
+      ],
+      "done": [
+        "One test purchase becomes one valid conversion, with evidence of browser/server pairing.",
+        "Rejected sharing follows approved rules; events reveal no extra customer data."
+      ],
+      "pitfalls": [
+        "Duplicating sends from the official app and manual Pixel.",
+        "Generating a new event_id on each retry or relying only on Pixel Helper."
+      ],
+      "decision": "Agree on data sharing and channel use. Tracking setup and ad activation are separate decisions.",
+      "sources": [
+        "shopify-meta",
+        "meta-dedup",
+        "shopify-privacy"
+      ],
+      "related": [
+        "measurement",
+        "ga4-commerce",
+        "headless-commerce",
+        "paid-media"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Meta tracking reports purchases to Facebook and Instagram advertising. Pixel sends from the browser; CAPI sends from the server.",
+        "when": "Use this before Meta campaigns or when purchase totals look wrong.",
+        "example": {
+          "situation": "Pixel and CAPI report one purchase without a shared identifier.",
+          "lesson": "Match the reports to prevent counting it twice."
+        },
+        "first_step": "Inventory Pixel, CAPI and official integrations; identify each sender.",
+        "point_titles": [
+          "Understand both senders",
+          "Connect shopping actions",
+          "Match event identity",
+          "Check custom storefronts",
+          "Respect consent"
+        ],
+        "terms": [
+          [
+            "Pixel",
+            "Browser code that records and sends events."
+          ],
+          [
+            "CAPI",
+            "Conversions API for sending server events."
+          ],
+          [
+            "Deduplication",
+            "Recognizing multiple reports of one action."
+          ]
+        ],
+        "diagram": {
+          "kind": "merge",
+          "title": "Two reports, one purchase",
+          "nodes": [
+            [
+              "Browser Pixel",
+              "Event name and eventID"
+            ],
+            [
+              "Server CAPI",
+              "Same name and event_id"
+            ],
+            [
+              "Meta",
+              "Recognizes one purchase"
+            ]
+          ],
+          "caption": "Use the same identifier and verify actual deduplication in the platform."
+        }
+      }
+    },
+    {
+      "id": "google-commerce",
+      "category": "growth",
+      "title": "Google Ads and product feeds",
+      "summary": "Connect conversions, product data and landing pages before spending.",
+      "keywords": [
+        "Google Ads",
+        "Merchant Center",
+        "Google & YouTube",
+        "Shopping",
+        "PMax",
+        "Performance Max",
+        "feed",
+        "GTIN",
+        "enhanced conversions",
+        "catalog"
+      ],
+      "why": [
+        "Missing conversions weaken bidding signals; incorrect feeds can cause disapproval or price mismatches.",
+        "Separate integration acceptance from campaign activation so spending has measurable outcomes."
+      ],
+      "know": [
+        "Ads handles campaigns and conversions; Merchant Center handles products and eligibility; GA4 analyzes behavior; GSC covers search indexing.",
+        "Avoid using both native Ads and imported GA4 purchases as primary bidding conversions for the same purchase. Check how observation actions enter campaign goals.",
+        "Keep stable IDs, applicable brand/GTIN identifiers, price, currency, stock, images, live URLs and shipping/return policies consistent.",
+        "Enhanced conversions use approved first-party data for matching. Hashing does not remove consent or data responsibilities.",
+        "Consider Shopify’s official Google & YouTube integration first. Test headless checkout, domains and product links end to end."
+      ],
+      "inputs": [
+        "Existing Ads, Merchant Center and GA4 accounts; target markets",
+        "Product identifiers, shipping/return policies, conversion definitions and authorization"
+      ],
+      "actions": [
+        "Inspect links and conversion actions. Define one primary purchase source with value, currency and transaction_id.",
+        "Sync products through supported integrations/APIs and inspect diagnostics. Do not invent GTINs or submit development URLs.",
+        "Test order reconciliation, reload deduplication, cross-domain attribution and consent. Verify current enhanced-conversion support.",
+        "Deliver eligibility and disapproval findings with fixes. Activate budgets, assets and campaigns only within advertising authorization."
+      ],
+      "done": [
+        "Sample prices, stock and URLs match landing pages; disapprovals have a reason and action.",
+        "One purchase creates the intended bidding signal. Integration completion does not establish campaign results."
+      ],
+      "pitfalls": [
+        "Counting one order in multiple primary conversion actions.",
+        "Pointing feeds to a Shopify theme when customers should use the custom storefront."
+      ],
+      "decision": "Agree on ad goals, conversion values and budget before authorized activation.",
+      "sources": [
+        "google-feed",
+        "google-enhanced",
+        "shopify-google",
+        "ga4-ecommerce"
+      ],
+      "related": [
+        "ga4-commerce",
+        "paid-media",
+        "headless-commerce",
+        "ecommerce-launch"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Google Ads runs campaigns; Merchant Center supplies product data. Accurate products and purchase reports provide the foundation.",
+        "when": "Use this for Shopping setup, disapproved products or duplicate conversions.",
+        "example": {
+          "situation": "The feed says “in stock” while the landing page says “sold out.”",
+          "lesson": "Keep catalog, page and checkout information consistent."
+        },
+        "first_step": "Identify the existing Ads, Merchant Center and GA4 accounts and connections.",
+        "point_titles": [
+          "Assign each platform a job",
+          "Avoid duplicate bidding signals",
+          "Match the feed to the site",
+          "Use first-party data appropriately",
+          "Test official integrations"
+        ],
+        "terms": [
+          [
+            "Feed",
+            "A structured product catalog supplied to a platform."
+          ],
+          [
+            "GTIN",
+            "A global trade item number, supplied when applicable."
+          ],
+          [
+            "Primary conversion",
+            "An outcome used for bidding, such as a purchase."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "lifecycle-crm",
+      "category": "growth",
+      "title": "CRM, email and customer journeys",
+      "summary": "Connect leads, purchases and follow-up so handoffs do not lose work.",
+      "keywords": [
+        "CRM",
+        "HubSpot",
+        "email",
+        "Klaviyo",
+        "automation",
+        "lead",
+        "retention",
+        "EDM"
+      ],
+      "why": [
+        "A form must route the lead to an owner and track the result.",
+        "Consent, segmentation and exit rules keep communication relevant."
+      ],
+      "know": [
+        "Define contacts, companies, deals, sources and lifecycle stages; assign field ownership and deduplication keys.",
+        "Separate order messages from marketing. Define cross-system ownership for consent, unsubscribes, bounces and deletion; do not assume two-way sync.",
+        "Verify sending domains and SPF/DKIM/DMARC. Preserve existing mail services when changing DNS."
+      ],
+      "inputs": [
+        "Contact fields, sources, consent records, CRM and sending platform",
+        "Journey, owners, response times, messages and exit rules"
+      ],
+      "actions": [
+        "Define field mappings, segments, assignment and deduplication.",
+        "Draft welcome, inquiry, abandonment or retention flows and messages.",
+        "Use test contacts to verify triggers, exclusions, unsubscribes, deduplication and CRM updates."
+      ],
+      "done": [
+        "Each valid form reaches the right system and owner; retries create no duplicate records.",
+        "Unsubscribed contacts leave inapplicable marketing flows; tests do not reach customers."
+      ],
+      "pitfalls": [
+        "Treating all historical customers as consenting to marketing.",
+        "Triggering bulk email during imports."
+      ],
+      "decision": "Agree on list usage, messages and recipients before activating verified flows.",
+      "sources": [
+        "tenten-home",
+        "tenten-consulting",
+        "klaviyo-subscribers"
+      ],
+      "related": [
+        "klaviyo",
+        "commerce-service",
+        "automation-integration"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "A CRM records customer and opportunity status. A customer journey defines when to provide information or service.",
+        "when": "Use this for incoming leads, scattered lists or follow-up email planning.",
+        "example": {
+          "situation": "An inquiry exists in a form and spreadsheet, but nobody knows who replied.",
+          "lesson": "Connect the source, owner and status."
+        },
+        "first_step": "Trace one inquiry from arrival to sale and mark each handoff.",
+        "point_titles": [
+          "Define customer data",
+          "Separate marketing and service",
+          "Authenticate the sending domain"
+        ]
+      }
+    },
+    {
+      "id": "klaviyo",
+      "category": "growth",
+      "title": "Klaviyo: newsletters and automated journeys",
+      "summary": "Use subscription and shopping behavior for welcome emails, checkout reminders and product guidance.",
+      "keywords": [
+        "Klaviyo",
+        "Sherry",
+        "EDM",
+        "newsletter",
+        "welcome",
+        "abandoned cart",
+        "flow",
+        "winback",
+        "email automation"
+      ],
+      "why": [
+        "Behavior-based flows send relevant messages without rebuilding every campaign.",
+        "Exit rules stop abandoned-checkout reminders after purchase and marketing after unsubscribe."
+      ],
+      "know": [
+        "Klaviyo handles email, SMS and journeys. Profiles represent people, lists hold members, segments use dynamic rules, flows react to triggers and campaigns are one-off sends.",
+        "An email address or profile is not marketing consent. Email and SMS consent are separate; order and service messages serve different purposes.",
+        "Start with welcome, checkout abandonment and post-purchase guidance. Consider browse reminders and winback later. Durable goods often need care advice and accessories.",
+        "Separate native Checkout Started/Placed Order events from custom form events. Placed Order does not prove payment; check payment, cancellation and refund states.",
+        "Do not assume two-way unsubscribe sync. Official guidance says a Shopify unsubscribe does not automatically unsubscribe the person in Klaviyo; handle suppression explicitly."
+      ],
+      "inputs": [
+        "Existing sender and Shopify integration; list sources, consent and unsubscribe records",
+        "Sending domain, assets, flow goals and internal test recipients"
+      ],
+      "actions": [
+        "Inventory platforms and live/draft flows. Map native order and custom form data to prevent duplicate integrations or sends.",
+        "Define field/event mappings, sender authentication, segments, triggers, waits, exclusions and exits. Keep new flows in Draft.",
+        "Test consent, purchase exits, unsubscribe suppression and retry deduplication. Isolate historical imports from welcome triggers.",
+        "Use supported APIs/integrations. Deliver test-email receipts, drafts and capability gaps; send only within task authorization."
+      ],
+      "done": [
+        "Profiles, events and subscription states are independently verified; test messages and links are correct.",
+        "Purchases stop the relevant reminders; unsubscribes stop marketing. Document sync gaps.",
+        "Assess clicks, valid orders and unsubscribes. Attributed revenue does not establish incremental revenue."
+      ],
+      "pitfalls": [
+        "Running Shopify and Klaviyo abandonment flows at once.",
+        "Treating all historical customers as subscribed or using opens as the only metric."
+      ],
+      "decision": "Agree on audience use, offers, copy and activation timing; follow existing sending authorization.",
+      "sources": [
+        "klaviyo-shopify",
+        "klaviyo-flows",
+        "klaviyo-shopify-data",
+        "klaviyo-subscribers",
+        "xterra-repo"
+      ],
+      "related": [
+        "lifecycle-crm",
+        "commerce-service",
+        "headless-commerce",
+        "ecommerce-growth"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Klaviyo automates ecommerce email and SMS based on subscriptions and shopping activity.",
+        "when": "Use this for welcome emails, checkout reminders, product guidance or more relevant newsletters.",
+        "example": {
+          "situation": "A subscriber receives a welcome email, then product guidance after buying.",
+          "lesson": "Purchase should stop abandonment reminders for that checkout."
+        },
+        "first_step": "Choose one journey and write its trigger, message and stopping condition.",
+        "point_titles": [
+          "Learn the objects",
+          "Check marketing consent",
+          "Start with useful journeys",
+          "Distinguish order states",
+          "Handle unsubscribes across systems"
+        ],
+        "terms": [
+          [
+            "Profile / list",
+            "A person’s record / a collection of members."
+          ],
+          [
+            "Segment",
+            "A group that changes as people meet its rules."
+          ],
+          [
+            "Flow / campaign",
+            "A triggered journey / a one-off scheduled activity."
+          ]
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "A subscriber’s journey",
+          "nodes": [
+            [
+              "Subscribe",
+              "Enter the welcome flow"
+            ],
+            [
+              "Explore products",
+              "Receive relevant content"
+            ],
+            [
+              "Purchase",
+              "Leave that checkout reminder flow"
+            ],
+            [
+              "Use the product",
+              "Receive setup and care guidance"
+            ]
+          ],
+          "caption": "An example journey. Every marketing message must respect subscription status."
+        }
+      }
+    },
+    {
+      "id": "hosting-architecture",
+      "category": "operations",
+      "title": "Hosting, DNS, CDN and environments",
+      "summary": "Know who runs each service and how domains, applications, data and email connect.",
+      "keywords": [
+        "hosting",
+        "AWS",
+        "GCP",
+        "Azure",
+        "VPS",
+        "DNS",
+        "CDN",
+        "SSL",
+        "TLS"
+      ],
+      "why": [
+        "Hosting choices affect availability, cost, maintenance and recovery.",
+        "Understanding DNS dependencies prevents a website move from breaking email."
+      ],
+      "know": [
+        "Managed Shopify/Webflow hosting and self-managed VPS/cloud infrastructure have different responsibilities. Use the actual contract.",
+        "Separate registration, DNS, CDN, TLS, application and database layers when diagnosing problems.",
+        "Plan development, staging, production, data region, RTO/RPO, backups and monitoring. State assumptions in traffic and cost estimates."
+      ],
+      "inputs": [
+        "Architecture, traffic, data types and current DNS zone",
+        "Account owners, budget, SLA, backup and recovery needs"
+      ],
+      "actions": [
+        "Map architecture, DNS and dependencies; assign platform, Tenten and client responsibilities.",
+        "Compare managed and self-managed options, costs and scaling. Inspect CDN, TLS and persistence.",
+        "Deliver environment configuration, backup/recovery, monitoring and access handoff."
+      ],
+      "done": [
+        "Production DNS and TLS work; email MX/TXT records remain intact.",
+        "Restarting or rebuilding preserves persistent data; isolated restore evidence exists."
+      ],
+      "pitfalls": [
+        "Treating DNS TTL as a guarantee of an instant switch.",
+        "Backing up code without the database and media."
+      ],
+      "decision": "Agree on budget, availability, data location and maintenance ownership for each layer.",
+      "sources": [
+        "tenten-hosting",
+        "tenten-cms"
+      ],
+      "related": [
+        "launch",
+        "operations-security",
+        "platform-choice"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "A website depends on its domain, DNS, hosting, content and network services. Knowing the layers helps with selection and troubleshooting.",
+        "when": "Use this for hosting plans, domain changes or website/email connection problems.",
+        "example": {
+          "situation": "A website migration overwrites mail records and incoming email stops.",
+          "lesson": "Website and email records share a domain but need separate checks."
+        },
+        "first_step": "Map who manages the domain, DNS, website, data and email.",
+        "point_titles": [
+          "Check the hosting contract",
+          "Separate the layers",
+          "Plan environments and recovery"
+        ],
+        "terms": [
+          [
+            "DNS",
+            "Records that direct a domain to web, mail and other services."
+          ],
+          [
+            "CDN",
+            "Distributed servers that deliver content closer to users."
+          ],
+          [
+            "TLS",
+            "Encryption for connections between browser and website."
+          ]
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "From a URL to a page",
+          "nodes": [
+            [
+              "Domain and DNS",
+              "Locate the service"
+            ],
+            [
+              "CDN and host",
+              "Receive and process the request"
+            ],
+            [
+              "Application and content",
+              "Produce the page"
+            ]
+          ],
+          "caption": "A simplified request path. Platforms may combine layers; email has separate DNS records."
+        }
+      }
+    },
+    {
+      "id": "launch",
+      "category": "operations",
+      "title": "Website launch: readiness and cutover",
+      "summary": "Check SEO, transactions, tracking, DNS and recovery before launch.",
+      "keywords": [
+        "go live",
+        "launch",
+        "checklist",
+        "DNS",
+        "GA4",
+        "GSC",
+        "301"
+      ],
+      "why": [
+        "A launch is a system change; one missing dependency can interrupt traffic, transactions or data.",
+        "Clear go/no-go and recovery conditions help the team decide quickly."
+      ],
+      "know": [
+        "Cover functionality, content, SEO, measurement, privacy, DNS/TLS, performance, backups and ownership.",
+        "Inventory existing GA4/GSC first. Activate Ads/Meta for planned channels; check titles, descriptions and Open Graph separately.",
+        "Production needs its own checks for indexing, forms, payments and tracking even if preview worked."
+      ],
+      "inputs": [
+        "Approved version, domain, release window, decision owner and operations contacts",
+        "Acceptance, redirects, events, DNS, backup and recovery plans"
+      ],
+      "actions": [
+        "Build the go/no-go checklist; verify staging paths, SEO, tracking and required policies.",
+        "Inspect production DNS/TLS/email, sync, environment variables and monitoring; prepare a recoverable version.",
+        "Cut over within existing authorization. Remove production noindex or password restrictions only where appropriate.",
+        "Check representative URLs, orders/forms, events and GSC. Deliver a dated, versioned release record and monitoring plan."
+      ],
+      "done": [
+        "Production tasks work, old URLs map correctly and analytics events deduplicate.",
+        "No unintended staging restrictions remain; ownership is handed over and failed items have decisions."
+      ],
+      "pitfalls": [
+        "Removing protection from admin or preview content with the public site.",
+        "Testing only the homepage."
+      ],
+      "decision": "Use acceptance results to decide whether to launch and who can pause or recover.",
+      "sources": [
+        "owner-brief",
+        "google-migration",
+        "tenten-hosting",
+        "ga4-ecommerce"
+      ],
+      "related": [
+        "technical-seo",
+        "measurement",
+        "operations-security"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Launch moves an accepted version into production and verifies continuity for users, search engines and operations.",
+        "when": "Use this for a new site, redesign cutover or launch decision.",
+        "example": {
+          "situation": "A preview form works, but production lacks its receiving configuration.",
+          "lesson": "Recheck at the production URL after switching."
+        },
+        "first_step": "Mark required items passed, failed or awaiting a decision.",
+        "point_titles": [
+          "Check the whole system",
+          "Keep search and measurement connected",
+          "Verify production again"
+        ]
+      }
+    },
+    {
+      "id": "operations-security",
+      "category": "operations",
+      "title": "Operations, security and recovery",
+      "summary": "Detect failures, prove backups can restore and assign incident decisions.",
+      "keywords": [
+        "operations",
+        "security",
+        "backup",
+        "restore",
+        "incident",
+        "RTO",
+        "RPO",
+        "permissions",
+        "monitoring"
+      ],
+      "why": [
+        "A backup needs a tested recovery process.",
+        "Least privilege and separate environments limit the impact of mistakes and exposure."
+      ],
+      "know": [
+        "RTO is the acceptable recovery time; RPO is the acceptable data-loss window. Set both from business needs.",
+        "Use secure connections for accounts and secrets. Review and revoke staff, vendor and agent access.",
+        "Monitor availability, critical tasks, errors and backups. Check update compatibility and retain a recovery path."
+      ],
+      "inputs": [
+        "Systems, permissions, backup locations and recovery requirements",
+        "Incident owners, contacts, change windows and contractual responsibilities"
+      ],
+      "actions": [
+        "Check least privilege, retention and update procedures; record fixable risks.",
+        "Restore in isolation and measure recovery time and missing data.",
+        "Set monitoring thresholds, recipients and escalation owners. Test actual alert delivery.",
+        "Stabilize service and preserve evidence during incidents. Record the timeline, impact, repair and follow-up."
+      ],
+      "done": [
+        "Actual restore results exist; alerts reach the right on-call role.",
+        "Incidents and changes have versions, owners and traceable records without exposed secrets."
+      ],
+      "pitfalls": [
+        "Promising uncontracted 24/7 support or response SLAs.",
+        "Deleting incident records or restoring old data without reconciliation."
+      ],
+      "decision": "Agree on incident authority, communication and acceptable downtime and data loss.",
+      "sources": [
+        "tenten-hosting",
+        "owasp-agents"
+      ],
+      "related": [
+        "hosting-architecture",
+        "launch",
+        "fde"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "Operations keeps services available. Incident preparation gives the team a way to detect, handle and recover from failures.",
+        "when": "Use this for hosting handoff, backups or recovery that currently depends on one person.",
+        "example": {
+          "situation": "Daily backups exist, but a failure reveals they cannot restore the data.",
+          "lesson": "Practice restoration before relying on a backup."
+        },
+        "first_step": "Decide acceptable downtime and data loss, then inspect the backups.",
+        "point_titles": [
+          "Set recovery targets",
+          "Review access",
+          "Make monitoring actionable"
+        ],
+        "terms": [
+          [
+            "RTO",
+            "The acceptable time to restore service."
+          ],
+          [
+            "RPO",
+            "The acceptable data-loss window."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "ai-consulting",
+      "category": "ai",
+      "title": "AI consulting: from use case to working system",
+      "summary": "Find work worth improving, then test whether AI is a good fit.",
+      "keywords": [
+        "AI consultant",
+        "AI consulting",
+        "RAG",
+        "knowledge base",
+        "PoC",
+        "evaluation"
+      ],
+      "why": [
+        "A problem and baseline help avoid demos nobody uses.",
+        "Representative samples reveal reliability, cost and the impact of errors."
+      ],
+      "know": [
+        "Start with frequent work that has accessible inputs, assessable outputs and a clear owner.",
+        "Use code for explicit rules, models for language judgment, and retrieval with citations when answers need sources.",
+        "RAG needs source ownership, updates, versions, access control and refusal behavior. Prompts cannot enforce data permissions."
+      ],
+      "inputs": [
+        "Current workflow, time or quality baseline, representative and failure samples",
+        "Data scope, connections, budget and decision owner"
+      ],
+      "actions": [
+        "List use cases and propose a small pilot based on value, feasibility and risk.",
+        "Choose rules, search, RAG or an agent; document costs, data boundaries and alternatives.",
+        "Set an evaluation set, acceptance thresholds and exception paths. Measure quality, latency and cost per task."
+      ],
+      "done": [
+        "Test on held-out samples; record successes, errors and refusals.",
+        "Trace answers to sources and retain evidence of permission checks and human handoff."
+      ],
+      "pitfalls": [
+        "Treating a demo as production acceptance.",
+        "Promising to replace a job without measuring its scope."
+      ],
+      "decision": "Agree on usable data, acceptable errors and what to expand if the pilot succeeds.",
+      "sources": [
+        "tenten-ai",
+        "tenten-consulting",
+        "owasp-agents"
+      ],
+      "related": [
+        "fde",
+        "automation-integration",
+        "project-brief"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "AI consulting identifies work to improve, checks the data and tools, then uses a small pilot to test quality and benefit.",
+        "when": "Use this when the team wants AI but has no clear starting point or evidence of value.",
+        "example": {
+          "situation": "Support staff answer recurring questions from scattered, undated sources.",
+          "lesson": "Organize sources and acceptance criteria before testing the answers."
+        },
+        "first_step": "Choose a frequent task and collect samples plus a baseline.",
+        "point_titles": [
+          "Choose work you can evaluate",
+          "Match the method to the problem",
+          "Govern the sources"
+        ],
+        "terms": [
+          [
+            "Use case",
+            "A specific situation and job to complete."
+          ],
+          [
+            "RAG",
+            "Retrieve relevant sources before asking a model to answer."
+          ]
+        ]
+      }
+    },
+    {
+      "id": "automation-integration",
+      "category": "ai",
+      "title": "APIs, MCP and system integrations",
+      "summary": "Move data reliably, prevent duplicate actions and make failures traceable.",
+      "keywords": [
+        "API",
+        "MCP",
+        "webhook",
+        "integration",
+        "n8n",
+        "Dify",
+        "automation",
+        "idempotency"
+      ],
+      "why": [
+        "An integration must keep work moving correctly beyond a successful API response.",
+        "Data ownership and deduplication prevent duplicate contacts, orders and messages."
+      ],
+      "know": [
+        "Assign a source of truth to each field. Define sync direction, identity keys and conflict rules.",
+        "Webhooks can arrive late, out of order or more than once. Design signature checks, deduplication, rate limits and retries to the platform contract.",
+        "Treat external content as untrusted. Enforce tool permissions in the system and keep secrets out of model output."
+      ],
+      "inputs": [
+        "Source and destination systems, API/MCP/CLI capabilities and secure connections",
+        "Sample payloads, field mappings, triggers and exceptions"
+      ],
+      "actions": [
+        "Inspect existing integrations, schemas, authentication, versions, limits and sandboxes.",
+        "Map fields and idempotency keys; add validation, backoff, failed-event queues and reconciliation.",
+        "Test duplicate and out-of-order events, partial success, denied access and injected instructions without affecting customers.",
+        "Deliver the workflow, logs, retry and recovery steps. Name unsupported capabilities."
+      ],
+      "done": [
+        "Replaying an event causes no duplicate side effects; final records reconcile.",
+        "Failures alert an owner. Logs exclude secrets and unnecessary personal data."
+      ],
+      "pitfalls": [
+        "Retrying every error forever, causing duplicate charges or emails.",
+        "Letting two systems overwrite the same field without conflict rules."
+      ],
+      "decision": "Agree on data ownership and which external actions may run automatically.",
+      "sources": [
+        "tenten-ai",
+        "tenten-shopify",
+        "owasp-agents"
+      ],
+      "related": [
+        "fde",
+        "lifecycle-crm",
+        "shopify-foundation"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "APIs expose system operations. MCP gives agents a consistent way to use tools. An integration connects these operations into a reliable flow.",
+        "when": "Use this for form-to-CRM, order-to-logistics or shared data across tools.",
+        "example": {
+          "situation": "A submitted form is retried and creates two CRM opportunities.",
+          "lesson": "Identify the same action so a retry repairs a failure without duplicating it."
+        },
+        "first_step": "List the data source, destination and record identity.",
+        "point_titles": [
+          "Assign data ownership",
+          "Expect retries and failures",
+          "Enforce permissions separately"
+        ]
+      }
+    },
+    {
+      "id": "fde",
+      "category": "ai",
+      "title": "FDE: from the client’s workflow to production",
+      "summary": "Embed the delivery team in real work, from scoping and integration to operational ownership.",
+      "keywords": [
+        "FDE",
+        "Forward Deployed Engineering",
+        "Forward Deployed Engineer",
+        "embedded delivery",
+        "AI consulting"
+      ],
+      "why": [
+        "Working with real users, data and exceptions reduces the gap between plans and daily use.",
+        "One team connects scope, acceptance and operations so a pilot can become a dependable system."
+      ],
+      "know": [
+        "Forward Deployed Engineering is an engineering delivery approach embedded in the client’s workflow. FDE can also mean an engineer doing this work.",
+        "Start with one workflow that has an owner, accessible data and a measurable baseline. Agree on the first scope and acceptance criteria.",
+        "Review working iterations with users and test main paths and exceptions. Define monitoring, incident handling and knowledge transfer before launch."
+      ],
+      "inputs": [
+        "Users, current workflow, data/access, failure samples and baseline",
+        "Initial scope, budget, acceptance owner and ongoing operating responsibilities"
+      ],
+      "actions": [
+        "Map the work with the people doing it. Confirm problems, data, exceptions and decisions.",
+        "Choose one use case, agree on acceptance and assess benefit, integration cost and risk.",
+        "Build a working version, connect agreed systems, test with users and record decisions.",
+        "Confirm release, monitoring, recovery, support and knowledge transfer. Expand after the first workflow meets acceptance."
+      ],
+      "done": [
+        "The working system passes agreed samples and criteria, with results compared to the baseline.",
+        "Launch and operations have owners, monitoring and handoff paths; unfinished items remain traceable."
+      ],
+      "pitfalls": [
+        "Stopping at a demo without testing real data, access and exceptions.",
+        "Treating FDE as an AI employee or a staffing-replacement guarantee."
+      ],
+      "decision": "Agree on the first workflow, acceptance threshold and operating owner before expanding scope.",
+      "sources": [
+        "owner-brief",
+        "tenten-ai",
+        "tenten-fde"
+      ],
+      "related": [
+        "ai-consulting",
+        "automation-integration",
+        "operations-security"
+      ],
+      "reviewed_at": "2026-10-21",
+      "status": "proposed-guidance",
+      "reader": {
+        "concept": "FDE brings an engineering team into the client’s actual workflow. The team stays involved through problem definition, integration and production operation.",
+        "when": "Use this when delivery requires business judgment, existing systems and real users.",
+        "example": {
+          "situation": "An AI support tool needs order access and return rules. The team first maps permissions and human exceptions with support staff.",
+          "lesson": "Acceptance must include integration, handoff and an agreed maintenance owner."
+        },
+        "first_step": "Choose a workflow with its users and name the baseline and acceptance owner.",
+        "point_titles": [
+          "Embed engineering in the work",
+          "Start with an assessable scope",
+          "Include operations in delivery"
+        ],
+        "diagram": {
+          "kind": "flow",
+          "title": "From one workflow to production",
+          "nodes": [
+            [
+              "Evaluate",
+              "Workflow, baseline and scope"
+            ],
+            [
+              "Build",
+              "Integration, user review and acceptance"
+            ],
+            [
+              "Operate",
+              "Monitoring, support and transfer"
+            ]
+          ],
+          "caption": "Validate the first workflow before expanding. Agree on responsibility at each stage."
+        }
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": "start",
+      "title": "Work and consulting",
+      "summary": "Define the result before starting.",
+      "number": "01",
+      "clusters": [
+        {
+          "title": "How we work",
+          "ids": [
+            "tenten-context",
+            "project-brief",
+            "agent-workflow"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Brand and experience",
+      "summary": "Turn brand direction into reusable design rules.",
+      "number": "02",
+      "clusters": [
+        {
+          "title": "From positioning to experience",
+          "ids": [
+            "brand-strategy",
+            "ux-conversion",
+            "design-system"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "build",
+      "title": "Web and software",
+      "summary": "Choose a platform and deliver a maintainable product.",
+      "number": "03",
+      "clusters": [
+        {
+          "title": "Selection and planning",
+          "ids": [
+            "platform-choice",
+            "cms-content"
+          ]
+        },
+        {
+          "title": "Development and acceptance",
+          "ids": [
+            "headless-commerce",
+            "development-quality"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce",
+      "title": "Shopify and ecommerce",
+      "summary": "Connect products, transactions, data and operations.",
+      "number": "04",
+      "clusters": [
+        {
+          "title": "Commerce basics",
+          "ids": [
+            "shopify-foundation"
+          ]
+        },
+        {
+          "title": "Store setup and migration",
+          "ids": [
+            "ecommerce-launch",
+            "migration"
+          ]
+        },
+        {
+          "title": "Shopping and after-sales",
+          "ids": [
+            "commerce-merchandising",
+            "ecommerce-growth",
+            "commerce-service"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "search",
+      "title": "SEO and GEO",
+      "summary": "Preserve search assets and publish useful answers.",
+      "number": "05",
+      "clusters": [
+        {
+          "title": "Make pages discoverable",
+          "ids": [
+            "technical-seo"
+          ]
+        },
+        {
+          "title": "Answer the right questions",
+          "ids": [
+            "content-seo",
+            "geo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Marketing and data",
+      "summary": "Connect meaningful events to business results.",
+      "number": "06",
+      "clusters": [
+        {
+          "title": "Understand the data",
+          "ids": [
+            "measurement",
+            "ga4-commerce"
+          ]
+        },
+        {
+          "title": "Ads and product visibility",
+          "ids": [
+            "paid-media",
+            "meta-tracking",
+            "google-commerce"
+          ]
+        },
+        {
+          "title": "Customer relationships",
+          "ids": [
+            "lifecycle-crm",
+            "klaviyo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Hosting and operations",
+      "summary": "Keep services available, recoverable and owned.",
+      "number": "07",
+      "clusters": [
+        {
+          "title": "Architecture and launch",
+          "ids": [
+            "hosting-architecture",
+            "launch"
+          ]
+        },
+        {
+          "title": "Ongoing operations",
+          "ids": [
+            "operations-security"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI consulting and FDE",
+      "summary": "Connect business problems, integration and operating responsibility.",
+      "number": "08",
+      "clusters": [
+        {
+          "title": "Find suitable work",
+          "ids": [
+            "ai-consulting"
+          ]
+        },
+        {
+          "title": "Integrate and operate",
+          "ids": [
+            "automation-integration",
+            "fde"
+          ]
+        }
+      ]
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "migration",
+      "title": "Magento to Shopify migration",
+      "subtitle": "Use XTERRA’s US-site needs to understand data, search and transaction continuity.",
+      "category": "commerce",
+      "featured": true,
+      "ids": [
+        "migration",
+        "headless-commerce",
+        "shopify-foundation",
+        "technical-seo",
+        "ga4-commerce",
+        "ecommerce-launch",
+        "launch"
+      ],
+      "inputs": [
+        "Old/new URLs and data exports",
+        "Migration scope, cutover window and decision owner"
+      ],
+      "deliverable": "Data and URL mappings, rehearsal results, and a production cutover and recovery plan.",
+      "note": "Read-only review of tentenco/xterra-website at e1caa5ecdcdf: Astro/Sanity with Shopify hosted checkout, a Klaviyo adapter and Draft setup scripts. The README and integration guide differ. Live accounts, complete Magento data/redirect mappings, actual sends and launch dates were not checked. Repository documents do not establish production acceptance.",
+      "stages": [
+        {
+          "title": "Inventory and architecture",
+          "description": "Identify the assets and system responsibilities.",
+          "ids": [
+            "migration",
+            "headless-commerce",
+            "shopify-foundation"
+          ]
+        },
+        {
+          "title": "Preserve search and measurement",
+          "description": "Keep old entry points and shopping records connected.",
+          "ids": [
+            "technical-seo",
+            "ga4-commerce"
+          ]
+        },
+        {
+          "title": "Cutover and acceptance",
+          "description": "Turn open issues into explicit launch decisions.",
+          "ids": [
+            "ecommerce-launch",
+            "launch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ecommerce-launch",
+      "title": "Shopify ecommerce launch",
+      "subtitle": "Check transactions, GA4, Meta, Google Ads, search and cutover in order.",
+      "category": "commerce",
+      "featured": true,
+      "ids": [
+        "ecommerce-launch",
+        "shopify-foundation",
+        "headless-commerce",
+        "ga4-commerce",
+        "meta-tracking",
+        "google-commerce",
+        "technical-seo",
+        "launch"
+      ],
+      "inputs": [
+        "Storefront/checkout domains, repository version and secure connections",
+        "Markets, transaction/delivery policies, channel plan, test orders and authorization"
+      ],
+      "deliverable": "A tested launch checklist covering transactions, measurement, catalog and search, with a go/no-go decision and open items.",
+      "note": "A default review baseline for ecommerce projects. Apply Meta/Google integrations and operating tools to the market, consent rules and channel plan. Installing apps, activating campaigns and sending messages still require applicable authorization.",
+      "stages": [
+        {
+          "title": "Understand the whole store",
+          "description": "Confirm operating rules and system boundaries.",
+          "ids": [
+            "ecommerce-launch",
+            "shopify-foundation",
+            "headless-commerce"
+          ]
+        },
+        {
+          "title": "Connect measurement and discovery",
+          "description": "Check purchase reporting and product visibility.",
+          "ids": [
+            "ga4-commerce",
+            "meta-tracking",
+            "google-commerce",
+            "technical-seo"
+          ]
+        },
+        {
+          "title": "Launch",
+          "description": "Complete checks, cut over and monitor.",
+          "ids": [
+            "launch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "website",
+      "title": "New website or brand redesign",
+      "subtitle": "From positioning, content and platform choice to a production handoff.",
+      "category": "build",
+      "featured": true,
+      "ids": [
+        "project-brief",
+        "brand-strategy",
+        "ux-conversion",
+        "platform-choice",
+        "development-quality",
+        "measurement",
+        "launch"
+      ],
+      "inputs": [
+        "Audience, business goals and brand assets",
+        "Existing site, content, platform and integrations"
+      ],
+      "deliverable": "A clear brief, site architecture and prototype, plus a buildable, accepted website and handoff.",
+      "stages": [
+        {
+          "title": "Set the direction",
+          "description": "Define whose problem the project solves.",
+          "ids": [
+            "project-brief",
+            "brand-strategy"
+          ]
+        },
+        {
+          "title": "Build the experience",
+          "description": "Choose the journey, platform and delivery standards.",
+          "ids": [
+            "ux-conversion",
+            "platform-choice",
+            "development-quality"
+          ]
+        },
+        {
+          "title": "Verify and launch",
+          "description": "Check measurement and the production environment.",
+          "ids": [
+            "measurement",
+            "launch"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "title": "Prepare a website for launch",
+      "subtitle": "Check redirects, GA4, GSC, ad tracking and operations.",
+      "category": "operations",
+      "featured": true,
+      "ids": [
+        "launch",
+        "technical-seo",
+        "measurement",
+        "hosting-architecture"
+      ],
+      "inputs": [
+        "Approved version, domain and launch window",
+        "Existing accounts, tracking and recovery plan"
+      ],
+      "deliverable": "A launch decision, production test results and a monitoring list.",
+      "stages": [
+        {
+          "title": "Define readiness",
+          "description": "List the areas that need checking.",
+          "ids": [
+            "launch"
+          ]
+        },
+        {
+          "title": "Check search and measurement",
+          "description": "Preserve entry points and record important actions.",
+          "ids": [
+            "technical-seo",
+            "measurement"
+          ]
+        },
+        {
+          "title": "Confirm environment and owners",
+          "description": "Keep production available with a clear handoff.",
+          "ids": [
+            "hosting-architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seo-geo",
+      "title": "SEO and GEO growth",
+      "subtitle": "Connect crawlability and buyer questions to credible content and citation monitoring.",
+      "category": "search",
+      "featured": false,
+      "ids": [
+        "technical-seo",
+        "content-seo",
+        "geo",
+        "measurement"
+      ],
+      "inputs": [
+        "Website, markets and buyer questions",
+        "GSC/traffic, product facts and publishable evidence"
+      ],
+      "deliverable": "A prioritized search/content issue list and comparable performance records.",
+      "stages": [
+        {
+          "title": "Check the foundations",
+          "description": "Make important pages accessible to search.",
+          "ids": [
+            "technical-seo"
+          ]
+        },
+        {
+          "title": "Develop answers and evidence",
+          "description": "Answer buyer questions with citable facts.",
+          "ids": [
+            "content-seo",
+            "geo"
+          ]
+        },
+        {
+          "title": "Keep measuring",
+          "description": "Use observations to choose the next changes.",
+          "ids": [
+            "measurement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "title": "Marketing campaigns and ecommerce conversion",
+      "subtitle": "Validate events before changing ads, product pages or customer journeys.",
+      "category": "growth",
+      "featured": false,
+      "ids": [
+        "measurement",
+        "paid-media",
+        "ecommerce-growth",
+        "lifecycle-crm"
+      ],
+      "inputs": [
+        "Business goals, budget and margin requirements",
+        "Accounts, consent, funnel and assets"
+      ],
+      "deliverable": "Reliable measurement, campaign/page drafts, an experiment plan and reconciled leads or revenue.",
+      "stages": [
+        {
+          "title": "Validate the data",
+          "description": "Make decisions from usable numbers.",
+          "ids": [
+            "measurement"
+          ]
+        },
+        {
+          "title": "Improve acquisition and purchases",
+          "description": "Keep ad promises and shopping experience consistent.",
+          "ids": [
+            "paid-media",
+            "ecommerce-growth"
+          ]
+        },
+        {
+          "title": "Continue the relationship",
+          "description": "Plan relevant messages before and after purchase.",
+          "ids": [
+            "lifecycle-crm"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ai-workflow",
+      "title": "AI consulting and FDE delivery",
+      "subtitle": "Start with a stuck workflow and build something you can evaluate and operate.",
+      "category": "ai",
+      "featured": false,
+      "ids": [
+        "project-brief",
+        "ai-consulting",
+        "fde",
+        "automation-integration"
+      ],
+      "inputs": [
+        "Current workflow, representative samples and manual baseline",
+        "Data, tools, autonomy boundaries, budget and owner"
+      ],
+      "deliverable": "A workflow worth improving, initial scope, working pilot, acceptance results and operating arrangements.",
+      "stages": [
+        {
+          "title": "Choose the work",
+          "description": "Understand the problem and whether AI fits.",
+          "ids": [
+            "project-brief",
+            "ai-consulting"
+          ]
+        },
+        {
+          "title": "Define delivery and ownership",
+          "description": "Agree on scope, acceptance and operations with users.",
+          "ids": [
+            "fde"
+          ]
+        },
+        {
+          "title": "Connect the systems",
+          "description": "Make the workflow reliable in ongoing use.",
+          "ids": [
+            "automation-integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brand-system",
+      "title": "Brand and design system",
+      "subtitle": "Connect positioning, tone, visuals and components.",
+      "category": "design",
+      "featured": false,
+      "ids": [
+        "brand-strategy",
+        "ux-conversion",
+        "design-system",
+        "cms-content"
+      ],
+      "inputs": [
+        "Audience research, brand assets and markets",
+        "Use cases, content languages and approver"
+      ],
+      "deliverable": "Agreed positioning, message hierarchy, shared visual rules, components and sample pages.",
+      "stages": [
+        {
+          "title": "Define the brand",
+          "description": "Clarify the audience, claim and proof.",
+          "ids": [
+            "brand-strategy"
+          ]
+        },
+        {
+          "title": "Apply it to the interface",
+          "description": "Keep experience and visual rules consistent.",
+          "ids": [
+            "ux-conversion",
+            "design-system"
+          ]
+        },
+        {
+          "title": "Plan ongoing editing",
+          "description": "Keep content updates within the shared rules.",
+          "ids": [
+            "cms-content"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "operations",
+      "title": "Hosting and incident readiness",
+      "subtitle": "Clarify ownership, backups, recovery and monitoring.",
+      "category": "operations",
+      "featured": false,
+      "ids": [
+        "hosting-architecture",
+        "operations-security",
+        "automation-integration"
+      ],
+      "inputs": [
+        "System/DNS inventory, backups and contract scope",
+        "RTO/RPO, account owners and incident contacts"
+      ],
+      "deliverable": "Maintenance responsibilities, restore and alert test results, and usable incident steps.",
+      "stages": [
+        {
+          "title": "Map the systems",
+          "description": "Identify the owner of each layer.",
+          "ids": [
+            "hosting-architecture"
+          ]
+        },
+        {
+          "title": "Prepare for incidents",
+          "description": "Detect problems and recover service.",
+          "ids": [
+            "operations-security"
+          ]
+        },
+        {
+          "title": "Connect ongoing work",
+          "description": "Make sync, retries and alerts traceable.",
+          "ids": [
+            "automation-integration"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "title": "Newsletters and Klaviyo automation",
+      "subtitle": "Start with one welcome or post-purchase journey that follows customer status.",
+      "category": "growth",
+      "featured": false,
+      "ids": [
+        "klaviyo",
+        "lifecycle-crm",
+        "commerce-service",
+        "ecommerce-growth"
+      ],
+      "inputs": [
+        "Existing sender/integrations, subscription sources and flow states",
+        "Brand assets, offer rules, sending domain and internal test list"
+      ],
+      "deliverable": "Customer data flows, segment and automation rules, message drafts, and delivery/exit/unsubscribe test results.",
+      "note": "The XTERRA repository includes Klaviyo code and Draft scripts. It does not prove the current account state or active flows. Inventory before rebuilding.",
+      "stages": [
+        {
+          "title": "Understand contacts and tools",
+          "description": "Distinguish profiles, consent and flows.",
+          "ids": [
+            "klaviyo",
+            "lifecycle-crm"
+          ]
+        },
+        {
+          "title": "Connect the post-purchase experience",
+          "description": "Include notifications and service.",
+          "ids": [
+            "commerce-service"
+          ]
+        },
+        {
+          "title": "Evaluate the result",
+          "description": "Review purchases, retention and cost.",
+          "ids": [
+            "ecommerce-growth"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "commerce-ecosystem",
+      "title": "Shopify tools and operations",
+      "subtitle": "Choose search, reviews, recommendations and service tools by the problem they solve.",
+      "category": "commerce",
+      "featured": false,
+      "ids": [
+        "commerce-merchandising",
+        "commerce-service",
+        "klaviyo",
+        "headless-commerce",
+        "automation-integration"
+      ],
+      "inputs": [
+        "Shopping/support problems, products, existing apps and fees",
+        "Frontend architecture, API access, demand and budget"
+      ],
+      "deliverable": "A needs-based tool comparison covering native features, storefront compatibility, data ownership and verification.",
+      "stages": [
+        {
+          "title": "Start with customer problems",
+          "description": "Find the gaps in shopping and after-sales.",
+          "ids": [
+            "commerce-merchandising",
+            "commerce-service"
+          ]
+        },
+        {
+          "title": "Plan the journey",
+          "description": "Decide where marketing automation helps.",
+          "ids": [
+            "klaviyo"
+          ]
+        },
+        {
+          "title": "Verify integration",
+          "description": "Check frontend support and data ownership.",
+          "ids": [
+            "headless-commerce",
+            "automation-integration"
+          ]
+        }
+      ]
+    }
+  ],
+  "paths": [
+    {
+      "id": "first-day",
+      "title": "Your first day",
+      "summary": "Understand the business, delivery workflow and launch basics.",
+      "ids": [
+        "tenten-context",
+        "project-brief",
+        "agent-workflow",
+        "launch"
+      ]
+    },
+    {
+      "id": "consultant",
+      "title": "Project managers and consultants",
+      "summary": "Connect goals, scope, platform choice and acceptance.",
+      "ids": [
+        "project-brief",
+        "platform-choice",
+        "measurement",
+        "ai-consulting"
+      ]
+    },
+    {
+      "id": "designer",
+      "title": "Brand and design",
+      "summary": "Move from positioning to experience and reusable rules.",
+      "ids": [
+        "brand-strategy",
+        "ux-conversion",
+        "design-system",
+        "cms-content"
+      ]
+    },
+    {
+      "id": "delivery",
+      "title": "Development and commerce delivery",
+      "summary": "A suggested path for Sally: architecture, migration and launch acceptance.",
+      "ids": [
+        "shopify-foundation",
+        "headless-commerce",
+        "migration",
+        "ecommerce-launch",
+        "launch"
+      ]
+    },
+    {
+      "id": "marketer",
+      "title": "Marketing and search",
+      "summary": "Connect measurement, search and content to useful conversions.",
+      "ids": [
+        "measurement",
+        "technical-seo",
+        "content-seo",
+        "geo",
+        "paid-media"
+      ]
+    },
+    {
+      "id": "ai-operator",
+      "title": "AI and automation",
+      "summary": "Evaluate the problem, integrate systems and assign operating responsibility.",
+      "ids": [
+        "agent-workflow",
+        "ai-consulting",
+        "automation-integration",
+        "fde"
+      ]
+    },
+    {
+      "id": "commerce-operator",
+      "title": "Commerce operations / Sherry’s reading path",
+      "summary": "Understand how product selection, email and after-sales connect.",
+      "ids": [
+        "commerce-merchandising",
+        "klaviyo",
+        "commerce-service",
+        "lifecycle-crm",
+        "ecommerce-growth"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "tenten-home",
+      "title": "Tenten | Clear, Useful Digital Products",
+      "url": "https://tenten.co/",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Service mix, shared briefs, review and delivery. Does not establish project contracts, SLAs or guaranteed results.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-development",
+      "title": "Web Design & Development on Webflow & Shopify | Tenten",
+      "url": "https://tenten.co/services/design-development",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Design, development, platform choice and delivery context. Specific technical checks are suggested practices.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-branding",
+      "title": "Brand Strategy & Identity Design Agency | Tenten",
+      "url": "https://tenten.co/services/branding",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Service context for positioning, messaging, identity and rollout.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-consulting",
+      "title": "Digital Transformation Consulting | Audit to Build | Tenten",
+      "url": "https://tenten.co/services/transformation-consulting",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Digital consulting, current-state review, decision records and acceptance.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-geo",
+      "title": "Generative Engine Optimization (GEO) Strategy | Tenten",
+      "url": "https://tenten.co/services/geo",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "GEO services, source maintenance and limits of citation observations.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-shopify",
+      "title": "Shopify Partner in Taipei | Commerce Delivery | Tenten",
+      "url": "https://tenten.co/solutions/shopify",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Shopify delivery across products, markets, integrations and measurement. Does not verify a particular store.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-hosting",
+      "title": "Managed WordPress Hosting Controls and Ownership | Tenten",
+      "url": "https://tenten.co/solutions/hosting",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Hosting ownership, backups, recovery, monitoring and handoff. Does not establish a project SLA.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-cms",
+      "title": "Headless CMS Development Agency | Jamstack, React | Tenten",
+      "url": "https://tenten.co/solutions/headless-cms",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "CMS selection, modeling, migration and ownership, including headless systems.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "tenten-ai",
+      "title": "Tenten AI: Turn a stuck workflow into a working AI system",
+      "url": "https://tentenai.com/",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "AI pilots, agent workflows, knowledge systems and integration services.",
+      "evidence": "research/tenten-public-pages.json"
+    },
+    {
+      "id": "google-migration",
+      "title": "Google Search Central: site moves",
+      "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "URL inventories, permanent redirects, canonicals, cutover, GSC and keeping redirects for at least a year.",
+      "evidence": "research/google-migration.txt",
+      "note": ""
+    },
+    {
+      "id": "google-ai",
+      "title": "Google Search Central: AI features",
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Google AI search eligibility and SEO foundations; no required special schema or AI text file. Does not establish rules for other platforms.",
+      "evidence": "research/google-ai.txt",
+      "note": ""
+    },
+    {
+      "id": "ga4-ecommerce",
+      "title": "Google Analytics: ecommerce events",
+      "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Ecommerce events, items, currency, transaction_id, purchases and refunds. Check current Meta/Ads documents when implementing those platforms.",
+      "evidence": "research/ga4-ecommerce.txt",
+      "note": ""
+    },
+    {
+      "id": "shopify-migration",
+      "title": "Shopify: migration guide",
+      "url": "https://help.shopify.com/en/manual/migrating-to-shopify",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Migration, import order, product checks, shipping, tax, payments and test orders. Verify current API and plan capabilities.",
+      "evidence": "research/shopify-migration.txt",
+      "note": "HTTP retrieval returned 403; the public documentation was read in the browser."
+    },
+    {
+      "id": "shopify-privacy",
+      "title": "Shopify: customer privacy settings",
+      "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "browser-reviewed",
+      "scope": "Privacy settings, consent, opt-outs and data purposes. Does not provide a legal determination.",
+      "evidence": "research/shopify-privacy.txt",
+      "note": "HTTP retrieval returned 403; the public documentation was read in the browser."
+    },
+    {
+      "id": "web-vitals",
+      "title": "web.dev: Core Web Vitals",
+      "url": "https://web.dev/articles/vitals",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Field and lab measurement and the scope of Core Web Vitals. Does not promise a performance score.",
+      "evidence": "research/web-vitals.txt",
+      "note": ""
+    },
+    {
+      "id": "wcag",
+      "title": "W3C: WCAG 2.2 quick reference",
+      "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "WCAG 2.2 guidance on perception, operation, labels, focus and adaptability. Does not claim site certification.",
+      "evidence": "research/wcag.txt",
+      "note": ""
+    },
+    {
+      "id": "owasp-agents",
+      "title": "OWASP: prompt injection",
+      "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Prompt injection, input trust and least privilege. Does not claim prompts can eliminate every attack.",
+      "evidence": "research/owasp-agents.txt",
+      "note": ""
+    },
+    {
+      "id": "owner-brief",
+      "title": "Erik’s knowledge-base and XTERRA requirements",
+      "url": null,
+      "kind": "user-direction",
+      "observed_at": "2026-10-21",
+      "access": "session-provided",
+      "scope": "Short AI-native guidance, Tenten services, XTERRA US Magento-to-Shopify migration, launch standards and Shopify/Klaviyo knowledge for Sherry. Erik’s full private notes were not supplied.",
+      "evidence": "docs/brief.md"
+    },
+    {
+      "id": "xterra-repo",
+      "title": "XTERRA code and integration snapshot",
+      "url": "https://github.com/tentenco/xterra-website/tree/e1caa5ecdcdf47346c675c1bbc9c5c0f3684acba",
+      "kind": "project-reference",
+      "observed_at": "2026-10-21",
+      "access": "authenticated-read-only",
+      "scope": "Astro/Sanity/Shopify boundaries, custom forms, Klaviyo adapter/Draft scripts, Judge.me and development launch restrictions. Does not establish live configuration, sending or production availability.",
+      "evidence": "research/xterra-review.json",
+      "note": "Snapshot e1caa5ecdcdf. The README differs from the Klaviyo guide/code; inspect the actual account before changes. Source repository contents, credentials and customer data were not copied."
+    },
+    {
+      "id": "klaviyo-shopify",
+      "title": "Klaviyo: Shopify integration",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Profiles, order data, subscription choices, sync and onsite tracking boundaries.",
+      "evidence": "research/klaviyo-shopify.txt"
+    },
+    {
+      "id": "klaviyo-flows",
+      "title": "Klaviyo: getting started with flows",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115002774932",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Flow triggers, Draft/Live states, welcome, abandonment, post-purchase and winback. Specific exclusions and acceptance checks here are suggestions.",
+      "evidence": "research/klaviyo-flows.txt"
+    },
+    {
+      "id": "klaviyo-shopify-data",
+      "title": "Klaviyo: Shopify event data",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080447",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Checkout Started, Placed Order, cancellation/refund events and differences from Shopify revenue. Placed Order does not prove payment.",
+      "evidence": "research/klaviyo-shopify-data.txt"
+    },
+    {
+      "id": "klaviyo-subscribers",
+      "title": "Klaviyo: Shopify subscription sync limits",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080667",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Profiles versus subscriptions, Shopify unsubscribes that do not automatically unsubscribe in Klaviyo, and resubscription/deletion sync limits.",
+      "evidence": "research/klaviyo-subscribers.txt"
+    },
+    {
+      "id": "shopify-meta",
+      "title": "Shopify: Meta data sharing",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Pixel/CAPI, sharing levels, standard events and data use. Custom storefront coverage needs separate tests.",
+      "evidence": "research/shopify-meta.txt"
+    },
+    {
+      "id": "meta-dedup",
+      "title": "Meta: deduplicate Pixel and CAPI events",
+      "url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/deduplicate-pixel-and-server-events",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Matching event names and eventID/event_id for deduplication. No customer account was verified.",
+      "evidence": "research/meta-dedup.txt"
+    },
+    {
+      "id": "shopify-google",
+      "title": "Shopify: Google & YouTube channel",
+      "url": "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/google",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Official channel setup and product-sync documentation. Does not verify a store’s eligibility or conversions.",
+      "evidence": "research/shopify-google.txt"
+    },
+    {
+      "id": "shopify-customer-events",
+      "title": "Shopify: Web Pixels API",
+      "url": "https://shopify.dev/docs/api/web-pixels-api",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "App/custom pixel sandboxes, customer events and privacy APIs. Does not guarantee automatic coverage of Astro storefronts.",
+      "evidence": "research/shopify-customer-events.txt"
+    },
+    {
+      "id": "google-enhanced",
+      "title": "Google Ads: enhanced conversions",
+      "url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "First-party matching, hashing and enhanced conversions. Data-use and consent obligations still apply.",
+      "evidence": "research/google-enhanced.txt"
+    },
+    {
+      "id": "google-feed",
+      "title": "Google Merchant Center: product data specification",
+      "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Product identity, price, currency, stock, links and consistency. Does not guarantee approval.",
+      "evidence": "research/google-feed.txt"
+    },
+    {
+      "id": "shopify-search-app",
+      "title": "Shopify: search, filters and headless",
+      "url": "https://help.shopify.com/en/manual/online-store/storefront-search",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Search & Discovery for search, filters and recommendations, including custom storefronts using the Storefront API.",
+      "evidence": "research/shopify-search-app.txt"
+    },
+    {
+      "id": "shopify-redirects",
+      "title": "Shopify: URL redirect limits",
+      "url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect",
+      "kind": "official-reference",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "Native redirect routes and limitations. Custom storefronts need checks at the receiving routing layer.",
+      "evidence": "research/shopify-redirects.txt"
+    },
+    {
+      "id": "tenten-fde",
+      "title": "Tenten AI: FDE methodology",
+      "url": "https://tentenai.com/en/methodology",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "One team understands the workflow, builds integrations and defines operating responsibility across evaluate, build and operate. Project commitments still depend on the agreement.",
+      "evidence": "research/tenten-fde.txt"
+    }
+  ],
+  "navigation": {
+    "groups": [
+      {
+        "id": "understand",
+        "title": "Understand the work",
+        "summary": "Business, audience and brand direction.",
+        "categories": [
+          "start",
+          "design"
+        ]
+      },
+      {
+        "id": "build",
+        "title": "Build sites and stores",
+        "summary": "Platforms, content and transactions.",
+        "categories": [
+          "build",
+          "commerce"
+        ]
+      },
+      {
+        "id": "grow",
+        "title": "Grow traffic and sales",
+        "summary": "Help people find you and measure the result.",
+        "categories": [
+          "search",
+          "growth"
+        ]
+      },
+      {
+        "id": "operate",
+        "title": "Operate and automate",
+        "summary": "Keep delivery reliable and reduce repeated work.",
+        "categories": [
+          "operations",
+          "ai"
+        ]
+      }
+    ],
+    "featured": [
+      "ecommerce-launch",
+      "migration",
+      "retention",
+      "website"
+    ]
+  }
+}

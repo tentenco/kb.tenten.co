@@ -1,0 +1,68 @@
+{
+  "id": "project-brief",
+  "category": "start",
+  "title": "Project kickoff and digital consulting",
+  "summary": "Put the problem, constraints and decisions on one page before building.",
+  "keywords": [
+    "brief",
+    "requirements",
+    "consulting",
+    "discovery",
+    "scope",
+    "KPI",
+    "acceptance"
+  ],
+  "why": [
+    "A clear business problem prevents extra features that change no outcomes.",
+    "Deliverables and acceptance criteria make scope and cost easier to manage."
+  ],
+  "know": [
+    "Give goals a baseline, target and observation period. Establish a baseline when data is missing.",
+    "Separate essentials, deferred work and exclusions. Record dependencies, risks and change decisions.",
+    "Digital consulting connects people, processes, data and systems."
+  ],
+  "inputs": [
+    "Business goals, audience, current workflow and problems",
+    "Budget range, timeline, contracts and systems",
+    "Decision makers, data owners and handoff recipients"
+  ],
+  "actions": [
+    "Read existing documents and data; map the current work and repetition.",
+    "Compare problems, options, benefit, cost and assumptions. Propose the smallest useful validation.",
+    "Define scope, responsibilities, milestones, acceptance and a change log."
+  ],
+  "done": [
+    "Each essential requirement has an artifact, acceptance owner and observable condition.",
+    "Uncertainties have a verification path; unresolved dependencies constrain date commitments."
+  ],
+  "pitfalls": [
+    "Inventing a revenue-improvement percentage.",
+    "Estimating exploratory work as fixed delivery."
+  ],
+  "decision": "Agree on scope, budget and success criteria.",
+  "sources": [
+    "tenten-consulting",
+    "tenten-development"
+  ],
+  "related": [
+    "platform-choice",
+    "ai-consulting",
+    "launch"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "A project brief gives everyone the same starting point: the problem, expected result and exclusions.",
+    "when": "Use this at kickoff, when scope changes or when definitions of done differ.",
+    "example": {
+      "situation": "A client asks for a more polished website; design and marketing interpret it differently.",
+      "lesson": "Define an outcome people can discuss, such as helping buyers understand the service and inquire."
+    },
+    "first_step": "List the audience, current problem, desired result and constraints.",
+    "point_titles": [
+      "Make goals observable",
+      "Define the scope",
+      "Consider the whole workflow"
+    ]
+  }
+}

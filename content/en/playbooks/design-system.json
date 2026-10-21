@@ -1,0 +1,76 @@
+{
+  "id": "design-system",
+  "category": "design",
+  "title": "Design systems: put the brand into practice",
+  "summary": "Reuse components, rules and assets across the product.",
+  "keywords": [
+    "design system",
+    "tokens",
+    "components",
+    "typography",
+    "logo"
+  ],
+  "why": [
+    "Shared rules reduce repeated design and development.",
+    "Complete component states let agents extend pages while preserving usability and brand consistency."
+  ],
+  "know": [
+    "Tokens define color, type, spacing and motion. Components define usage, states and behavior.",
+    "Brand assets need versions, licenses, formats and usage rules.",
+    "Implement the rules in code and test them with real content."
+  ],
+  "inputs": [
+    "Approved brand direction, logo, fonts and asset licenses",
+    "Existing libraries, page types, content and language needs"
+  ],
+  "actions": [
+    "Audit repeated styles and create semantic tokens and a component inventory.",
+    "Define interaction and responsive behavior for buttons, forms, navigation and content modules.",
+    "Deliver working components, example pages and a version history from a shared source."
+  ],
+  "done": [
+    "Long and short content, narrow screens and error states work.",
+    "Design and code share token values; assets have valid usage rights."
+  ],
+  "pitfalls": [
+    "Inventing new type scales and buttons for every page.",
+    "Delivering assets without checking their licenses."
+  ],
+  "decision": "Approve the visual direction and shared rules before extending the interface.",
+  "sources": [
+    "tenten-branding",
+    "tenten-development",
+    "wcag"
+  ],
+  "related": [
+    "brand-strategy",
+    "ux-conversion",
+    "development-quality"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "A design system gives the team shared colors, type, components and interaction rules so pages feel consistent.",
+    "when": "Use this when the site grows, more people contribute or similar components keep being rebuilt.",
+    "example": {
+      "situation": "Three pages use different primary-button colors, sizes and error messages.",
+      "lesson": "Shared rules let you update them together."
+    },
+    "first_step": "Start with buttons, forms and text hierarchy.",
+    "point_titles": [
+      "Distinguish tokens and components",
+      "Version the assets",
+      "Test real pages"
+    ],
+    "terms": [
+      [
+        "Token",
+        "A shared style value, such as a color or spacing size."
+      ],
+      [
+        "Component",
+        "A reusable interface element with states and behavior."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "id": "cms-content",
+  "category": "build",
+  "title": "CMS, content models and languages",
+  "summary": "Keep content consistent, reusable and safe to publish.",
+  "keywords": [
+    "CMS",
+    "content model",
+    "localization",
+    "Sanity",
+    "Directus",
+    "migration"
+  ],
+  "why": [
+    "Structured content reduces duplicate entry and supports automated validation.",
+    "Sources, versions and owners keep migrated content maintainable."
+  ],
+  "know": [
+    "Define content types such as articles, services and products before fields, relationships and validation.",
+    "Decide markets, URLs, fallbacks and translation status. Share facts; adapt copy to each market.",
+    "Assign responsibility for preview, review, publication and media rights. API access is separate from what the page displays."
+  ],
+  "inputs": [
+    "Content and URL inventory, fields and assets",
+    "Markets, languages, editing workflow, existing CMS and integrations"
+  ],
+  "actions": [
+    "Create schemas, sample records, source mappings and required-field validation.",
+    "Use repeatable transformations for content, media and relationships; start with a dry run.",
+    "Check counts, content, URLs, previews and permissions. Document the editing process."
+  ],
+  "done": [
+    "Important records map from old to new, with a list of missing items.",
+    "Public APIs and search cannot expose unpublished material."
+  ],
+  "pitfalls": [
+    "Using a page-sized HTML blob as the only content model.",
+    "Checking record counts without checking images and relationships."
+  ],
+  "decision": "Agree on content owners, publishing permissions and changes that need review.",
+  "sources": [
+    "tenten-cms"
+  ],
+  "related": [
+    "platform-choice",
+    "migration",
+    "technical-seo"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "A CMS stores and manages website content. A content model defines fields for articles, products and cases so the same data can be reused.",
+    "when": "Use this when updates are slow, pages disagree or the site needs more languages.",
+    "example": {
+      "situation": "A product name is typed separately on the homepage, comparison table and blog.",
+      "lesson": "Store shared facts once so updates stay consistent."
+    },
+    "first_step": "Pick frequently updated content and list its fields, sources and uses.",
+    "point_titles": [
+      "Model the content first",
+      "Plan language behavior",
+      "Separate editing and publishing"
+    ],
+    "terms": [
+      [
+        "CMS",
+        "A content management system for editing and publishing."
+      ],
+      [
+        "Fallback",
+        "The version used when the requested content is missing."
+      ]
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "id": "geo",
+  "category": "search",
+  "title": "GEO: help AI search understand your content",
+  "summary": "Maintain verifiable answers and first-party evidence, then observe citations.",
+  "keywords": [
+    "GEO",
+    "AEO",
+    "AI search",
+    "ChatGPT",
+    "Perplexity",
+    "AI Overviews",
+    "llms.txt"
+  ],
+  "why": [
+    "Buyers discover brands through AI answers; usable sources help systems describe them accurately.",
+    "Maintained facts support consistency across the website, sales and conventional search."
+  ],
+  "know": [
+    "Google AI search uses SEO fundamentals and requires no special AI schema or llms.txt. Check other platforms separately.",
+    "Describe entities, products, relationships, limitations and dates clearly. Structured data must match visible content.",
+    "A citation is an observation for a platform, prompt and time. It is not a stable ranking or a guarantee of inclusion."
+  ],
+  "inputs": [
+    "Buyer questions, target platforms and markets",
+    "First-party product facts, cases, sources and indexable pages"
+  ],
+  "actions": [
+    "Map questions to evidence and repair crawling or content gaps first.",
+    "Write direct answers with verifiable support, consistent entity details and relevant internal links.",
+    "Use fixed questions to observe answers. Record platform, prompt, date, cited URLs and limits."
+  ],
+  "done": [
+    "Claims trace to sources and target platforms can access the pages.",
+    "Reports separate content changes, citation observations and unproven causal claims."
+  ],
+  "pitfalls": [
+    "Guaranteeing a citation in ChatGPT or Google.",
+    "Using llms.txt as a substitute for SEO or access control."
+  ],
+  "decision": "Confirm facts and brand positions, then monitor discovery and citations.",
+  "sources": [
+    "tenten-geo",
+    "google-ai"
+  ],
+  "related": [
+    "technical-seo",
+    "content-seo",
+    "ai-consulting"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "GEO helps AI search find, understand and cite a brand’s content through clear answers, verifiable facts and updates.",
+    "when": "Use this for AI-search visibility or organizing product and expert knowledge.",
+    "example": {
+      "situation": "A page says the service is best but omits its audience, scope and proof.",
+      "lesson": "Add facts a reader or search system can cite."
+    },
+    "first_step": "Choose a customer question and document the answer, source and limits.",
+    "point_titles": [
+      "Keep SEO foundations",
+      "Make facts explicit",
+      "Observe citations over time"
+    ]
+  }
+}

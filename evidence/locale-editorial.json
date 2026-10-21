@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-21",
+  "skill": "https://github.com/blader/humanizer",
+  "skill_version": "3.1.0",
+  "skill_sha256": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+  "scope": {
+    "playbooks": 32,
+    "categories": 8,
+    "guides": 11,
+    "paths": 7,
+    "sources": 32
+  },
+  "review": [
+    "Used plain reference prose, sentence-case titles and direct action verbs.",
+    "Preserved source scope, authorization limits, technical event names, example numbers and reference URLs.",
+    "Matched all section counts, glossary entries, diagrams, source references and reading sequences to the Chinese version.",
+    "Kept the contrast about DNS-only migration rollback because it corrects a specific operational error.",
+    "Removed no factual limitations to make the English sound more confident."
+  ],
+  "limits": [
+    "Editorial review by the implementing agent, not an independent factual audit.",
+    "The library remains suggested guidance; current platform/account behavior requires project-specific verification."
+  ]
+}
