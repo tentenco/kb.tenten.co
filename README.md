@@ -92,3 +92,11 @@ Python 使用標準函式庫；Node 只用於 JavaScript 語法檢查。修改 c
 ## Repository
 
 指定同步位置：https://github.com/tentenco/kb.tenten.co （目前為 public）。原始碼同步不等於網站已在 kb.tenten.co 上線；本機預覽仍為 http://localhost:8768/index.html 。
+
+## Vercel 部署
+
+- 專案連接此 repository 的 main，Root Directory 留空，Framework 使用 Other。
+- vercel.json 執行 Python 建置與 harness，Output Directory 固定為 site；不需要 npm install。
+- 網站根目錄是建置後的 site/，不是 repository 根目錄。若部署顯示 Ready 但首頁 404，先確認輸出目錄與實際部署 commit。
+- 只發佈 site/，原始研究、scripts/、驗證截圖等不作為網站路由。既有 GitHub repository 的可見範圍另行管理。
+- 正式環境網址依 Vercel Domains 設定；專案名稱不會自動綁定同名自訂網域。部署修復不改變既有存取保護設定。
