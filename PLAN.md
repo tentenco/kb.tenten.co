@@ -64,7 +64,7 @@ Completed: research, authoring, static build, improvement waves, browser verific
 - Complete: ZIP extracted independently; build, 164/164 harness gates and JS syntax passed with matching source/output fingerprints. Browser task finished once, keeping only the final home page for review.
 - Queue empty. No client-system changes, external publication or reference-repository edits.
 
-## Active: Cohere visual system and product experience
+## Completed: Cohere visual system and product experience
 
 - User supplied DESIGN-cohere.md for color/type and COO-UI-BASELINE.md for product quality and maintenance. Apply locally; preserve the human-first content hierarchy.
 - Build a shared token system, quiet 150–200 ms interaction states, light/dark/system appearance, keyboard-friendly quick search, session-scoped draft/reading restoration with clear/undo, and smaller page data loads.
@@ -74,8 +74,9 @@ Completed: research, authoring, static build, improvement waves, browser verific
 
 ## Current resume handle
 
-- Active task: Cohere UI/UX, OS-default light/dark themes and GitHub push. Queue empty.
+- Completed task: Cohere UI/UX, OS-default light/dark themes and GitHub push. Queue empty.
 - Implemented and locally checked: shared tokens/type, theme selection/persistence, keyboard quick search, session draft and reading restoration, clear/undo, smaller search payload and page-local packet data.
 - Runtime fixes: preserve the original restore snapshot until load completes; give the mobile search icon an explicit accessible name.
 - Local verification complete: build PASS, 170/170 harness gates, both JavaScript syntax checks, 30/30 browser checks and all 57 mobile routes. Independent extracted rebuild passed with matching source/site fingerprints.
-- Remaining: commit/push and verify the remote. Browser task 70 finished once with only the final homepage kept. Historical sections above describe their own completed milestones.
+- GitHub: implementation commit 41750e816814dc6d79d072ac30a7a17ffd830fb7 pushed to tentenco/kb.tenten.co main and verified against remote refs. Repository is public; no hosted site deployment or client-account change ran.
+- Browser task 70 finished once with only the final homepage kept. Historical sections above describe their own completed milestones. No remaining implementation work.

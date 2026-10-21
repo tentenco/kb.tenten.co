@@ -108,3 +108,5 @@ Performance evidence: observed homepage HTML plus resource decoded body bytes we
 Current browser receipt has 30 actual checks; all 57 routes passed the 390px overflow/init/packet matrix. Reduced-motion, print, blocked storage, file URL and no-JS content were checked. Native clipboard permissions, no-JS details clicks and cross-tab theme synchronization were not independently exercised. This remains a single-agent review; no Google certification or user-study result is implied.
 
 Test setup defects were isolated from product defects: shorthand hex parsing caused null contrast values until the helper was corrected; mobile pointer coordinates needed correction for observed 0.8 browser zoom; first theme screenshot was captured during transition. Final evidence records corrected observations and actual viewport sizes.
+
+Independent ZIP rebuild passed all 170 gates and both JS syntax checks with matching source/site fingerprints. The user-authorized GitHub push created main at implementation commit 41750e816814dc6d79d072ac30a7a17ffd830fb7, verified against the remote ref. No deployment was performed.
