@@ -1,0 +1,434 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/about.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/ai.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/build.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/commerce.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/design.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/growth.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/operations.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/search.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/categories/start.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/index.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/library.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/paths.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/agent-workflow.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ai-consulting.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ai-fte.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/automation-integration.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/brand-strategy.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/cms-content.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/commerce-merchandising.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/commerce-service.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/content-seo.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/design-system.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/development-quality.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ecommerce-growth.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ecommerce-launch.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ga4-commerce.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/geo.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/google-commerce.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/headless-commerce.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/hosting-architecture.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/klaviyo.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/launch.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/lifecycle-crm.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/measurement.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/meta-tracking.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/migration.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/operations-security.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/paid-media.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/platform-choice.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/project-brief.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/shopify-foundation.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/technical-seo.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/tenten-context.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/playbooks/ux-conversion.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/ai-workflow.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/brand-system.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/commerce-ecosystem.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/ecommerce-launch.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/growth.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/launch.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/migration.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/operations.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/retention.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/seo-geo.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/scenarios/website.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/search.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/sources.html",
+    "status": 200,
+    "type": "text/html; charset=utf-8",
+    "knowledgePage": true
+  },
+  {
+    "path": "/assets/style.css",
+    "status": 200,
+    "type": "text/css; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/app.js",
+    "status": 200,
+    "type": "application/javascript; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/theme-init.js",
+    "status": 200,
+    "type": "application/javascript; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/search-data.js",
+    "status": 200,
+    "type": "application/javascript; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/tenten-logo.png",
+    "status": 200,
+    "type": "image/png",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/inter-latin.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "knowledgePage": false
+  },
+  {
+    "path": "/assets/space-grotesk-latin.woff2",
+    "status": 200,
+    "type": "font/woff2",
+    "knowledgePage": false
+  },
+  {
+    "path": "/files/playbooks/klaviyo.md",
+    "status": 200,
+    "type": "text/markdown; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/files/scenarios/ecommerce-launch.md",
+    "status": 200,
+    "type": "text/markdown; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/knowledge.json",
+    "status": 200,
+    "type": "application/json; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "type": "text/plain; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/README.md",
+    "status": 404,
+    "type": "text/plain; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/research/xterra-review.json",
+    "status": 404,
+    "type": "text/plain; charset=utf-8",
+    "knowledgePage": false
+  },
+  {
+    "path": "/scripts/build.py",
+    "status": 404,
+    "type": "text/plain; charset=utf-8",
+    "knowledgePage": false
+  }
+]

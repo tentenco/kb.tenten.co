@@ -55,7 +55,7 @@ Python 使用標準函式庫；Node 只用於 JavaScript 語法檢查。修改 c
 - XTERRA 已唯讀檢查指定 repo 的 e1caa5ecdcdf 快照；Astro／Sanity 前台搭配 Shopify。README 與 Klaviyo 專文／程式有差異，不能用 repo 描述推定正式帳號、寄信或搬站已完成。詳見 research/xterra-review.json。
 - AI FTE 為工作角色設計概念，不推定既有價格、方案或人力替代保證。
 - Neteon 專案維持唯讀；沿用其結構化內容、靜態建置和 Agent 匯出模式，沒有複製客戶知識或登入設定。
-- 未部署、未建立登入服務、未變更外部帳號。未來上線需先保護全部頁面、搜尋資料、JSON 與 Markdown；noindex 不是存取控制。
+- 已部署至 Vercel，正式入口：https://kb.tenten.co/ 。本次保留既有 Vercel 存取保護，未建立額外登入服務；noindex 不是存取控制。私人資料的存取範圍需包含全部頁面、搜尋資料、JSON 與 Markdown。
 
 ## 電商擴充入口
 
@@ -91,7 +91,7 @@ Python 使用標準函式庫；Node 只用於 JavaScript 語法檢查。修改 c
 
 ## Repository
 
-指定同步位置：https://github.com/tentenco/kb.tenten.co （目前為 public）。原始碼同步不等於網站已在 kb.tenten.co 上線；本機預覽仍為 http://localhost:8768/index.html 。
+指定同步位置：https://github.com/tentenco/kb.tenten.co （目前為 public）。正式網站為 https://kb.tenten.co/ ；本機預覽仍為 http://localhost:8768/index.html 。
 
 ## Vercel 部署
 

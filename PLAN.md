@@ -81,9 +81,12 @@ Completed: research, authoring, static build, improvement waves, browser verific
 - GitHub: implementation commit 41750e816814dc6d79d072ac30a7a17ffd830fb7 pushed to tentenco/kb.tenten.co main and verified against remote refs. Repository is public; no hosted site deployment or client-account change ran.
 - Browser task 70 finished once with only the final homepage kept. Historical sections above describe their own completed milestones. No remaining implementation work.
 
-## Active: Vercel deployment repair
+## Completed: Vercel deployment repair
 
 - User requests inspection and repair of the existing tentenco/kb.tenten.co Vercel deployment using Ego Lite Browser. This authorizes the scoped configuration fix, GitHub push and production redeployment; prior no-deployment limits describe earlier tasks. Queue empty.
 - Evidence: deployment 5BVvunDdBSjvGbY8tqcpM93DZ3QB is Ready at 0ece995, but production root returns 404. Framework Other, blank root/build/output settings; deploy log contains no Python build. Actual generated website lives in site/.
 - Fix: version-controlled Vercel build command and output directory; include configuration in portable package. Keep existing domain and protection settings.
 - Verify: build/harness, fresh Vercel deployment, homepage and nested reading/search/theme/download routes.
+
+- Result: production deployment CtLv6kFN4WMD6BSzmsoJDUJzfvpP is Ready at fix commit 05b9fcb; actual cloud build and 170 checks passed. Root and all 57 pages work, search/themes/download pass, and repository-source paths return 404. Custom domain https://kb.tenten.co/ verified after user reported it online. Evidence: evidence/vercel-deployment.json.
+- Queue: one authorized follow-up, send platform introduction email to the six colleagues explicitly supplied by the user. Process after deployment handoff; recipient details and message records stay outside this public repository.

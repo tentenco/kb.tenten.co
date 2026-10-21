@@ -20,7 +20,7 @@ Neteon Learning was inspected read-only, including AGENTS.md, README.md, docs/AR
 - Search uses normalized text, aliases and a ranked corpus; every result links to a static page. No-JS readers retain all category, scenario, path and card content.
 - Each scenario/card offers a task packet with editable project context, full selected playbooks, inputs, actions, evidence and source scope. Copy fallback exposes selectable text. Downloads are generated locally.
 - Context stays in the browser tab: sessionStorage preserves per-page fields, selection, details, scroll and focus; no network transmission occurs. Clear-with-undo is available, storage failures surface a download hint, and theme preference alone uses localStorage. Packet default explicitly leaves unknowns unset. The UI never claims to execute work.
-- The user authorized a GitHub push to tentenco/kb.tenten.co. Hosted deployment and authentication remain outside this scope. Local assets contain internal guidance, so a future hosted deployment must implement access control across HTML, JSON, search and Markdown before use.
+- The user authorized a GitHub push and subsequently repair of the existing Vercel deployment. vercel.json runs the Python build and harness and publishes only site/. Production is https://kb.tenten.co/. Existing Vercel protection is preserved; no custom authentication is implemented. Private guidance requires access control across HTML, JSON, search and Markdown.
 
 ## Improvement loop
 

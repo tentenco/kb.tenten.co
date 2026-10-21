@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-21T07:23:25.848798+00:00",
+  "status": "PASS",
+  "implementation_commit": "05b9fcb158952f58e534e748943907e4cad81f25",
+  "previous_deployment": "5BVvunDdBSjvGbY8tqcpM93DZ3QB",
+  "fixed_deployment": "CtLv6kFN4WMD6BSzmsoJDUJzfvpP",
+  "dashboard": "https://vercel.com/tentenco/kb.tenten.co/CtLv6kFN4WMD6BSzmsoJDUJzfvpP",
+  "production_url": "https://kb.tenten.co/",
+  "vercel_alias": "https://kbtentenco.vercel.app/",
+  "cause": "Framework Other used default repository-root output with no Python build. Root returned 404 while /site/index.html worked.",
+  "fix": "vercel.json runs build and harness, skips install and publishes site/.",
+  "cloud_build_log": "15 lines\n⌘\nF\n15:20:36.115 \nRunning build in Washington, D.C., USA (East) – iad1\n15:20:36.116 \nBuild machine configuration: 4 cores, 8 GB\n15:20:36.242 \nCloning github.com/tentenco/kb.tenten.co (Branch: main, Commit: 05b9fcb)\n15:20:36.243 \nPrevious build caches not available.\n15:20:36.561 \nCloning completed: 319.000ms\n15:20:36.936 \nRunning \"vercel build\"\n15:20:36.947 \nVercel CLI 64.5.0\n15:20:37.484 \nSkipping \"install\" command...\n15:20:37.618 \nBUILD PASS: 32 playbooks, 11 scenarios, 57 HTML pages\n15:20:38.018 \nHARNESS PASS: 170/170 checks\n15:20:38.086 \nBuild Completed in /vercel/output [626ms]\n15:20:38.106 \nDeploying outputs...\n15:20:39.029 \nDeployment completed\n15:20:39.033 \nCreating build cache...\n15:20:39.520 \nSkipping cache upload because no files were prepared",
+  "checks": [
+    "Vercel production Ready for 05b9fcb; cloud build 32 cards / 11 guides / 57 HTML pages, harness 170/170.",
+    "72 production-alias requests passed: root plus 57 HTML pages, 11 assets/exports and 3 expected source-path 404s.",
+    "Browser quick search Klaviyo 是什麼 navigated to the correct article; full GA4 search returned 6 results and ga4-commerce first.",
+    "Manual light theme persisted across reload; system preference restored.",
+    "Actual downloaded article Markdown matched the 2924-character preview exactly.",
+    "Custom domain https://kb.tenten.co/ rendered the correct title, official logo and scripts. Search page, article, JS asset and Markdown download paths all returned 200.",
+    "Production screenshot visually inspected; no UI source changes were needed.",
+    "GitHub CI 39561299296 passed.",
+    "Portable package includes exact vercel.json."
+  ],
+  "limits": [
+    "Did not change domains, DNS, authentication or Vercel deployment protection.",
+    "User reported the custom domain online during verification; no claim that this repair configured that domain.",
+    "One early read after URL navigation ran before the document arrived; subsequent snapshot confirmed correct article."
+  ]
+}
