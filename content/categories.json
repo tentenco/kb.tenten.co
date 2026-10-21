@@ -1,0 +1,178 @@
+[
+  {
+    "id": "start",
+    "title": "工作方式與顧問思維",
+    "summary": "先定義成果，再開始執行。",
+    "number": "01",
+    "clusters": [
+      {
+        "title": "先認識工作方式",
+        "ids": [
+          "tenten-context",
+          "project-brief",
+          "agent-workflow"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "design",
+    "title": "品牌與體驗設計",
+    "summary": "讓品牌方向成為可重用的設計規則。",
+    "number": "02",
+    "clusters": [
+      {
+        "title": "從定位走到體驗",
+        "ids": [
+          "brand-strategy",
+          "ux-conversion",
+          "design-system"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "build",
+    "title": "網站與軟體開發",
+    "summary": "選對平台，交付可維護的產品。",
+    "number": "03",
+    "clusters": [
+      {
+        "title": "選擇與規劃",
+        "ids": [
+          "platform-choice",
+          "cms-content"
+        ]
+      },
+      {
+        "title": "開發與驗收",
+        "ids": [
+          "headless-commerce",
+          "development-quality"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commerce",
+    "title": "Shopify 與電商",
+    "summary": "把商品、交易、資料與營運一起接好。",
+    "number": "04",
+    "clusters": [
+      {
+        "title": "先懂電商營運",
+        "ids": [
+          "shopify-foundation"
+        ]
+      },
+      {
+        "title": "建立新店與搬站",
+        "ids": [
+          "ecommerce-launch",
+          "migration"
+        ]
+      },
+      {
+        "title": "改善選購與售後",
+        "ids": [
+          "commerce-merchandising",
+          "ecommerce-growth",
+          "commerce-service"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "search",
+    "title": "SEO 與 GEO",
+    "summary": "保住搜尋資產，讓有用的答案被找到。",
+    "number": "05",
+    "clusters": [
+      {
+        "title": "先能被找到",
+        "ids": [
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "再提供有用答案",
+        "ids": [
+          "content-seo",
+          "geo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "title": "行銷與數據",
+    "summary": "從有效事件追到商業成果。",
+    "number": "06",
+    "clusters": [
+      {
+        "title": "先看懂數據",
+        "ids": [
+          "measurement",
+          "ga4-commerce"
+        ]
+      },
+      {
+        "title": "廣告與商品曝光",
+        "ids": [
+          "paid-media",
+          "meta-tracking",
+          "google-commerce"
+        ]
+      },
+      {
+        "title": "客戶關係與回購",
+        "ids": [
+          "lifecycle-crm",
+          "klaviyo"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "title": "主機與上線維運",
+    "summary": "讓服務可用、可回復、有人負責。",
+    "number": "07",
+    "clusters": [
+      {
+        "title": "架構與正式上線",
+        "ids": [
+          "hosting-architecture",
+          "launch"
+        ]
+      },
+      {
+        "title": "持續維運",
+        "ids": [
+          "operations-security"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai",
+    "title": "AI 顧問與 AI FTE",
+    "summary": "將單次協助變成可驗收的工作流程。",
+    "number": "08",
+    "clusters": [
+      {
+        "title": "找出適合的工作",
+        "ids": [
+          "ai-consulting"
+        ]
+      },
+      {
+        "title": "接好工具，持續交付",
+        "ids": [
+          "automation-integration",
+          "ai-fte"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+Shopify Help Center | Storefront search
+Help
+Start for free
+Log in
+Contents
+Storefront search
+When customers search your online store, the results that display are built on an AI-powered search infrastructure:
+Core
+search features
+are available by default to all Shopify merchants that have an online store. This includes predictive search and typo tolerance, where typing mistakes are automatically matched to words that closely resemble the misspelling.
+The
+Shopify Search & Discovery app
+includes settings and features that allow you to further customize your store's search experience, as well as set up product search filters and product recommendations.
+On this page
+Online store search
+Shopify Search & Discovery app
+Custom storefronts and headless search
+Online store search
+Your online store has built-in, AI-powered search functionality that operates from a search bar or search field on your website.
+Your customers can input their search term and get results from across all of your store's products, blog posts, and pages.
+Read more
+Search behavior in your online store
+Predictive search
+Managing searchability
+Shopify Search & Discovery app
+Shopify Search & Discovery
+Install Shopify Search & Discovery from the Shopify App Store.
+Note
+Using this feature requires Shopify Network Intelligence to be enabled in your privacy settings. Learn more about
+Shopify Network Intelligence
+.
+The
+Shopify Search & Discovery
+app gives you more control over how customers discover your products online. You can use the app to customize product search results and product recommendations in your online store in the following ways:
+Create custom filters to let customers refine their search and collection pages by multiple categories, which can display more relevant results.
+Feature particular products in search results.
+Adjust result types in search and predictive search.
+Recommend related products on product pages to add to the recommendations that are automatically generated.
+To use certain features of Shopify Search & Discovery, your staff members need the following
+staff permissions
+:
+Products
+: Required for editing product recommendations, product boosts, and filters.
+Online Store Search and Navigation
+: Required for editing filters.
+Reports
+: Required for viewing analytics.
+Read more
+Adding filters with Search & Discovery
+Modifying search with Search & Discovery
+Customize product recommendations with Search & Discovery
+Shopify Search & Discovery reports and analytics
+Custom storefronts and headless search
+If you're building a custom storefront or headless commerce experience, then you can use the Shopify Search & Discovery app features with the
+Storefront API
+. This allows you to implement the same search capabilities available in Shopify themes in your custom storefront.
+The Storefront API provides search and predictive search queries that support:
+Natural language search functionality
+Product boosts configured in the Search & Discovery app
+Custom filters for product availability, price, and product attributes
+Predictive search dropdown interfaces
+To optimize search performance in custom storefronts, set up
+search tracking
+to help Shopify's search infrastructure learn from customer interactions and improve results.
+For more information about implementing search in custom storefronts, refer to the
+Search and discovery developer documentation
+.
+Leave feedback

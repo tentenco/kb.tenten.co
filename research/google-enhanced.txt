@@ -1,0 +1,274 @@
+About enhanced conversions - Google Ads Help
+Skip to main content
+Google Ads Help
+Help Center
+Community
+Announcements
+Sign in
+Google Help
+Help Center
+Start advertising
+Campaigns
+Explore features
+Optimize performance
+Account & billing
+Fix issues
+Google Partners
+Community
+Google Ads
+Privacy Policy
+Terms of Service
+Submit feedback
+Send feedback on...
+This help content & information
+General Help Center experience
+Close
+Next
+Help Center
+Community
+Announcements
+Google Ads
+Start advertising
+Your guide to Google Ads
+8 steps to prepare your campaign for success
+Choose the right campaign type
+Determine your advertising goals
+How Google Ads can work for your industry
+Google Ads specs: ad formats, sizes, and best practices
+More advertising tools
+Google Ads basics
+Google Ads privacy
+Glossary
+Campaigns
+Performance Max
+AI Max for Search campaigns
+AI Max for Shopping campaigns
+Search campaigns
+Display campaigns
+Smart Campaigns
+App campaigns
+Shopping ads
+Video campaigns
+Hotel campaigns
+Demand Gen campaigns
+Call campaigns
+Things to do
+Events ticketing
+Explore features
+Ads, assets & landing pages
+Ad groups
+Keywords
+Bidding
+Targeting
+Measure results
+Bulk uploads & edits
+Campaign settings
+Optimize performance
+12 tips to advertising with Google Ads
+Google Ads Best Practices
+Optimization features
+Create effective Search ads
+Generative AI tools in Google Ads
+Improve with AI-powered Search
+Finding success with Smart Bidding
+Measure results
+Optimize performance with App Connect
+Google Ads training on Skillshop
+The Google Ads mobile app
+Account & billing
+Billing
+Account settings
+Account access
+Manager accounts
+Account security and safety
+Cancel or reactivate your account
+Working with client accounts
+Useful tools
+Fix issues
+Ad disapprovals and reviews
+Billing & payments
+Compromised account issues
+Policy issues
+Performance issues
+Account access issues
+Reporting issues
+Request implementation support for Google Ads and YouTube Reserve
+Google Ads API
+Google Partners
+Google Partners Program
+Help Center Topics
+Optimize performance
+Measure results
+Track sales and other conversions
+Track conversions on a website
+About enhanced conversions
+About enhanced conversions
+Enhanced conversions is a feature that can improve the accuracy of your conversion measurement and unlock more powerful bidding. It supplements your existing conversion by sending hashed first party conversion data (from your website tags or your imported offline events) to Google in a privacy safe way. The feature uses a secure one-way
+hashing algorithm
+called
+SHA256
+on your first party customer data, such as email addresses, before sending to Google. You can learn more about
+Google’s conversion modeling solutions
+.
+Note:
+Google is committed to protecting the confidentiality and security of your data. We'll keep your data confidential and secure using the same industry-leading standards we use to protect our own users’ data. We only report privacy-safe conversions. You can read more about enhanced conversions
+customer data policies
+and
+how we use your data
+.
+How it works
+When a customer converts on your website, you may receive first-party customer data such as an email address, name, home address, and/or phone number. This data can be captured in your conversion tracking tags, hashed, sent to Google in its hashed form, and then used to enhance your conversion measurement.
+If you decide to normalize and hash the data, follow the below instructions.
+For normalization:
+Remove leading and trailing whitespaces.
+Convert the text to lowercase.
+Format phone numbers according to the
+E.164 standard
+.
+Remove all periods (.) that precede the domain name in gmail.com and googlemail.com email addresses.
+For hash:
+Use hex
+SHA256
+.
+Depending on which type of enhanced conversions you use, the hashed data will be used in different ways to improve your measurement:
+Enhanced conversions for web
+Enhanced conversions for leads
+Relevant for
+advertisers who want to track sales and events that happen on a website
+.
+Relevant for
+advertisers who want to track sales that happen off a website (for example an online inquiry for an apartment) from website leads
+.
+Improves measurement of
+online conversions
+.
+Improves measurement of
+offline transactions that came from a website lead or visitor
+.
+Allows you to send hashed first-party, user-provided data from your website when a user converts. The data is then used to match your customers to Google accounts, which were signed-in to when they engaged with one of your ads.
+Allows you to use hashed, first-party user-provided data from your website (e.g., lead forms) together with imported offline lead conversions. When you import your leads, the provided hashed information is used to attribute back to the Google Ad campaign by matching to the data collected on your website and to signed-in Google accounts that engaged with your ads.
+Configure enhanced conversions for web
+Configure enhanced conversions for leads
+Need more help?
+Try these next steps:
+Post to the help community
+Get answers from community members
+Contact us
+Tell us more and we’ll help you get there
+false
+Track sales and other conversions
+1 of 17
+Add a Google tag to your website
+2 of 17
+Track clicks on your website as conversions
+3 of 17
+Use a transaction ID to minimize duplicate conversions
+4 of 17
+Data discrepancies: Factors and troubleshooting
+5 of 17
+How Google Ads tracks website conversions
+6 of 17
+Use the Google tag for Google Ads conversion tracking
+7 of 17
+About conversions with cart data
+8 of 17
+About conversions with cart data diagnostics
+9 of 17
+Fix discrepancies and errors in conversions with cart data setup
+10 of 17
+About campaign-specific conversion goals
+11 of 17
+Troubleshoot your sitewide tagging
+12 of 17
+About updated conversion categories
+13 of 17
+About enhanced conversions
+14 of 17
+Enhanced conversions for web impact results
+15 of 17
+Conversion Tracking: Troubleshooting conversion tracking status
+16 of 17
+Set up your conversions
+17 of 17
+Metrics available with conversions with cart data
+Achieve your advertising goals today!
+Attend our Performance Max Masterclass, a livestream workshop session bringing together industry and Google ads PMax experts.
+Register now
+©2026 Google
+Privacy Policy
+Terms of Service
+Google Ads Advertising Policies
+About the Help Center
+Send feedback on...
+This help content & information
+General Help Center experience
+Enable Dark Mode
+Language
+català‎
+dansk‎
+Deutsch‎
+eesti‎
+English (Australia)‎
+English (United Kingdom)‎
+español‎
+español (Latinoamérica)‎
+Filipino‎
+français‎
+hrvatski‎
+Indonesia‎
+italiano‎
+latviešu‎
+lietuvių‎
+magyar‎
+Melayu‎
+Nederlands‎
+norsk‎
+polski‎
+português‎
+português (Brasil)‎
+română‎
+slovenčina‎
+slovenščina‎
+suomi‎
+svenska‎
+Tiếng Việt‎
+Türkçe‎
+čeština‎
+Ελληνικά‎
+български‎
+русский‎
+српски‎
+українська‎
+‏
+עברית
+‏
+العربية
+हिन्दी‎
+ไทย‎
+中文（简体）‎
+中文（繁體）‎
+中文（香港）‎
+日本語‎
+한국어‎
+English‎
+Search
+Clear search
+Close search
+Google apps
+Main menu
+10970998838879494444
+true
+Search Help Center
+true
+true
+true
+true
+true
+true
+73067
+false
+false
+true
+true
+false
+false

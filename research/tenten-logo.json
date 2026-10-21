@@ -1,0 +1,14 @@
+{
+  "source_page": "https://tenten.co/",
+  "source_asset": "https://tenten.co/images/brand/tenten-logo.png",
+  "observed_at": "2026-10-21T04:40:24.371782+00:00",
+  "evidence": "Homepage header image and Organization JSON-LD both reference this official asset. Downloaded unchanged.",
+  "local_asset": "web/assets/tenten-logo.png",
+  "sha256": "cc0b699526fcdd7027bbbb3bef699791b776a91aa9a367d1cb15cb0940df342c",
+  "content_type": "image/png",
+  "favicon": {
+    "source_asset": "https://tenten.co/favicon.ico?favicon.3fpu2ql9ns1a0.ico?dpl=dpl_JDDhCtQxG3gqmn5bM3r968NV5HUv",
+    "local_asset": "web/assets/favicon.ico",
+    "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+  }
+}

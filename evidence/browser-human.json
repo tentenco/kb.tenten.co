@@ -1,0 +1,212 @@
+{
+  "phase": "human-first redesign",
+  "checked_at": "2026-10-21T04:53:23.540085+00:00",
+  "checks": [
+    {
+      "name": "Home work guides, grouped topics and official logo",
+      "passed": true,
+      "detail": {
+        "featured": 4,
+        "groups": 4,
+        "logo": 1088,
+        "width": 1440,
+        "client": 1421
+      }
+    },
+    {
+      "name": "Home to staged guide; handoff stays below reading",
+      "passed": true,
+      "detail": {
+        "stages": 3,
+        "readings": 8,
+        "collapsed": true
+      }
+    },
+    {
+      "name": "Guide opens human-first article",
+      "passed": true,
+      "detail": [
+        "concept",
+        "why",
+        "know",
+        "example",
+        "actions",
+        "inputs",
+        "done",
+        "pitfalls"
+      ]
+    },
+    {
+      "name": "Next reading opens its target",
+      "passed": true,
+      "detail": "http://localhost:8768/playbooks/migration.html"
+    },
+    {
+      "name": "Return to category reading order",
+      "passed": true,
+      "detail": "http://localhost:8768/categories/commerce.html"
+    },
+    {
+      "name": "Glossary expands",
+      "passed": true,
+      "detail": "Klaviyo terms"
+    },
+    {
+      "name": "Reading shortcut updates active contents",
+      "passed": true,
+      "detail": "Scroll tracking"
+    },
+    {
+      "name": "Preparation expands",
+      "passed": true,
+      "detail": "Inputs available on demand"
+    },
+    {
+      "name": "Handoff anchor opens collapsed section",
+      "passed": true,
+      "detail": "Click to details"
+    },
+    {
+      "name": "Direct input deep link opens details",
+      "passed": true,
+      "detail": "Initial hash"
+    },
+    {
+      "name": "Direct handoff deep link opens details",
+      "passed": true,
+      "detail": "Initial hash"
+    },
+    {
+      "name": "Question search: Klaviyo 是什麼？",
+      "passed": true,
+      "detail": {
+        "count": 4,
+        "first": "playbooks/klaviyo.html"
+      }
+    },
+    {
+      "name": "Question search: GA4 是什麼",
+      "passed": true,
+      "detail": {
+        "count": 6,
+        "first": "playbooks/measurement.html"
+      }
+    },
+    {
+      "name": "Question search: 網站上線要檢查什麼",
+      "passed": true,
+      "detail": {
+        "count": 2,
+        "first": "playbooks/launch.html"
+      }
+    },
+    {
+      "name": "Empty search can reset",
+      "passed": true,
+      "detail": "32 results restored"
+    },
+    {
+      "name": "Project context included in complete packet",
+      "passed": true,
+      "detail": {
+        "count": 4,
+        "length": 7595
+      }
+    },
+    {
+      "name": "Actual download matches assembled content",
+      "passed": true,
+      "detail": {
+        "filename": "tenten-agent-retention.md",
+        "characters": 7595
+      }
+    },
+    {
+      "name": "Partial knowledge selection remains explicit",
+      "passed": true,
+      "detail": "Scope warning retained"
+    },
+    {
+      "name": "Unavailable clipboard exposes selectable content",
+      "passed": true,
+      "detail": "Fallback tested; native clipboard not read"
+    },
+    {
+      "name": "Mobile navigation opens with official logo",
+      "passed": true,
+      "detail": "390px"
+    },
+    {
+      "name": "Mobile navigation closes and restores focus",
+      "passed": true,
+      "detail": "Escape"
+    },
+    {
+      "name": "File URL opens complete handoff",
+      "passed": true,
+      "detail": "No local HTTP dependency"
+    },
+    {
+      "name": "File URL question search works",
+      "passed": true,
+      "detail": "Bundled data script"
+    },
+    {
+      "name": "Without JavaScript the reading content remains complete",
+      "passed": true,
+      "detail": {
+        "js": false,
+        "concept": true,
+        "actions": 4,
+        "diagram": 4
+      }
+    },
+    {
+      "name": "Print keeps diagram and hides handoff",
+      "passed": true,
+      "detail": {
+        "handoff": "none",
+        "diagram": "block"
+      }
+    },
+    {
+      "name": "390px route matrix",
+      "passed": true,
+      "detail": "57 routes: no horizontal overflow, official logo loaded, JS initialized and handoff collapsed"
+    },
+    {
+      "name": "Visual review of reading hierarchy and diagrams",
+      "passed": true,
+      "detail": "Inspected home, article, work guide, mobile home, Klaviyo flow, Meta merge, measurement map and headless responsibility map"
+    }
+  ],
+  "status": "PASS",
+  "checks_passed": 27,
+  "checks_total": 27,
+  "task_space": 61,
+  "mobile_matrix": "mobile-human.json",
+  "notes": [
+    "Initial 1440px test incorrectly expected document.clientWidth to include the scrollbar. CDP showed innerWidth 1440 and clientWidth 1421. Corrected the test; no application change for this setup issue.",
+    "Reading shortcut test reproduced overlapping scroll-padding and scroll-margin: target at 190px while contents threshold was 147px. Reduced section margin to 18px; retest passed.",
+    "No-JS content test passed. High-level click on native details timed out because the automation helper used Runtime.callFunctionOn with script execution disabled. Restored script execution; no no-JS click success is claimed.",
+    "Native clipboard permission was not requested. Tested unavailable-clipboard selection fallback and an actual file download with exact content equality.",
+    "Historical browser space 57 was not resumed. This redesign used its own existing space 61."
+  ],
+  "limits": [
+    "Single-agent visual/editorial review, not an independent user study.",
+    "No client accounts, live tracking, message delivery or deployment tested."
+  ],
+  "screenshots": [
+    "screenshots/human-home.png",
+    "screenshots/human-klaviyo.png",
+    "screenshots/human-guide.png",
+    "screenshots/human-mobile-flow.png",
+    "screenshots/human-mobile-merge.png",
+    "screenshots/human-mobile-home.png",
+    "screenshots/human-measurement.png",
+    "screenshots/human-headless.png"
+  ],
+  "source_sha256": "57c5e965d24f46e8a17f85ed2a7f89a8e23fadc63c71f5cf60bfcfcf9b36352c",
+  "site_sha256": "be5ad63c4977d0db4ba4657c37bfbd1be8f06e15f72421d863de4743c77f1ced",
+  "completion": "Task space 61 finished once; final home page retained for user review."
+}

@@ -1,0 +1,115 @@
+{
+  "observed_at": "2026-10-21",
+  "retrievals": [
+    {
+      "id": "klaviyo-shopify",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+      "final_url": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+      "status": 200,
+      "chars": 15704
+    },
+    {
+      "id": "klaviyo-flows",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115002774932",
+      "final_url": "https://help.klaviyo.com/hc/en-us/articles/115002774932",
+      "status": 200,
+      "chars": 27353
+    },
+    {
+      "id": "klaviyo-headless",
+      "url": "https://developers.klaviyo.com/en/docs/integrate_with_a_headless_commerce_platform",
+      "error": "HTTP Error 404: Not Found"
+    },
+    {
+      "id": "shopify-meta",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+      "final_url": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+      "status": 200,
+      "chars": 5168
+    },
+    {
+      "id": "shopify-google",
+      "url": "https://help.shopify.com/en/manual/promoting-marketing/create-marketing/google",
+      "final_url": "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/google",
+      "status": 200,
+      "chars": 1369
+    },
+    {
+      "id": "shopify-customer-events",
+      "url": "https://shopify.dev/docs/api/web-pixels-api",
+      "final_url": "https://shopify.dev/docs/api/web-pixels-api",
+      "status": 200,
+      "chars": 6807
+    },
+    {
+      "id": "google-enhanced",
+      "url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+      "final_url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+      "status": 200,
+      "chars": 6761
+    },
+    {
+      "id": "google-feed",
+      "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+      "final_url": "https://support.google.com/merchants/answer/7052112?hl=en",
+      "status": 200,
+      "chars": 94300
+    },
+    {
+      "id": "shopify-search",
+      "url": "https://help.shopify.com/en/manual/online-store/search-and-discovery",
+      "final_url": "https://help.shopify.com/en/manual/online-store",
+      "status": 200,
+      "chars": 1486
+    },
+    {
+      "id": "shopify-redirects",
+      "url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect",
+      "final_url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect",
+      "status": 200,
+      "chars": 9764
+    },
+    {
+      "id": "klaviyo-shopify-data",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080447",
+      "final_url": "https://help.klaviyo.com/hc/en-us/articles/115005080447",
+      "status": 200,
+      "chars": 37490
+    },
+    {
+      "id": "klaviyo-subscribers",
+      "url": "https://help.klaviyo.com/hc/en-us/articles/115005080667",
+      "final_url": "https://help.klaviyo.com/hc/en-us/articles/115005080667",
+      "status": 200,
+      "chars": 15776
+    },
+    {
+      "id": "klaviyo-events",
+      "url": "https://developers.klaviyo.com/en/reference/create_event",
+      "final_url": "https://developers.klaviyo.com/en/reference/create_event",
+      "status": 200,
+      "chars": 19783
+    },
+    {
+      "id": "shopify-search-app",
+      "url": "https://help.shopify.com/en/manual/online-store/storefront-search/search-and-discovery",
+      "final_url": "https://help.shopify.com/en/manual/online-store/storefront-search",
+      "status": 200,
+      "chars": 3330
+    },
+    {
+      "id": "shopify-headless-analytics",
+      "url": "https://shopify.dev/docs/storefronts/headless/hydrogen/analytics",
+      "final_url": "https://shopify.dev/docs/storefronts/headless/legacy/hydrogen/analytics",
+      "status": 200,
+      "chars": 3476
+    },
+    {
+      "id": "meta-dedup",
+      "url": "https://developers.facebook.com/docs/marketing-api/conversions-api/deduplicate-pixel-and-server-events/",
+      "final_url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/deduplicate-pixel-and-server-events",
+      "status": 200,
+      "chars": 11962
+    }
+  ]
+}

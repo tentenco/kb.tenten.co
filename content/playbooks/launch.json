@@ -1,0 +1,71 @@
+{
+  "id": "launch",
+  "category": "operations",
+  "title": "網站上線：一次看完必要條件",
+  "summary": "上線前一次確認 SEO、交易、追蹤、DNS 與回復方案。",
+  "keywords": [
+    "上線",
+    "go live",
+    "launch",
+    "checklist",
+    "DNS",
+    "GA4",
+    "GSC",
+    "301"
+  ],
+  "why": [
+    "上線是一次系統切換，漏一個環節就可能造成流量、交易或資料損失。",
+    "有明確 go／no-go 與回復條件，團隊才能快速決定。"
+  ],
+  "know": [
+    "至少涵蓋功能、內容、SEO、量測、隱私、DNS／TLS、效能、備份和責任交接。",
+    "GA4／GSC 先盤點沿用；Google Ads／Meta 依實際渠道啟用；title、description、OG tags 分開查。",
+    "預覽站不是正式站；production 的索引、表單、付款與追蹤需再驗證。"
+  ],
+  "inputs": [
+    "核准版本、網域與上線窗口、決策及維運聯絡人",
+    "驗收、301、事件、DNS、備份與回復計畫"
+  ],
+  "actions": [
+    "整理 go／no-go 表，先驗證 staging 主流程、SEO、量測及必要政策。",
+    "盤點正式 DNS／TLS／郵件、資料同步、環境變數與監控，準備可回復版本。",
+    "在既有上線授權內執行切換，依適用情境移除 production noindex／密碼保護。",
+    "檢查代表 URL、訂單或表單、事件與 GSC；交付帶時間和版本的上線收據及觀察表。"
+  ],
+  "done": [
+    "正式站主要任務成功；舊 URL 對應正確；分析事件去重。",
+    "沒有 staging 限制殘留；監控與責任人已交接；未通過項有明確決定。"
+  ],
+  "pitfalls": [
+    "全站解除保護，連後台和預覽內容一起公開。",
+    "只看首頁，沒測表單、購物或 redirect。"
+  ],
+  "decision": "依驗收結果決定是否上線，並確認誰能決定暫停或回復。",
+  "sources": [
+    "owner-brief",
+    "google-migration",
+    "tenten-hosting",
+    "ga4-ecommerce"
+  ],
+  "related": [
+    "technical-seo",
+    "measurement",
+    "operations-security"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "網站上線是把通過驗收的版本切到正式環境，並確認使用者、搜尋引擎與營運流程都能正常接續。",
+    "when": "準備發布新站、改版切換，或需要決定能否正式上線時。",
+    "example": {
+      "situation": "預覽站表單正常，上線後正式環境卻缺少接收設定。",
+      "lesson": "上線前測試，切換後還要在正式網址再驗證。"
+    },
+    "first_step": "把必要項目列成通過、未通過與待決定三種狀態。",
+    "point_titles": [
+      "上線要看整套系統",
+      "既有搜尋與量測要接續",
+      "正式環境需要再次驗證"
+    ]
+  }
+}

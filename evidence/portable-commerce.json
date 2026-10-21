@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T04:26:26.103144+00:00",
+  "phase": "commerce expansion",
+  "archive": "dist/tenten-knowledge-base-2026-10-21.zip",
+  "archive_sha256": "b4f404eb4ded121e8eec7d8ea834a19fe93a18d034a4f8195bf2b3fa822a043d",
+  "source_sha256": "308fe0930cdb82c17b8885f2b41e5c125803ce977aed068696f891b1d02bc48b",
+  "site_sha256": "87dcc73ffcb819d90bd1c12f17aa02010b29683fb2db8f661828a54211fb7b5d",
+  "temporary_rebuild": "/var/folders/q2/_lbzhthn771dnk9hsjtsvvx80000gn/T/tenten-kb-commerce-portable-qux4xown/tenten-knowledge-base",
+  "commands": [
+    {
+      "command": "python3 scripts/build.py",
+      "exit_code": 0,
+      "stdout": "BUILD PASS: 32 playbooks, 11 scenarios, 57 HTML pages",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/harness.py",
+      "exit_code": 0,
+      "stdout": "HARNESS PASS: 164/164 checks",
+      "stderr": ""
+    },
+    {
+      "command": "node --check web/app.js",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "checks_passed": 164,
+  "checks_total": 164,
+  "limits": [
+    "The extracted package builds without the original workspace or reference clone.",
+    "No external accounts or deployments tested."
+  ],
+  "final_archive_check": {
+    "checked_at": "2026-10-21T04:26:57.096970+00:00",
+    "status": "PASS",
+    "files": 232,
+    "detail": "Final documentation/receipt refresh packaged; all archived bytes match workspace, CRC valid, verified source/output fingerprints unchanged."
+  }
+}

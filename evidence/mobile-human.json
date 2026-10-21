@@ -1,0 +1,606 @@
+{
+  "checked_at": "2026-10-21T04:51:53.651Z",
+  "width": 390,
+  "routes": [
+    {
+      "route": "about.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/ai.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/build.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/commerce.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/design.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/growth.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/operations.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/search.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "categories/start.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "index.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "library.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "paths.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/agent-workflow.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/ai-consulting.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/ai-fte.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/automation-integration.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/brand-strategy.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/cms-content.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/commerce-merchandising.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/commerce-service.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/content-seo.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/design-system.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/development-quality.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/ecommerce-growth.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/ecommerce-launch.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/ga4-commerce.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/geo.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/google-commerce.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/headless-commerce.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/hosting-architecture.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/klaviyo.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/launch.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/lifecycle-crm.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/measurement.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/meta-tracking.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/migration.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": {
+        "width": 342,
+        "scroll": 340
+      }
+    },
+    {
+      "route": "playbooks/operations-security.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/paid-media.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/platform-choice.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/project-brief.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/shopify-foundation.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/technical-seo.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/tenten-context.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "playbooks/ux-conversion.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/ai-workflow.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/brand-system.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/commerce-ecosystem.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/ecommerce-launch.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/growth.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/launch.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/migration.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/operations.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/retention.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/seo-geo.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "scenarios/website.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "search.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    },
+    {
+      "route": "sources.html",
+      "passed": true,
+      "width": 390,
+      "scroll": 390,
+      "js": true,
+      "logo": 1088,
+      "packetOpen": false,
+      "diagram": null
+    }
+  ]
+}

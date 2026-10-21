@@ -1,0 +1,79 @@
+{
+  "id": "commerce-merchandising",
+  "category": "commerce",
+  "title": "商品探索、評論與 App 選型",
+  "summary": "先解決找不到、看不懂、不敢買，再決定要加哪個工具。",
+  "keywords": [
+    "Shopify ecosystem",
+    "App",
+    "Search & Discovery",
+    "Judge.me",
+    "評論",
+    "UGC",
+    "filter",
+    "recommendations",
+    "搜尋",
+    "比較",
+    "選購測驗",
+    "upsell"
+  ],
+  "why": [
+    "篩選、比較與可信評論能降低選購成本，尤其是規格多、單價高的商品。",
+    "每多一個 App 都增加費用、腳本和資料責任；先查原生能力可避免重複。"
+  ],
+  "know": [
+    "Search & Discovery 可管理搜尋、篩選和推薦；headless 需透過 Storefront API 實作對應前台。",
+    "評論工具如 Judge.me 管收集／審核／展示；XTERRA repo 已有相關整合，不代表每家店都要用。",
+    "比較表／選購測驗依可查證規格給建議；結果不能捏造相容性或產品功效。",
+    "加購／組合／訂閱工具依毛利、庫存和需求評估；耐用品不必硬做固定週期訂閱。",
+    "每個選型記目的、原生替代、headless 支援、成本、權限、資料匯出與移除方式。"
+  ],
+  "inputs": [
+    "商品規格／分類、搜尋詞與零結果、客服疑問和漏斗",
+    "現有 App／前台架構、費用預算、評論資料與使用權"
+  ],
+  "actions": [
+    "把需求分成必備與待評估，先修商品欄位、價格和缺貨規則。",
+    "建立篩選／同義詞／比較與推薦樣本，確認商品、配件及變體關聯。",
+    "評論搬遷保留來源與狀態，驗證計數、平均分數和隱私；不製造評論。",
+    "用代表搜尋、零結果、缺貨、手機與鍵盤測試；查 App API／webhook 和效能影響。"
+  ],
+  "done": [
+    "可依真實需求找到可買商品；推薦價格／庫存和加入購物車結果一致。",
+    "評論展示可追溯、無重複；選型表有理由，不只是 App 清單。"
+  ],
+  "pitfalls": [
+    "以為安裝 theme widget 就能出現在 Astro 前台。",
+    "把評論平均分數或推薦內容寫死，資料更新後仍顯示舊值。"
+  ],
+  "decision": "確認顧客的選購順序、工具費用，以及改善效果是否值得維護成本。",
+  "sources": [
+    "shopify-search-app",
+    "xterra-repo",
+    "tenten-shopify"
+  ],
+  "related": [
+    "ecommerce-growth",
+    "shopify-foundation",
+    "headless-commerce",
+    "commerce-service"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "商品探索工具幫助顧客找到適合的產品。搜尋、篩選、比較、推薦與評論，各自解決不同的選購疑問。",
+    "when": "商品很多、規格難比較，或顧客需要更多信任才願意購買時。",
+    "example": {
+      "situation": "顧客想找能收納的器材，分類卻只有品牌，找不到適合的選項。",
+      "lesson": "依真實選購條件做篩選，比直接增加一個 App 更有用。"
+    },
+    "first_step": "整理三個顧客最常問的選購問題，再對應需要的功能。",
+    "point_titles": [
+      "搜尋與篩選讓商品容易找到",
+      "評論提供可信的經驗",
+      "比較與測驗幫助選擇",
+      "加購工具要符合商品性質",
+      "選工具也要看成本和維護"
+    ]
+  }
+}

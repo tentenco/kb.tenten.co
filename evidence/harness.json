@@ -1,0 +1,866 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T05:55:47.756993+00:00",
+  "checks_passed": 170,
+  "checks_total": 170,
+  "source_sha256": "a5d8c60ba5ec5ff27273b1db614bb521c86559194c5d0973bfb3134a1bf4579f",
+  "site_sha256": "34cac87fc1a0c1d4a79aaf08578baacc690203ab136a9cda82e41c6abac57361",
+  "checks": [
+    {
+      "name": "canonical schema and references",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "compact library",
+      "passed": true,
+      "detail": "32 playbooks"
+    },
+    {
+      "name": "coverage: start",
+      "passed": true,
+      "detail": "3 cards"
+    },
+    {
+      "name": "coverage: design",
+      "passed": true,
+      "detail": "3 cards"
+    },
+    {
+      "name": "coverage: build",
+      "passed": true,
+      "detail": "4 cards"
+    },
+    {
+      "name": "coverage: commerce",
+      "passed": true,
+      "detail": "6 cards"
+    },
+    {
+      "name": "coverage: search",
+      "passed": true,
+      "detail": "3 cards"
+    },
+    {
+      "name": "coverage: growth",
+      "passed": true,
+      "detail": "7 cards"
+    },
+    {
+      "name": "coverage: operations",
+      "passed": true,
+      "detail": "3 cards"
+    },
+    {
+      "name": "coverage: ai",
+      "passed": true,
+      "detail": "3 cards"
+    },
+    {
+      "name": "page: index.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: about.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: library.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: paths.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: search.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: sources.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/headless-commerce.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ai-fte.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ux-conversion.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ai-consulting.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/cms-content.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/technical-seo.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/development-quality.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/design-system.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/automation-integration.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/launch.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/geo.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/paid-media.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/brand-strategy.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/commerce-merchandising.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/commerce-service.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/google-commerce.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/operations-security.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/hosting-architecture.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ecommerce-launch.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/meta-tracking.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/lifecycle-crm.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/klaviyo.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/shopify-foundation.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/measurement.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/platform-choice.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/migration.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/tenten-context.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/content-seo.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ecommerce-growth.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/agent-workflow.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/ga4-commerce.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/project-brief.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/seo-geo.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/ai-workflow.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/operations.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/launch.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/commerce-ecosystem.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/ecommerce-launch.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/brand-system.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/growth.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/migration.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/retention.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: scenarios/website.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/build.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/operations.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/design.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/start.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/growth.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/commerce.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/search.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: categories/ai.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "expected routes",
+      "passed": true,
+      "detail": "57/57"
+    },
+    {
+      "name": "export: agent-workflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ai-consulting",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ai-fte",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: automation-integration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: brand-strategy",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: cms-content",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: commerce-merchandising",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: commerce-service",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: content-seo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: design-system",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: development-quality",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ecommerce-growth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ecommerce-launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ga4-commerce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: geo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: google-commerce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: headless-commerce",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: hosting-architecture",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: klaviyo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: lifecycle-crm",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: measurement",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: meta-tracking",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: migration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: operations-security",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: paid-media",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: platform-choice",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: project-brief",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: shopify-foundation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: technical-seo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: tenten-context",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: ux-conversion",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: migration",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: ecommerce-launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: website",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: seo-geo",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: growth",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: ai-workflow",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: brand-system",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: operations",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: retention",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "packet: commerce-ecosystem",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "browser corpus/export parity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "bundle budget",
+      "passed": true,
+      "detail": "173924 bytes; limit 240000"
+    },
+    {
+      "name": "search corpus parity without full markdown",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "search payload budget",
+      "passed": true,
+      "detail": "57946 bytes; limit 70000"
+    },
+    {
+      "name": "page-local packet scope and export parity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "pages exclude full corpus runtime",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "theme initializes before styles",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "runtime asset parity",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: all-knowledge.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: INDEX.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/lifecycle-crm.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/commerce-merchandising.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/headless-commerce.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/meta-tracking.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/operations-security.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/launch.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/shopify-foundation.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/brand-strategy.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ecommerce-growth.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/migration.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/klaviyo.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/tenten-context.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/cms-content.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/project-brief.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/hosting-architecture.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/automation-integration.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/design-system.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ecommerce-launch.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ai-consulting.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/geo.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/google-commerce.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/platform-choice.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/content-seo.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/measurement.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ai-fte.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/technical-seo.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/paid-media.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/agent-workflow.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/commerce-service.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ux-conversion.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/development-quality.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/ga4-commerce.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/retention.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/operations.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/launch.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/website.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/migration.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/commerce-ecosystem.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/ecommerce-launch.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/ai-workflow.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/seo-geo.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/growth.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: scenarios/brand-system.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero code comments: package.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero code comments: build.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero code comments: harness.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "zero code comments: serve.py",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "reference-project isolation",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "no shared client defaults",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "Deterministic gates do not establish factual truth.",
+    "Browser interactions are recorded separately in evidence/browser.json.",
+    "This harness does not operate customer systems or publish content."
+  ]
+}

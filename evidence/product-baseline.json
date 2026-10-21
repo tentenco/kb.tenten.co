@@ -1,0 +1,82 @@
+{
+  "navigation": {
+    "name": "http://localhost:8768/index.html",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 332.5,
+    "navigationId": 4648,
+    "initiatorType": "navigation",
+    "deliveryType": "cache",
+    "nextHopProtocol": "",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 0.7000000029802322,
+    "domainLookupStart": 5.800000004470348,
+    "domainLookupEnd": 5.800000004470348,
+    "connectStart": 5.800000004470348,
+    "secureConnectionStart": 0,
+    "connectEnd": 6,
+    "requestStart": 6.100000001490116,
+    "responseStart": 7.700000002980232,
+    "firstInterimResponseStart": 0,
+    "finalResponseHeadersStart": 7.700000002980232,
+    "responseEnd": 21.5,
+    "transferSize": 300,
+    "encodedBodySize": 9779,
+    "decodedBodySize": 9779,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 0,
+    "unloadEventEnd": 0,
+    "domInteractive": 41.399999998509884,
+    "domContentLoadedEventStart": 133.60000000149012,
+    "domContentLoadedEventEnd": 133.60000000149012,
+    "domComplete": 332.5,
+    "loadEventStart": 332.5,
+    "loadEventEnd": 332.5,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {}
+  },
+  "resources": [
+    {
+      "name": "http://localhost:8768/assets/style.css",
+      "transferSize": 300,
+      "decodedBodySize": 40609,
+      "duration": 61.100000001490116
+    },
+    {
+      "name": "http://localhost:8768/assets/data.js",
+      "transferSize": 300,
+      "decodedBodySize": 173924,
+      "duration": 66.40000000596046
+    },
+    {
+      "name": "http://localhost:8768/assets/tenten-logo.png",
+      "transferSize": 300,
+      "decodedBodySize": 13280,
+      "duration": 66
+    },
+    {
+      "name": "http://localhost:8768/assets/app.js",
+      "transferSize": 300,
+      "decodedBodySize": 11122,
+      "duration": 65.5
+    }
+  ],
+  "scripts": [
+    "http://localhost:8768/assets/data.js",
+    "http://localhost:8768/assets/app.js"
+  ]
+}

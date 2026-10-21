@@ -1,0 +1,458 @@
+[
+  {
+    "route": "/about.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/ai.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/build.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/commerce.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/design.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/growth.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/operations.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/search.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/categories/start.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/index.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/library.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/paths.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/agent-workflow.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ai-consulting.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ai-fte.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/automation-integration.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/brand-strategy.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/cms-content.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/commerce-merchandising.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/commerce-service.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/content-seo.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/design-system.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/development-quality.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ecommerce-growth.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ecommerce-launch.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ga4-commerce.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/geo.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/google-commerce.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/headless-commerce.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/hosting-architecture.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/klaviyo.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/launch.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/lifecycle-crm.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/measurement.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/meta-tracking.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/migration.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/operations-security.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/paid-media.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/platform-choice.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/project-brief.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/shopify-foundation.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/technical-seo.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/tenten-context.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/playbooks/ux-conversion.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/ai-workflow.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/brand-system.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/commerce-ecosystem.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/ecommerce-launch.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/growth.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/launch.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/migration.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/operations.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/retention.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/seo-geo.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/scenarios/website.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/search.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  },
+  {
+    "route": "/sources.html",
+    "width": 390,
+    "client": 390,
+    "scroll": 390,
+    "initialized": true,
+    "packet": true
+  }
+]

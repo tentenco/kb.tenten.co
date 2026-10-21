@@ -1,0 +1,82 @@
+[
+  {
+    "id": "first-day",
+    "title": "新人第一輪",
+    "summary": "先理解業務、交付方式與上線全貌。",
+    "ids": [
+      "tenten-context",
+      "project-brief",
+      "agent-workflow",
+      "launch"
+    ]
+  },
+  {
+    "id": "consultant",
+    "title": "PM／顧問",
+    "summary": "把目標、範圍、平台與驗收連成一條線。",
+    "ids": [
+      "project-brief",
+      "platform-choice",
+      "measurement",
+      "ai-consulting"
+    ]
+  },
+  {
+    "id": "designer",
+    "title": "品牌／設計",
+    "summary": "從定位到體驗，再落到可重用規則。",
+    "ids": [
+      "brand-strategy",
+      "ux-conversion",
+      "design-system",
+      "cms-content"
+    ]
+  },
+  {
+    "id": "delivery",
+    "title": "開發／電商交付",
+    "summary": "Sally 可依此理解架構、搬站與標準驗收。",
+    "ids": [
+      "shopify-foundation",
+      "headless-commerce",
+      "migration",
+      "ecommerce-launch",
+      "launch"
+    ]
+  },
+  {
+    "id": "marketer",
+    "title": "行銷／搜尋",
+    "summary": "從量測、搜尋與內容，接到有效轉換。",
+    "ids": [
+      "measurement",
+      "technical-seo",
+      "content-seo",
+      "geo",
+      "paid-media"
+    ]
+  },
+  {
+    "id": "ai-operator",
+    "title": "AI／自動化",
+    "summary": "從單次任務，走到持續交付與可觀測整合。",
+    "ids": [
+      "agent-workflow",
+      "ai-consulting",
+      "automation-integration",
+      "ai-fte"
+    ]
+  },
+  {
+    "id": "commerce-operator",
+    "title": "電商營運／Sherry 閱讀路徑",
+    "summary": "從常見營運問題開始，理解選購、電子報與售後的關係。",
+    "ids": [
+      "commerce-merchandising",
+      "klaviyo",
+      "commerce-service",
+      "lifecycle-crm",
+      "ecommerce-growth"
+    ]
+  }
+]

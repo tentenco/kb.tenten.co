@@ -1,0 +1,321 @@
+[
+  {
+    "id": "tenten-home",
+    "title": "Tenten | Clear, Useful Digital Products",
+    "url": "https://tenten.co/",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "服務組合、共用 brief、review 與交付方式；不作個案合約、SLA 或成果保證。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-development",
+    "title": "Web Design & Development on Webflow & Shopify | Tenten",
+    "url": "https://tenten.co/services/design-development",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "設計、開發、平台選型及交付脈絡；具體技術檢查為本庫建議。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-branding",
+    "title": "Brand Strategy & Identity Design Agency | Tenten",
+    "url": "https://tenten.co/services/branding",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "定位、訊息、識別與 rollout 的服務脈絡。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-consulting",
+    "title": "Digital Transformation Consulting | Audit to Build | Tenten",
+    "url": "https://tenten.co/services/transformation-consulting",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "數位顧問、現況盤點、決策紀錄與驗收的服務脈絡。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-geo",
+    "title": "Generative Engine Optimization (GEO) Strategy | Tenten",
+    "url": "https://tenten.co/services/geo",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "GEO 服務、來源維護與引用觀察限制。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-shopify",
+    "title": "Shopify Partner in Taipei | Commerce Delivery | Tenten",
+    "url": "https://tenten.co/solutions/shopify",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "商品、市場、整合與量測的 Shopify 交付脈絡；不證明個別商店設定。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-hosting",
+    "title": "Managed WordPress Hosting Controls and Ownership | Tenten",
+    "url": "https://tenten.co/solutions/hosting",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "主機責任、備份、回復、監控和交接脈絡；不視為個案 SLA。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-cms",
+    "title": "Headless CMS Development Agency | Jamstack, React | Tenten",
+    "url": "https://tenten.co/solutions/headless-cms",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "Headless／整合式 CMS 的選型、模型、搬遷和責任。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "tenten-ai",
+    "title": "Tenten AI: Turn a stuck workflow into a working AI system",
+    "url": "https://tentenai.com/",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。",
+    "evidence": "research/tenten-public-pages.json"
+  },
+  {
+    "id": "google-migration",
+    "title": "Google Search Central：網站遷移",
+    "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "URL 盤點、永久 redirect、canonical、切換、GSC 及至少一年的 redirect 保留建議。",
+    "evidence": "research/google-migration.txt",
+    "note": ""
+  },
+  {
+    "id": "google-ai",
+    "title": "Google Search Central：AI 搜尋功能",
+    "url": "https://developers.google.com/search/docs/appearance/ai-features",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Google AI 搜尋的索引資格、SEO 基礎與不需特殊 schema／AI 文字檔；不能推論其他 AI 平台。",
+    "evidence": "research/google-ai.txt",
+    "note": ""
+  },
+  {
+    "id": "ga4-ecommerce",
+    "title": "Google Analytics：電商事件",
+    "url": "https://developers.google.com/analytics/devguides/collection/ga4/ecommerce",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "電商事件、items、currency、transaction_id、購買與退款；Meta 去重及 Ads 配置需 Agent 執行時查現行平台文件。",
+    "evidence": "research/ga4-ecommerce.txt",
+    "note": ""
+  },
+  {
+    "id": "shopify-migration",
+    "title": "Shopify：搬遷到 Shopify",
+    "url": "https://help.shopify.com/en/manual/migrating-to-shopify",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "資料搬遷、匯入順序、商品驗證、配送、稅務、支付與測試訂單；API 能力和方案需當次驗證。",
+    "evidence": "research/shopify-migration.txt",
+    "note": "HTTP 抓取遇到 403，改以瀏覽器讀取公開說明文件。"
+  },
+  {
+    "id": "shopify-privacy",
+    "title": "Shopify：顧客隱私設定",
+    "url": "https://help.shopify.com/en/manual/privacy-and-security/privacy/customer-privacy-settings/privacy-settings",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "browser-reviewed",
+    "scope": "隱私設定、同意、opt-out 和資料用途；不構成法律結論。",
+    "evidence": "research/shopify-privacy.txt",
+    "note": "HTTP 抓取遇到 403，改以瀏覽器讀取公開說明文件。"
+  },
+  {
+    "id": "web-vitals",
+    "title": "web.dev：Core Web Vitals",
+    "url": "https://web.dev/articles/vitals",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "實際使用者與實驗室量測、Core Web Vitals 的範圍；本庫不承諾效能數值。",
+    "evidence": "research/web-vitals.txt",
+    "note": ""
+  },
+  {
+    "id": "wcag",
+    "title": "W3C：WCAG 2.2 quick reference",
+    "url": "https://www.w3.org/WAI/WCAG22/quickref/",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "WCAG 2.2 的可感知、可操作、標籤、焦點與適應性基線；不是本站通過認證的宣稱。",
+    "evidence": "research/wcag.txt",
+    "note": ""
+  },
+  {
+    "id": "owasp-agents",
+    "title": "OWASP：Prompt Injection",
+    "url": "https://genai.owasp.org/llmrisk/llm01-prompt-injection/",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。",
+    "evidence": "research/owasp-agents.txt",
+    "note": ""
+  },
+  {
+    "id": "owner-brief",
+    "title": "Erik 的知識庫需求與 XTERRA 電商擴充",
+    "url": null,
+    "kind": "user-direction",
+    "observed_at": "2026-10-21",
+    "access": "session-provided",
+    "scope": "AI-native 短文件、Tenten 服務範圍、XTERRA 美國站 Magento → Shopify、電商上線標準與給 Sherry 的 Shopify／Klaviyo 知識；不代表已取得 20 年私人筆記。",
+    "evidence": "docs/brief.md"
+  },
+  {
+    "id": "xterra-repo",
+    "title": "XTERRA 專案：程式與串接文件快照",
+    "url": "https://github.com/tentenco/xterra-website/tree/e1caa5ecdcdf47346c675c1bbc9c5c0f3684acba",
+    "kind": "project-reference",
+    "observed_at": "2026-10-21",
+    "access": "authenticated-read-only",
+    "scope": "Astro／Sanity／Shopify 邊界、自訂表單及 Klaviyo adapter／Draft 腳本、Judge.me 和開發環境上線限制；不證明 live 設定、寄信或正式上線。",
+    "evidence": "research/xterra-review.json",
+    "note": "快照 e1caa5ecdcdf；README 的 Klaviyo 描述與專文／程式不一致，執行前須查實際帳號。未複製原始 repo、憑證或顧客資料。"
+  },
+  {
+    "id": "klaviyo-shopify",
+    "title": "Klaviyo：Shopify 整合",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080407",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Profile／訂單資料、訂閱選項、雙向同步和 onsite tracking 的基本邊界。",
+    "evidence": "research/klaviyo-shopify.txt"
+  },
+  {
+    "id": "klaviyo-flows",
+    "title": "Klaviyo：Flow 入門",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115002774932",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Flow 與觸發、Draft／Live、Welcome／棄單／購後／winback 的用途；本庫的具體排除與驗收為建議。",
+    "evidence": "research/klaviyo-flows.txt"
+  },
+  {
+    "id": "klaviyo-shopify-data",
+    "title": "Klaviyo：Shopify 同步的事件資料",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080447",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Checkout Started、Placed Order、取消／退款事件及與 Shopify 營收口徑的差異；Placed Order 不是收款保證。",
+    "evidence": "research/klaviyo-shopify-data.txt"
+  },
+  {
+    "id": "klaviyo-subscribers",
+    "title": "Klaviyo：Shopify 訂閱同步的限制",
+    "url": "https://help.klaviyo.com/hc/en-us/articles/115005080667",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "訂閱與 Profile 分開；Shopify 退訂不自動退訂 Klaviyo、重新訂閱與刪除同步限制。",
+    "evidence": "research/klaviyo-subscribers.txt"
+  },
+  {
+    "id": "shopify-meta",
+    "title": "Shopify：Meta 資料分享",
+    "url": "https://help.shopify.com/en/manual/promoting-marketing/analyze-marketing/meta-data-sharing",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Pixel／CAPI、分享層級、標準事件及資料用途；自訂前台覆蓋仍需另驗。",
+    "evidence": "research/shopify-meta.txt"
+  },
+  {
+    "id": "meta-dedup",
+    "title": "Meta：Pixel 與 CAPI 去重",
+    "url": "https://developers.facebook.com/documentation/ads-commerce/conversions-api/deduplicate-pixel-and-server-events",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "同一事件的名稱與 eventID／event_id 配對及去重驗證；不代表已檢查客戶帳號。",
+    "evidence": "research/meta-dedup.txt"
+  },
+  {
+    "id": "shopify-google",
+    "title": "Shopify：Google & YouTube 渠道",
+    "url": "https://help.shopify.com/en/manual/online-sales-channels/marketplaces/google",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "官方渠道及連接、商品同步文件入口；不證明任何商店的帳號資格或轉換設定。",
+    "evidence": "research/shopify-google.txt"
+  },
+  {
+    "id": "shopify-customer-events",
+    "title": "Shopify：Web Pixels API",
+    "url": "https://shopify.dev/docs/api/web-pixels-api",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "App／custom pixel sandbox、customer events 與隱私 API 邊界；不保證自訂 Astro 前台自動涵蓋。",
+    "evidence": "research/shopify-customer-events.txt"
+  },
+  {
+    "id": "google-enhanced",
+    "title": "Google Ads：Enhanced conversions",
+    "url": "https://support.google.com/google-ads/answer/9888656?hl=en",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "第一方資料比對、雜湊與轉換補強；須遵守資料用途，不是免 consent 的保證。",
+    "evidence": "research/google-enhanced.txt"
+  },
+  {
+    "id": "google-feed",
+    "title": "Google Merchant Center：商品資料規格",
+    "url": "https://support.google.com/merchants/answer/7052112?hl=en",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "商品識別、價格、幣別、庫存、連結與資料一致性；不保證審核通過。",
+    "evidence": "research/google-feed.txt"
+  },
+  {
+    "id": "shopify-search-app",
+    "title": "Shopify：搜尋、篩選與 Headless",
+    "url": "https://help.shopify.com/en/manual/online-store/storefront-search",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "Search & Discovery 的搜尋／篩選／推薦用途及 custom storefront 透過 Storefront API 使用。",
+    "evidence": "research/shopify-search-app.txt"
+  },
+  {
+    "id": "shopify-redirects",
+    "title": "Shopify：URL redirect 的生效限制",
+    "url": "https://help.shopify.com/en/manual/online-store/menus-and-links/url-redirect",
+    "kind": "official-reference",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "原生 redirect 的適用路由與限制；自訂前台需檢查實際處理舊 URL 的路由層。",
+    "evidence": "research/shopify-redirects.txt"
+  }
+]

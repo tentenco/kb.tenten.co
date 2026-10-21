@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T04:54:33.360567+00:00",
+  "phase": "human-first redesign",
+  "archive": "dist/tenten-knowledge-base-2026-10-21.zip",
+  "archive_sha256": "0b4d122f93538aed52a9a119df37131e60be48f4570ce4f768726b9fb9ef396e",
+  "source_sha256": "57c5e965d24f46e8a17f85ed2a7f89a8e23fadc63c71f5cf60bfcfcf9b36352c",
+  "site_sha256": "be5ad63c4977d0db4ba4657c37bfbd1be8f06e15f72421d863de4743c77f1ced",
+  "temporary_rebuild": "/var/folders/q2/_lbzhthn771dnk9hsjtsvvx80000gn/T/tenten-kb-human-portable-4c4tt5f9/tenten-knowledge-base",
+  "commands": [
+    {
+      "command": "python3 scripts/build.py",
+      "exit_code": 0,
+      "stdout": "BUILD PASS: 32 playbooks, 11 scenarios, 57 HTML pages",
+      "stderr": ""
+    },
+    {
+      "command": "python3 scripts/harness.py",
+      "exit_code": 0,
+      "stdout": "HARNESS PASS: 164/164 checks",
+      "stderr": ""
+    },
+    {
+      "command": "node --check web/app.js",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "checks_passed": 164,
+  "checks_total": 164,
+  "limits": [
+    "Rebuilt extracted package without original workspace dependencies.",
+    "No client systems or external deployment tested."
+  ],
+  "final_archive_check": {
+    "status": "PASS",
+    "checked_at": "2026-10-21T04:54:50.176649+00:00",
+    "files": 248,
+    "detail": "Final documentation and receipt refresh packaged; all archive bytes match workspace, CRC valid; verified source and site fingerprints unchanged."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "groups": [
+    {
+      "id": "understand",
+      "title": "理解需求",
+      "summary": "看懂業務、受眾與品牌方向。",
+      "categories": [
+        "start",
+        "design"
+      ]
+    },
+    {
+      "id": "build",
+      "title": "建立網站與商店",
+      "summary": "從平台、內容到交易流程。",
+      "categories": [
+        "build",
+        "commerce"
+      ]
+    },
+    {
+      "id": "grow",
+      "title": "帶來流量與成長",
+      "summary": "讓人找到你，並看懂成效。",
+      "categories": [
+        "search",
+        "growth"
+      ]
+    },
+    {
+      "id": "operate",
+      "title": "維運與自動化",
+      "summary": "持續穩定交付，減少重複工作。",
+      "categories": [
+        "operations",
+        "ai"
+      ]
+    }
+  ],
+  "featured": [
+    "ecommerce-launch",
+    "migration",
+    "retention",
+    "website"
+  ]
+}

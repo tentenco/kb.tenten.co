@@ -1,0 +1,68 @@
+[
+  {
+    "query": "GA4",
+    "status": "「GA4」找到 3 份知識",
+    "titles": [
+      "上線量測：GA4、GSC、Google Ads 與 Meta ↗",
+      "網站上線：一次看完必要條件 ↗",
+      "Magento → Shopify：網站搬家 ↗"
+    ]
+  },
+  {
+    "query": "Exxterra",
+    "status": "「Exxterra」找到 1 份知識",
+    "titles": [
+      "Magento → Shopify：網站搬家 ↗"
+    ]
+  },
+  {
+    "query": "AI FTE",
+    "status": "「AI FTE」找到 3 份知識",
+    "titles": [
+      "AI FTE：把 AI 變成持續交付的工作角色 ↗",
+      "AI Consulting：從 use case 到可用系統 ↗",
+      "API、MCP 與跨系統自動化 ↗"
+    ]
+  },
+  {
+    "query": "主機",
+    "status": "「主機」找到 5 份知識",
+    "titles": [
+      "Hosting、DNS、CDN 與環境 ↗",
+      "維運、安全與事故回復 ↗",
+      "網站上線：一次看完必要條件 ↗",
+      "平台選型：Webflow、Shopify、WordPress 或 Headless ↗",
+      "Tenten 做什麼：從商業問題到交付 ↗"
+    ]
+  },
+  {
+    "query": "Magento Shopify",
+    "status": "「Magento Shopify」找到 1 份知識",
+    "titles": [
+      "Magento → Shopify：網站搬家 ↗"
+    ]
+  },
+  {
+    "query": "網站上線要檢查什麼",
+    "status": "「網站上線要檢查什麼」找到 0 份知識",
+    "titles": []
+  },
+  {
+    "query": "branding",
+    "status": "「branding」找到 7 份知識",
+    "titles": [
+      "品牌定位與訊息架構 ↗",
+      "Design System 與品牌落地 ↗",
+      "Tenten 做什麼：從商業問題到交付 ↗",
+      "UX、資訊架構與轉換 ↗",
+      "電商成長：商品頁、信任與留存 ↗",
+      "GEO：讓 AI 搜尋理解與引用 ↗",
+      "Google Ads、Meta 與廣告交付 ↗"
+    ]
+  },
+  {
+    "query": "qzxnomatch",
+    "status": "「qzxnomatch」找到 0 份知識",
+    "titles": []
+  }
+]

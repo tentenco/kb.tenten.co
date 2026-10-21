@@ -1,0 +1,271 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T05:55:40.612065+00:00",
+  "checks_passed": 30,
+  "checks_total": 30,
+  "checks": [
+    {
+      "name": "OS default and live light/dark system changes",
+      "passed": true,
+      "detail": "System selection resolved to each emulated OS scheme."
+    },
+    {
+      "name": "manual theme overrides OS",
+      "passed": true,
+      "detail": "Light remained selected with dark OS; dark preference survived reload."
+    },
+    {
+      "name": "desktop light/dark visual inspection",
+      "passed": true,
+      "detail": "Both settled themes inspected at 1440 CSS pixels; official logo readable."
+    },
+    {
+      "name": "quick search question ranking",
+      "passed": true,
+      "detail": "Klaviyo 是什麼 returned Klaviyo first, with 4 matching articles."
+    },
+    {
+      "name": "quick search keyboard and focus",
+      "passed": true,
+      "detail": "ArrowDown focused first result; Escape restored trigger; Meta+K opened dialog; Enter navigated to Klaviyo."
+    },
+    {
+      "name": "quick search no-result recovery",
+      "passed": true,
+      "detail": "Unknown query showed guidance and correctly encoded full-search URL."
+    },
+    {
+      "name": "main natural-question search",
+      "passed": true,
+      "detail": "網站上線要檢查什麼 ranked launch first."
+    },
+    {
+      "name": "safe search highlighting",
+      "passed": true,
+      "detail": "GA4 matches rendered as mark nodes."
+    },
+    {
+      "name": "search category and history",
+      "passed": true,
+      "detail": "growth filter changed URL; back restored empty category."
+    },
+    {
+      "name": "Chinese IME handling",
+      "passed": true,
+      "detail": "Composition preserved previous results; compositionend searched 搬站 and ranked migration first."
+    },
+    {
+      "name": "search empty/clear recovery",
+      "passed": true,
+      "detail": "Empty-state reset returned all 32 cards; clear restored query focus and all cards."
+    },
+    {
+      "name": "draft refresh restoration",
+      "passed": true,
+      "detail": "Five edited fields and an unchecked card survived reload. Handoff stayed open; scroll 1452.5, focus context-goal and caret 6 matched."
+    },
+    {
+      "name": "clear and undo",
+      "passed": true,
+      "detail": "Clear reset fields and selections; undo restored project and unchecked card."
+    },
+    {
+      "name": "actual download equality",
+      "passed": true,
+      "detail": "Downloaded retention Markdown exactly matched the 6274-character assembled packet with edited context and 3 selected cards."
+    },
+    {
+      "name": "denied clipboard fallback",
+      "passed": true,
+      "detail": "Simulated write denial opened preview and selected all 6274 characters."
+    },
+    {
+      "name": "page draft isolation",
+      "passed": true,
+      "detail": "Klaviyo article project field remained empty after editing retention; inline payload contained only klaviyo."
+    },
+    {
+      "name": "reading contents and progress",
+      "passed": true,
+      "detail": "Jump to know updated active contents and reading progress transform."
+    },
+    {
+      "name": "mobile menu focus/background",
+      "passed": true,
+      "detail": "Open made background inert; Shift+Tab stayed in navigation; Escape restored menu-toggle and sidebar inert."
+    },
+    {
+      "name": "mobile quick search",
+      "passed": true,
+      "detail": "Native click with measured zoom correction opened dialog; GA4 results fit within 390x844 viewport."
+    },
+    {
+      "name": "all-route mobile matrix",
+      "passed": true,
+      "detail": "57 routes at 390 CSS px; zero overflow, initialization or packet failures."
+    },
+    {
+      "name": "small phone and tablet samples",
+      "passed": true,
+      "detail": "Home, measurement, ecommerce guide and search fit at actual 320, 1023 and 1280 CSS px."
+    },
+    {
+      "name": "reduced motion",
+      "passed": true,
+      "detail": "Computed scroll behavior auto and link transition duration 0s."
+    },
+    {
+      "name": "print mode",
+      "passed": true,
+      "detail": "White canvas; navigation and handoff hidden."
+    },
+    {
+      "name": "blocked storage recovery",
+      "passed": true,
+      "detail": "Both storage getters denied in page-scoped test: theme initialized, packet worked, draft download hint appeared."
+    },
+    {
+      "name": "no-JS reading/export",
+      "passed": true,
+      "detail": "Klaviyo title/concept and 2932-character static packet present; JS buttons hidden; Markdown link present."
+    },
+    {
+      "name": "file URL runtime",
+      "passed": true,
+      "detail": "Search ran directly from file URL: 4 Klaviyo results, correct first article, initialized JS."
+    },
+    {
+      "name": "mobile visual inspection",
+      "passed": true,
+      "detail": "Article hierarchy and quick-search dialog screenshots reviewed."
+    },
+    {
+      "name": "local input response",
+      "passed": true,
+      "detail": "Five programmatic input-to-result measurements including 60ms debounce: 61.1–62.1ms; not a production latency benchmark."
+    },
+    {
+      "name": "light token contrast",
+      "passed": true,
+      "detail": {
+        "ink/canvas": 16.102191704447957,
+        "muted/canvas": 6.193286162073998,
+        "muted/stone": 5.245864963605579,
+        "accent/canvas": 5.444595970559906,
+        "accent/accent-soft": 4.989613783255648,
+        "on-primary/primary": 17.86081494032707,
+        "control/canvas": 3.4706132116042334,
+        "focus/canvas": 4.486885853271632
+      }
+    },
+    {
+      "name": "dark token contrast",
+      "passed": true,
+      "detail": {
+        "ink/canvas": 16.275692273902127,
+        "muted/canvas": 9.2703897305834,
+        "muted/stone": 7.072271272825228,
+        "accent/canvas": 9.305604881915553,
+        "accent/accent-soft": 6.911624313059038,
+        "on-primary/primary": 15.832745049100028,
+        "control/canvas": 4.7814490522947715,
+        "focus/canvas": 9.305604881915553
+      }
+    }
+  ],
+  "mobile_matrix": "evidence/product-mobile.json",
+  "performance": "evidence/product-performance.json",
+  "responsive_samples": [
+    {
+      "route": "/index.html",
+      "width": 320,
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/playbooks/measurement.html",
+      "width": 320,
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/scenarios/ecommerce-launch.html",
+      "width": 320,
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/search.html",
+      "width": 320,
+      "client": 320,
+      "scroll": 320
+    },
+    {
+      "route": "/index.html",
+      "width": 1280,
+      "client": 1261,
+      "scroll": 1261
+    },
+    {
+      "route": "/playbooks/measurement.html",
+      "width": 1280,
+      "client": 1261,
+      "scroll": 1261
+    },
+    {
+      "route": "/scenarios/ecommerce-launch.html",
+      "width": 1280,
+      "client": 1261,
+      "scroll": 1261
+    },
+    {
+      "route": "/search.html",
+      "width": 1280,
+      "client": 1261,
+      "scroll": 1261
+    },
+    {
+      "route": "/index.html",
+      "width": 1023,
+      "client": 1005,
+      "scroll": 1005
+    },
+    {
+      "route": "/playbooks/measurement.html",
+      "width": 1023,
+      "client": 1005,
+      "scroll": 1005
+    },
+    {
+      "route": "/scenarios/ecommerce-launch.html",
+      "width": 1023,
+      "client": 1005,
+      "scroll": 1005
+    },
+    {
+      "route": "/search.html",
+      "width": 1023,
+      "client": 1005,
+      "scroll": 1005
+    }
+  ],
+  "screenshots": [
+    "evidence/screenshots/product-home-dark.png",
+    "evidence/screenshots/product-home-light.png",
+    "evidence/screenshots/product-mobile-article.png",
+    "evidence/screenshots/product-mobile-search.png"
+  ],
+  "setup_notes": [
+    "Desktop browser zoom is 0.8; mobile emulation reports 1 but pointer coordinates still arrived at 0.8 of requested position. Observed pointer events on the header established the mismatch; corrected native coordinates hit the search icon. No product workaround was introduced.",
+    "The first contrast helper failed on three-digit hex and returned null; corrected the helper, then both token audits passed.",
+    "The first light screenshot captured the 150ms theme transition. Final screenshots waited for active animations to finish.",
+    "Tablet target 1024 rounded to an observed 1023 CSS px; actual values are recorded, not relabeled."
+  ],
+  "limits": [
+    "Single-agent visual/product review, not independent certification or a user study.",
+    "Token contrast is not a full accessibility audit.",
+    "No production Core Web Vitals, cross-browser matrix, native clipboard permission prompt, or cross-tab theme event test.",
+    "No-JS content was inspected; native no-JS details click was not rerun.",
+    "No customer account change or hosted deployment."
+  ]
+}

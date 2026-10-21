@@ -1,0 +1,123 @@
+{
+  "navigation": {
+    "name": "http://localhost:8768/index.html",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 38.69999999552965,
+    "navigationId": 787,
+    "initiatorType": "navigation",
+    "deliveryType": "cache",
+    "nextHopProtocol": "",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 0.5,
+    "domainLookupStart": 0.5,
+    "domainLookupEnd": 0.5,
+    "connectStart": 0.5,
+    "secureConnectionStart": 0,
+    "connectEnd": 0.5,
+    "requestStart": 1.1000000014901161,
+    "responseStart": 1.1999999955296516,
+    "firstInterimResponseStart": 1.1999999955296516,
+    "finalResponseHeadersStart": 0,
+    "responseEnd": 1.6000000014901161,
+    "transferSize": 0,
+    "encodedBodySize": 12150,
+    "decodedBodySize": 12150,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 0,
+    "unloadEventEnd": 0,
+    "domInteractive": 8.799999997019768,
+    "domContentLoadedEventStart": 9.5,
+    "domContentLoadedEventEnd": 9.5,
+    "domComplete": 38.69999999552965,
+    "loadEventStart": 38.69999999552965,
+    "loadEventEnd": 38.69999999552965,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {}
+  },
+  "resources": [
+    {
+      "name": "http://localhost:8768/assets/theme-init.js",
+      "decodedBodySize": 423,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/style.css",
+      "decodedBodySize": 41227,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/search-data.js",
+      "decodedBodySize": 57946,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/app.js",
+      "decodedBodySize": 22187,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/tenten-logo.png",
+      "decodedBodySize": 13280,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/inter-latin.woff2",
+      "decodedBodySize": 48432,
+      "transferSize": 300,
+      "duration": 0
+    },
+    {
+      "name": "http://localhost:8768/assets/space-grotesk-latin.woff2",
+      "decodedBodySize": 22320,
+      "transferSize": 300,
+      "duration": 0
+    }
+  ],
+  "scripts": [
+    "http://localhost:8768/assets/theme-init.js",
+    "http://localhost:8768/assets/search-data.js",
+    "http://localhost:8768/assets/app.js"
+  ],
+  "searchTiming": [
+    {
+      "query": "GA4",
+      "inputToResultsMs": 61.899999998509884
+    },
+    {
+      "query": "Klaviyo",
+      "inputToResultsMs": 61.100000001490116
+    },
+    {
+      "query": "搬站",
+      "inputToResultsMs": 62.100000001490116
+    },
+    {
+      "query": "Shopify",
+      "inputToResultsMs": 62
+    },
+    {
+      "query": "主機",
+      "inputToResultsMs": 61.5
+    }
+  ]
+}

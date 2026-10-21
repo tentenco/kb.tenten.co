@@ -1,0 +1,10 @@
+__pycache__/
+.DS_Store
+.env
+.env.*
+!.env.example
+dist/
+evidence/*-qa.md
+evidence/downloaded-*.md
+evidence/*.png
+evidence/*.pdf

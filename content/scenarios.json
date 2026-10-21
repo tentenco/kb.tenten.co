@@ -1,0 +1,487 @@
+[
+  {
+    "id": "migration",
+    "title": "Magento → Shopify 搬站",
+    "subtitle": "以 XTERRA 美國站需求為例，保住資料、搜尋與交易。",
+    "category": "commerce",
+    "featured": true,
+    "ids": [
+      "migration",
+      "headless-commerce",
+      "shopify-foundation",
+      "technical-seo",
+      "ga4-commerce",
+      "ecommerce-launch",
+      "launch"
+    ],
+    "inputs": [
+      "舊站／新店網址與資料匯出",
+      "搬遷範圍、切換窗口和決策人"
+    ],
+    "deliverable": "新舊資料與網址對照表、搬站演練結果，以及正式切換和回復計畫。",
+    "note": "已唯讀檢查 tentenco/xterra-website 的 e1caa5ecdcdf 快照：Astro／Sanity 前台搭配 Shopify hosted checkout，已有 Klaviyo adapter 和 Draft 建置腳本；README 與串接專文有差異。未查正式帳號、完整 Magento 資料／301 map、實際寄信或上線日期；文件不代表正式驗收。",
+    "stages": [
+      {
+        "title": "先盤點與理解架構",
+        "description": "知道哪些資產要搬，以及新系統如何分工。",
+        "ids": [
+          "migration",
+          "headless-commerce",
+          "shopify-foundation"
+        ]
+      },
+      {
+        "title": "保住搜尋與數據",
+        "description": "確認舊入口與購物紀錄都能接續。",
+        "ids": [
+          "technical-seo",
+          "ga4-commerce"
+        ]
+      },
+      {
+        "title": "切換與驗收",
+        "description": "把每個缺口變成可決定的上線條件。",
+        "ids": [
+          "ecommerce-launch",
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ecommerce-launch",
+    "title": "Shopify 電商標準上線",
+    "subtitle": "依序確認交易、GA4、Meta、Google Ads、搜尋與正式切換。",
+    "category": "commerce",
+    "featured": true,
+    "ids": [
+      "ecommerce-launch",
+      "shopify-foundation",
+      "headless-commerce",
+      "ga4-commerce",
+      "meta-tracking",
+      "google-commerce",
+      "technical-seo",
+      "launch"
+    ],
+    "inputs": [
+      "店鋪／前台／結帳域名、repo 版本與既有安全連線",
+      "市場、交易與配送政策、廣告渠道計畫、測試單及任務授權"
+    ],
+    "deliverable": "一份可逐項驗收的上線清單：交易、數據、商品目錄與搜尋都經過測試，並清楚記錄能否上線及未完成項目。",
+    "note": "這是每個電商專案的預設檢查基線。Meta／Google 接線與營運工具需依市場、同意與渠道計畫落實；不把安裝 App、開啟廣告或寄送訊息視為自動取得授權。",
+    "stages": [
+      {
+        "title": "先看全貌",
+        "description": "確認營運規則與系統分工。",
+        "ids": [
+          "ecommerce-launch",
+          "shopify-foundation",
+          "headless-commerce"
+        ]
+      },
+      {
+        "title": "接好量測與曝光",
+        "description": "知道成交如何記錄、商品如何被找到。",
+        "ids": [
+          "ga4-commerce",
+          "meta-tracking",
+          "google-commerce",
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "正式上線",
+        "description": "完成檢查、切換與後續觀察。",
+        "ids": [
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "website",
+    "title": "新網站／品牌改版",
+    "subtitle": "從定位、內容和平台選擇，到可交接的正式站。",
+    "category": "build",
+    "featured": true,
+    "ids": [
+      "project-brief",
+      "brand-strategy",
+      "ux-conversion",
+      "platform-choice",
+      "development-quality",
+      "measurement",
+      "launch"
+    ],
+    "inputs": [
+      "目標受眾、商業目標與品牌素材",
+      "既有網站、內容、平台和整合"
+    ],
+    "deliverable": "清楚的專案需求、網站架構與原型，以及可建置、已驗收且能交接的網站版本。",
+    "stages": [
+      {
+        "title": "釐清方向",
+        "description": "先講清楚要為誰解決什麼問題。",
+        "ids": [
+          "project-brief",
+          "brand-strategy"
+        ]
+      },
+      {
+        "title": "建立體驗",
+        "description": "決定使用者旅程、平台與交付品質。",
+        "ids": [
+          "ux-conversion",
+          "platform-choice",
+          "development-quality"
+        ]
+      },
+      {
+        "title": "驗證與上線",
+        "description": "確認成效可量測、正式環境可用。",
+        "ids": [
+          "measurement",
+          "launch"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "launch",
+    "title": "網站準備上線",
+    "subtitle": "檢查 301、GA4、GSC、廣告追蹤與營運條件。",
+    "category": "operations",
+    "featured": true,
+    "ids": [
+      "launch",
+      "technical-seo",
+      "measurement",
+      "hosting-architecture"
+    ],
+    "inputs": [
+      "核准版本、正式域名與上線窗口",
+      "既有帳號、追蹤和回復方案"
+    ],
+    "deliverable": "是否可以上線的判斷、正式站測試結果，以及上線後要持續觀察的項目。",
+    "stages": [
+      {
+        "title": "列出上線條件",
+        "description": "知道這次要檢查哪些面向。",
+        "ids": [
+          "launch"
+        ]
+      },
+      {
+        "title": "檢查搜尋與量測",
+        "description": "保留入口並記錄重要行為。",
+        "ids": [
+          "technical-seo",
+          "measurement"
+        ]
+      },
+      {
+        "title": "確認環境與責任",
+        "description": "讓正式服務可用、有人接手。",
+        "ids": [
+          "hosting-architecture"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "seo-geo",
+    "title": "SEO／GEO 成長",
+    "subtitle": "從抓取與買方問題，到可查證的內容與引用觀察。",
+    "category": "search",
+    "featured": false,
+    "ids": [
+      "technical-seo",
+      "content-seo",
+      "geo",
+      "measurement"
+    ],
+    "inputs": [
+      "網站、目標市場與買方問題",
+      "GSC／流量、產品事實和可公開證據"
+    ],
+    "deliverable": "搜尋與內容問題清單、改善優先順序，以及能持續比較的成效紀錄。",
+    "stages": [
+      {
+        "title": "先檢查基礎",
+        "description": "確認搜尋引擎可以找到重要頁面。",
+        "ids": [
+          "technical-seo"
+        ]
+      },
+      {
+        "title": "整理內容與證據",
+        "description": "回答買方問題，讓答案可以被引用。",
+        "ids": [
+          "content-seo",
+          "geo"
+        ]
+      },
+      {
+        "title": "持續觀察",
+        "description": "看資料再決定下一輪改善。",
+        "ids": [
+          "measurement"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "growth",
+    "title": "行銷活動／電商轉換",
+    "subtitle": "先驗證事件，再做廣告、商品頁與客戶旅程。",
+    "category": "growth",
+    "featured": false,
+    "ids": [
+      "measurement",
+      "paid-media",
+      "ecommerce-growth",
+      "lifecycle-crm"
+    ],
+    "inputs": [
+      "商業目標、預算與毛利條件",
+      "帳號、受眾同意、現行漏斗和素材"
+    ],
+    "deliverable": "可用的成效數據、活動與頁面草稿、實驗計畫，以及商機或營收的對帳結果。",
+    "stages": [
+      {
+        "title": "先確認成效資料",
+        "description": "避免用錯誤數字做決定。",
+        "ids": [
+          "measurement"
+        ]
+      },
+      {
+        "title": "改善獲客與購買",
+        "description": "讓廣告承諾與購物體驗一致。",
+        "ids": [
+          "paid-media",
+          "ecommerce-growth"
+        ]
+      },
+      {
+        "title": "接續客戶關係",
+        "description": "規劃成交前後的相關訊息。",
+        "ids": [
+          "lifecycle-crm"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ai-workflow",
+    "title": "AI 顧問／AI FTE 導入",
+    "subtitle": "從一段卡住的工作開始，做到可評估、可接手。",
+    "category": "ai",
+    "featured": false,
+    "ids": [
+      "project-brief",
+      "ai-consulting",
+      "ai-fte",
+      "automation-integration"
+    ],
+    "inputs": [
+      "現行流程、代表樣本和人工基準",
+      "資料、工具、自主範圍、預算與負責人"
+    ],
+    "deliverable": "值得自動化的工作、AI 角色範圍、小規模試點與評估結果，以及後續維護安排。",
+    "stages": [
+      {
+        "title": "選對工作",
+        "description": "先理解問題與 AI 是否適合。",
+        "ids": [
+          "project-brief",
+          "ai-consulting"
+        ]
+      },
+      {
+        "title": "定義角色與交付",
+        "description": "建立穩定工作範圍與例外處理。",
+        "ids": [
+          "ai-fte"
+        ]
+      },
+      {
+        "title": "接好系統",
+        "description": "讓流程可以可靠地持續運作。",
+        "ids": [
+          "automation-integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "brand-system",
+    "title": "品牌／設計系統",
+    "subtitle": "讓定位、語氣、視覺和元件成為同一套規則。",
+    "category": "design",
+    "featured": false,
+    "ids": [
+      "brand-strategy",
+      "ux-conversion",
+      "design-system",
+      "cms-content"
+    ],
+    "inputs": [
+      "受眾研究、品牌素材和市場",
+      "應用場景、內容語言與核准人"
+    ],
+    "deliverable": "確認過的品牌定位、訊息順序、共用視覺規則、元件與範例頁。",
+    "stages": [
+      {
+        "title": "定義品牌方向",
+        "description": "把受眾、主張與證據說清楚。",
+        "ids": [
+          "brand-strategy"
+        ]
+      },
+      {
+        "title": "落實在介面",
+        "description": "讓使用者體驗和視覺規則一致。",
+        "ids": [
+          "ux-conversion",
+          "design-system"
+        ]
+      },
+      {
+        "title": "交給日常維護",
+        "description": "讓內容更新仍符合規則。",
+        "ids": [
+          "cms-content"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "operations",
+    "title": "主機維運／事故準備",
+    "subtitle": "搞懂責任、備份、回復與監控，避免只有「有人代管」。",
+    "category": "operations",
+    "featured": false,
+    "ids": [
+      "hosting-architecture",
+      "operations-security",
+      "automation-integration"
+    ],
+    "inputs": [
+      "系統與 DNS 盤點、備份和合約範圍",
+      "RTO／RPO、帳號責任與事故聯絡人"
+    ],
+    "deliverable": "清楚的維護分工、備份還原與告警測試結果，以及事故發生時能照著執行的處理步驟。",
+    "stages": [
+      {
+        "title": "認清系統",
+        "description": "知道每一層由誰管理。",
+        "ids": [
+          "hosting-architecture"
+        ]
+      },
+      {
+        "title": "準備事故處理",
+        "description": "確保能發現問題並恢復服務。",
+        "ids": [
+          "operations-security"
+        ]
+      },
+      {
+        "title": "處理跨系統工作",
+        "description": "讓同步、重試與告警有紀錄。",
+        "ids": [
+          "automation-integration"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "retention",
+    "title": "電子報／Klaviyo 自動化",
+    "subtitle": "從一條歡迎或購後旅程開始，讓訊息隨顧客狀態改變。",
+    "category": "growth",
+    "featured": false,
+    "ids": [
+      "klaviyo",
+      "lifecycle-crm",
+      "commerce-service",
+      "ecommerce-growth"
+    ],
+    "inputs": [
+      "既有寄送系統／整合、訂閱與退訂來源、流程狀態",
+      "品牌素材、優惠規則、寄件域名與內部測試名單"
+    ],
+    "deliverable": "顧客資料如何流動、分群與自動化規則、訊息草稿，以及寄件、停止與退訂測試結果。",
+    "note": "XTERRA repo 有 Klaviyo 相關程式與 Draft 腳本，不代表帳號現況或流程已啟用。先盤點，不重建。",
+    "stages": [
+      {
+        "title": "理解工具與名單",
+        "description": "分清人、訂閱狀態與自動化流程。",
+        "ids": [
+          "klaviyo",
+          "lifecycle-crm"
+        ]
+      },
+      {
+        "title": "接續購後體驗",
+        "description": "把通知與售後服務一起考慮。",
+        "ids": [
+          "commerce-service"
+        ]
+      },
+      {
+        "title": "判斷是否有效",
+        "description": "以購買、留存與成本檢查改善。",
+        "ids": [
+          "ecommerce-growth"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "commerce-ecosystem",
+    "title": "Shopify 工具與營運選型",
+    "subtitle": "搜尋、篩選、評論、推薦、客服與售後：按問題挑工具。",
+    "category": "commerce",
+    "featured": false,
+    "ids": [
+      "commerce-merchandising",
+      "commerce-service",
+      "klaviyo",
+      "headless-commerce",
+      "automation-integration"
+    ],
+    "inputs": [
+      "購物／客服問題、商品資料、現有 App 和費用",
+      "前台架構、API 權限、需求規模與工具預算"
+    ],
+    "deliverable": "依需求比較工具的選型表，包含平台原有功能、前台相容性、資料責任與測試方式。",
+    "stages": [
+      {
+        "title": "從顧客問題開始",
+        "description": "知道選購與售後各缺少什麼。",
+        "ids": [
+          "commerce-merchandising",
+          "commerce-service"
+        ]
+      },
+      {
+        "title": "規劃適合的旅程",
+        "description": "判斷何時需要行銷自動化。",
+        "ids": [
+          "klaviyo"
+        ]
+      },
+      {
+        "title": "確認能否接通",
+        "description": "檢查前台支援與資料責任。",
+        "ids": [
+          "headless-commerce",
+          "automation-integration"
+        ]
+      }
+    ]
+  }
+]

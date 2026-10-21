@@ -1,0 +1,83 @@
+{
+  "id": "technical-seo",
+  "category": "search",
+  "title": "Technical SEO 與 301 Redirect",
+  "summary": "讓搜尋引擎找到正確頁面，並保留改版前累積的搜尋資產。",
+  "keywords": [
+    "SEO",
+    "301 redirect",
+    "canonical",
+    "sitemap",
+    "robots",
+    "GSC",
+    "hreflang",
+    "索引"
+  ],
+  "why": [
+    "搜尋引擎看不到或選錯 URL，再好的內容也無法穩定帶來自然流量。",
+    "搬站有正確對應與監測，能降低遺漏與排錯成本；排名仍可能短期波動。"
+  ],
+  "know": [
+    "robots 控制抓取；noindex 控制索引，需允許爬蟲讀到；canonical 提示主要版本。",
+    "sitemap 放標準且可索引 URL；多語市場檢查 hreflang、自我 canonical 與互相對應。",
+    "301／308 用於永久搬移；保留最相關一對一映射，Google 建議 redirect 至少維持一年，能長留則長留。"
+  ],
+  "inputs": [
+    "正式與舊站 URL、GSC／流量／站內連結清單",
+    "要索引的範圍、市場語言、平台與 DNS／CDN 限制"
+  ],
+  "actions": [
+    "抓取 status、索引指令、canonical、內鏈、sitemap 與結構化資料。",
+    "建立舊新 URL 對照，驗證一跳永久導向、目的頁 200、無循環。",
+    "修內鏈、metadata 與 sitemap；在授權 GSC property 交 sitemap 並檢查代表 URL。",
+    "域名搬遷才評估 Change of Address；保留切換前後索引、流量和 404 觀察。"
+  ],
+  "done": [
+    "重要頁能抓取與索引；staging 有存取保護，不只依賴 robots。",
+    "redirect、canonical、hreflang 與 sitemap 指向一致，監測附日期。"
+  ],
+  "pitfalls": [
+    "把所有 404 導到首頁，造成 soft 404。",
+    "以為提交 sitemap 就保證收錄或排名。"
+  ],
+  "decision": "確認哪些內容保留、合併或淘汰，再決定網址與轉址安排。",
+  "sources": [
+    "google-migration",
+    "google-ai"
+  ],
+  "related": [
+    "migration",
+    "content-seo",
+    "geo"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "技術 SEO 讓搜尋引擎能找到、讀懂並收錄正確頁面。改版時的 301 轉址，則把舊入口接到新位置。",
+    "when": "網站新上線、網址變更、搜尋流量下降，或重要頁面沒有被收錄時。",
+    "example": {
+      "situation": "正式站沿用預覽站的 noindex，搜尋引擎就不會把頁面納入索引。",
+      "lesson": "上線時要確認搜尋限制已在正確環境解除。"
+    },
+    "first_step": "先檢查首頁和一個重要商品頁是否可被抓取與索引。",
+    "point_titles": [
+      "抓取、索引與主要版本不同",
+      "提供清楚的網站與語言結構",
+      "搬家時保留正確轉址"
+    ],
+    "terms": [
+      [
+        "索引 Index",
+        "搜尋引擎收錄並可用來產生搜尋結果的頁面資料。"
+      ],
+      [
+        "Canonical",
+        "告訴搜尋引擎多個相似網址中，哪個是建議的主要版本。"
+      ],
+      [
+        "301 Redirect",
+        "把舊網址永久轉向新網址。"
+      ]
+    ]
+  }
+}

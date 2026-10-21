@@ -1,0 +1,120 @@
+{
+  "repository": "https://github.com/tentenco/xterra-website",
+  "visibility": "private",
+  "branch": "main",
+  "commit": "e1caa5ecdcdf47346c675c1bbc9c5c0f3684acba",
+  "commit_date": "2026-10-21T03:57:38Z",
+  "observed_at": "2026-10-21",
+  "access": "existing GitHub CLI authorization, read-only reference snapshot",
+  "reviewed_files": [
+    {
+      "path": "README.md",
+      "sha256": "05237da5466ff4ed940b3bcee3e2afe811c7601319af760b0ca53be65af55d0b"
+    },
+    {
+      "path": "DEPLOYMENT.md",
+      "sha256": "43d5583b87f8167a074e7bba57128813b38b4a58fd94ae8b0b70bded1bc0337f"
+    },
+    {
+      "path": "docs/klaviyo-entrypoints.md",
+      "sha256": "5d0381897f4e8ab375a6f90d867d260d8eb3ed97e6d3f7bf1e31cc434ed89b3d"
+    },
+    {
+      "path": "docs/review-storage.md",
+      "sha256": "78853590f8d18b64598296dfdf45cc5f94e980eb57676a4a66204aea267dd1c4"
+    },
+    {
+      "path": "src/layouts/Storefront.astro",
+      "sha256": "e8c80c2b265c5950a7b5623446a08f733daa7dc99b0ed88667e63194ddf15dbf"
+    },
+    {
+      "path": "src/lib/marketing.ts",
+      "sha256": "ba41b5e1a9aeb6cf5e769580fc17ca10d6d74e9f5dfcc213e0d87fb23a5f90c9"
+    },
+    {
+      "path": "src/pages/api/cron/klaviyo.ts",
+      "sha256": "12a792bcca7333f4215d5415ddc02c043eeb597ba4195dce6934fed8059e2629"
+    },
+    {
+      "path": "scripts/setup-klaviyo.ts",
+      "sha256": "860cec2805c7ddf5bbcce9ee41937f999fea35b33a4f6fcacf24171e7b1e4a08"
+    },
+    {
+      "path": "scripts/klaviyo-filters.ts",
+      "sha256": "0ee1224e116d9c1aaf2a1372a59e814eda01574bc63b852d62c202a5abde1db9"
+    },
+    {
+      "path": "src/scripts/privacy.ts",
+      "sha256": "a577a67e3e507ca06b0b9a81afeee5c63c72dd17134c927b89c199cc865b742f"
+    },
+    {
+      "path": "src/lib/seo.ts",
+      "sha256": "5f96f63de2b6d867c8fa721cedb0d4894064794481001f168dd50369b5321df1"
+    },
+    {
+      "path": "src/pages/checkout.ts",
+      "sha256": "79f6afd6bf541972143514adc1db7dfb1cbc335018b09800f7513b8d2ba4effc"
+    },
+    {
+      "path": "vercel.json",
+      "sha256": "bc3868f7eca8e28e17f1e80aca7bea1588fb7d399d10d5ca2a96cca454b89c4d"
+    }
+  ],
+  "observations": [
+    {
+      "claim": "Astro storefront, Sanity editorial content, Shopify products/cart and hosted checkout/account services.",
+      "evidence": [
+        "README.md",
+        "DEPLOYMENT.md",
+        "src/pages/checkout.ts"
+      ]
+    },
+    {
+      "claim": "README says Klaviyo was removed and its adapter unconfigured, while targeted documentation and current code describe six form kinds, common email-submission events, retry checkpoints and newsletter subscription requests. Static evidence conflicts; hosted configuration and production delivery were not inspected.",
+      "evidence": [
+        "README.md",
+        "docs/klaviyo-entrypoints.md",
+        "src/lib/marketing.ts",
+        "src/pages/api/cron/klaviyo.ts",
+        "vercel.json"
+      ]
+    },
+    {
+      "claim": "Setup source creates draft flows and has guards around existing flows. Documentation says existing original flows remain Draft. This is not evidence of their present account status.",
+      "evidence": [
+        "scripts/setup-klaviyo.ts",
+        "scripts/klaviyo-filters.ts",
+        "docs/klaviyo-entrypoints.md"
+      ]
+    },
+    {
+      "claim": "Local consent choices and a privacy-change event are implemented. The selected source search found no gtag, googletagmanager, fbq or facebook.net integration in src; this cannot establish that hosted checkout, external configuration or deployed environments lack tracking.",
+      "evidence": [
+        "src/scripts/privacy.ts",
+        "src/layouts/Storefront.astro"
+      ]
+    },
+    {
+      "claim": "SEO metadata/Product Offer JSON-LD are implemented. Repo documentation distinguishes development deployments and indexing controls from customer launch and lists legacy redirect review as pending. No actual redirect map or production settings were verified.",
+      "evidence": [
+        "src/lib/seo.ts",
+        "README.md",
+        "DEPLOYMENT.md"
+      ]
+    },
+    {
+      "claim": "Judge.me review display/moderation and private review delivery receipts have separate ownership from Klaviyo retry. A CRM receipt does not establish published review or sent support reply.",
+      "evidence": [
+        "README.md",
+        "docs/review-storage.md",
+        "docs/klaviyo-entrypoints.md"
+      ]
+    }
+  ],
+  "limits": [
+    "No scripts, tests, migrations or account writes were run in the reference repo.",
+    "No .env, credentials, customer records or private attachments were read or copied.",
+    "This is a scoped source review, not a complete migration audit or live launch certification.",
+    "Only hashes and distilled observations are retained; the raw reference clone is outside the KB package."
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "id": "lifecycle-crm",
+  "category": "growth",
+  "title": "CRM、Email 與客戶旅程",
+  "summary": "把名單、成交和後續服務連起來，避免商機在交接時遺失。",
+  "keywords": [
+    "CRM",
+    "HubSpot",
+    "email",
+    "Klaviyo",
+    "automation",
+    "lead",
+    "retention",
+    "EDM"
+  ],
+  "why": [
+    "網站有表單還不夠；商機要送到對的人並能追蹤後續結果。",
+    "有同意、分群與停止條件的旅程，能提升相關性並降低打擾。"
+  ],
+  "know": [
+    "定義 contact、company、deal、來源與生命週期，指定欄位資料來源和去重鍵。",
+    "訂單通知與行銷分開；同意、退訂、退信及刪除需定義跨系統責任，不假設平台自動雙向同步。",
+    "Email 交付須驗證寄件域名與 SPF／DKIM／DMARC；改 DNS 時保留既有郵件服務。"
+  ],
+  "inputs": [
+    "名單欄位、來源、同意紀錄、CRM 及寄送平台",
+    "旅程、負責人、回應時限、訊息與停止條件"
+  ],
+  "actions": [
+    "建立欄位映射、分群、分派與重複資料處理規則。",
+    "產出歡迎、詢價、棄單或回購流程及訊息草稿。",
+    "以測試名單驗證觸發、排除、退訂、去重及 CRM 更新。"
+  ],
+  "done": [
+    "每筆有效表單進正確系統並有負責人；重送不重複建立。",
+    "退訂後不再收到不適用的行銷流程；測試不寄給真實客戶。"
+  ],
+  "pitfalls": [
+    "把所有歷史客戶視為已同意行銷。",
+    "匯入資料時意外觸發大量信件。"
+  ],
+  "decision": "確認名單用途、訊息內容與寄送範圍，再啟用已驗證的流程。",
+  "sources": [
+    "tenten-home",
+    "tenten-consulting",
+    "klaviyo-subscribers"
+  ],
+  "related": [
+    "klaviyo",
+    "commerce-service",
+    "automation-integration"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "CRM 記錄客戶與商機狀態；客戶旅程則決定在什麼時候，提供什麼資訊或服務，讓交接不遺漏。",
+    "when": "網站開始收詢問、名單分散，或需要規劃後續 Email 與回訪時。",
+    "example": {
+      "situation": "同一個詢問在表單和試算表各存一份，沒人知道誰已回覆。",
+      "lesson": "把資料來源、處理責任和狀態連起來，才能接續服務。"
+    },
+    "first_step": "畫出一筆詢問從進站到成交的流程，標出每個交接點。",
+    "point_titles": [
+      "客戶資料需要共用定義",
+      "行銷與服務各有不同規則",
+      "寄信還需要正確的域名設定"
+    ]
+  }
+}

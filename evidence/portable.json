@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checked_at": "2026-10-21T05:56:07.441479+00:00",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "scripts/build.py"
+      ],
+      "exit_code": 0,
+      "stdout": "BUILD PASS: 32 playbooks, 11 scenarios, 57 HTML pages\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "scripts/harness.py"
+      ],
+      "exit_code": 0,
+      "stdout": "HARNESS PASS: 170/170 checks\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "web/app.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "node",
+        "--check",
+        "web/theme-init.js"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "parity": {
+    "source_sha256": true,
+    "site_sha256": true
+  },
+  "source_sha256": "a5d8c60ba5ec5ff27273b1db614bb521c86559194c5d0973bfb3134a1bf4579f",
+  "site_sha256": "34cac87fc1a0c1d4a79aaf08578baacc690203ab136a9cda82e41c6abac57361",
+  "checks_passed": 170,
+  "checks_total": 170,
+  "notes": [
+    "Extracted to an independent temporary directory and rebuilt using only archive contents.",
+    "No external service or original workspace path required."
+  ]
+}

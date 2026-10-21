@@ -1,0 +1,712 @@
+{
+  "checkedAt": "2026-10-21T04:04:42.348Z",
+  "checks": [
+    {
+      "name": "search 301",
+      "passed": true,
+      "detail": {
+        "status": "「301」找到 3 份知識",
+        "titles": [
+          "Technical SEO 與 301 Redirect ↗",
+          "網站上線：一次看完必要條件 ↗",
+          "Magento → Shopify：網站搬家 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search GA4",
+      "passed": true,
+      "detail": {
+        "status": "「GA4」找到 3 份知識",
+        "titles": [
+          "上線量測：GA4、GSC、Google Ads 與 Meta ↗",
+          "網站上線：一次看完必要條件 ↗",
+          "Magento → Shopify：網站搬家 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search Exxterra",
+      "passed": true,
+      "detail": {
+        "status": "「Exxterra」找到 1 份知識",
+        "titles": [
+          "Magento → Shopify：網站搬家 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search AI FTE",
+      "passed": true,
+      "detail": {
+        "status": "「AI FTE」找到 3 份知識",
+        "titles": [
+          "AI FTE：把 AI 變成持續交付的工作角色 ↗",
+          "AI Consulting：從 use case 到可用系統 ↗",
+          "API、MCP 與跨系統自動化 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search 主機",
+      "passed": true,
+      "detail": {
+        "status": "「主機」找到 5 份知識",
+        "titles": [
+          "Hosting、DNS、CDN 與環境 ↗",
+          "維運、安全與事故回復 ↗",
+          "網站上線：一次看完必要條件 ↗",
+          "平台選型：Webflow、Shopify、WordPress 或 Headless ↗",
+          "Tenten 做什麼：從商業問題到交付 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search Magento Shopify",
+      "passed": true,
+      "detail": {
+        "status": "「Magento Shopify」找到 1 份知識",
+        "titles": [
+          "Magento → Shopify：網站搬家 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search 網站上線要檢查什麼",
+      "passed": true,
+      "detail": {
+        "status": "「網站上線要檢查什麼」找到 1 份知識",
+        "titles": [
+          "網站上線：一次看完必要條件 ↗"
+        ]
+      }
+    },
+    {
+      "name": "search 如何搬站",
+      "passed": true,
+      "detail": {
+        "status": "「如何搬站」找到 4 份知識",
+        "titles": [
+          "Magento → Shopify：網站搬家 ↗",
+          "CMS、內容模型與多語系 ↗",
+          "Hosting、DNS、CDN 與環境 ↗",
+          "Technical SEO 與 301 Redirect ↗"
+        ]
+      }
+    },
+    {
+      "name": "search branding",
+      "passed": true,
+      "detail": {
+        "status": "「branding」找到 7 份知識",
+        "titles": [
+          "品牌定位與訊息架構 ↗",
+          "Design System 與品牌落地 ↗",
+          "Tenten 做什麼：從商業問題到交付 ↗",
+          "UX、資訊架構與轉換 ↗",
+          "電商成長：商品頁、信任與留存 ↗",
+          "GEO：讓 AI 搜尋理解與引用 ↗",
+          "Google Ads、Meta 與廣告交付 ↗"
+        ]
+      }
+    },
+    {
+      "name": "no results recovery",
+      "passed": true
+    },
+    {
+      "name": "empty search lists all",
+      "passed": true
+    },
+    {
+      "name": "category filter",
+      "passed": true
+    },
+    {
+      "name": "filter refresh",
+      "passed": true
+    },
+    {
+      "name": "browser back restores filters",
+      "passed": true
+    },
+    {
+      "name": "packet full knowledge and context",
+      "passed": true,
+      "detail": {
+        "selected": 5,
+        "characters": 7397
+      }
+    },
+    {
+      "name": "download actual file matches packet",
+      "passed": true,
+      "detail": "tenten-agent-migration.md"
+    },
+    {
+      "name": "copy action resolves",
+      "passed": true,
+      "detail": "已複製，可貼給 Agent 執行。"
+    },
+    {
+      "name": "clipboard fallback selects complete packet",
+      "passed": true
+    },
+    {
+      "name": "selection updates packet",
+      "passed": true
+    },
+    {
+      "name": "new task page starts with all five cards",
+      "passed": true,
+      "detail": [
+        "migration",
+        "shopify-foundation",
+        "technical-seo",
+        "measurement",
+        "launch"
+      ]
+    },
+    {
+      "name": "zero selection disables actions",
+      "passed": true,
+      "detail": {
+        "checked": 0,
+        "copyDisabled": true,
+        "downloadDisabled": true,
+        "status": "至少選取一份知識"
+      }
+    },
+    {
+      "name": "collapsed mobile nav is inert",
+      "passed": true
+    },
+    {
+      "name": "mobile menu opens and focuses nav",
+      "passed": true
+    },
+    {
+      "name": "mobile escape closes and returns focus",
+      "passed": true
+    },
+    {
+      "name": "390px all 46 pages",
+      "passed": true,
+      "detail": [
+        {
+          "url": "/about.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "短文件，長期累積。",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/ai.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "AI 顧問與 AI FTE",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/build.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "網站與軟體開發",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/commerce.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Shopify 與電商",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/design.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "品牌與體驗設計",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/growth.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "行銷與數據",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/operations.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "主機與上線維運",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/search.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "SEO 與 GEO",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/categories/start.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "工作方式與顧問思維",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/index.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "知道為什麼，就能開始做。",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/library.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "全部知識",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/paths.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "新人閱讀路徑",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/agent-workflow.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "AI-native：把工作交給 Agent",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/ai-consulting.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "AI Consulting：從 use case 到可用系統",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/ai-fte.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "AI FTE：把 AI 變成持續交付的工作角色",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/automation-integration.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "API、MCP 與跨系統自動化",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/brand-strategy.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "品牌定位與訊息架構",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/cms-content.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "CMS、內容模型與多語系",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/content-seo.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "內容 SEO：從搜尋意圖到有效頁面",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/design-system.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Design System 與品牌落地",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/development-quality.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "開發交付：功能、品質與可維護性",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/ecommerce-growth.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "電商成長：商品頁、信任與留存",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/geo.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "GEO：讓 AI 搜尋理解與引用",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/hosting-architecture.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Hosting、DNS、CDN 與環境",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/launch.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "網站上線：一次看完必要條件",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/lifecycle-crm.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "CRM、Email 與客戶旅程",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/measurement.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "上線量測：GA4、GSC、Google Ads 與 Meta",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/migration.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Magento → Shopify：網站搬家",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/operations-security.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "維運、安全與事故回復",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/paid-media.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Google Ads、Meta 與廣告交付",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/platform-choice.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "平台選型：Webflow、Shopify、WordPress 或 Headless",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/project-brief.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "專案啟動與 Digital Consulting",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/shopify-foundation.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Shopify 開店：先接通營運",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/technical-seo.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Technical SEO 與 301 Redirect",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/tenten-context.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Tenten 做什麼：從商業問題到交付",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/playbooks/ux-conversion.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "UX、資訊架構與轉換",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/ai-workflow.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "AI 顧問／AI FTE 導入",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/brand-system.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "品牌／設計系統",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/growth.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "行銷活動／電商轉換",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/launch.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "網站準備上線",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/migration.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "Magento → Shopify 搬站",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/operations.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "主機維運／事故準備",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/seo-geo.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "SEO／GEO 成長",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/scenarios/website.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "新網站／品牌改版",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/search.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "搜尋知識",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        },
+        {
+          "url": "/sources.html",
+          "clientWidth": 390,
+          "scrollWidth": 390,
+          "overflow": false,
+          "heading": "來源與適用範圍",
+          "appReady": true,
+          "navInert": true,
+          "packetReady": true
+        }
+      ]
+    },
+    {
+      "name": "no JavaScript article and packet",
+      "passed": true
+    },
+    {
+      "name": "print hides navigation and preserves knowledge",
+      "passed": true
+    },
+    {
+      "name": "print PDF generated",
+      "passed": true,
+      "detail": {
+        "base64Characters": 885904
+      }
+    },
+    {
+      "name": "file URL offline search",
+      "passed": true
+    },
+    {
+      "name": "file URL complete task packet",
+      "passed": true
+    },
+    {
+      "name": "mobile close button",
+      "passed": true,
+      "detail": {
+        "browserZoom": 0.800000011920929,
+        "cssCenter": {
+          "x": 254.671875,
+          "y": 48.6953125
+        },
+        "method": "CDP input corrected for observed browser zoom"
+      }
+    },
+    {
+      "name": "desktop article layout",
+      "passed": true,
+      "detail": {
+        "innerWidth": 1440,
+        "client": 1421,
+        "scroll": 1421,
+        "navInert": false,
+        "tocDisplay": "block"
+      }
+    }
+  ],
+  "testNotes": [
+    "Initial pointer sequence left one checkbox checked; same-URL navigation preserved form state. A distinct page URL confirmed all five checked; focused Space with awaited state changes verified zero-selection behavior.",
+    "Mobile emulation revealed top-search flex overflow (390px client width vs 413px scroll width). Fixed mobile flex sizing; final matrix compares scrollWidth to clientWidth.",
+    "Mobile SDK click mapped the close-button center (about 254,49 CSS px) to (203,38), hitting the aside. The actual button handler worked with Enter. Final pointer check used CDP at the observed CSS center and verified closed state, inert and returned focus. No app defect in the close handler.",
+    "Desktop assertions use innerWidth for the 1440px viewport and clientWidth for overflow; the vertical scrollbar legitimately reduces clientWidth.",
+    "Page.getLayoutMetrics exposed browser zoom 0.8. Final mobile pointer dispatch compensated for this observed zoom, and desktop emulation width compensated for zoom to produce the intended 1440 CSS-pixel viewport. Earlier native-pointer failures were setup-coordinate errors."
+  ]
+}

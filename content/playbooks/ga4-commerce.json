@@ -1,0 +1,113 @@
+{
+  "id": "ga4-commerce",
+  "category": "growth",
+  "title": "GA4 電商：事件與轉換率怎麼算",
+  "summary": "讓商品瀏覽、加購、結帳與成交形成可對帳的漏斗。",
+  "keywords": [
+    "GA4",
+    "conversion rate",
+    "電商轉換率",
+    "CVR",
+    "purchase",
+    "refund",
+    "event",
+    "DebugView",
+    "漏斗"
+  ],
+  "why": [
+    "知道哪一步流失，才知道應修商品頁、購物車還是結帳。",
+    "分母、金額與事件不一致，會讓團隊做出相反的成效判斷。"
+  ],
+  "know": [
+    "核心事件：view_item_list／select_item、view_item、add_to_cart、begin_checkout、purchase、refund；依實際旅程補 shipping／payment。",
+    "事件契約記觸發點、item_id、items、value、currency；purchase／refund 用穩定 transaction_id 對回訂單。",
+    "購買 session 轉換率＝含 purchase 的 sessions／同範圍 sessions；訂單數／sessions 與所有 key event rate 是不同指標。",
+    "例如 10,000 sessions 中 100 個完成購買＝1%；先對齊時區、裝置、市場、期間與 consent 覆蓋。",
+    "GA4、Shopify、Ads 各有歸因和追蹤限制；訂單帳務為交易基準，不要求報表數字完全一樣。"
+  ],
+  "inputs": [
+    "既有 property／data stream、事件來源與測試環境",
+    "商品／變體 ID 對照、金額含稅運費規則與去識別測試訂單"
+  ],
+  "actions": [
+    "建立事件／參數／唯一發送者對照，先查原生整合，補足自訂前台到 hosted checkout 的缺口。",
+    "驗證跨域與來源延續，避免把支付商或自己店鋪誤當新來源；分析不得傳 Email 等個資。",
+    "在 DebugView／網路請求與後台驗證事件順序、金額、幣別；測重載、付款失敗、退款與 consent。",
+    "交付漏斗與指標字典，註明分子分母、排除測試流量及差異原因。"
+  ],
+  "done": [
+    "同一訂單重載不多記 purchase；退款能對回原交易。",
+    "報表可按渠道／裝置看漏斗，並能重算定義好的購買轉換率。"
+  ],
+  "pitfalls": [
+    "按結帳按鈕就送 purchase，或把付款失敗算成交。",
+    "直接用訂單數除使用者，卻稱為 session 轉換率。"
+  ],
+  "decision": "確認怎麼算成交、營收與轉換率，讓團隊使用相同口徑。",
+  "sources": [
+    "ga4-ecommerce",
+    "shopify-customer-events",
+    "xterra-repo"
+  ],
+  "related": [
+    "measurement",
+    "meta-tracking",
+    "google-commerce",
+    "ecommerce-growth"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "GA4 用事件記錄顧客在網站做了什麼。把瀏覽、加購、結帳和購買連起來，就能看到電商漏斗。",
+    "when": "需要檢查購物流失、計算轉換率，或驗證網站是否正確記錄成交時。",
+    "example": {
+      "situation": "10,000 次造訪中，有 100 次造訪完成購買，購買造訪轉換率就是 1%。",
+      "lesson": "要先說清楚分母是造訪、使用者還是其他基準，數字才可比較。"
+    },
+    "first_step": "先和團隊確認「購買」與「轉換率」的定義，再檢查事件。",
+    "point_titles": [
+      "記錄購物的關鍵動作",
+      "每筆事件帶上對帳資料",
+      "先說清楚轉換率分母",
+      "比較時使用相同範圍",
+      "不同平台有不同觀察口徑"
+    ],
+    "terms": [
+      [
+        "事件 Event",
+        "一次可記錄的動作，例如加購或購買。"
+      ],
+      [
+        "造訪 Session",
+        "同一次使用期間的一組網站互動；一位使用者可以有多次造訪。"
+      ],
+      [
+        "交易編號 transaction_id",
+        "用來辨認同一筆訂單，避免重複計算。"
+      ]
+    ],
+    "diagram": {
+      "kind": "flow",
+      "title": "把購物旅程連起來",
+      "nodes": [
+        [
+          "看商品",
+          "view_item"
+        ],
+        [
+          "加入購物車",
+          "add_to_cart"
+        ],
+        [
+          "開始結帳",
+          "begin_checkout"
+        ],
+        [
+          "完成購買",
+          "purchase"
+        ]
+      ],
+      "caption": "每一段都能觀察流失。示意只列主要事件；付款失敗不算購買。"
+    }
+  }
+}

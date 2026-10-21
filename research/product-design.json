@@ -1,0 +1,34 @@
+{
+  "observed_at": "2026-10-21T05:48:18.541244+00:00",
+  "references": [
+    {
+      "url": "https://s4.tenten.co/DESIGN-cohere.md",
+      "local": "research/design/DESIGN-cohere.md",
+      "sha256": "1c49a5a5f88d43841d4f4afa33831328d47a5715048700a3b75086a822575883"
+    },
+    {
+      "url": "https://s4.tenten.co/COO-UI-BASELINE.md",
+      "local": "research/design/COO-UI-BASELINE.md",
+      "sha256": "6c4a0a127e26a0a6b7eae71cee9835da3a2eb8ecdfe39da3e5d7565f3434f4eb"
+    }
+  ],
+  "decisions": [
+    "Cohere white, near-black, stone, deep green and restrained action blue; muted text darkened for legibility.",
+    "Use documented open-source Space Grotesk and Inter fallbacks, bundled locally with OFL licenses; Chinese uses system fonts.",
+    "Apply Google-style task priority, progressive disclosure, recovery and fast feedback without framework migration or dashboard-specific density.",
+    "Default appearance follows OS; user can choose light or dark and persist choice.",
+    "Session-scoped page drafts, details and reading position; explicit clear with undo, no server transmission."
+  ],
+  "fonts": [
+    {
+      "name": "Inter Latin variable",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7W0Q5nw.woff2",
+      "license": "web/assets/inter-OFL.txt"
+    },
+    {
+      "name": "Space Grotesk Latin variable",
+      "url": "https://fonts.gstatic.com/s/spacegrotesk/v22/V8mDoQDjQSkFtoMM3T6r8E7mPbF4C_k3HqU.woff2",
+      "license": "web/assets/space-grotesk-OFL.txt"
+    }
+  ]
+}

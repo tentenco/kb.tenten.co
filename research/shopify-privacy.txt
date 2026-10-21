@@ -1,0 +1,297 @@
+Contents
+Home
+...
+Customer privacy settings
+Configuring customer privacy settings
+
+As a Shopify merchant, ensuring the privacy of your customers is crucial. In many regions, customers highly value their privacy and seek out specific features, such as cookie banners, as indicators of trust before making purchases or browsing a store. You can automate and manage customer privacy settings within your Shopify admin to help comply with privacy and data protection laws. By adding an automated privacy policy, cookie banner, and data sharing opt-out page, you can enhance transparency and give your customers more control over their data. You may also be required to provide these notices and controls to customers depending on the laws where you do business and where your customers are based and based on your agreements with Shopify, such as the Terms of Service and Data Processing Addendum.
+
+On this page
+Understanding customer privacy settings
+Shopify Network Intelligence
+Automated privacy settings
+Create and manage your privacy policy
+Export your privacy policy history
+Customizing your privacy settings with Liquid variables
+Cookie banners
+Configure a cookie banner using a third-party cookie banner app
+Add a data sharing opt-out page
+Understanding the impact of privacy setting
+Localizing privacy features
+Understanding customer privacy settings
+
+You should start by reviewing and verifying the default content and settings in the Customer Privacy section of your Shopify admin to assess whether these settings accurately reflect your business operations and any third-party services integrated with your store.
+
+Shopify Network Intelligence
+
+When Shopify Network Intelligence is enabled, Shopify will securely use your customer data together with customer data from other merchants to generate insights to power advanced features, known as Enhanced Services, to help you protect, grow, and improve your business, including:
+
+Improved products and personalization for your store and customers.
+Improved store performance.
+Better ad targeting to help you to make the most of your marketing budget.
+
+Certain Shopify apps and features require Shopify Network Intelligence to be enabled.
+
+No other merchant can access your data. You can disable Shopify Network Intelligence in your Shopify admin at any time. However, if you disable Shopify Network Intelligence for your store, it will restrict Shopify's ability to use your customer data and your access to the apps and features that require it.
+
+Considerations for enabling or disabling Shopify Network Intelligence
+Staff permissions
+
+Only the store owner or staff with the Administrator role can enable or disable Shopify Network Intelligence.
+
+If Shopify Network Intelligence is enabled, then there are additional requirements to make sure your customers are informed about how Shopify processes their data to provide you with these services. Review them here.
+
+Shopify Network Intelligence is required in order to use some of Shopify's apps and features. Before you disable Shopify Network Intelligence, carefully review the following list of apps and features that are deactivated and uninstalled when you disable this setting:
+
+Managed payment methods
+Shop channel
+Shopify Audiences
+Shopify Collabs
+Shopify Collective
+Shopify Collective: Supplier
+Shopify Messaging
+Shopify Product Network
+Shopify Search & Discovery
+
+These changes take effect immediately when Shopify Network Intelligence is disabled.
+
+Disable Shopify Network Intelligence
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+In the Shopify Network Intelligence section, click Disable.
+
+Review the features and apps that will be removed as a result of deactivating Shopify Network Intelligence.
+
+Type UNINSTALL in the box.
+
+Click Uninstall.
+
+After you disable Shopify Network Intelligence, Shopify will not use additional customer data from your store going forward to power the Enhanced Services.
+
+You can re-enable Shopify Network Intelligence at any time, but any apps that have been uninstalled aren't restored. You need to install and set up these apps again.
+
+Shopify Network Intelligence and customer consent choices
+
+If you're using Shopify's automated privacy settings (for example, cookie banner and/or opt out page) or third-party tools that are properly integrated with the Customer Privacy API, then Shopify respects the customer's consent choices on your site in Shopify Network Intelligence. We've provided more details below on how this works.
+
+When Shopify Network Intelligence is enabled:
+
+If a customer opts out of the sale/sharing of their data with the merchant, using either the Global Privacy Control (GPC) header, Shopify's data sharing opt out page, or a third-party tool properly integrated with the Customer Privacy API, then the customer's activity on their site will be marked such that it isn't used by Shopify Network Intelligence for advertising purposes.
+If a customer does not consent to the use of non-essential cookies or other tracking technologies with the merchant using Shopify's cookie consent banner or a third-party cookie banner app properly integrated with the Customer Privacy API (and we also have recommended text here), then the customer's device data from that site will be marked such that it won't be used by Shopify Network Intelligence for any non-essential purposes, including but not limited to advertising purposes.
+If a customer requests deletion of their data with the merchant, then their data will also be deleted from Shopify Network Intelligence. A customer can also request deletion or opt out of Shopify's sharing of their data for ads purposes directly by using the Shopify privacy portal.
+Automated privacy settings
+
+Automated privacy settings can help your store comply with privacy laws by automatically adjusting to certain changes in your store settings. This feature supports all 32 languages supported in checkout and themes, with all updates logged in your Store activity log for transparency. You can access your store activity log here. You can also export all versions. For a list of settings that automatically update your privacy policy, refer to Customizing your privacy settings with Liquid variables.
+
+When you set up a new store, automated privacy settings are activated by default. For existing stores, you can activate these automated privacy settings so your privacy policy will automatically be updated when you adjust certain settings, such as when you change your Shopify Network Intelligence setting.
+
+To customize your privacy settings manually, the Use automated settings button must be off.
+
+Automation for other store policies, such as your return and refund policy, shipping policy, and contact information, is managed separately in Settings > Policies. Learn more about automated store policies.
+
+Set up automated privacy settings
+Caution
+
+Automated privacy settings aren't a substitute for legal advice. You're responsible for ensuring your privacy policy is accurate and you comply with applicable laws. Regularly review and update your settings and content to reflect your business practices. Significant changes in your data practices might require notifying your customers. If you have specific questions about which laws apply to you and your business, we suggest that you consult a lawyer who is familiar with those laws.
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+Select Privacy Policy, Cookie Banner, or Data Sharing Opt-Out Page.
+
+Use the toggle button to activate or deactivate automated privacy settings.
+
+To manually edit your policy or settings, deactivate automated settings and then click Save.
+
+Create and manage your privacy policy
+
+A privacy policy is a legal document that details how your business collects, uses, stores, and protects the personal information of its customers or website visitors.
+
+When you set up a new store, automated privacy settings are activated by default. However, you can deactivate "Use automated policy" to manually draft your privacy policy.
+
+If you have enabled Shopify Network Intelligence, then make sure to review the additional requirements for what you need to include in your privacy policy as described in the Additional Services Terms and our help doc here.
+
+If you use automated privacy settings, then many of the required disclosures are already included in the automated privacy policy, but there are some things we can't automate and you will need to review and add if you haven't already. As with all automated privacy settings, make sure to regularly review your privacy policy to ensure that it suits your business, accurately describes your practices, and meets your legal obligations.
+
+Steps:
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+Click Privacy policy.
+
+Either draft your privacy policy manually, or click Use automated policy to implement Shopify's template privacy policy text, which automatically updates as your settings change.
+
+Click Save.
+
+Learn more about adding store policies.
+
+Export your privacy policy history
+
+Changes to your privacy policy are archived and can be accessed in all configured languages. Shopify saves past privacy policies for 2 years. It's your responsibility to maintain records of changes to your policies, as needed.
+
+Steps:
+
+From your Shopify admin, go to Settings > Policies.
+
+In the Written policies section, click  > Get past privacy policies.
+
+In the Export privacy policy history dialog, select your export preference and then click Export privacy policies.
+
+Customizing your privacy settings with Liquid variables
+
+Liquid variables allow for dynamic customization of your privacy policy based on specific store settings.
+
+Static variables
+Variable	Description
+{{address}}	Store address
+{{email}}	Store email
+{{shop_domain}}	Store domain
+{{shop_name}}	Store name
+{{last_updated}}	Date the privacy policy was last updated
+{{data_sharing_opt_out_page_url}}	The URL of the data sharing opt out page, if using Shopify's data sharing opt out page feature.
+Conditional variables
+Variable	Description
+{% if selling_to_united_states %} ... {% endif %}	Selling to the United States (US) as an active market
+{% if selling_to_europe %} ... {% endif %}	Selling to the European Economic Area (EEA), the United Kingdom (UK), or Switzerland as an active market
+{% if using_additional_customer_data %} ... {% endif %}	An app in the Customer Accounts category is installed
+{% if shop_app_installed %} ... {% endif %}	Shop app is installed
+{% if shop_pay_enabled %} ... {% endif %}	Shop Pay is activated
+{% if data_sale_opt_out_enabled %} ... {% endif %}	Shopify Data Sharing Opt-Out page is activated
+{% if shopify_network_intelligence_enabled %} ... {% endif %}	Shopify Network Intelligence is enabled
+{% if cookie_banner_enabled %} ... {% endif %}	Cookie consent is required in any region
+{% if using_user_generated_content %} ... {% endif %}	An app in the User Generated Content category is installed
+Cookie banners
+
+A cookie banner is a notification that displays on a website to inform visitors about the use of cookies and asks for their consent to the use of cookies and similar technologies. Before you can use a cookie consent banner, you must publish a privacy policy.
+
+The Shopify cookie banner governs Shopify-specific tools, including cookies and Shopify Pixels, that help us provide services to you and your customers. If you have manually installed third-party cookies or pixels or integrated them through apps on your store, then you may need to use a third-party cookie banner or add custom logic to ensure they are honoring customer consent.
+
+Add a cookie banner
+
+When you set up a new store, automated privacy settings are activated by default, which means we will automatically configure your cookie banner for visitors in the UK and EEA regions, if you have active markets in these regions. However, you can deactivate Use automated settings to manually draft your cookie banner. The Shopify cookie banner may be displayed on storefront, cart, and checkout and customer account pages to visitors in configured regions.
+
+Steps:
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+Click Cookie banner.
+
+In the Regions and content section, choose between automated settings or manual customization:
+
+To use automated settings, make sure that the Use automated settings button is activated. If it's not, then activate it using the toggle. This option ensures that your settings remain aligned with Shopify's latest recommendations for regions and content.
+For manual region customization, click Edit in the Regions section, select the regions where the cookie banner should display, click Done, and then click Save.
+For manual content customization, click Edit in the Content section, make your modifications, click Done, and then click Save..
+
+Adjust the appearance of your cookie banner, including colors and preferences, to align with your store's branding, and then click Save.
+
+In the Position section, choose your banner positions, and then click Save.
+
+Optional: Click View in the Position section to preview the cookie banner on your store.
+
+Changing cookie preferences
+
+You can let customers access their consent preferences for data collections on your online store through the cookie banner. When customers access their preferences, they can also update and change their preferences for data collection. The link to your customer's preferences is included in the policies section of your store, and whenever the banner is displayed.
+
+If displaying a cookie banner on checkout isn't activated, then your customers can access their cookie preferences manually by using Cookie preferences in the footer menu of your store.
+
+Configure a cookie banner using a third-party cookie banner app
+
+You can configure a cookie banner with a third-party cookie banner app or consent management platform. For questions on your store's cookie banner configuration, reach out to the app developer.
+
+Use the same consent regions in the Customer privacy settings and your third-party app settings. If these regions don't match, then non-essential data can be processed before a visitor provides consent.
+
+Steps:
+Explore the Cookie Consent Category in the Shopify App Store to find and install an app. After you install the app, turn on its cookie banner and configure the regions where it displays the banner.
+From your Shopify admin, go to Settings > Customer privacy.
+In the Privacy settings section, click Cookie banner.
+If Remove cookie banner is available, then click  > Remove cookie banner, and then click Remove.
+Set the consent regions in the Shopify admin:
+If Set custom banner regions is available, then click  > Set custom banner regions.
+Otherwise, in the Regions section, click Edit.
+Select every region where your third-party app displays its cookie banner, and then click Save.
+
+If you use a third party cookie banner or consent management platform, then it's recommended that you make the following updates to your cookie banner:
+
+Refer to Shopify by name in your cookie banner, such as with the following language:We and our partners, including Shopify, use cookies and other technologies to personalize your experience, show you ads, and perform analytics, and we will not use cookies or other technologies for these purposes unless you accept them. Learn more in our Privacy Policy.
+Link to your privacy policy, which must also include a link to the Shopify Consumer Privacy Policy, detailing how Shopify collects and uses customer personal data and the customer's privacy rights with Shopify. For more detailed information on the language you must include in your privacy policy when using Shopify Network Intelligence, review the requirements when Shopify Network Intelligence is enabled.
+Add a data sharing opt-out page
+
+A data sharing opt-out page is a dedicated page in your online store that allows visitors to opt out of the sale or sharing of their personal data with Shopify and other third parties and to opt out of data processing that may constitute "targeted advertising," as these terms are defined in privacy laws, providing customers with more control over the use and distribution of their information. When the Global Privacy Control (GPC) header is present, it activates opting out of data sale or sharing or targeted advertising by Shopify and third parties for visitors in regions where you use a data sharing opt-out page. For more information about selling, sharing, and targeted advertising, see our page here. Before you can use a data sharing opt-out page, you must publish a privacy policy.
+
+If you have Shopify Network Intelligence enabled and receive certain Shopify Enhanced Services, such as those that target advertising based on your customers' activity with other merchants and with Shopify, and sell in regions that require a data sharing opt-out page, then you must offer customers a right to opt-out. For more details, review the Additional Services Terms and our help center page about merchant requirements here.
+
+Required staff permissions
+
+To add a data sharing opt out page, you need the following staff permissions:
+
+Store settings: Manage settings
+Online store: Blog posts and pages
+Content: Menus
+Steps:
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+Click Data sharing opt-out page.
+
+In the Regions and content section, choose between automated settings or manual customization:
+
+To use automated settings, make sure that the Use automated settings button is activated. If it's not, then activate it using the toggle. This option ensures that your settings remain aligned with Shopify's latest recommendations for regions and content.
+For manual region customization, click Edit in the Regions section, select the regions where the data sharing opt-out page should display, and then click Done.
+For manual content customization, click Edit in the Content section, make your modifications, and then click Save.
+
+In the Menus section, choose your data sharing opt-out page position from your store menu, and then click Save.
+
+Your Privacy Choices icon
+
+When you add a data sharing opt-out page link to your store menu using the customer privacy feature, an icon is automatically injected next to the link text. This icon may be required in jurisdictions in which you do business.
+
+If you need to customize the appearance of the icon, you can target it using the CSS class shopify-dns-link-icon.
+
+Understanding the impact of privacy setting
+
+Implementing cookie banners and data sharing opt-out features can affect data collection:
+
+In configured cookie banner regions: Non-essential data is collected only after obtaining consent, which might reduce data available for analytics, marketing, and personalization. For example, this can be observed through decreased session counts and other metrics that rely on session data, including conversion rates. This is intended for use in regions that require opt-in consent for data collection, such as in the EEA and the UK.
+Outside of UK, EEA, and other configured cookie banner regions: The cookie banner will not be active in these regions by default. This is intended for use in regions that don't require opt-in consent for cookies-based data collection, such as in the US. However, you can choose to use the cookie banner in any region.
+Default settings: Automated privacy settings are on by default when you set up a new store. When automated privacy settings are enabled, the cookie banner is on by default if required by your currently active markets.
+
+To learn more about impact of cookie-based customer data collection and analytics, refer to the documentation on analytics discrepancies and Shopify's cookie policy. Pixels operate based on the consent obtained in these regions.
+
+Localizing privacy features
+
+By localizing privacy features such as the cookie banner, data sharing opt-out page, and privacy policy page, your customers can access and engage with these pages in their preferred language. You can configure, preview, and set default content for these pages in the languages of your target markets.
+
+Localize privacy features from the Customer privacy section
+
+From your Shopify admin, go to Settings > Customer privacy.
+
+In the Privacy settings section, complete one of the following steps:
+
+Click Cookie banner.
+Click Data sharing opt-out page.
+
+Click More actions > Localize to open the Translate & Adapt app. Alternatively, you can select another compatible third-party translation app.
+
+Localize privacy features from the Policies section
+
+From your Shopify admin, go to Settings > Policies.
+
+Click Localize to open the Translate & Adapt app. Alternatively, you can select another compatible third-party translation app.
+
+Use the Translate and Adapt app to localize privacy features
+
+From your Shopify admin, go to Apps > Translate & Adapt.
+
+In the Online store section, complete one of the following steps:
+
+Click Cookie banner.
+Click Policies.
+Click Pages > Opt-out page title.
+
+Use the Translate & Adapt app to manually or automatically translate content for these privacy features.
+
+Managing languages
+
+When you add a new language, professional translations are automatically provided for your privacy policy, cookie banner, and data sharing opt-out page for themes built by Shopify. Learn more about managing languages and the translations available for your privacy policy, cookie banner, and data sharing opt-out page. If a language isn't available, then a warning message displays.
+
+Leave feedback

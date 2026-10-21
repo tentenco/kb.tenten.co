@@ -1,0 +1,569 @@
+How to sync Shopify email subscribers to a Klaviyo list | Klaviyo Help Center
+Skip to main content
+Help center
+Help center
+Find step-by-step instructions and troubleshooting solutions in our knowledge base.
+POPULAR TOPICS
+Integrations
+Flows
+Audience
+Campaigns
+Sign-up forms
+Deliverability & compliance
+HELP BY PRODUCT
+SMS
+Reviews
+Marketing Analytics
+Customer Hub
+Customer Agent
+Helpdesk
+WhatsApp
+Academy
+Klaviyo Academy
+Expert training and education to help you succeed with Klaviyo, and beyond.
+ON-DEMAND LEARNING
+Quick guides
+Learn marketing strategies and concepts in 15 minutes or less.
+Courses
+Master key marketing topics through structured lessons and exams.
+Best practices
+Discover top product and marketing strategies for your business.
+Learning paths
+Complete curated learning journeys tailored to your marketing goals.
+Explore all resources
+LIVE LEARNING
+Live trainings
+Build confidence through hands-on interactive workshops and thought-provoking strategy sessions.
+Live office hours
+Join a strategic discussion where you can ask questions and get answers in real-time.
+1:1 Live training
+Book a private training session with an expert to jumpstart your platform knowledge and confidence.
+CREDENTIALS
+Klaviyo credentials
+Dig deeper into select topics and showcase your expertise with a final exam to earn a certificate and digital badge.
+Klaviyo practitioner certificate
+Deliverability certificate
+Klaviyo developer certificate
+See all certificates
+Community
+Klaviyo Community
+Join our thriving community network to connect with brands like yours—online and in person.
+JOIN THE CONVERSATION
+Ask a question
+Post a question and get thoughtful answers from Klaviyo power users.
+Announcements
+Recent threads
+Strategic advice
+JOIN A USER GROUP
+Browse all groups
+Your people are waiting. New ideas and connections are a click away.
+Developer group
+Entrepreneur group
+WooCommerce group
+JOIN COMMUNITY ACTIVITIES
+Events
+Composer community
+Job board
+Live training recordings
+Developers
+Klaviyo Developers
+Access API documentation and developer guides to help you build with Klaviyo.
+TOP RESOURCES
+Get started
+Access key resources and a step-by-step checklist for how to start developing with Klaviyo.
+Grow your app's reach
+Learn how to join our ecosystem and get your app listed on our marketplace.
+Developer tools
+Generate sample data, monitor your API usage, and access our Postman collections.
+KLAVIYO APIS
+API reference
+Browse our full catalog of API docs.
+Changelog
+Versioning & deprecation policy
+Rate limits & error handling
+VIDEO TUTORIALS
+API tutorials on YouTube
+Subscribe to our Klaviyo API Tutorials playlist for easy access to step-by-step developer walkthroughs.
+United States
+-
+EN
+Deutschland
+-
+DE
+España
+-
+ES
+México
+-
+ES
+France
+-
+FR
+Italia
+-
+IT
+日本
+-
+JA
+한국
+-
+KO
+Nederland
+-
+NL
+Polska
+-
+PL
+Brasil
+-
+PT
+Sverige
+-
+SV
+Log in
+Contact us
+Sign up
+Help center
+Help center
+Find step-by-step instructions and troubleshooting solutions in our knowledge base.
+POPULAR TOPICS
+Integrations
+Flows
+Audience
+Campaigns
+Sign-up forms
+Deliverability & compliance
+HELP BY PRODUCT
+SMS
+Reviews
+Marketing Analytics
+Customer Hub
+Customer Agent
+Helpdesk
+WhatsApp
+Academy
+Klaviyo Academy
+Expert training and education to help you succeed with Klaviyo, and beyond.
+ON-DEMAND LEARNING
+Quick guides
+Learn marketing strategies and concepts in 15 minutes or less.
+Courses
+Master key marketing topics through structured lessons and exams.
+Best practices
+Discover top product and marketing strategies for your business.
+Learning paths
+Complete curated learning journeys tailored to your marketing goals.
+Explore all resources
+LIVE LEARNING
+Live trainings
+Build confidence through hands-on interactive workshops and thought-provoking strategy sessions.
+Live office hours
+Join a strategic discussion where you can ask questions and get answers in real-time.
+1:1 Live training
+Book a private training session with an expert to jumpstart your platform knowledge and confidence.
+CREDENTIALS
+Klaviyo credentials
+Dig deeper into select topics and showcase your expertise with a final exam to earn a certificate and digital badge.
+Klaviyo practitioner certificate
+Deliverability certificate
+Klaviyo developer certificate
+See all certificates
+Community
+Klaviyo Community
+Join our thriving community network to connect with brands like yours—online and in person.
+JOIN THE CONVERSATION
+Ask a question
+Post a question and get thoughtful answers from Klaviyo power users.
+Announcements
+Recent threads
+Strategic advice
+JOIN A USER GROUP
+Browse all groups
+Your people are waiting. New ideas and connections are a click away.
+Developer group
+Entrepreneur group
+WooCommerce group
+JOIN COMMUNITY ACTIVITIES
+Events
+Composer community
+Job board
+Live training recordings
+Developers
+Klaviyo Developers
+Access API documentation and developer guides to help you build with Klaviyo.
+TOP RESOURCES
+Get started
+Access key resources and a step-by-step checklist for how to start developing with Klaviyo.
+Grow your app's reach
+Learn how to join our ecosystem and get your app listed on our marketplace.
+Developer tools
+Generate sample data, monitor your API usage, and access our Postman collections.
+KLAVIYO APIS
+API reference
+Browse our full catalog of API docs.
+Changelog
+Versioning & deprecation policy
+Rate limits & error handling
+VIDEO TUTORIALS
+API tutorials on YouTube
+Subscribe to our Klaviyo API Tutorials playlist for easy access to step-by-step developer walkthroughs.
+Search
+United States
+-
+EN
+United States
+-
+EN
+Deutschland
+-
+DE
+España
+-
+ES
+México
+-
+ES
+France
+-
+FR
+Italia
+-
+IT
+日本
+-
+JA
+한국
+-
+KO
+Nederland
+-
+NL
+Polska
+-
+PL
+Brasil
+-
+PT
+Sverige
+-
+SV
+Contact us
+Sign up
+Log in
+Help center
+/
+Integrations
+/
+Shopify
+/
+Getting started with Shopify
+How to sync Shopify email subscribers to a Klaviyo list
+Estimated 5 minute read
+|
+Updated Jan 8, 2026, 12:00 AM EST
+Table of contents
+You will learn
+Before you begin
+How to sync subscribers to a list
+How do customers get added to my list?
+Best practices
+Shopify Checkout Extensibility compatibility
+Looking for information on the Accepts Marketing property?
+Outcome
+Additional resources
+You will learn
+Learn how to sync Shopify email subscribers to a Klaviyo list, how the sync works, and best practices. Additionally, learn who gets added to your list and why.
+It's important to sync your Shopify subscribers to a Klaviyo list in order to build a list of consented subscribers to send to.
+Before you begin
+If you have not already, read our guide on
+getting started with Shopify
+for step-by-step instructions on integrating before continuing with this article. When you integrate, make sure to check the setting to sync Shopify email subscribers to a Klaviyo list.
+How to sync subscribers to a list
+In Klaviyo, select the
+Integrations
+tab.
+Select
+Shopify
+from the list to be brought to your Shopify integration settings page.
+Under
+Sync settings
+, on the
+From Shopify
+tab, check the box next to
+Sync your Shopify email subscribers to Klaviyo
+.
+Choose the list that you’d like to add subscribers to; as a best practice, add them to your main list such as your Email List. Note that you cannot select a segment; you must add your subscribers to a list.
+If you don't see any lists populate:
+Click the
+Audience
+dropdown and select
+Lists & Segments
+.
+Click
+Create List/Segment
+, then choose
+List
+to create a new list.
+Navigate back to your Shopify integration settings to see your new list appear in the dropdown.
+Click
+Save.
+Klaviyo automatically syncs historical email subscribers when you check
+Sync your Shopify email subscribers to Klaviyo
+.
+For the historical subscriber sync, Klaviyo subscribes profiles based on whether they were subscribed in Shopify, unless the profile already exists in Klaviyo. If the profile already exists, Klaviyo uses the more recent consent status based on its timestamp.
+How do customers get added to my list?
+Ongoing subscriber sync behavior
+The information below describes the behavior of the ongoing Shopify subscriber sync (as opposed to the historic sync that takes place initially when you integrate).
+Below is an example of an email subscription checkbox on a Shopify checkout page. As a best practice, we recommend not having this box checked by default.
+Once you’ve checked the
+Sync your Shopify email subscribers to Klaviyo
+setting on your Shopify settings page in Klaviyo (as described in the previous section), you can start collecting subscribers.
+Subscribes work in the following way:
+Subscribers are synced from Shopify to Klaviyo via Shopify's subscription model.
+Contacts being created in Shopify for the first time are subscribed in Klaviyo after providing their email and checking the box (essentially, at the
+Checkout Started
+step).
+Existing contacts in Shopify will need to place an order to be subscribed.
+Customers that subscribe via any Shopify sign-up form, such as a footer form, will also sync to your list.
+Email subscription status can be viewed on individual profiles in Klaviyo, and a
+Subscribed to List event
+is also recorded in Klaviyo.
+Unsubscribes work in the following way:
+If a profile is unsubscribed in Shopify, they are not unsubscribed in Klaviyo.
+If a Klaviyo profile is already subscribed but does not consent at checkout, they will not be unsubscribed in Klaviyo (no change will happen).
+If a profile is unsubscribed in Klaviyo, and then resubscribes at checkout, they will be resubscribed in Klaviyo.
+Shopify syncs customer profiles to Klaviyo in real time. Please note that profiles deleted in Klaviyo are not correspondingly deleted in Shopify, and vice versa.
+Shopify one-page checkout
+Klaviyo's Shopify integration is fully compatible with Shopify one-page checkout. Whether you're using one-page checkout or multi-page checkout, the
+Checkout Started
+event is triggered after the customer fills out their email.
+If you've customized your checkout, customers may still need to progress to the next step in the checkout process for the
+Checkout Started
+event to be triggered. Additional customer information will be updated in Klaviyo once the customer is created in Shopify.
+Best practices
+Leave the subscribe box unchecked by default
+We strongly recommend keeping your email subscription box on your Shopify checkout page unselected by default to avoid damaging your sender reputation by accumulating passive subscribers. This option can be adjusted by navigating to
+Settings > Checkout
+in your Shopify store admin.
+Preselecting this box by default is not a recommended practice because it can lead to people who don’t wish to receive marketing communications from you getting added to your list. They are more likely to unsubscribe, ignore, or mark your emails as spam. If these contacts ignore your emails, they will eventually filter to spam.
+If a large percentage of your list consists of passive subscribers added in this way and your email engagement is low, you're
+putting your email deliverability at risk
+. By growing lists of engaged subscribers and focusing on the quality of your leads over quantity, you're setting yourself up for strong email deliverability and higher conversion rates.
+Email subscribers and your welcome series flow
+If a customer is added to your email list by signing up to a default Shopify sign-up form, and your welcome flow is set up (as well as your Shopify integration), this customer will be queued for your
+welcome series flow
+.
+If a customer is added to your email list by clicking the
+Subscribe to newsletter
+box upon checkout, they will also get queued up for your welcome series flow. You can use flow filters in your welcome series flow to filter out groups of customers that you wish to exclude from this behavior.
+Shopify Checkout Extensibility compatibility
+Checkout Extensibility is
+Shopify's new foundation for checkout
+, replacing the now-deprecated
+checkout.liquid
+file. Klaviyo's Shopify integration is already fully compatible with Checkout Extensibility, and integration updates are not required given that you have not made any checkout.liquid customizations.
+Looking for information on the Accepts Marketing property?
+On December 14th, 2022, Klaviyo released an update changing the way email subscribers are synced from Shopify to Klaviyo. This sync previously relied on Shopify’s
+Accepts Marketing
+tag, but now, subscribers are synced via Shopify’s subscription model.
+This property still syncs to Klaviyo for customers who wish to use it, but it no longer determines subscription status in Klaviyo and has
+since been deprecated by Shopify
+. To learn how subscribers synced from Shopify to Klaviyo before December 14, 2022, check out our
+Shopify Accepts Marketing Subscriber Reference
+.
+Outcome
+You've now learned how to sync Shopify email subscribers to a Klaviyo list and best practices around managing email subscribers.
+Additional resources
+How often integrations sync reference
+Learn what data syncs from a particular Klaviyo integration and how often the sync runs. We've organized these integrations by ecommerce platforms, email service providers, and other data integrations.
+Shopify data reference
+Learn what data syncs from Shopify to Klaviyo and where to view it. This includes both order data (such as Placed Order, Ordered Product, etc.), delivery data, onsite tracking data, and customer data. If you have not already, read our guide on getting started with Shopify for step-by-step instructions on integrating, before continuing with this article.
+How to use Shopify tags to filter customers
+Learn about how to use Shopify tags to filter customers in Klaviyo.
+Was this article helpful?
+Yes
+No
+Use this form only for article feedback.
+Learn how to contact support
+.
+Explore more from Klaviyo
+Community
+Connect with peers, partners, and Klaviyo experts to find inspiration, share insights, and get answers to all of your questions.
+Visit Community
+Partners
+Hire a Klaviyo-certified expert to help you with a specific task, or for ongoing marketing management.
+Hire a partner
+Support
+Access support through your account.
+Email support
+(free trial and paid accounts)
+Available 24/7
+Chat/virtual assistance
+Availability varies by location and plan type
+Log in
+Company
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+Klaviyo for
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+Platform
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Why Klaviyo
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+Channels
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+Tools + Resources
+Marketing resources
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+Top Products + Features
+Composer
+Beta
+Marketing Agent
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+Company
+About Klaviyo
+Newsroom
+Investor relations
+Contact us
+Careers
+Platform
+B2C CRM overview
+Klaviyo AI (K:AI)
+Klaviyo Marketing
+Klaviyo Service
+Klaviyo Analytics
+Klaviyo Data Platform
+Channels
+Omnichannel marketing
+Email marketing
+SMS marketing
+RCS for Business
+Mobile app marketing
+WhatsApp marketing
+Social marketing
+Top Products + Features
+Composer
+Beta
+Marketing Agent
+Customer Agent
+Customer Hub
+Helpdesk
+Marketing Analytics
+Advanced Klaviyo Data Platform
+Web forms
+Email templates
+Klaviyo for
+Enterprise
+Agency and tech partners
+Developers
+Retail and ecommerce
+Restaurant marketing
+Wellness
+Why Klaviyo
+Klaviyo vs. Klaviyo alternatives
+Klaviyo vs. Mailchimp
+Klaviyo vs. Postscript
+Klaviyo vs. Attentive
+Klaviyo vs. Salesforce
+Klaviyo vs. Listrak
+Tools + Resources
+Marketing resources
+Marketing campaign calendar
+Marketing glossary
+Subject line generator
+ROI calculator
+Case studies
+Explore more
+Portfolio
+Apps and Integrations
+Features
+What's new
+Events
+Help Center
+Academy
+Community
+United States
+-
+EN
+United States
+-
+EN
+Deutschland
+-
+DE
+España
+-
+ES
+México
+-
+ES
+France
+-
+FR
+Italia
+-
+IT
+日本
+-
+JA
+한국
+-
+KO
+Nederland
+-
+NL
+Polska
+-
+PL
+Brasil
+-
+PT
+Sverige
+-
+SV
+The B2C CRM
+Facebook
+Twitter
+LinkedIn
+Instagram
+Google
+Copyright © 2026 Klaviyo. All rights reserved.
+Site Map
+Terms and Privacy
+Security
+Trust
+Intellectual Property Notices

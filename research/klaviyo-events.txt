@@ -1,0 +1,1414 @@
+Create Event
+Jump to Content
+Home
+Guides
+API Reference
+legacy
+v2022-10-17
+v2023-01-24
+v2023-02-22
+v2023-06-15
+v2023-07-15
+v2023-08-15
+v2023-09-15
+v2023-10-15
+v2023-12-15
+v2024-02-15
+v2024-05-15
+v2024-06-15
+v2024-07-15
+v2024-10-15
+v2025-01-15
+v2025-04-15
+v2025-07-15
+v2025-10-15
+v2026-01-15
+v2026-04-15
+v2026-07-15
+v2026-10-15
+Changelog
+Help Center
+Community
+Contact Us
+API Reference
+Changelog
+Help Center
+Community
+Contact Us
+v2026-10-15
+Home
+Guides
+API Reference
+Create Event
+JUMP TO
+API Overview
+API overview
+Beta APIs
+API Keys
+Get API Keys
+get
+Get API Key
+get
+Update API Key
+patch
+Applications
+Applications API overview
+App Management
+Get Installs for Application
+get
+Get Install IDs for Application
+get
+Update Application
+patch
+Create Application
+post
+Delete Application
+del
+App Marketplace
+Get Client Applications
+get
+Get Client Application
+get
+Get Application Installs
+get
+Get Application Install
+get
+Get Application ID for Application Install
+get
+Get Application for Application Install
+get
+Delete Application Install
+del
+Get Applications
+get
+Get Application
+get
+Get Install ID for Application
+get
+Get Install for Application
+get
+Custom Objects
+Get Source Mapping
+get
+Get Data Sources
+get
+Update Source Mapping
+patch
+Get Object Types
+get
+Create Object Type
+post
+Get Object Type
+get
+Delete Object Type
+del
+Get Object Schema
+get
+Update Object Schema
+patch
+Get Object Record
+get
+Create Object Schema
+post
+Get Records for Object Type
+get
+Get Record IDs for Object Type
+get
+Get Current Schema for Object Type
+get
+Get Current Schema ID for Object Type
+get
+Get Draft Schema for Object Type
+get
+Get Draft Schema ID for Object Type
+get
+Get Schema Versions for Object Type
+get
+Get Schema Version IDs for Object Type
+get
+Get Object Type Relationships
+get
+Get Profile Type Relationships
+get
+Get Source Mapping for Object Schema
+get
+Get Source Mapping ID for Object Schema
+get
+Get Object Schema Relationships
+get
+Create Object Schema Relationship
+post
+Update Object Schema Relationship
+patch
+Delete Object Schema Relationship
+del
+Get Profile Schema Relationships
+get
+Create Profile Schema Relationship
+post
+Update Profile Schema Relationship
+patch
+Delete Profile Schema Relationship
+del
+Customer Agent
+Customer Agents
+Get Customer Agent
+get
+Get Customer Agents
+get
+Update Customer Agent
+patch
+Generate Customer Agent Response
+post
+Knowledge and Skills
+List Agent Knowledge
+get
+Create Agent Knowledge
+post
+Get Agent Knowledge
+get
+Update Agent Knowledge
+patch
+Delete Agent Knowledge
+del
+Create Agent Knowledge File
+post
+Get Agent Skills
+get
+Create Agent Skill
+post
+Get Agent Skill
+get
+Update Agent Skill
+patch
+Delete Agent Skill
+del
+Connected Tools
+Get Agent Tools
+get
+Create Agent Tool
+post
+Get Agent Tool
+get
+Update Agent Tool
+patch
+Delete Agent Tool
+del
+Get Agent Secrets
+get
+Create Agent Secret
+post
+Get Agent Secret
+get
+Update Agent Secret
+patch
+Delete Agent Secret
+del
+Get Tools for Agent Secret
+get
+Get Tool IDs for Agent Secret
+get
+Get Skills for Agent Tool
+get
+Get Skill IDs for Agent Tool
+get
+Get Secrets for Agent Tool
+get
+Get Secret IDs for Agent Tool
+get
+Conversations and Reports
+Retrieve Conversation
+get
+Create Conversation
+post
+Update Conversation
+patch
+List Conversations
+get
+Get Agent Messages for Customer Agent Conversation
+get
+Get Agent Message IDs for Customer Agent Conversation
+get
+Create Conversation Context
+post
+Get Agent Conversation Context IDs for Customer Agent Conversation
+get
+Get Agent Conversation Contexts for Customer Agent Conversation
+get
+Query Customer Agent Skill Values
+post
+Query Customer Agent Conversation Metrics
+post
+Query Customer Agent Tool Values
+post
+Events
+Bulk Export APIs overview (beta)
+Get Event Bulk Export Job
+get
+Create Event Bulk Export Job
+post
+Get Download for Event Bulk Export Job
+get
+Location Hub
+Location Hub API overview
+Locations
+Get Locations
+get
+Create Location
+post
+Get Location
+get
+Update Location
+patch
+Delete Location
+del
+Get Segments for Location
+get
+Get Segment IDs for Location
+get
+Add Segments to Location
+post
+Remove Segments from Location
+del
+Get Location Hub Setting
+get
+Update Location Hub Setting
+patch
+Create Proximity Segment Definition
+post
+Live Events
+Get Location Live Events
+get
+Create Location Live Event
+post
+Get Location Live Event
+get
+Update Location Live Event
+patch
+Delete Location Live Event
+del
+Profiles
+Bulk Export APIs overview (beta)
+Get Profile Bulk Export Job
+get
+Create Profile Bulk Export Job
+post
+Get Download for Profile Bulk Export Job
+get
+Get Object Records for Profile
+get
+Get Object Types for Profile
+get
+Get Object Type IDs for Profile
+get
+Reporting
+K-SQL Ask API overview (revision 2026-10-15.pre)
+Ask Analytics Question
+post
+Query Location Series
+post
+Query Location Values
+post
+Query Social Series
+post
+Query Social Values
+post
+Sending Domains
+Get Sending Domains
+get
+Create Sending Domain
+post
+Get Sending Domain
+get
+Delete Sending Domain
+del
+Create Sending Domain Verification Job
+post
+Get Managed Dns Record List Job
+get
+Create Sending Domain Activation Job
+post
+Get Managed Dns Record Change Job
+get
+Create Managed Dns Record List Job
+post
+Create Managed Dns Record Change Job
+post
+Accounts API
+Accounts
+Get Accounts
+get
+Get Account
+get
+Billing API
+Billing Usage API overview
+Billing
+List Billing Usage
+get
+Get Billing Usage
+get
+Brands API
+Brands
+Get Brand Logos
+get
+Create Brand Logo
+post
+Get Brand Logo
+get
+Update Brand Logo
+patch
+Delete Brand Logo
+del
+Get Brand Buttons
+get
+Create Brand Button
+post
+Get Brand Button
+get
+Update Brand Button
+patch
+Delete Brand Button
+del
+Get Brand Colors
+get
+Create Brand Color
+post
+Get Brand Color
+get
+Update Brand Color
+patch
+Delete Brand Color
+del
+Get Brand Voice
+get
+Update Brand Voice
+patch
+Get Brand Social Groups
+get
+Create Brand Social Group
+post
+Get Brand Social Group
+get
+Update Brand Social Group
+patch
+Delete Brand Social Group
+del
+Get Brand Email Defaults
+get
+Get Brand Email Default
+get
+Update Brand Email Default
+patch
+Campaigns API
+Campaigns API overview (omnichannel)
+Audiences
+Get Campaign Audience
+get
+Update Campaign Audience
+patch
+Delete Campaign Audience
+del
+Create Campaign Audience
+post
+Clone Campaign Audience
+post
+Get Campaign Audiences for Campaign
+get
+Get Audience IDs for Campaign
+get
+Get Campaign for Campaign Audience
+get
+Get Campaign ID for Campaign Audience
+get
+Get Campaign Messages for Campaign Audience
+get
+Get Message IDs for Campaign Audience
+get
+Jobs
+Get Campaign Send Job
+get
+Cancel Campaign Send
+patch
+Get Campaign Recipient Estimation Job
+get
+Send Campaign
+post
+Refresh Campaign Recipient Estimation
+post
+Variations
+Get Campaign Variation
+get
+Update Campaign Variation
+patch
+Delete Campaign Variation
+del
+Create Campaign Variation
+post
+Get Message for Campaign Variation
+get
+Get Message ID for Campaign Variation
+get
+Get Image for Campaign Variation
+get
+Get Image ID for Campaign Variation
+get
+Campaigns
+Get Campaigns
+get
+Create Campaign
+post
+Get Campaign
+get
+Update Campaign
+patch
+Delete Campaign
+del
+Get Campaign Recipient Estimation
+get
+Clone Campaign
+post
+Get Tags for Campaign
+get
+Get Tag IDs for Campaign
+get
+Get Messages for Campaign
+get
+Get Translation for Campaign Variation
+get
+Get Message IDs for Campaign
+get
+Get Translation ID for Campaign Variation
+get
+Scheduling
+Schedule Campaign Message
+post
+Update Campaign Message Schedule
+patch
+Messages
+Get Campaign Message
+get
+Get Campaign Messages
+get
+Update Campaign Message
+patch
+Create Campaign Message
+post
+Assign Template to Campaign Message
+post
+Get Campaign for Campaign Message
+get
+Get Campaign ID for Campaign Message
+get
+Delete Campaign Message
+del
+Get Template for Campaign Message
+get
+Get Template ID for Campaign Message
+get
+Clone Campaign Message
+post
+Get Image for Campaign Message
+get
+Get Image ID for Campaign Message
+get
+Update Image for Campaign Message
+patch
+Get Audience for Campaign Message
+get
+Get Audience ID for Campaign Message
+get
+Get Tags for Campaign Message
+get
+Get Tag IDs for Campaign Message
+get
+Get Variations for Campaign Message
+get
+Get Variation IDs for Campaign Message
+get
+Catalogs API
+Catalogs API overview
+Items
+Get Catalog Items
+get
+Create Catalog Item
+post
+Get Catalog Item
+get
+Update Catalog Item
+patch
+Delete Catalog Item
+del
+Get Bulk Create Catalog Items Jobs
+get
+Bulk Create Catalog Items
+post
+Get Bulk Create Catalog Items Job
+get
+Get Bulk Update Catalog Items Jobs
+get
+Bulk Update Catalog Items
+post
+Get Bulk Update Catalog Items Job
+get
+Get Bulk Delete Catalog Items Jobs
+get
+Bulk Delete Catalog Items
+post
+Get Bulk Delete Catalog Items Job
+get
+Get Items for Catalog Category
+get
+Get Category IDs for Catalog Item
+get
+Add Categories to Catalog Item
+post
+Update Categories for Catalog Item
+patch
+Remove Categories from Catalog Item
+del
+Variants
+Get Catalog Variants
+get
+Create Catalog Variant
+post
+Get Catalog Variant
+get
+Update Catalog Variant
+patch
+Delete Catalog Variant
+del
+Get Bulk Create Variants Jobs
+get
+Bulk Create Catalog Variants
+post
+Get Bulk Create Variants Job
+get
+Get Bulk Update Variants Jobs
+get
+Bulk Update Catalog Variants
+post
+Get Bulk Update Variants Job
+get
+Get Bulk Delete Variants Jobs
+get
+Bulk Delete Catalog Variants
+post
+Get Bulk Delete Variants Job
+get
+Get Variants for Catalog Item
+get
+Get Variant IDs for Catalog Item
+get
+Back In Stock
+Create Back In Stock Subscription
+post
+Categories
+Get Catalog Categories
+get
+Create Catalog Category
+post
+Get Catalog Category
+get
+Update Catalog Category
+patch
+Delete Catalog Category
+del
+Get Bulk Create Categories Jobs
+get
+Bulk Create Catalog Categories
+post
+Get Bulk Create Categories Job
+get
+Get Bulk Update Categories Jobs
+get
+Bulk Update Catalog Categories
+post
+Get Bulk Update Categories Job
+get
+Get Bulk Delete Categories Jobs
+get
+Bulk Delete Catalog Categories
+post
+Get Bulk Delete Categories Job
+get
+Get Item IDs for Catalog Category
+get
+Add Items to Catalog Category
+post
+Update Items for Catalog Category
+patch
+Remove Items from Catalog Category
+del
+Get Categories for Catalog Item
+get
+Client API
+Client
+Get Client Review Values Reports
+get
+Get Client Reviews
+get
+Create Client Review
+post
+Create Client Subscription
+post
+Get Client Geofences
+get
+Create or Update Client Push Token
+post
+Unregister Client Push Token
+post
+Create Client Event
+post
+Create or Update Client Profile
+post
+Bulk Create Client Events
+post
+Create Client Back In Stock Subscription
+post
+Get Client IP Allowlist
+get
+Conversations API
+Conversations API overview
+Conversations
+Create Conversation Message
+post
+Coupons API
+Coupons
+Get Coupons
+get
+Create Coupon
+post
+Get Coupon
+get
+Update Coupon
+patch
+Delete Coupon
+del
+Get Coupon Codes
+get
+Create Coupon Code
+post
+Get Coupon Code
+get
+Update Coupon Code
+patch
+Delete Coupon Code
+del
+Get Bulk Create Coupon Code Jobs
+get
+Bulk Create Coupon Codes
+post
+Get Bulk Create Coupon Codes Job
+get
+Get Coupon For Coupon Code
+get
+Get Coupon ID for Coupon Code
+get
+Get Coupon Codes for Coupon
+get
+Get Coupon Code IDs for Coupon
+get
+Custom Objects API
+Custom Objects API overview
+Object Types
+Get Object Types
+get
+Create Object Type
+post
+Get Object Type
+get
+Delete Object Type
+del
+Get Current Schema for Object Type
+get
+Get Current Schema ID for Object Type
+get
+Get Draft Schema for Object Type
+get
+Get Draft Schema ID for Object Type
+get
+Get Schema Versions for Object Type
+get
+Get Schema Version IDs for Object Type
+get
+Get Object Type Relationships
+get
+Get Profile Type Relationships
+get
+Source Mappings
+Get Source Mapping
+get
+Update Source Mapping
+patch
+Object Records
+Get Object Record
+get
+Bulk Delete Object Records
+post
+Get Records for Object Type
+get
+Get Record IDs for Object Type
+get
+Ingestion Logs
+Get Ingestion Logs for Object Type
+get
+Get Ingestion Log IDs for Object Type
+get
+Data Source Records
+Bulk Create Data Source Records
+post
+Create Data Source Record
+post
+Object Schemas
+Get Object Schema
+get
+Update Object Schema
+patch
+Create Object Schema
+post
+Get Source Mapping for Object Schema
+get
+Get Source Mapping ID for Object Schema
+get
+Get Object Schema Relationships
+get
+Create Object Schema Relationship
+post
+Update Object Schema Relationship
+patch
+Delete Object Schema Relationship
+del
+Get Profile Schema Relationships
+get
+Create Profile Schema Relationship
+post
+Update Profile Schema Relationship
+patch
+Delete Profile Schema Relationship
+del
+Data Sources
+Get Data Sources
+get
+Create Data Source
+post
+Get Data Source
+get
+Delete Data Source
+del
+Data Privacy API
+Data Privacy API overview
+Data Privacy
+Request Profile Deletion
+post
+Events API
+Events API overview
+Events
+Get Events
+get
+Create Event
+post
+Get Event
+get
+Bulk Create Events
+post
+Get Metric for Event
+get
+Get Metric ID for Event
+get
+Get Profile for Event
+get
+Get Profile ID for Event
+get
+Flows API
+Flows API overview
+Flows
+Get Flows
+get
+Create Flow
+post
+Get Flow
+get
+Update Flow Status
+patch
+Delete Flow
+del
+Get Flow Action
+get
+Get Flow Message
+get
+Update Flow Action
+patch
+Delete Flow Action
+del
+Get Actions for Flow
+get
+Create Flow Action
+post
+Get Action IDs for Flow
+get
+Get Tags for Flow
+get
+Get Tag IDs for Flow
+get
+Get Flow for Flow Action
+get
+Get Flow ID for Flow Action
+get
+Get Messages For Flow Action
+get
+Get Message IDs for Flow Action
+get
+Get Action for Flow Message
+get
+Get Action ID for Flow Message
+get
+Get Template for Flow Message
+get
+Get Template ID for Flow Message
+get
+Forms API
+Forms API overview
+Forms
+Get Forms
+get
+Get Form
+get
+Create Form
+post
+Delete Form
+del
+Update Form
+patch
+Get Form Version
+get
+Get Versions for Form
+get
+Get Version IDs for Form
+get
+Publish Form
+post
+Get Form for Form Version
+get
+Unpublish Form
+post
+Get Form ID for Form Version
+get
+Images API
+Images API overview
+Images
+Get Images
+get
+Upload Image From URL
+post
+Get Image
+get
+Update Image
+patch
+Upload Image From File
+post
+Lists API
+Lists API overview
+Lists
+Get Lists
+get
+Create List
+post
+Get List
+get
+Update List
+patch
+Delete List
+del
+Get Tags for List
+get
+Get Tag IDs for List
+get
+Get Profiles for List
+get
+Get Profile IDs for List
+get
+Add Profiles to List
+post
+Remove Profiles from List
+del
+Get Flows Triggered by List
+get
+Get IDs for Flows Triggered by List
+get
+Metrics API
+Custom Metrics API overview
+Mapped Metrics
+Get Mapped Metrics
+get
+Get Mapped Metric
+get
+Update Mapped Metric
+patch
+Get Metric for Mapped Metric
+get
+Get Metric ID for Mapped Metric
+get
+Get Custom Metric for Mapped Metric
+get
+Get Custom Metric ID for Mapped Metric
+get
+Metrics API overview
+Custom Metrics
+Get Custom Metrics
+get
+Create Custom Metric
+post
+Get Custom Metric
+get
+Update Custom Metric
+patch
+Delete Custom Metric
+del
+Get Metrics for Custom Metric
+get
+Get Metric IDs for Custom Metric
+get
+Metrics
+Get Metrics
+get
+Get Metric
+get
+Get Metric Property
+get
+Query Metric Aggregates
+post
+Get Flows Triggered by Metric
+get
+Get IDs for Flows Triggered by Metric
+get
+Get Properties for Metric
+get
+Get Property IDs for Metric
+get
+Get Metric for Metric Property
+get
+Get Metric ID for Metric Property
+get
+Profiles API
+Profiles API overview
+Push Tokens
+Get Push Tokens
+get
+Create or Update Push Token
+post
+Get Push Token
+get
+Delete Push Token
+del
+Get Profile for Push Token
+get
+Get Profile ID for Push Token
+get
+Profiles
+Get Profiles
+get
+Create Profile
+post
+Get Profile
+get
+Update Profile
+patch
+Create or Update Profile
+post
+Merge Profiles
+post
+Get Push Tokens for Profile
+get
+Get Push Token IDs for Profile
+get
+Get Lists for Profile
+get
+Get List IDs for Profile
+get
+Get Segments for Profile
+get
+Get Segment IDs for Profile
+get
+Bulk Import Profiles
+Get Bulk Import Profiles Jobs
+get
+Bulk Import Profiles
+post
+Get Bulk Import Profiles Job
+get
+Get List for Bulk Import Profiles Job
+get
+Get List IDs for Bulk Import Profiles Job
+get
+Get Profiles for Bulk Import Profiles Job
+get
+Get Profile IDs for Bulk Import Profiles Job
+get
+Get Errors for Bulk Import Profiles Job
+get
+Consent
+Get Bulk Suppress Profiles Jobs
+get
+Bulk Suppress Profiles
+post
+Get Bulk Suppress Profiles Job
+get
+Get Bulk Unsuppress Profiles Jobs
+get
+Bulk Unsuppress Profiles
+post
+Get Bulk Unsuppress Profiles Job
+get
+Bulk Subscribe Profiles
+post
+Bulk Unsubscribe Profiles
+post
+Conversations
+Get Conversations for Profile
+get
+Get Conversation for Profile
+get
+Get Conversation IDs for Profile
+get
+Get Conversation ID for Profile
+get
+Reporting API
+Reporting API overview
+Reporting
+Query Campaign Values
+post
+Query Flow Values
+post
+Query Flow Series
+post
+Query Form Values
+post
+Query Form Series
+post
+Query Segment Values
+post
+Query Segment Series
+post
+Reviews API
+Reviews API overview
+Reviews
+Get Reviews
+get
+Get Review
+get
+Update Review
+patch
+Segments API
+Segments API overview
+Segments
+Get Segments
+get
+Create Segment
+post
+Get Segment
+get
+Update Segment
+patch
+Delete Segment
+del
+Get Tags for Segment
+get
+Get Tag IDs for Segment
+get
+Get Profiles for Segment
+get
+Get Profile IDs for Segment
+get
+Get Flows Triggered by Segment
+get
+Get IDs for Flows Triggered by Segment
+get
+Tags API
+Tag Groups
+Get Tag Groups
+get
+Create Tag Group
+post
+Get Tag Group
+get
+Update Tag Group
+patch
+Delete Tag Group
+del
+Get Tags for Tag Group
+get
+Get Tag IDs for Tag Group
+get
+Tags
+Get Tags
+get
+Create Tag
+post
+Get Tag
+get
+Update Tag
+patch
+Delete Tag
+del
+Get Flow IDs for Tag
+get
+Tag Flows
+post
+Remove Tag from Flows
+del
+Get Campaign IDs for Tag
+get
+Tag Campaigns
+post
+Remove Tag from Campaigns
+del
+Get List IDs for Tag
+get
+Tag Lists
+post
+Remove Tag from Lists
+del
+Get Segment IDs for Tag
+get
+Tag Segments
+post
+Remove Tag from Segments
+del
+Get Tag Group for Tag
+get
+Get Tag Group ID for Tag
+get
+Templates API
+Universal Content API overview
+Templates
+Get Templates
+get
+Create Template
+post
+Get Template
+get
+Update Template
+patch
+Delete Template
+del
+Render Template
+post
+Clone Template
+post
+Create Template Preview Send Job
+post
+Create Template Conversion Job
+post
+Get Template Conversion Jobs
+get
+Get Template Conversion Job
+get
+Templates API overview
+Universal Content
+Get All Universal Content
+get
+Create Universal Content
+post
+Get Universal Content
+get
+Update Universal Content
+patch
+Delete Universal Content
+del
+Clone Universal Content
+post
+Text Messaging API
+Text Messaging API overview
+Text Messaging
+Get Text Messaging Configuration
+get
+Get Text Messaging Senders
+get
+Create Text Messaging Sender
+post
+Get Text Messaging Sender
+get
+Get Text Messaging Sender Registration
+get
+Create Text Messaging Configuration
+post
+Create Text Messaging Sender Registration
+post
+Get Messaging Sender Registration for Text Messaging Sender
+get
+Get Messaging Sender Registration ID for Text Messaging Sender
+get
+Tracking Settings API
+Tracking Settings
+Get Tracking Settings
+get
+Get Tracking Setting
+get
+Update Tracking Setting
+patch
+Translations API
+Translations API overview
+Translations
+Get Translations
+get
+Create Translation
+post
+Get Translation
+get
+Update Translation
+patch
+Delete Translation
+del
+Get Campaign Variation for Translation
+get
+Get Campaign Variation ID for Translation
+get
+Get Flow Message for Translation
+get
+Get Flow Message ID for Translation
+get
+Get Template for Translation
+get
+Get Template ID for Translation
+get
+Get Template Universal Content for Translation
+get
+Get Template Universal Content ID for Translation
+get
+Web Feeds API
+Web Feeds API overview
+Web Feeds
+Get Web Feeds
+get
+Create Web Feed
+post
+Get Web Feed
+get
+Update Web Feed
+patch
+Delete Web Feed
+del
+Webhooks API
+Webhooks API overview
+Webhooks
+Get Webhooks
+get
+Create Webhook
+post
+Get Webhook
+get
+Update Webhook
+patch
+Delete Webhook
+del
+Get Webhook Topics
+get
+Get Webhook Topic
+get
+Create Event
+post
+https://a.klaviyo.com
+/api/events
+Create a new event to track a profile's activity.
+Note that this endpoint allows you to create a new profile or update an existing profile's properties.
+At a minimum, profile and metric objects should include at least one profile identifier (e.g.,
+id
+,
+email
+, or
+phone_number
+) and the metric
+name
+, respectively.
+Successful response indicates that the event was validated and submitted for processing, but does not guarantee that processing is complete.
+Rate limits
+:
+Burst:
+350/s
+Steady:
+3500/m
+Scopes:
+events:write
+OpenAPI Spec
+Body Params
+data
+object
+required
+data
+object
+Headers
+revision
+string
+required
+Defaults to 2026-10-15
+API endpoint revision (format: YYYY-MM-DD[.suffix])
+Responses
+202
+Success
+4XX
+Client Error
+5XX
+Server Error
+Updated
+6 months ago
+Did this page help you?
+Yes
+No
+Language
+Shell
+Node
+Ruby
+PHP
+Python
+Credentials
+Header
+Header
+Loading
+Loading…
+Response
+Choose an example:
+application/vnd.api+json
+4XX
+5XX
+Updated
+6 months ago
+Did this page help you?
+Yes
+No
+Power smarter
+digital relationships
+Sign up for our developer newsletter
+Get the latest API updates, product announcements, developer tool updates, 
+        and more sent right to your inbox.
+By entering your information and clicking “Sign up,” you consent to receive 
+        marketing emails (such as newsletters, blog posts, webinars, event invitations 
+        and new product updates) from Klaviyo from time to time. You can unsubscribe at 
+        any time by clicking on the “Unsubscribe” link at the bottom of our emails. For 
+        more information on how we process your personal information and what rights you
+        have in this respect, please see our
+Privacy Policy
+.
+API docs
+API overview
+Events
+Profiles
+Lists
+Metrics
+Flows
+Resources
+Developer forum
+Slack channel
+Changelog
+SDK overview
+Help center
+Contact us
+Guides
+Get started
+Install SDKs
+Facebook
+Twitter
+Linked in
+Instagram
+Terms and Privacy
+Trademarks
+Security

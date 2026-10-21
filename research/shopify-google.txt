@@ -1,0 +1,37 @@
+Shopify Help Center | Google & YouTube
+Help
+Start for free
+Log in
+Contents
+Google & YouTube
+Note
+The Google & YouTube channel is available only for certain
+countries and currencies
+.
+Note
+The Google & YouTube sales channel is managed by Google. Refer to
+Google Merchant Center Help
+for setup guides.
+Google & YouTube
+Install the Google & YouTube sales channel from the Shopify App Store.
+The Google & YouTube channel automatically syncs your products and relevant information about your Shopify store with the
+Google Merchant Center
+. You can then update your Google product listings directly from your Shopify admin. For eligible stores selling in the United States, products synced to Google Merchant Center using the Google & YouTube channel can display in relevant
+Google Shopping tab search listings
+for free.
+Learn more about the
+Google & YouTube channel requirements
+. If you already use Google Merchant Center to manage a product feed or create Google Ads, then review some
+considerations before syncing an existing Google Merchant Center account
+.
+To learn about Google Analytics and ads, refer to the following resources:
+Google Analytics
+Link Shopify to Google Ads
+Learn about conversion tracking settings
+In this section
+Google & YouTube channel requirements
+Get set up with the Google & YouTube sales channel
+Shopping on Google
+Google Performance Max campaigns
+YouTube Shopping
+Leave feedback

@@ -1,0 +1,113 @@
+{
+  "id": "measurement",
+  "category": "growth",
+  "title": "上線量測：GA4、GSC、Google Ads 與 Meta",
+  "summary": "先釐清要量什麼，再接好流量、行為與成交資料。",
+  "keywords": [
+    "GA4",
+    "Google Search Console",
+    "GSC",
+    "GTM",
+    "Google Ads",
+    "Meta Pixel",
+    "CAPI",
+    "meta tag",
+    "追蹤",
+    "consent"
+  ],
+  "why": [
+    "沒有可靠量測，上線後無法判斷流量與活動是否帶來成果。",
+    "重複 purchase、幣別或 consent 錯誤會直接影響廣告優化和商業判讀。"
+  ],
+  "know": [
+    "GA4 看行為；GSC 看 Google 搜尋與索引；Google Ads／Meta 看投放與轉換，各自有不同歸因。",
+    "SEO title／description、OG tags 與 Meta Pixel 是不同東西；GTM 是可選部署工具，不是全部追蹤。",
+    "電商事件要定義觸發點、transaction_id、items、value、currency；個資不能隨意送進分析。"
+  ],
+  "inputs": [
+    "既有 GA4／GSC／GTM／廣告帳號 ID 與授權連線",
+    "事件、成交定義、來源系統、測試訂單及市場隱私要求"
+  ],
+  "actions": [
+    "先盤點現有原生 App、theme、GTM 和 server-side 實作，畫唯一事件責任表。",
+    "GA4／GSC 與 Google Ads／Meta 都列標準盤點；依渠道計畫接線，未使用者註明理由及未來需求，不直接略過。",
+    "測試 consent 接受／拒絕、購買、退款與重複載入；Meta Pixel／CAPI 以相同 event_name／event_id 去重。",
+    "比對 DebugView／平台測試事件與實際訂單，保留 payload、時間及去重證據；說明歸因差異。"
+  ],
+  "done": [
+    "一筆測試訂單只有一筆有效成交，金額幣別與訂單一致。",
+    "同意與拒絕行為符合核准規則；報表不暴露個資。"
+  ],
+  "pitfalls": [
+    "只確認 tag 有載入，沒測事件。",
+    "重建既有 property，導致歷史資料斷開。"
+  ],
+  "decision": "確認哪些行為代表成果，以及資料收集與同意規則。",
+  "sources": [
+    "owner-brief",
+    "ga4-ecommerce",
+    "shopify-privacy",
+    "tenten-shopify",
+    "meta-dedup",
+    "shopify-meta"
+  ],
+  "related": [
+    "ga4-commerce",
+    "meta-tracking",
+    "google-commerce",
+    "ecommerce-launch"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "量測是把網站行為轉成可判斷的資料。GA4、GSC 和廣告平台各看不同環節，合起來才能理解成效。",
+    "when": "網站上線、活動開始，或團隊需要回答「流量從哪來、為什麼沒有成交」時。",
+    "example": {
+      "situation": "GSC 顯示搜尋點擊增加，GA4 卻顯示訪客在商品頁離開。",
+      "lesson": "前者回答能否被找到，後者幫忙定位進站後的問題。"
+    },
+    "first_step": "先列出最想回答的三個商業問題，再決定需要哪些事件。",
+    "point_titles": [
+      "不同工具回答不同問題",
+      "追蹤碼與 SEO 標籤各有用途",
+      "事件名稱和成交定義要一致"
+    ],
+    "terms": [
+      [
+        "GA4",
+        "Google Analytics 4，觀察進站後的行為與轉換。"
+      ],
+      [
+        "GSC",
+        "Google Search Console，觀察 Google 搜尋曝光、點擊與索引。"
+      ],
+      [
+        "GTM",
+        "Google Tag Manager，用來管理追蹤標籤的工具。"
+      ]
+    ],
+    "diagram": {
+      "kind": "map",
+      "title": "四個工具，四種問題",
+      "nodes": [
+        [
+          "GSC",
+          "搜尋結果有沒有被看見、點進來？"
+        ],
+        [
+          "GA4",
+          "進站後做了什麼、在哪裡離開？"
+        ],
+        [
+          "Google Ads",
+          "Google 廣告帶來什麼成果？"
+        ],
+        [
+          "Meta",
+          "Facebook／Instagram 廣告帶來什麼成果？"
+        ]
+      ],
+      "caption": "先決定想回答的問題，再選工具與事件。各平台的歸因方式不同。"
+    }
+  }
+}

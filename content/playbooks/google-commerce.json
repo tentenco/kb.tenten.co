@@ -1,0 +1,92 @@
+{
+  "id": "google-commerce",
+  "category": "growth",
+  "title": "Google Ads 與商品 Feed：先接對再投放",
+  "summary": "把轉換、商品資料與落地頁對齊，才有可靠的搜尋與購物廣告。",
+  "keywords": [
+    "Google Ads",
+    "Merchant Center",
+    "Google & YouTube",
+    "Shopping",
+    "PMax",
+    "Performance Max",
+    "feed",
+    "GTIN",
+    "enhanced conversions",
+    "商品目錄"
+  ],
+  "why": [
+    "缺轉換會讓出價缺乏訊號；錯誤 Feed 會造成商品拒登或錯價。",
+    "把接線和投放分開驗收，能避免有花費卻無法判讀成效。"
+  ],
+  "know": [
+    "Ads 管投放／轉換；Merchant Center 管商品資料與資格；GA4 分析行為，GSC 看搜尋索引。",
+    "同一購買避免原生 Ads 與 GA4 匯入同時作主要出價轉換；觀察用來源需檢查目標納入規則。",
+    "Feed 對齊穩定 id、品牌／GTIN 等適用識別碼、價格／幣別、庫存、圖片、正式落地頁與運退規則。",
+    "Enhanced conversions 用核准的第一方資料補強比對；雜湊不是免除同意或資料責任。",
+    "Shopify Google & YouTube 是可優先評估的官方整合；headless 的結帳／域名／商品連結仍要實測。"
+  ],
+  "inputs": [
+    "既有 Ads／Merchant Center／GA4 帳號與目標市場",
+    "商品識別碼、運費退貨政策、主要轉換定義及授權範圍"
+  ],
+  "actions": [
+    "盤點既有連結與轉換，產出唯一主要購買來源、value／currency／transaction_id 契約。",
+    "透過適用整合／API 同步商品並查診斷；不可捏造 GTIN 或把開發網址送到正式 Feed。",
+    "測試訂單對帳、重載去重、跨域／歸因及 consent；Enhanced conversions 依現行能力驗證。",
+    "交付商品資格、拒登原因與修正清單；預算、素材、活動啟用另依既有投放授權。"
+  ],
+  "done": [
+    "代表商品價格／庫存／網址與落地頁一致，拒登項有原因及處置。",
+    "一次購買只產生預期的主要出價訊號；接線完成不宣稱已產生成效。"
+  ],
+  "pitfalls": [
+    "同一筆訂單在多個主要 conversion actions 重複計算。",
+    "Feed 指向 Shopify theme，但實際買家應前往自訂前台。"
+  ],
+  "decision": "確認廣告目標、轉換價值與預算；資料接通後再依授權啟用投放。",
+  "sources": [
+    "google-feed",
+    "google-enhanced",
+    "shopify-google",
+    "ga4-ecommerce"
+  ],
+  "related": [
+    "ga4-commerce",
+    "paid-media",
+    "headless-commerce",
+    "ecommerce-launch"
+  ],
+  "reviewed_at": "2026-10-21",
+  "status": "proposed-guidance",
+  "reader": {
+    "concept": "Google Ads 負責廣告投放，Merchant Center 提供商品目錄。商品資料與購買回報正確，廣告才有可用的基礎。",
+    "when": "準備 Google 購物廣告、商品被拒登，或購買轉換重複計算時。",
+    "example": {
+      "situation": "商品目錄寫有庫存，落地頁卻顯示售完，可能影響刊登資格。",
+      "lesson": "商品目錄、實際頁面和結帳資訊要對得起來。"
+    },
+    "first_step": "確認 Ads、Merchant Center 和 GA4 的現有帳號與連結關係。",
+    "point_titles": [
+      "先分清每個平台的工作",
+      "避免重複主要購買轉換",
+      "商品目錄要與網站一致",
+      "進階比對需要正確資料用途",
+      "官方整合仍要驗證完整旅程"
+    ],
+    "terms": [
+      [
+        "Feed",
+        "提供給平台的結構化商品目錄。"
+      ],
+      [
+        "GTIN",
+        "商品的全球貿易識別碼，依品項與平台規則提供。"
+      ],
+      [
+        "主要轉換",
+        "廣告出價主要使用的成果訊號，例如購買。"
+      ]
+    ]
+  }
+}
