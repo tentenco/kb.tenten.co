@@ -1,0 +1,743 @@
+{
+  "checked_at": "2026-10-21T07:46:14.993008+00:00",
+  "commit": "4a81ed4",
+  "base": "https://kb.tenten.co/",
+  "checks": [
+    {
+      "path": "about.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "ec4a8c2aa0d03a8d0efba1b88c9213079c46ebbd92864aa3f1c31d32536b6552"
+    },
+    {
+      "path": "categories/ai.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "9de0433328013710694ab009cdde33adf43f3658ba358b4e5052fd6226dbc2a0"
+    },
+    {
+      "path": "categories/build.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3fd9d1058c5b709c8025baea878a185e602eeba4dcdba04e6e5666e68bea756a"
+    },
+    {
+      "path": "categories/commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c44814087cdb8346fac829d3cdc2867bd8ef8237f7c13dddedd1bd645745d645"
+    },
+    {
+      "path": "categories/design.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1e786bfd45fdc321ca17b72bd6e70af840d3e291ef1b13b4c16a18ce70aead4d"
+    },
+    {
+      "path": "categories/growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "96a27380cf3ee0320c89189caf77cf777c525bc5ccd4941cf58efbf61a89df05"
+    },
+    {
+      "path": "categories/operations.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "04cbf603bdfdc2dd43763d3c4480d65a191e65f81944dd9d0bda1103dea8e64f"
+    },
+    {
+      "path": "categories/search.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "5357f2f68aff284ca44a409973dee49078e8c78f03372c25d73ee3755270938c"
+    },
+    {
+      "path": "categories/start.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "9f2b8c1d08761cf3ea9a5afe4ef9a541de61a0975d1e2af9e6391a864bf15e34"
+    },
+    {
+      "path": "en/about.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "6282817057c56e36dc74f0f9d6d4c7ea06bacd86761d6f06c182011295b8bd34"
+    },
+    {
+      "path": "en/categories/ai.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0ec33765897689035ae7150b0dd48cece1cd0abbeda9502e55f0fb45b60d9ad0"
+    },
+    {
+      "path": "en/categories/build.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "83108aa13585583a8ce251591235d53c931cabbd92c6ff77f05ee535f6f58484"
+    },
+    {
+      "path": "en/categories/commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "7018663b2dd50c004e561e3fccc09b7c5ab056b5cfc5ba69b71a31a6c33404e2"
+    },
+    {
+      "path": "en/categories/design.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1f5dad81ce0f34bfceb2b3ffc6daec11cd033005a8a02f705379770bb2701c03"
+    },
+    {
+      "path": "en/categories/growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "b050cc07a1ba5775413e3df1d558597b9aa23c40a998d7c2933071434e7e170b"
+    },
+    {
+      "path": "en/categories/operations.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bc287b92c9175fc365b78839bebb5db9b2258d01957e5b794559976020e87881"
+    },
+    {
+      "path": "en/categories/search.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "ec0d054069114bba582eb1b8a92f0c860a0d2563a36830700a8f03f4d5039a5f"
+    },
+    {
+      "path": "en/categories/start.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "e1886a24f61d401bd83f0b86492f99a224792aff25df11187c5ee7da6ba66836"
+    },
+    {
+      "path": "en/index.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "a02e80a0a860ef53993f6f8c714bb1ba0546e94b8c66a3aaad0a96d7687eec7c"
+    },
+    {
+      "path": "en/library.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "cad4a290cf60fc30d06b842761d31c4b0cbf6806661d4c205d2d92951692d9fa"
+    },
+    {
+      "path": "en/paths.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3b9d1be1f3feb05d84656ef6c4c709a5fc808a0c47efc117a6cd2a0a24af8f13"
+    },
+    {
+      "path": "en/playbooks/agent-workflow.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "588b260bd24c43b574f759a81bd39da69e84a14d9eb9c48d3f4dd569891f1b90"
+    },
+    {
+      "path": "en/playbooks/ai-consulting.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4bd3d07159144e0a10f4e98fa8bc4ede36cd3e9bf64b6332632dc26065189d2a"
+    },
+    {
+      "path": "en/playbooks/automation-integration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "a05d2d616769d9c359bb144b5f94a07f5d7f8ec54835b83c0d4279d2126322e0"
+    },
+    {
+      "path": "en/playbooks/brand-strategy.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "85082c9c0cc44fcbf14c919102f8b3dd07957f98db1464b04f7b57bff34693af"
+    },
+    {
+      "path": "en/playbooks/cms-content.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "d52c1950d7e98f6f104bf2f95b2ced43c7757a10a916212d7bae5c08f3af368d"
+    },
+    {
+      "path": "en/playbooks/commerce-merchandising.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "b93c1a378bd3110035b823341b93b53e77fc85c99241591ca6b63e823c1259f5"
+    },
+    {
+      "path": "en/playbooks/commerce-service.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "93690bd5d8e05c3ad0c686517c42b4c48c39efedcb4804f16480c044732a02ba"
+    },
+    {
+      "path": "en/playbooks/content-seo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "61d5cb0c76fd1c933a9a4eebf5c61e1974db7ed8b585725c0e4f09fa4f02fe9d"
+    },
+    {
+      "path": "en/playbooks/design-system.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "d5aedc4ec65230ed37e37179ec1c486be71e8acd689813ad788573a220d2b115"
+    },
+    {
+      "path": "en/playbooks/development-quality.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "cd41afde370e0eb8a320e1392d6c6546ce2fb9eee6128bffd044ef14e1e4c9fd"
+    },
+    {
+      "path": "en/playbooks/ecommerce-growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "e47ca28b9406fdd71c1e55059f80bdff283f08b64bbefd931191a02a61fc27d0"
+    },
+    {
+      "path": "en/playbooks/ecommerce-launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "06b0899f8607ecbeb052e590b3069dfa4d4dc3613a3bb35197220ac216f16d6b"
+    },
+    {
+      "path": "en/playbooks/fde.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "fdc027332e08624f3dbc86bb34787433ee2e6a94b8bd14fc8f104801b928f78f"
+    },
+    {
+      "path": "en/playbooks/ga4-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "937da9a031f63b106e632ad9570d628e474082d0166e271d62f599c4f0761f80"
+    },
+    {
+      "path": "en/playbooks/geo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "8da2d36b25888fbf1c953c310b1d2b27e1998fdd8c263b691298de934d53328f"
+    },
+    {
+      "path": "en/playbooks/google-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "042b508df51fed55637c190b62ae394d1c437cc5cf7248235724e2d99fd15c36"
+    },
+    {
+      "path": "en/playbooks/headless-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4dc7096b23a69c9225d752367c311aed598f98c6eacca9b1fb583d5d37cd47b7"
+    },
+    {
+      "path": "en/playbooks/hosting-architecture.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "ed302a51553122c0c0ef4d7bfb3ba2873f6143c28fb9e68f5fdd357d34e91ad5"
+    },
+    {
+      "path": "en/playbooks/klaviyo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "5a753470a01c33e7ea6d010020e484a159ed1491c25fee4ca201d254962919ea"
+    },
+    {
+      "path": "en/playbooks/launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "f488a8ef2906ef9a4be5baa2969204dad7446d65f9d8df5fca62469455671558"
+    },
+    {
+      "path": "en/playbooks/lifecycle-crm.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "566cf8815c7f5d23daf9ba4ed795f4a1e5c4328539cf2f1451918418bd73fea1"
+    },
+    {
+      "path": "en/playbooks/measurement.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "7543f4c5478c1d2ac96621d5bb5252f7ec174bda42198c11c9eb3e8cc403ad34"
+    },
+    {
+      "path": "en/playbooks/meta-tracking.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "fff9010ea4deddf586a80077da641a0233b2288032b71cc793015f8d52d1a563"
+    },
+    {
+      "path": "en/playbooks/migration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "76528b13443bbfe99a8434ea1e73479a7256d0ff7461cef850a503591eb7a421"
+    },
+    {
+      "path": "en/playbooks/operations-security.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4a5557fdd2f456339421224b7f3f19a622624a44714c00805d3c094265c4980b"
+    },
+    {
+      "path": "en/playbooks/paid-media.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "64d41fc2f15270b83b1662c36b84e547bfbffc4502f474a53db1ad42a3d7cef0"
+    },
+    {
+      "path": "en/playbooks/platform-choice.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "39095d5df13b0ee4ad14983e93a94b1bf9469292527e5afe31b075fb6ffaed84"
+    },
+    {
+      "path": "en/playbooks/project-brief.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bcbfff124fde636078fe543a528747c23813e3a84f270aba39e8c22943645d77"
+    },
+    {
+      "path": "en/playbooks/shopify-foundation.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0dbfd60ce9a3cb9b219457c0ae3f8ff9548db49990754a9a410e6b230972fb8c"
+    },
+    {
+      "path": "en/playbooks/technical-seo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "aaafa5426145a6c81b456acdb908f49c52fa84a7cfd91212e6c5f9a700fa1ba5"
+    },
+    {
+      "path": "en/playbooks/tenten-context.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bb7151c2dc2117cc15c3b089fcd525d349fdb4cc820a8441e1f41377baac23b2"
+    },
+    {
+      "path": "en/playbooks/ux-conversion.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c84df1875474af573836d3cb5f9cb71e7bf6f28ed1c9bbaeb2dc462b01420413"
+    },
+    {
+      "path": "en/scenarios/ai-workflow.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1587e5be1ae9f1c71e8b70e97ecbddfe484c3bef15fd394ce8e85fd71abd1020"
+    },
+    {
+      "path": "en/scenarios/brand-system.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0b87430b61401b55efb2bcb1ef8365411539d5e8611bade2e967e82014535f75"
+    },
+    {
+      "path": "en/scenarios/commerce-ecosystem.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1a937fc71609883716e6ba51d8e99b6ac576f2bd6fe8484c52e33e398b234977"
+    },
+    {
+      "path": "en/scenarios/ecommerce-launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "650d3b7fa3c42ff8fa9d948f385521c8c2ce39064d9506e5cde7390058f573f7"
+    },
+    {
+      "path": "en/scenarios/growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "92f753afecb9ecb3474dc04ad7c514ecb4621b4e9a804be1b66721b740381937"
+    },
+    {
+      "path": "en/scenarios/launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3989ad9d0b62ef39c2ec4679c87b8ff6f5c1db0660aed9496c512e8e75f9838c"
+    },
+    {
+      "path": "en/scenarios/migration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3f1df470ccea3047538a4f46fd8dbe99692c12d4b4ff45f49e9730ae8373b57b"
+    },
+    {
+      "path": "en/scenarios/operations.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "6eae4b4f9584becc727ef1dd277f8e7a23bbfdc33fb607bf3e00e8071aa80016"
+    },
+    {
+      "path": "en/scenarios/retention.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "5509f4977f27ccaa3f35b0a2a4f81c14b0e9568eccd69c7c0c5c12a5e145d168"
+    },
+    {
+      "path": "en/scenarios/seo-geo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c145a359037917b263080c7f88d8d6eb8d9529b299794d0f6a1bae3712bb848d"
+    },
+    {
+      "path": "en/scenarios/website.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "8cbad3fe1b5281d9f153fb8590f0750488bb3eaf4d66c87b3306221ef5661749"
+    },
+    {
+      "path": "en/search.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "ba9df1441e4bb8a0ed65574fa071de5f538792803f1df093a9be9d05e09f7caa"
+    },
+    {
+      "path": "en/sources.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bb7be20546b74d27a789f0f8928a9a374de89905225eb8a5562dd2edb23f0458"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "48bb5004976ec1f6f6502835b35e9560b733eb2ae05cd2191153b4cb8ca0f4ad"
+    },
+    {
+      "path": "library.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "5d069530a18c690162a0c3a9e02d207f22525d07d0566bea0196326532321cb0"
+    },
+    {
+      "path": "paths.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "a033f14991b11dd26d5214ed8a72a4d958f8fb2b92ec309f609c9b98f0943694"
+    },
+    {
+      "path": "playbooks/agent-workflow.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0ad2c7f80161ae2b5b50e0f45074baa860466f75dc26f7b500d2ef0f365fa7fc"
+    },
+    {
+      "path": "playbooks/ai-consulting.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "df3568ff2d40eef51e2994bd834209ebb680bc799f90e15368253b2acebe8b96"
+    },
+    {
+      "path": "playbooks/automation-integration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "2e916f5223ded89e5796087ceba2a094a98ec395ad722347ba3216abbfa527b0"
+    },
+    {
+      "path": "playbooks/brand-strategy.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "ec2e6b0886da398b7bc67d9a7845f4eea8756e5423b96127906bbcd826dc0ff7"
+    },
+    {
+      "path": "playbooks/cms-content.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "10140b7afcfa9741e40f9ef239e6d14a390428efed35033f724523eaf64491f7"
+    },
+    {
+      "path": "playbooks/commerce-merchandising.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "63ad838d04c545dd802295c6dabf0122f7cbb4e125142e0efa1d18e386cce5a0"
+    },
+    {
+      "path": "playbooks/commerce-service.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "8de42aeefc0c01c887e76ef2f429148b62ac86edb2146b24c5bb71d530d3f54c"
+    },
+    {
+      "path": "playbooks/content-seo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0bc789487b2d81176e2ab2c7cfc119a33dfeeada90c13ed6abb5460d3d56f620"
+    },
+    {
+      "path": "playbooks/design-system.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "6c1d58345468b8968a472137d919c3fdb66ac5985d9740c2f555a6c6fdf92e35"
+    },
+    {
+      "path": "playbooks/development-quality.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "cbf9b23f3f84e650fb7880df7713597b6de960f7a151b3514ecce66a9f43bdff"
+    },
+    {
+      "path": "playbooks/ecommerce-growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "8292f13d86c3befe85b3d958364ff6a577ef1282baf13b99ecb0c2b4819ce8a5"
+    },
+    {
+      "path": "playbooks/ecommerce-launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c5a1a283f5ba14bbc0a31697cbcff3b21c2824652752fbb8e1435596d8b07dec"
+    },
+    {
+      "path": "playbooks/fde.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "2f5316390cfccaf180be1a83ae41b4ab9e635ffda279bc407d745864ff97bec5"
+    },
+    {
+      "path": "playbooks/ga4-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "b8f7a2f02a715b938aad7937fb4bd708b367767f1ba25a39ca44c9c9eb09b8e1"
+    },
+    {
+      "path": "playbooks/geo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "fe6622c953c09a5d2b420e41a8006e9f0a79d5afd3678e52cdeb3e9dd59fdee9"
+    },
+    {
+      "path": "playbooks/google-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0946cfcb482db78824f696c6d4e128cbc68cc0a4995725af91748c039e85e41f"
+    },
+    {
+      "path": "playbooks/headless-commerce.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "96a5e0d13574f2b9b0edd9c84fea376e03de4278c40e7fada66d3e7bd3031f0e"
+    },
+    {
+      "path": "playbooks/hosting-architecture.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "73b90f4f6705e9282b6543cac40b438fea13c065ca0438c26746e2c5acf67326"
+    },
+    {
+      "path": "playbooks/klaviyo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "49c1c7077b40a56babe5390d38e79a6c2fa01ff3fb529f888a763cc8f874d137"
+    },
+    {
+      "path": "playbooks/launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0e5cdeffca73ac4e847e2c0654d1c988716757afe5598faccec1efa0cae79326"
+    },
+    {
+      "path": "playbooks/lifecycle-crm.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4370548da9c818bb11c8df6d9946cbed2d9d7e8d58d5987cf90c524e7bf7ffa0"
+    },
+    {
+      "path": "playbooks/measurement.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "9079681cd677b0e720f7be83071024ee89ed701563717fe52395703f12c9c1ad"
+    },
+    {
+      "path": "playbooks/meta-tracking.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c7033f013ae330edede44f746f98611c6845d0ea78ef9fc8ab1b06823c642373"
+    },
+    {
+      "path": "playbooks/migration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "70f9fb6d2ed85447f02338a58609c5654b0f378528b4885117e4cd95a7c0ac1b"
+    },
+    {
+      "path": "playbooks/operations-security.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "c1082a5a0dfffe062a13c8b3e030f098dd4a9197ba6cbe5f10b070da5952bfc2"
+    },
+    {
+      "path": "playbooks/paid-media.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1ae87f8fa5f999b3cda945b7fed4c09042b84bbc6a459e306c79dd940b51cd69"
+    },
+    {
+      "path": "playbooks/platform-choice.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4545cfdbf957bd20abb7b262e0cfcb5e70426a12908cb07bd98d687d4ade97b9"
+    },
+    {
+      "path": "playbooks/project-brief.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bbd8c4f52c04974641974ed16504791fe50bcbae2fddbc05194bbf68ec2e0680"
+    },
+    {
+      "path": "playbooks/shopify-foundation.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "d3549278fab332b665e99aafac318f459016e333a272237406ef2840dd4bb604"
+    },
+    {
+      "path": "playbooks/technical-seo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "6b3c33d052537d1fe16ffdd3ac7fa2e600bd5a8e1cfb7bdc81196baffc958a1c"
+    },
+    {
+      "path": "playbooks/tenten-context.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "b6f48231b384bd1d960005da2400cc86e18dc0a40947cc4de19495d5e354c7db"
+    },
+    {
+      "path": "playbooks/ux-conversion.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "1a4cbbda7a4f37130e5ca6c27caf321d75ebc3414d143052fb65be9cb264a1d0"
+    },
+    {
+      "path": "scenarios/ai-workflow.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "24247035e861ceee4ba6ee3b37dd5bd0017a8cbdca4c9805eb30b2db1a3a721d"
+    },
+    {
+      "path": "scenarios/brand-system.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "8bf82275af5b4fdc75293a6e1c95a6f444fa4d2525f5c49eec0e7ded0c3f151a"
+    },
+    {
+      "path": "scenarios/commerce-ecosystem.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "aec77c43984a050153d983fe61f13c48a39cb3f3e1237c551cb06c530a959287"
+    },
+    {
+      "path": "scenarios/ecommerce-launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "792b3683c98dcceb56f8558da35a3f5f1d79b7c1467c65ed6b55fc034edc556d"
+    },
+    {
+      "path": "scenarios/growth.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3f66113965032f053903318d32f1b76da06da9bef92d60b9865f8f5b289087bb"
+    },
+    {
+      "path": "scenarios/launch.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "0bde1089a9561aa677d569703a562a4a335bcbee523fb3b6896ae35f6db3d476"
+    },
+    {
+      "path": "scenarios/migration.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "bdd9df6b6e187286befb85da7d85039c4fe7ebba540983f6992480ccfd655f7b"
+    },
+    {
+      "path": "scenarios/operations.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "7cd300c68c732ce6c0b3250d377200a669fef25d4b074a536fa1a2e1b94f433c"
+    },
+    {
+      "path": "scenarios/retention.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "db0cdafb859efdda020daf704cb9676024034e36ea7a8534e827196c132877cb"
+    },
+    {
+      "path": "scenarios/seo-geo.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "6faae027fa777e67c3860bd18e3c644215c7bad44863f785056cbfaaf5eb31d8"
+    },
+    {
+      "path": "scenarios/website.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "3aabd180211f0f8149567da571657f6bcaff18d9e823c7a3eb58561dc12a1ad3"
+    },
+    {
+      "path": "search.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "4a7780915c78696cd76604e15e2c23b8cf79f463090389b5a2de992cd714ccb4"
+    },
+    {
+      "path": "sources.html",
+      "status": 200,
+      "matches": true,
+      "sha256": "a1196774aa1c7936034a5cce54ae60a08095a90a2f0b48c8c5a2c5d8d7399891"
+    },
+    {
+      "path": "en/assets/app.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "58e2fce5e5fadac68e479348223c0d4e0971d631eac8184caf14d7be4377e9f4"
+    },
+    {
+      "path": "en/assets/search-data.js",
+      "status": 200,
+      "matches": true,
+      "sha256": "66d016cbd597be8d35784e4e3f9722194ee87436a50d57265d28f82e2e51c123"
+    },
+    {
+      "path": "en/files/playbooks/fde.md",
+      "status": 200,
+      "matches": true,
+      "sha256": "ee27105464d7e3d793da64cc528b30f53fcbc872dd3a5b17ae45ff8c6d5ee8fc"
+    },
+    {
+      "path": "en/files/scenarios/retention.md",
+      "status": 200,
+      "matches": true,
+      "sha256": "dde32522a2ff22a5a0417e109d83849fffa162b31760a89c727ea074e739b8f8"
+    },
+    {
+      "path": "en/knowledge.json",
+      "status": 200,
+      "matches": true,
+      "sha256": "bcfe094aeade4c06da4d9e6430cfbbe2e44a9b3763515779cf9d62595aa1fdb1"
+    },
+    {
+      "path": "en/files/INDEX.md",
+      "status": 200,
+      "matches": true,
+      "sha256": "bca7b5679f30a17e6dae21939d122d13dc7cac3d10f7ab1197b1f2ee20284c2e"
+    },
+    {
+      "path": "playbooks/ai-fte.html",
+      "status": 200,
+      "matches": true,
+      "redirect": "https://kb.tenten.co/playbooks/fde.html"
+    },
+    {
+      "path": "files/playbooks/ai-fte.md",
+      "status": 200,
+      "matches": true,
+      "redirect": "https://kb.tenten.co/files/playbooks/fde.md"
+    }
+  ],
+  "passed": 122,
+  "total": 122,
+  "deployment": "https://vercel.com/tentenco/kb.tenten.co/EekD1w6i6JdDHq3W2ynUtHhHhhEP",
+  "ci": "https://github.com/tentenco/kb.tenten.co/actions/runs/39564248353"
+}

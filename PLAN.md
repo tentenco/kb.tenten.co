@@ -105,4 +105,4 @@ Completed: research, authoring, static build, improvement waves, browser verific
 - Added corresponding-page language links, local English search, runtime feedback, diagrams, handoff packets and Markdown exports. No translation service is required.
 - Added source-review fingerprints and structural parity checks; retained the existing Chinese checks and added equivalent English checks.
 - Local browser checks: English natural-language search, both-direction article/anchor switches, query/filter preservation, real Markdown download equality, draft reload/clear/undo and mobile navigation passed. All 57 English routes fit 390px; the 320px homepage also fits.
-- Next: final rebuilt artifacts, CI and production verification. Queue otherwise empty.
+- Completed: bilingual build, 352/352 harness checks, JavaScript syntax, GitHub CI and Vercel deployment. All 114 production HTML pages, six English assets/exports and two legacy redirects passed byte/route checks (122/122). Queue empty.

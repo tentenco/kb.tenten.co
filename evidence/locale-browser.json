@@ -24,11 +24,16 @@
     "system_theme_change": true,
     "manual_theme_reload": true,
     "english_empty_state": true,
-    "file_url_search": true
+    "file_url_search": true,
+    "production_quick_search": true,
+    "production_language_switch_both_directions": true,
+    "production_download_equals_preview": true,
+    "production_download_english": true
   },
   "mobile_evidence": "evidence/locale-mobile.json",
   "limits": [
     "Browser emulation is reapplied each tool round.",
     "An initial menu attempt ran after emulation reset; it was repeated successfully with the mobile viewport active."
-  ]
+  ],
+  "production": "https://kb.tenten.co/en/"
 }
