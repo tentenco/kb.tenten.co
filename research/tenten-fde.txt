@@ -1,0 +1,243 @@
+URL: https://tentenai.com/en/methodology
+Observed: 2026-10-21
+
+Enterprise AI delivery method | Tenten AI
+Skip to main content
+Services
+All services
+Choose the work you want to improve
+Forward Deployed Marketing (FDM)
+What is FDM? Embedded AI marketing systems
+AI Copilot rollout
+An assistant people use at work
+Agentic workflows
+Route routine work and exceptions clearly
+RAG knowledge systems
+Answers linked back to enterprise knowledge
+MVP development
+Scope, build and evaluate the first usable version
+Delivery workspace
+Review scope, progress, decisions and acceptance
+Solutions
+All solutions
+Built for regulated, at-scale operations
+Financial services
+Document review and risk workflows with human approval
+Healthcare
+AI with clinicians in the loop
+Manufacturing
+Inspection support designed around the line
+Retail & commerce
+From merchandising to a customer copilot
+Logistics
+Planning and dispatch connected to existing systems
+Automotive
+Aftersales, dealer and connected-car services
+How we work
+Engagement model
+Start with one workflow, then earn the rollout
+FDE methodology
+How forward-deployed delivery works
+Work
+Published work and delivery context
+Resources
+Blog
+Practical articles on AI and delivery decisions
+Whitepapers
+Technical decisions and field guides
+Insights
+The latest on enterprise AI
+Work-time calculator
+Estimate workflow capacity using your assumptions
+AI Academy
+Field guides for AI marketing and agent building
+AI Career Map
+Explore the AI Career Roadmap
+AI Leaderboard
+Compare the AI models teams can deploy now
+Free tools
+All free tools
+No sign-up. Results you can share with your team
+AI Visibility Check
+See whether AI search finds and cites your brand
+AI Readiness Check
+12 questions to find your biggest adoption gaps
+AI Vendor Scorecard
+Compare AI vendors on weighted criteria
+Taiwan Brand AI Visibility Index
+Which Taiwan brands AI assistants recommend
+Contact the team
+en
+🇺🇸
+English
+English
+en
+🇹🇼
+繁體中文
+Traditional Chinese
+zh-TW
+🇨🇳
+简体中文
+Simplified Chinese
+zh-CN
+🇯🇵
+日本語
+Japanese
+ja
+🇰🇷
+한국어
+Korean
+ko
+🇫🇷
+Français
+French
+fr
+🇪🇸
+Español
+Spanish
+es
+🇧🇷
+Português
+Portuguese
+pt
+🇸🇦
+العربية
+Arabic
+ar
+Services
+All services
+Choose the work you want to improve
+Forward Deployed Marketing (FDM)
+What is FDM? Embedded AI marketing systems
+AI Copilot rollout
+An assistant people use at work
+Agentic workflows
+Route routine work and exceptions clearly
+RAG knowledge systems
+Answers linked back to enterprise knowledge
+MVP development
+Scope, build and evaluate the first usable version
+Delivery workspace
+Review scope, progress, decisions and acceptance
+Solutions
+All solutions
+Built for regulated, at-scale operations
+Financial services
+Document review and risk workflows with human approval
+Healthcare
+AI with clinicians in the loop
+Manufacturing
+Inspection support designed around the line
+Retail & commerce
+From merchandising to a customer copilot
+Logistics
+Planning and dispatch connected to existing systems
+Automotive
+Aftersales, dealer and connected-car services
+How we work
+Engagement model
+Start with one workflow, then earn the rollout
+FDE methodology
+How forward-deployed delivery works
+Work
+Published work and delivery context
+Resources
+Blog
+Practical articles on AI and delivery decisions
+Whitepapers
+Technical decisions and field guides
+Insights
+The latest on enterprise AI
+Work-time calculator
+Estimate workflow capacity using your assumptions
+AI Academy
+Field guides for AI marketing and agent building
+AI Career Map
+Explore the AI Career Roadmap
+AI Leaderboard
+Compare the AI models teams can deploy now
+Free tools
+All free tools
+No sign-up. Results you can share with your team
+AI Visibility Check
+See whether AI search finds and cites your brand
+AI Readiness Check
+12 questions to find your biggest adoption gaps
+AI Vendor Scorecard
+Compare AI vendors on weighted criteria
+Taiwan Brand AI Visibility Index
+Which Taiwan brands AI assistants recommend
+Contact the team
+METHODOLOGY · FDE
+One workflow, from scope to operations
+The same team understands the work, builds the integration and plans the operating responsibility. A clear first scope lets you review working software and make the next decision with evidence.
+Four delivery principles
+01
+Understand the actual workflow
+Work with the people doing the task. Confirm data, permissions, exceptions and the decisions the system must support.
+02
+Agree on the first scope
+Choose one use case with an owner, a baseline and acceptance criteria. Compare benefit, integration cost and risk before the build.
+03
+Review working progress
+Use working iterations and documented decisions to keep progress visible and adjust the scope when evidence changes.
+04
+Define the operating owner
+Evaluation, monitoring, incident response and knowledge transfer belong in the scope before launch.
+Evaluate, build, then operate
+PHASE 1 · EVALUATE
+Define the workflow
+Map users, sources and constraints. Agree on success criteria and decide whether the next stage is justified.
+PHASE 2 · BUILD
+Build and review together
+Connect the agreed systems, review working iterations and test the main path and exceptions with users.
+PHASE 3 · OPERATE
+Launch with responsibility
+Confirm release conditions, monitoring and support. Expand after the first workflow meets its acceptance criteria.
+Start with one workflow.
+Agree on the next step.
+Leave your contact details and question type. We will follow up by email to understand the work and discuss scope.
+Contact the team
+A Taipei design and AI team that scopes, builds and operates enterprise workflows.
+inquiry@tenten.co
+Services
+Forward Deployed Marketing (FDM)
+AI Copilot rollout
+Agentic workflows
+RAG knowledge systems
+MVP development
+Delivery workspace
+GEO (AI SEO)
+Solutions
+Financial services
+Healthcare
+Manufacturing
+Retail & commerce
+Logistics
+Automotive
+Learn & resources
+Free tools
+AI Academy
+Blog
+Whitepapers
+Insights
+Work-time calculator
+AI Leaderboard
+Taiwan Brand AI Visibility Index
+AI Career Map
+Company
+How we work
+FDE methodology
+Work
+About Tenten AI
+Partners
+Security & compliance
+Careers
+Contact
+Find us
+©
+2026
+Tenten AI.
+All rights reserved.
+Privacy Policy
+Taipei · Asia

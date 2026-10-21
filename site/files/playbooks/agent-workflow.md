@@ -66,4 +66,4 @@ AI-native 工作方式，是把目標、資料和完成條件交代清楚，讓 
 
 - project-brief
 - automation-integration
-- ai-fte
+- fde

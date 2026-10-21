@@ -275,21 +275,21 @@
   },
   {
     "id": "ai-workflow",
-    "title": "AI 顧問／AI FTE 導入",
+    "title": "AI 顧問跟 FDE 導入",
     "subtitle": "從一段卡住的工作開始，做到可評估、可接手。",
     "category": "ai",
     "featured": false,
     "ids": [
       "project-brief",
       "ai-consulting",
-      "ai-fte",
+      "fde",
       "automation-integration"
     ],
     "inputs": [
       "現行流程、代表樣本和人工基準",
       "資料、工具、自主範圍、預算與負責人"
     ],
-    "deliverable": "值得自動化的工作、AI 角色範圍、小規模試點與評估結果，以及後續維護安排。",
+    "deliverable": "值得改善的流程、首階段交付範圍、可運作試點與驗收結果，以及上線後的維運安排。",
     "stages": [
       {
         "title": "選對工作",
@@ -300,10 +300,10 @@
         ]
       },
       {
-        "title": "定義角色與交付",
-        "description": "建立穩定工作範圍與例外處理。",
+        "title": "定義交付與責任",
+        "description": "由實際工作出發，約定範圍、驗收與維運。",
         "ids": [
-          "ai-fte"
+          "fde"
         ]
       },
       {

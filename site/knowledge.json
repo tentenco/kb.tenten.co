@@ -186,7 +186,7 @@
       "related": [
         "project-brief",
         "automation-integration",
-        "ai-fte"
+        "fde"
       ],
       "reviewed_at": "2026-10-21",
       "status": "proposed-guidance",
@@ -2416,7 +2416,7 @@
       "related": [
         "hosting-architecture",
         "launch",
-        "ai-fte"
+        "fde"
       ],
       "reviewed_at": "2026-10-21",
       "status": "proposed-guidance",
@@ -2492,7 +2492,7 @@
         "owasp-agents"
       ],
       "related": [
-        "ai-fte",
+        "fde",
         "automation-integration",
         "project-brief"
       ],
@@ -2572,7 +2572,7 @@
         "owasp-agents"
       ],
       "related": [
-        "ai-fte",
+        "fde",
         "lifecycle-crm",
         "shopify-foundation"
       ],
@@ -2594,50 +2594,49 @@
       }
     },
     {
-      "id": "ai-fte",
+      "id": "fde",
       "category": "ai",
-      "title": "AI FTE：把 AI 變成持續交付的工作角色",
-      "summary": "用工作範圍、品質、吞吐和例外管理定義角色，而不是承諾等於幾個人。",
+      "title": "FDE：從客戶現場到正式運作",
+      "summary": "深入實際工作流程，由同一團隊定義問題、建置整合，並安排上線後的責任。",
       "keywords": [
-        "AI FTE",
-        "FTE",
-        "AI employee",
-        "AI 員工",
-        "agent ops",
-        "digital worker"
+        "FDE",
+        "Forward Deployed Engineering",
+        "Forward Deployed Engineer",
+        "嵌入式交付",
+        "AI 顧問"
       ],
       "why": [
-        "持續運作需要穩定輸入、排程、責任人及維運，不能只靠一次 prompt。",
-        "用每件成本、品質與人工介入率衡量，才知道自動化有沒有價值。"
+        "貼近使用者、資料與例外情況，能減少規劃與實際使用之間的落差。",
+        "同一團隊把範圍、驗收與維運接起來，讓試點有機會成為持續可用的系統。"
       ],
       "know": [
-        "本庫用 AI FTE 表示持續負責一段工作流程的 AI 角色設計；不是已核准的方案、人力或工時保證。",
-        "定義任務、輸入、工具權限、交付、頻率、成本上限及人工接手。",
-        "人類擁有決策與例外責任；知識、模型或工具變更後要重跑代表評估。"
+        "FDE 是 Forward Deployed Engineering，指深入客戶業務流程的工程交付方式；FDE 也可指執行這種工作的工程師。",
+        "先選一段有負責人、可取得資料、可量測基準的工作，約定第一階段範圍與驗收。",
+        "與使用者共同檢視可運作版本，驗證主要流程及例外；上線前確認監控、事件處理與知識移轉。"
       ],
       "inputs": [
-        "要承接的工作、量和頻率、人工基準與品質要求",
-        "工具／資料範圍、成本、負責人與例外範例"
+        "實際使用者、現行流程、資料／權限、失敗樣本與成效基準",
+        "首階段範圍、預算、驗收人與後續維運責任"
       ],
       "actions": [
-        "寫角色契約：觸發、輸入、交付、done、可自主動作及升級條件。",
-        "加入排程、去重、重試、觀測及中止開關，先以 shadow mode 比對。",
-        "小範圍上線，記錄成功率、每件成本、時間與人工介入率。",
-        "建立週期回顧、版本、回復與離職／撤權機制。"
+        "與實際執行者梳理流程，確認問題、資料、例外與決策。",
+        "選一個 use case，約定驗收條件，評估效益、整合成本與風險。",
+        "建置可運作版本，接入約定系統，與使用者測試主流程與例外並記錄決策。",
+        "確認發布、監控、回復、支援與知識移轉；達標後再決定擴大範圍。"
       ],
       "done": [
-        "連續代表批次可追溯；錯誤不靜默、重跑不重複執行外部動作。",
-        "成效對照基準，人工工作沒有被忽略；未達標可停用與接手。"
+        "可用系統通過約定樣本與驗收，結果能對照原先基準。",
+        "上線與後續維運有明確責任、監控及接手機制，未完成項可追查。"
       ],
       "pitfalls": [
-        "用 token 數或輸出篇數當唯一績效。",
-        "沒有責任人就讓 Agent 無期限運作。"
+        "只完成 demo，卻沒有測試真實權限、資料與例外。",
+        "把 FDE 當成 AI 員工或人力替代保證，忽略工程團隊與客戶共同負責的範圍。"
       ],
-      "decision": "定義這個角色可以自行完成哪些事，遇到什麼情況必須交回人類判斷。",
+      "decision": "先確認第一段流程、驗收門檻與上線後由誰負責，再決定是否擴大交付。",
       "sources": [
         "owner-brief",
         "tenten-ai",
-        "owasp-agents"
+        "tenten-fde"
       ],
       "related": [
         "ai-consulting",
@@ -2647,40 +2646,36 @@
       "reviewed_at": "2026-10-21",
       "status": "proposed-guidance",
       "reader": {
-        "concept": "AI FTE 在這裡指持續負責一段工作的 AI 角色。重點是它定期交付什麼、品質如何，以及什麼時候交回人類。",
-        "when": "單次 AI 任務已可用，想把它變成每天或每週持續運作的流程時。",
+        "concept": "FDE（Forward Deployed Engineering）是把工程團隊帶進客戶的實際工作流程，從理解問題、建置整合到正式運作都持續參與。",
+        "when": "問題需要結合業務判斷、既有系統與真實使用者，且試點必須落地運作時。",
         "example": {
-          "situation": "每週整理行銷報表的 AI，要能準時交付，也要指出資料缺漏。",
-          "lesson": "角色的價值來自穩定交付和例外處理，不能只看生成速度。"
+          "situation": "客服想用 AI 查詢訂單與退貨規則，工程團隊先跟客服確認資料、權限及需要人工判斷的例外。",
+          "lesson": "驗收要包含實際系統整合與客服接手，並在上線前約定監控和維護責任。"
         },
-        "first_step": "寫出角色的任務、頻率、成果、成本上限與人工接手條件。",
+        "first_step": "找實際執行者選一段工作，寫下現在的問題、成果基準與驗收人。",
         "point_titles": [
-          "角色概念不等於人力保證",
-          "定義完整的工作範圍",
-          "變更後重新檢查品質"
+          "深入業務的工程交付",
+          "從一段可驗收的工作開始",
+          "把維運放進交付範圍"
         ],
         "diagram": {
           "kind": "flow",
-          "title": "讓角色持續交付",
+          "title": "從一段工作走到正式運作",
           "nodes": [
             [
-              "接收任務",
-              "範圍與頻率"
+              "評估",
+              "流程、基準與範圍"
             ],
             [
-              "執行工作",
-              "資料與工具"
+              "建置",
+              "整合、試用與驗收"
             ],
             [
-              "檢查成果",
-              "品質與成本"
-            ],
-            [
-              "交付或接手",
-              "完成紀錄／人工處理"
+              "運作",
+              "監控、支援與移轉"
             ]
           ],
-          "caption": "每一輪都能追查結果；模型、資料或工具改變後，重新確認品質。"
+          "caption": "先驗證第一段流程，再依結果決定擴大；各階段的責任需在專案中約定。"
         }
       }
     }
@@ -2843,8 +2838,8 @@
     },
     {
       "id": "ai",
-      "title": "AI 顧問與 AI FTE",
-      "summary": "將單次協助變成可驗收的工作流程。",
+      "title": "AI 顧問跟 FDE",
+      "summary": "從業務問題、系統整合到正式運作，讓交付有明確責任。",
       "number": "08",
       "clusters": [
         {
@@ -2854,10 +2849,10 @@
           ]
         },
         {
-          "title": "接好工具，持續交付",
+          "title": "整合系統，落地運作",
           "ids": [
             "automation-integration",
-            "ai-fte"
+            "fde"
           ]
         }
       ]
@@ -3140,21 +3135,21 @@
     },
     {
       "id": "ai-workflow",
-      "title": "AI 顧問／AI FTE 導入",
+      "title": "AI 顧問跟 FDE 導入",
       "subtitle": "從一段卡住的工作開始，做到可評估、可接手。",
       "category": "ai",
       "featured": false,
       "ids": [
         "project-brief",
         "ai-consulting",
-        "ai-fte",
+        "fde",
         "automation-integration"
       ],
       "inputs": [
         "現行流程、代表樣本和人工基準",
         "資料、工具、自主範圍、預算與負責人"
       ],
-      "deliverable": "值得自動化的工作、AI 角色範圍、小規模試點與評估結果，以及後續維護安排。",
+      "deliverable": "值得改善的流程、首階段交付範圍、可運作試點與驗收結果，以及上線後的維運安排。",
       "stages": [
         {
           "title": "選對工作",
@@ -3165,10 +3160,10 @@
           ]
         },
         {
-          "title": "定義角色與交付",
-          "description": "建立穩定工作範圍與例外處理。",
+          "title": "定義交付與責任",
+          "description": "由實際工作出發，約定範圍、驗收與維運。",
           "ids": [
-            "ai-fte"
+            "fde"
           ]
         },
         {
@@ -3411,12 +3406,12 @@
     {
       "id": "ai-operator",
       "title": "AI／自動化",
-      "summary": "從單次任務，走到持續交付與可觀測整合。",
+      "summary": "從問題評估、工程整合，走到有人負責的正式運作。",
       "ids": [
         "agent-workflow",
         "ai-consulting",
         "automation-integration",
-        "ai-fte"
+        "fde"
       ]
     },
     {
@@ -3520,7 +3515,7 @@
       "kind": "company-context",
       "observed_at": "2026-10-21",
       "access": "browser-reviewed",
-      "scope": "AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。",
+      "scope": "AI 試點、Agent workflow、知識系統與整合服務脈絡。",
       "evidence": "research/tenten-public-pages.json"
     },
     {
@@ -3751,6 +3746,16 @@
       "access": "retrieved-reviewed",
       "scope": "原生 redirect 的適用路由與限制；自訂前台需檢查實際處理舊 URL 的路由層。",
       "evidence": "research/shopify-redirects.txt"
+    },
+    {
+      "id": "tenten-fde",
+      "title": "Tenten AI: FDE methodology",
+      "url": "https://tentenai.com/en/methodology",
+      "kind": "company-context",
+      "observed_at": "2026-10-21",
+      "access": "retrieved-reviewed",
+      "scope": "同一團隊理解流程、建置整合並安排維運責任；評估、建置與運作三階段，不推定個別合約承諾。",
+      "evidence": "research/tenten-fde.txt"
     }
   ],
   "navigation": {

@@ -1,10 +1,10 @@
 {
   "status": "PASS",
-  "checked_at": "2026-10-21T07:20:14.194279+00:00",
+  "checked_at": "2026-10-21T07:30:29.298302+00:00",
   "checks_passed": 170,
   "checks_total": 170,
-  "source_sha256": "1bfd225fe2bf17b93549977820b2080acae8759cb1d8635535e14a700330c482",
-  "site_sha256": "34cac87fc1a0c1d4a79aaf08578baacc690203ab136a9cda82e41c6abac57361",
+  "source_sha256": "3f13a0828c79576950fec0eaf0264a39ad5651d44565766d721a930bba34ad55",
+  "site_sha256": "98eef866f76ae58784ae44548248c98b927936edfa6a819f517a88323f0f3b55",
   "checks": [
     {
       "name": "canonical schema and references",
@@ -88,11 +88,6 @@
     },
     {
       "name": "page: playbooks/headless-commerce.html",
-      "passed": true,
-      "detail": ""
-    },
-    {
-      "name": "page: playbooks/ai-fte.html",
       "passed": true,
       "detail": ""
     },
@@ -218,6 +213,11 @@
     },
     {
       "name": "page: playbooks/tenten-context.html",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "page: playbooks/fde.html",
       "passed": true,
       "detail": ""
     },
@@ -357,11 +357,6 @@
       "detail": ""
     },
     {
-      "name": "export: ai-fte",
-      "passed": true,
-      "detail": ""
-    },
-    {
       "name": "export: automation-integration",
       "passed": true,
       "detail": ""
@@ -408,6 +403,11 @@
     },
     {
       "name": "export: ecommerce-launch",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "export: fde",
       "passed": true,
       "detail": ""
     },
@@ -569,7 +569,7 @@
     {
       "name": "bundle budget",
       "passed": true,
-      "detail": "173924 bytes; limit 240000"
+      "detail": "174213 bytes; limit 240000"
     },
     {
       "name": "search corpus parity without full markdown",
@@ -579,7 +579,7 @@
     {
       "name": "search payload budget",
       "passed": true,
-      "detail": "57946 bytes; limit 70000"
+      "detail": "58167 bytes; limit 70000"
     },
     {
       "name": "page-local packet scope and export parity",
@@ -732,11 +732,6 @@
       "detail": ""
     },
     {
-      "name": "markdown links: playbooks/ai-fte.md",
-      "passed": true,
-      "detail": ""
-    },
-    {
       "name": "markdown links: playbooks/technical-seo.md",
       "passed": true,
       "detail": ""
@@ -748,6 +743,11 @@
     },
     {
       "name": "markdown links: playbooks/agent-workflow.md",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "name": "markdown links: playbooks/fde.md",
       "passed": true,
       "detail": ""
     },

@@ -53,7 +53,7 @@ Python 使用標準函式庫；Node 只用於 JavaScript 語法檢查。修改 c
 - 第一版根據實際讀取的 Tenten 官網、官方文件及本次需求建立；通用實務明示為建議基線。
 - 尚未取得 Erik 過去 20 年私人筆記與完整案例，不宣稱已收錄所有個人經驗。之後以專案教訓更新既有卡片即可。
 - XTERRA 已唯讀檢查指定 repo 的 e1caa5ecdcdf 快照；Astro／Sanity 前台搭配 Shopify。README 與 Klaviyo 專文／程式有差異，不能用 repo 描述推定正式帳號、寄信或搬站已完成。詳見 research/xterra-review.json。
-- AI FTE 為工作角色設計概念，不推定既有價格、方案或人力替代保證。
+- FDE 為深入客戶流程的工程交付方式；實際範圍、驗收與維運責任依專案約定。
 - Neteon 專案維持唯讀；沿用其結構化內容、靜態建置和 Agent 匯出模式，沒有複製客戶知識或登入設定。
 - 已部署至 Vercel，正式入口：https://kb.tenten.co/ 。本次保留既有 Vercel 存取保護，未建立額外登入服務；noindex 不是存取控制。私人資料的存取範圍需包含全部頁面、搜尋資料、JSON 與 Markdown。
 

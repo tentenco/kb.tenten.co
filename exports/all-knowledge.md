@@ -74,7 +74,7 @@ AI-native 工作方式，是把目標、資料和完成條件交代清楚，讓 
 
 - project-brief
 - automation-integration
-- ai-fte
+- fde
 
 
 ---
@@ -142,98 +142,15 @@ AI 顧問先找出值得改善的工作，判斷資料、流程和工具是否�
 ## 來源與適用範圍
 
 - 建議基線，依專案調整；整理日期：2026-10-21
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 - [Digital Transformation Consulting | Audit to Build | Tenten](https://tenten.co/services/transformation-consulting)（2026-10-21）：數位顧問、現況盤點、決策紀錄與驗收的服務脈絡。
 - [OWASP：Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)（2026-10-21）：Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。
 
 ## 相關知識
 
-- ai-fte
+- fde
 - automation-integration
 - project-brief
-
-
----
-
-# AI FTE：把 AI 變成持續交付的工作角色
-
-用工作範圍、品質、吞吐和例外管理定義角色，而不是承諾等於幾個人。
-
-## 這是什麼
-
-AI FTE 在這裡指持續負責一段工作的 AI 角色。重點是它定期交付什麼、品質如何，以及什麼時候交回人類。
-
-適用情境：單次 AI 任務已可用，想把它變成每天或每週持續運作的流程時。
-
-## 為什麼重要
-
-- 持續運作需要穩定輸入、排程、責任人及維運，不能只靠一次 prompt。
-- 用每件成本、品質與人工介入率衡量，才知道自動化有沒有價值。
-
-## 讓角色持續交付
-
- | 概念 | 說明 |
- | --- | --- |
- | 接收任務 | 範圍與頻率 |
- | 執行工作 | 資料與工具 |
- | 檢查成果 | 品質與成本 |
- | 交付或接手 | 完成紀錄／人工處理 |
-
-每一輪都能追查結果；模型、資料或工具改變後，重新確認品質。
-
-## 掌握重點
-
-- **角色概念不等於人力保證**：本庫用 AI FTE 表示持續負責一段工作流程的 AI 角色設計；不是已核准的方案、人力或工時保證。
-- **定義完整的工作範圍**：定義任務、輸入、工具權限、交付、頻率、成本上限及人工接手。
-- **變更後重新檢查品質**：人類擁有決策與例外責任；知識、模型或工具變更後要重跑代表評估。
-
-## 舉個例子
-
-- 情境：每週整理行銷報表的 AI，要能準時交付，也要指出資料缺漏。
-- 重點：角色的價值來自穩定交付和例外處理，不能只看生成速度。
-
-## 從這一步開始
-
-寫出角色的任務、頻率、成果、成本上限與人工接手條件。
-
-## 開始前準備
-
-- 要承接的工作、量和頻率、人工基準與品質要求
-- 工具／資料範圍、成本、負責人與例外範例
-
-## 依序完成
-
-1. 寫角色契約：觸發、輸入、交付、done、可自主動作及升級條件。
-2. 加入排程、去重、重試、觀測及中止開關，先以 shadow mode 比對。
-3. 小範圍上線，記錄成功率、每件成本、時間與人工介入率。
-4. 建立週期回顧、版本、回復與離職／撤權機制。
-
-## 完成時檢查
-
-- 連續代表批次可追溯；錯誤不靜默、重跑不重複執行外部動作。
-- 成效對照基準，人工工作沒有被忽略；未達標可停用與接手。
-
-## 容易忽略的事
-
-- 用 token 數或輸出篇數當唯一績效。
-- 沒有責任人就讓 Agent 無期限運作。
-
-## 需要決定的事
-
-定義這個角色可以自行完成哪些事，遇到什麼情況必須交回人類判斷。
-
-## 來源與適用範圍
-
-- 建議基線，依專案調整；整理日期：2026-10-21
-- Erik 的知識庫需求與 XTERRA 電商擴充（2026-10-21）：AI-native 短文件、Tenten 服務範圍、XTERRA 美國站 Magento → Shopify、電商上線標準與給 Sherry 的 Shopify／Klaviyo 知識；不代表已取得 20 年私人筆記。
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
-- [OWASP：Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)（2026-10-21）：Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。
-
-## 相關知識
-
-- ai-consulting
-- automation-integration
-- operations-security
 
 
 ---
@@ -297,13 +214,13 @@ AI FTE 在這裡指持續負責一段工作的 AI 角色。重點是它定期交
 ## 來源與適用範圍
 
 - 建議基線，依專案調整；整理日期：2026-10-21
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 - [Shopify Partner in Taipei | Commerce Delivery | Tenten](https://tenten.co/solutions/shopify)（2026-10-21）：商品、市場、整合與量測的 Shopify 交付脈絡；不證明個別商店設定。
 - [OWASP：Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)（2026-10-21）：Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。
 
 ## 相關知識
 
-- ai-fte
+- fde
 - lifecycle-crm
 - shopify-foundation
 
@@ -993,6 +910,88 @@ CMS 是管理網站內容的地方。內容模型把文章、商品、案例等�
 - ga4-commerce
 - headless-commerce
 - launch
+
+
+---
+
+# FDE：從客戶現場到正式運作
+
+深入實際工作流程，由同一團隊定義問題、建置整合，並安排上線後的責任。
+
+## 這是什麼
+
+FDE（Forward Deployed Engineering）是把工程團隊帶進客戶的實際工作流程，從理解問題、建置整合到正式運作都持續參與。
+
+適用情境：問題需要結合業務判斷、既有系統與真實使用者，且試點必須落地運作時。
+
+## 為什麼重要
+
+- 貼近使用者、資料與例外情況，能減少規劃與實際使用之間的落差。
+- 同一團隊把範圍、驗收與維運接起來，讓試點有機會成為持續可用的系統。
+
+## 從一段工作走到正式運作
+
+ | 概念 | 說明 |
+ | --- | --- |
+ | 評估 | 流程、基準與範圍 |
+ | 建置 | 整合、試用與驗收 |
+ | 運作 | 監控、支援與移轉 |
+
+先驗證第一段流程，再依結果決定擴大；各階段的責任需在專案中約定。
+
+## 掌握重點
+
+- **深入業務的工程交付**：FDE 是 Forward Deployed Engineering，指深入客戶業務流程的工程交付方式；FDE 也可指執行這種工作的工程師。
+- **從一段可驗收的工作開始**：先選一段有負責人、可取得資料、可量測基準的工作，約定第一階段範圍與驗收。
+- **把維運放進交付範圍**：與使用者共同檢視可運作版本，驗證主要流程及例外；上線前確認監控、事件處理與知識移轉。
+
+## 舉個例子
+
+- 情境：客服想用 AI 查詢訂單與退貨規則，工程團隊先跟客服確認資料、權限及需要人工判斷的例外。
+- 重點：驗收要包含實際系統整合與客服接手，並在上線前約定監控和維護責任。
+
+## 從這一步開始
+
+找實際執行者選一段工作，寫下現在的問題、成果基準與驗收人。
+
+## 開始前準備
+
+- 實際使用者、現行流程、資料／權限、失敗樣本與成效基準
+- 首階段範圍、預算、驗收人與後續維運責任
+
+## 依序完成
+
+1. 與實際執行者梳理流程，確認問題、資料、例外與決策。
+2. 選一個 use case，約定驗收條件，評估效益、整合成本與風險。
+3. 建置可運作版本，接入約定系統，與使用者測試主流程與例外並記錄決策。
+4. 確認發布、監控、回復、支援與知識移轉；達標後再決定擴大範圍。
+
+## 完成時檢查
+
+- 可用系統通過約定樣本與驗收，結果能對照原先基準。
+- 上線與後續維運有明確責任、監控及接手機制，未完成項可追查。
+
+## 容易忽略的事
+
+- 只完成 demo，卻沒有測試真實權限、資料與例外。
+- 把 FDE 當成 AI 員工或人力替代保證，忽略工程團隊與客戶共同負責的範圍。
+
+## 需要決定的事
+
+先確認第一段流程、驗收門檻與上線後由誰負責，再決定是否擴大交付。
+
+## 來源與適用範圍
+
+- 建議基線，依專案調整；整理日期：2026-10-21
+- Erik 的知識庫需求與 XTERRA 電商擴充（2026-10-21）：AI-native 短文件、Tenten 服務範圍、XTERRA 美國站 Magento → Shopify、電商上線標準與給 Sherry 的 Shopify／Klaviyo 知識；不代表已取得 20 年私人筆記。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
+- [Tenten AI: FDE methodology](https://tentenai.com/en/methodology)（2026-10-21）：同一團隊理解流程、建置整合並安排維運責任；評估、建置與運作三階段，不推定個別合約承諾。
+
+## 相關知識
+
+- ai-consulting
+- automation-integration
+- operations-security
 
 
 ---
@@ -2001,7 +2000,7 @@ Meta 追蹤把網站購買回傳給 Facebook／Instagram 廣告系統。Pixel �
 
 - hosting-architecture
 - launch
-- ai-fte
+- fde
 
 
 ---
@@ -2439,7 +2438,7 @@ Tenten 協助客戶把商業問題變成可用的品牌、網站、行銷與 AI 
 - [Tenten | Clear, Useful Digital Products](https://tenten.co/)（2026-10-21）：服務組合、共用 brief、review 與交付方式；不作個案合約、SLA 或成果保證。
 - [Web Design & Development on Webflow & Shopify | Tenten](https://tenten.co/services/design-development)（2026-10-21）：設計、開發、平台選型及交付脈絡；具體技術檢查為本庫建議。
 - [Digital Transformation Consulting | Audit to Build | Tenten](https://tenten.co/services/transformation-consulting)（2026-10-21）：數位顧問、現況盤點、決策紀錄與驗收的服務脈絡。
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 
 ## 相關知識
 

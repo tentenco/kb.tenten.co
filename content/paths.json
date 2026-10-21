@@ -59,12 +59,12 @@
   {
     "id": "ai-operator",
     "title": "AI／自動化",
-    "summary": "從單次任務，走到持續交付與可觀測整合。",
+    "summary": "從問題評估、工程整合，走到有人負責的正式運作。",
     "ids": [
       "agent-workflow",
       "ai-consulting",
       "automation-integration",
-      "ai-fte"
+      "fde"
     ]
   },
   {

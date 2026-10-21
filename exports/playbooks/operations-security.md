@@ -69,4 +69,4 @@
 
 - hosting-architecture
 - launch
-- ai-fte
+- fde

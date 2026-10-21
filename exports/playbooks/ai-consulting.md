@@ -61,12 +61,12 @@ AI 顧問先找出值得改善的工作，判斷資料、流程和工具是否�
 ## 來源與適用範圍
 
 - 建議基線，依專案調整；整理日期：2026-10-21
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 - [Digital Transformation Consulting | Audit to Build | Tenten](https://tenten.co/services/transformation-consulting)（2026-10-21）：數位顧問、現況盤點、決策紀錄與驗收的服務脈絡。
 - [OWASP：Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)（2026-10-21）：Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。
 
 ## 相關知識
 
-- ai-fte
+- fde
 - automation-integration
 - project-brief

@@ -203,7 +203,7 @@ const quick=$('#quick-search');const quickInput=$('#quick-query');const quickRes
 let quickFocus=null;
 function renderQuick(){
   const query=quickInput.value.trim();
-  const suggestions=['ecommerce-launch','migration','klaviyo','measurement','ai-fte'];
+  const suggestions=['ecommerce-launch','migration','klaviyo','measurement','fde'];
   const ranked=query ? search(query) : suggestions.map(id=>({book:data.books.find(book=>book.id===id)})).filter(item=>item.book);
   $('#quick-status').textContent=query ? `${ranked.length} 篇符合，顯示前 ${Math.min(6,ranked.length)} 篇` : '建議從這些主題開始';
   const fragment=document.createDocumentFragment();

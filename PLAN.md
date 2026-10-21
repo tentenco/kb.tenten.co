@@ -90,3 +90,10 @@ Completed: research, authoring, static build, improvement waves, browser verific
 
 - Result: production deployment CtLv6kFN4WMD6BSzmsoJDUJzfvpP is Ready at fix commit 05b9fcb; actual cloud build and 170 checks passed. Root and all 57 pages work, search/themes/download pass, and repository-source paths return 404. Custom domain https://kb.tenten.co/ verified after user reported it online. Evidence: evidence/vercel-deployment.json.
 - Queue: one authorized follow-up, send platform introduction email to the six colleagues explicitly supplied by the user. Process after deployment handoff; recipient details and message records stay outside this public repository.
+
+## FDE terminology correction
+
+- Replaced the former AI FTE role concept with FDE / Forward Deployed Engineering, based on Tenten AI's methodology page observed 2026-10-21.
+- Updated category, guide, reading path, source scope and exports. Old article/download URLs redirect to the FDE equivalents on Vercel.
+- Build and 170 harness checks passed; browser confirmed article, FDE quick search and guide packet.
+- Next queued task: full English locale with Humanizer prose review, followed by bilingual runtime verification and deployment.

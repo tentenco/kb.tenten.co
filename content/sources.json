@@ -86,7 +86,7 @@
     "kind": "company-context",
     "observed_at": "2026-10-21",
     "access": "browser-reviewed",
-    "scope": "AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。",
+    "scope": "AI 試點、Agent workflow、知識系統與整合服務脈絡。",
     "evidence": "research/tenten-public-pages.json"
   },
   {
@@ -317,5 +317,15 @@
     "access": "retrieved-reviewed",
     "scope": "原生 redirect 的適用路由與限制；自訂前台需檢查實際處理舊 URL 的路由層。",
     "evidence": "research/shopify-redirects.txt"
+  },
+  {
+    "id": "tenten-fde",
+    "title": "Tenten AI: FDE methodology",
+    "url": "https://tentenai.com/en/methodology",
+    "kind": "company-context",
+    "observed_at": "2026-10-21",
+    "access": "retrieved-reviewed",
+    "scope": "同一團隊理解流程、建置整合並安排維運責任；評估、建置與運作三階段，不推定個別合約承諾。",
+    "evidence": "research/tenten-fde.txt"
   }
 ]

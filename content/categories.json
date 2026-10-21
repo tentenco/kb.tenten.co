@@ -156,8 +156,8 @@
   },
   {
     "id": "ai",
-    "title": "AI 顧問與 AI FTE",
-    "summary": "將單次協助變成可驗收的工作流程。",
+    "title": "AI 顧問跟 FDE",
+    "summary": "從業務問題、系統整合到正式運作，讓交付有明確責任。",
     "number": "08",
     "clusters": [
       {
@@ -167,10 +167,10 @@
         ]
       },
       {
-        "title": "接好工具，持續交付",
+        "title": "整合系統，落地運作",
         "ids": [
           "automation-integration",
-          "ai-fte"
+          "fde"
         ]
       }
     ]

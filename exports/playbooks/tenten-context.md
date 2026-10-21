@@ -59,7 +59,7 @@ Tenten 協助客戶把商業問題變成可用的品牌、網站、行銷與 AI 
 - [Tenten | Clear, Useful Digital Products](https://tenten.co/)（2026-10-21）：服務組合、共用 brief、review 與交付方式；不作個案合約、SLA 或成果保證。
 - [Web Design & Development on Webflow & Shopify | Tenten](https://tenten.co/services/design-development)（2026-10-21）：設計、開發、平台選型及交付脈絡；具體技術檢查為本庫建議。
 - [Digital Transformation Consulting | Audit to Build | Tenten](https://tenten.co/services/transformation-consulting)（2026-10-21）：數位顧問、現況盤點、決策紀錄與驗收的服務脈絡。
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 
 ## 相關知識
 

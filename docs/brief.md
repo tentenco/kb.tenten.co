@@ -1,7 +1,7 @@
 # 需求與知識邊界
 
 - 建立 Tenten 內部新人與在職交付共用知識庫，人類理解原因、效益、影響和方向，Agent 依文件執行。
-- 文件短、bullet points、容易搜尋；服務範圍包括品牌、設計、開發、Shopify、SEO、GEO、行銷、主機、Digital Consulting、AI Consulting、AI FTE。
+- 文件短、bullet points、容易搜尋；服務範圍包括品牌、設計、開發、Shopify、SEO、GEO、行銷、主機、Digital Consulting、AI Consulting、FDE。
 - 使用者例子：Exxterra 美國站 Magento → Shopify；必須想到 SEO／301、GA4、GSC、Google Ads、Meta 相關追蹤與 metadata。
 - 已提供的客戶情境只有上述內容。未提供真實站址、店鋪、權限、商品數、資料、日期或既有決策。
 - 目前沒有 Erik 過去 20 年的私有筆記、方法、案例或決策紀錄；第一版是依官網服務和通用實務建立的建議基線，不宣稱完整收錄個人經驗。

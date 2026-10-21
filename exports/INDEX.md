@@ -52,11 +52,11 @@
 - [網站上線：一次看完必要條件](playbooks/launch.md)：上線前一次確認 SEO、交易、追蹤、DNS 與回復方案。
 - [維運、安全與事故回復](playbooks/operations-security.md)：監控看得到問題，備份真的能還原，事故有人做決策。
 
-## AI 顧問與 AI FTE
+## AI 顧問跟 FDE
 
 - [AI Consulting：從 use case 到可用系統](playbooks/ai-consulting.md)：先找值得改善的工作，再驗證 AI 是否比現有方法更適合。
 - [API、MCP 與跨系統自動化](playbooks/automation-integration.md)：讓系統可靠交換資料，重跑不重複，失敗能追查。
-- [AI FTE：把 AI 變成持續交付的工作角色](playbooks/ai-fte.md)：用工作範圍、品質、吞吐和例外管理定義角色，而不是承諾等於幾個人。
+- [FDE：從客戶現場到正式運作](playbooks/fde.md)：深入實際工作流程，由同一團隊定義問題、建置整合，並安排上線後的責任。
 
 ## 情境任務包
 
@@ -66,7 +66,7 @@
 - [網站準備上線](scenarios/launch.md)
 - [SEO／GEO 成長](scenarios/seo-geo.md)
 - [行銷活動／電商轉換](scenarios/growth.md)
-- [AI 顧問／AI FTE 導入](scenarios/ai-workflow.md)
+- [AI 顧問跟 FDE 導入](scenarios/ai-workflow.md)
 - [品牌／設計系統](scenarios/brand-system.md)
 - [主機維運／事故準備](scenarios/operations.md)
 - [電子報／Klaviyo 自動化](scenarios/retention.md)

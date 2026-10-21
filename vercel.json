@@ -3,5 +3,17 @@
   "framework": null,
   "installCommand": "",
   "buildCommand": "python3 scripts/build.py && python3 scripts/harness.py",
-  "outputDirectory": "site"
+  "outputDirectory": "site",
+  "redirects": [
+    {
+      "source": "/playbooks/ai-fte.html",
+      "destination": "/playbooks/fde.html",
+      "permanent": true
+    },
+    {
+      "source": "/files/playbooks/ai-fte.md",
+      "destination": "/files/playbooks/fde.md",
+      "permanent": true
+    }
+  ]
 }

@@ -426,12 +426,12 @@ Headless 把商店前台與交易系統拆開：前台決定畫面與互動，Sh
 ## 來源與適用範圍
 
 - 建議基線，依專案調整；整理日期：2026-10-21
-- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡；不證明 AI FTE 是現有商品或人力保證。
+- [Tenten AI: Turn a stuck workflow into a working AI system](https://tentenai.com/)（2026-10-21）：AI 試點、Agent workflow、知識系統與整合服務脈絡。
 - [Shopify Partner in Taipei | Commerce Delivery | Tenten](https://tenten.co/solutions/shopify)（2026-10-21）：商品、市場、整合與量測的 Shopify 交付脈絡；不證明個別商店設定。
 - [OWASP：Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/)（2026-10-21）：Prompt injection、輸入信任與最小權限控制；不保證 prompt 可消除所有攻擊。
 
 ## 相關知識
 
-- ai-fte
+- fde
 - lifecycle-crm
 - shopify-foundation
